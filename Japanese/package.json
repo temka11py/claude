@@ -1,0 +1,21 @@
+{
+  "name": "hanamaru-n5",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Hanamaru — JLPT N5 Japanese learning platform (Mongolian explanations)",
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "setup": "npm install && npm run db:setup -w server",
+    "dev": "concurrently -k -n server,client -c blue,magenta \"npm run dev -w server\" \"npm run dev -w client\"",
+    "build": "npm run build -w server && npm run build -w client",
+    "start": "npm run start -w server",
+    "test": "npm test -w server",
+    "e2e": "npm run e2e -w client"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.4"
+  }
+}

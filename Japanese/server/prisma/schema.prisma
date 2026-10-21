@@ -1,0 +1,407 @@
+// Hanamaru N5 — database schema (SQLite via Prisma).
+// JSON columns are stored as strings (SQLite has no native JSON type in Prisma);
+// they are parsed in server/src/lib/json.ts.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// ─────────────────────────── Users ───────────────────────────
+
+model User {
+  id           String   @id @default(cuid())
+  name         String
+  email        String   @unique
+  passwordHash String
+  avatar       String   @default("花")
+  createdAt    DateTime @default(now())
+
+  settings     UserSettings?
+  progress     UserProgress[]
+  reviewItems  ReviewItem[]
+  attempts     QuizAttempt[]
+  achievements UserAchievement[]
+  activities   Activity[]
+  dailyStats   DailyStat[]
+  favorites    Favorite[]
+}
+
+model UserSettings {
+  userId           String  @id
+  user             User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  language         String  @default("mn") // mn | en
+  showRomaji       Boolean @default(true)
+  showFurigana     Boolean @default(true)
+  dailyGoalMinutes Int     @default(25)
+  autoplayAudio    Boolean @default(false)
+  speechRate       Float   @default(0.9)
+  theme            String  @default("light") // light | dark
+}
+
+// ─────────────────────────── Curriculum ───────────────────────────
+
+model Module {
+  id          Int      @id @default(autoincrement())
+  order       Int      @unique
+  slug        String   @unique
+  title       String
+  titleJa     String
+  description String
+  lessons     Lesson[]
+  quizzes     Quiz[]
+}
+
+model Lesson {
+  id         Int     @id @default(autoincrement())
+  moduleId   Int
+  module     Module  @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  order      Int // order inside the module
+  globalOrder Int    @unique // order across the whole course (used for unlocking)
+  slug       String  @unique
+  title      String
+  titleJa    String
+  summary    String
+  objectives String // JSON string[]
+  content    String // JSON { intro, examples[], dialogue[], tips[], links[] }
+  minutes    Int     @default(15)
+
+  kana       Kana[]
+  vocabulary Vocabulary[]
+  kanji      Kanji[]
+  grammar    Grammar[]
+  questions  Question[]
+  quizzes    Quiz[]
+  stories    Story[]
+  progress   UserProgress[]
+}
+
+// ─────────────────────────── Content ───────────────────────────
+
+model Kana {
+  id            Int     @id @default(autoincrement())
+  char          String
+  romaji        String // accepted answers separated by "|" — first is canonical
+  script        String // hiragana | katakana
+  group         String // basic | dakuten | handakuten | yoon | sokuon | long | extended
+  row           String // a, ka, sa ...
+  order         Int
+  example       String
+  exampleReading String
+  exampleMeaning String
+  note          String  @default("")
+  lessonId      Int?
+  lesson        Lesson? @relation(fields: [lessonId], references: [id])
+  reviewItems   ReviewItem[]
+
+  @@unique([script, char])
+}
+
+model Vocabulary {
+  id           Int      @id @default(autoincrement())
+  word         String
+  kana         String
+  romaji       String
+  meaning      String // Mongolian
+  meaningEn    String
+  partOfSpeech String
+  example      String
+  exampleReading String @default("")
+  exampleMn    String
+  difficulty   Int      @default(1) // 1–3
+  topic        String   @default("")
+  lessonId     Int?
+  lesson       Lesson?  @relation(fields: [lessonId], references: [id])
+  kanji        Kanji[]  @relation("VocabularyKanji")
+  reviewItems  ReviewItem[]
+  favorites    Favorite[]
+
+  @@unique([word, kana])
+}
+
+model Kanji {
+  id         Int     @id @default(autoincrement())
+  char       String  @unique
+  meaning    String // Mongolian
+  meaningEn  String
+  onyomi     String // comma separated (katakana)
+  kunyomi    String // comma separated (hiragana)
+  strokes    Int
+  examples   String // JSON [{ word, reading, meaning }]
+  sentences  String // JSON [{ ja, reading, mn }]
+  order      Int
+  lessonId   Int?
+  lesson     Lesson? @relation(fields: [lessonId], references: [id])
+  vocabulary Vocabulary[] @relation("VocabularyKanji")
+  reviewItems ReviewItem[]
+  favorites  Favorite[]
+}
+
+model Grammar {
+  id          Int     @id @default(autoincrement())
+  slug        String  @unique
+  title       String
+  meaning     String
+  structure   String
+  explanation String
+  examples    String // JSON [{ ja, reading, mn }]
+  mistakes    String // JSON [{ wrong, right, note }]
+  category    String
+  order       Int
+  lessonId    Int?
+  lesson      Lesson? @relation(fields: [lessonId], references: [id])
+  questions   Question[]
+  reviewItems ReviewItem[]
+}
+
+model Story {
+  id          Int     @id @default(autoincrement())
+  slug        String  @unique
+  title       String
+  titleJa     String
+  topic       String
+  level       Int     @default(1)
+  order       Int
+  summary     String
+  sentences   String // JSON [{ tokens: [{ s, r?, ro, vocabId?, gloss? }], mn }]
+  grammarNotes String // JSON [{ point, explanation }]
+  lessonId    Int?
+  lesson      Lesson? @relation(fields: [lessonId], references: [id])
+  quiz        Quiz?
+}
+
+model ListeningExercise {
+  id          Int     @id @default(autoincrement())
+  slug        String  @unique
+  title       String
+  type        String // task | point | utterance | response | numbers
+  order       Int
+  script      String // JSON [{ speaker, ja, mn }]
+  audioUrl    String? // optional real audio file; falls back to speech synthesis
+  context     String // situation description (Mongolian)
+  vocabulary  String // JSON [{ word, reading, meaning }]
+  grammarNote String
+  quiz        Quiz?
+}
+
+model SpeakingPrompt {
+  id        Int    @id @default(autoincrement())
+  slug      String @unique
+  order     Int
+  title     String
+  prompt    String // Japanese prompt
+  promptMn  String
+  hint      String // Mongolian hint
+  expected  String // JSON string[] — model sentences
+  keywords  String // JSON [{ ja, alts: string[], mn }]
+}
+
+// ─────────────────────────── Quiz engine ───────────────────────────
+
+model Question {
+  id            Int     @id @default(autoincrement())
+  key           String  @unique // stable seed key
+  type          String // multiple_choice | true_false | matching | fill_blank | ja_to_mn | mn_to_ja | kanji_reading | listening | typing
+  category      String // vocabulary | grammar | particles | kanji-reading | kana | reading | listening | translation | verbs | adjectives | numbers
+  section       String  @default("") // mock-exam section: vocabulary | grammar | reading | listening
+  prompt        String
+  passage       String? // reading passage or context
+  audioText     String? // text read by speech synthesis for listening questions
+  audioUrl      String?
+  options       String // JSON (string[] or { left, right } for matching, or { keywords } for translation)
+  correctAnswer String // canonical answer (or JSON for matching); alternatives separated by "||"
+  explanation   String
+  difficulty    Int     @default(1)
+  lessonId      Int?
+  lesson        Lesson?  @relation(fields: [lessonId], references: [id])
+  grammarId     Int?
+  grammar       Grammar? @relation(fields: [grammarId], references: [id])
+  quizzes       QuizQuestion[]
+  answers       QuizAnswer[]
+}
+
+model Quiz {
+  id           Int     @id @default(autoincrement())
+  slug         String  @unique
+  title        String
+  description  String  @default("")
+  kind         String // lesson | module_test | mock_exam | story | listening
+  passingScore Int     @default(80)
+  timeLimitSec Int?
+  lessonId     Int?
+  lesson       Lesson? @relation(fields: [lessonId], references: [id])
+  moduleId     Int?
+  module       Module? @relation(fields: [moduleId], references: [id])
+  storyId      Int?    @unique
+  story        Story?  @relation(fields: [storyId], references: [id])
+  listeningId  Int?    @unique
+  listening    ListeningExercise? @relation(fields: [listeningId], references: [id])
+  questions    QuizQuestion[]
+  attempts     QuizAttempt[]
+}
+
+model QuizQuestion {
+  quizId     Int
+  questionId Int
+  order      Int
+  quiz       Quiz     @relation(fields: [quizId], references: [id], onDelete: Cascade)
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@id([quizId, questionId])
+}
+
+model QuizAttempt {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  quizId      Int?
+  quiz        Quiz?    @relation(fields: [quizId], references: [id])
+  kind        String // lesson | module_test | mock_exam | story | listening | practice | translation
+  title       String
+  correct     Int
+  total       Int
+  percent     Int
+  passed      Boolean
+  durationSec Int      @default(0)
+  sectionScores String @default("{}") // JSON { section: { correct, total } }
+  createdAt   DateTime @default(now())
+  answers     QuizAnswer[]
+
+  @@index([userId, createdAt])
+}
+
+model QuizAnswer {
+  id         Int         @id @default(autoincrement())
+  attemptId  String
+  attempt    QuizAttempt @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  questionId Int
+  question   Question    @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  userId     String
+  category   String
+  answer     String
+  correct    Boolean
+
+  @@index([userId, category])
+}
+
+// ─────────────────────────── Progress ───────────────────────────
+
+model UserProgress {
+  id            Int       @id @default(autoincrement())
+  userId        String
+  user          User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  lessonId      Int
+  lesson        Lesson    @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  status        String    @default("in_progress") // in_progress | completed
+  sectionsDone  String    @default("[]") // JSON string[]
+  quizScore     Int?
+  startedAt     DateTime  @default(now())
+  completedAt   DateTime?
+
+  @@unique([userId, lessonId])
+}
+
+// Activity log — study sessions, stories read, listening/speaking done, etc.
+model Activity {
+  id        Int      @id @default(autoincrement())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  type      String // story | listening | speaking | translation | review | lesson | test | mock_exam
+  refId     String   @default("")
+  score     Int?
+  createdAt DateTime @default(now())
+
+  @@index([userId, type])
+}
+
+// Per-day aggregate (streaks, daily goal, weekly chart)
+model DailyStat {
+  id        Int    @id @default(autoincrement())
+  userId    String
+  user      User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  date      String // YYYY-MM-DD (user local date supplied by client)
+  seconds   Int    @default(0)
+  lessons   Int    @default(0)
+  vocab     Int    @default(0)
+  kanji     Int    @default(0)
+  grammar   Int    @default(0)
+  stories   Int    @default(0)
+  reviews   Int    @default(0)
+  questions Int    @default(0)
+  correct   Int    @default(0)
+
+  @@unique([userId, date])
+}
+
+// ─────────────────────────── Spaced repetition ───────────────────────────
+
+model ReviewItem {
+  id            Int      @id @default(autoincrement())
+  userId        String
+  user          User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  key           String // "vocab:12" | "kanji:3" | "grammar:5" | "kana:40"
+  itemType      String // vocab | kanji | grammar | kana
+  vocabularyId  Int?
+  vocabulary    Vocabulary? @relation(fields: [vocabularyId], references: [id], onDelete: Cascade)
+  kanjiId       Int?
+  kanji         Kanji?   @relation(fields: [kanjiId], references: [id], onDelete: Cascade)
+  grammarId     Int?
+  grammar       Grammar? @relation(fields: [grammarId], references: [id], onDelete: Cascade)
+  kanaId        Int?
+  kana          Kana?    @relation(fields: [kanaId], references: [id], onDelete: Cascade)
+  state         String   @default("new") // new | learning | review | mastered
+  step          Int      @default(0)
+  ease          Float    @default(2.5)
+  intervalDays  Float    @default(0)
+  reps          Int      @default(0)
+  lapses        Int      @default(0)
+  correctCount  Int      @default(0)
+  totalCount    Int      @default(0)
+  dueAt         DateTime @default(now())
+  lastReviewedAt DateTime?
+  createdAt     DateTime @default(now())
+
+  @@unique([userId, key])
+  @@index([userId, dueAt])
+}
+
+model Favorite {
+  id           Int         @id @default(autoincrement())
+  userId       String
+  user         User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  key          String
+  vocabularyId Int?
+  vocabulary   Vocabulary? @relation(fields: [vocabularyId], references: [id], onDelete: Cascade)
+  kanjiId      Int?
+  kanji        Kanji?      @relation(fields: [kanjiId], references: [id], onDelete: Cascade)
+  createdAt    DateTime    @default(now())
+
+  @@unique([userId, key])
+}
+
+// ─────────────────────────── Achievements ───────────────────────────
+
+model Achievement {
+  id          Int    @id @default(autoincrement())
+  code        String @unique
+  title       String
+  titleEn     String
+  description String
+  icon        String // a single Japanese character used as the badge glyph
+  order       Int
+  users       UserAchievement[]
+}
+
+model UserAchievement {
+  userId        String
+  achievementId Int
+  unlockedAt    DateTime    @default(now())
+  user          User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  achievement   Achievement @relation(fields: [achievementId], references: [id], onDelete: Cascade)
+
+  @@id([userId, achievementId])
+}

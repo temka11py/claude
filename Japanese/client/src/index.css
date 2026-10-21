@@ -1,0 +1,143 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Design tokens — "washi paper, sumi ink, shu vermilion, ai indigo". */
+:root {
+  --paper: #f7f5f0;
+  --surface: #ffffff;
+  --surface-2: #f1eee7;
+  --line: #e5e0d5;
+  --ink: #1e2226;
+  --ink-2: #4a4f57;
+  --muted: #6f737b;
+  --shu: #cf4430;
+  --shu-strong: #b43723;
+  --shu-soft: #fbe8e3;
+  --ai: #2f4b7c;
+  --ai-soft: #e7ecf5;
+  --matcha: #3d7a4c;
+  --matcha-soft: #e4f0e7;
+  --yamabuki: #b9800f;
+  --yamabuki-soft: #f8eed8;
+  --ring: rgba(207, 68, 48, 0.35);
+  /* Chart tokens (validated with the dataviz palette checks) */
+  --chart-accent: #cf4430;
+  --chart-o1: #9aafd4;
+  --chart-o2: #7390c3;
+  --chart-o3: #4f6fa8;
+  --chart-o4: #2f4b7c;
+  --chart-grid: #ece8df;
+  color-scheme: light;
+}
+
+.dark {
+  --paper: #121417;
+  --surface: #1a1d21;
+  --surface-2: #22262b;
+  --line: #2f343b;
+  --ink: #ece8e1;
+  --ink-2: #c3c0ba;
+  --muted: #979ca4;
+  --shu: #ec6a53;
+  --shu-strong: #f2826d;
+  --shu-soft: #3a211d;
+  --ai: #8ea9df;
+  --ai-soft: #1f2a3d;
+  --matcha: #7cc08c;
+  --matcha-soft: #1c2e22;
+  --yamabuki: #e0b048;
+  --yamabuki-soft: #352a14;
+  --ring: rgba(236, 106, 83, 0.4);
+  --chart-accent: #e25c45;
+  --chart-o1: #4a5f86;
+  --chart-o2: #6480b8;
+  --chart-o3: #8ba7de;
+  --chart-o4: #c3d4f5;
+  --chart-grid: #2a2e34;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--line);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-muted: var(--muted);
+  --color-shu: var(--shu);
+  --color-shu-strong: var(--shu-strong);
+  --color-shu-soft: var(--shu-soft);
+  --color-ai: var(--ai);
+  --color-ai-soft: var(--ai-soft);
+  --color-matcha: var(--matcha);
+  --color-matcha-soft: var(--matcha-soft);
+  --color-yamabuki: var(--yamabuki);
+  --color-yamabuki-soft: var(--yamabuki-soft);
+  --font-sans: 'Inter Variable', 'Noto Sans JP', system-ui, sans-serif;
+  --font-jp: 'Noto Sans JP', 'Hiragino Sans', 'Yu Gothic', sans-serif;
+  --font-brush: 'Klee One', 'Noto Sans JP', serif;
+}
+
+html,
+body {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+:focus-visible {
+  outline: 2px solid var(--shu);
+  outline-offset: 2px;
+}
+
+.jp {
+  font-family: var(--font-jp);
+}
+
+.brush {
+  font-family: var(--font-brush);
+}
+
+ruby rt {
+  font-size: 0.55em;
+  color: var(--muted);
+  font-weight: 400;
+}
+
+/* Fade-in used by drawers and toasts. */
+@keyframes hm-rise {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.animate-rise {
+  animation: hm-rise 0.22s ease-out both;
+}
+
+@keyframes hm-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-rise {
+    animation: none;
+  }
+}
+
+.scrollbar-thin {
+  scrollbar-width: thin;
+}
