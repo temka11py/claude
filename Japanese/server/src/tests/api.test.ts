@@ -39,14 +39,13 @@ test('auth: password is stored hashed', async () => {
   assert.ok(user && user.passwordHash !== 'password123' && user.passwordHash.startsWith('$2'));
 });
 
-test('learning path: first lesson available, second locked', async () => {
+test('lesson library: every lesson is open (the daily program guides the order)', async () => {
   const res = await agent.get('/api/modules').set('x-local-date', today);
   assert.equal(res.status, 200);
   const lessons = res.body.modules.flatMap((m: { lessons: unknown[] }) => m.lessons);
   assert.equal(lessons[0].status, 'available');
-  assert.equal(lessons[1].status, 'locked');
-  const locked = await agent.get(`/api/lessons/${lessons[1].id}`);
-  assert.equal(locked.status, 403);
+  assert.equal(lessons[1].status, 'available');
+  assert.equal((await agent.get(`/api/lessons/${lessons[1].id}`)).status, 200);
 });
 
 test('lesson flow: quiz → complete → next unlocked → review items', async () => {
@@ -171,6 +170,76 @@ test('completing a whole module unlocks and passes its module test', async () =>
   assert.ok(codes.includes('kana_master'));
   assert.ok(codes.includes('module_test'));
   assert.ok(codes.includes('quiz_90'));
+});
+
+test('program: N5 → N2 path, today starts at day 1', async () => {
+  const program = (await agent.get('/api/program').set('x-local-date', today)).body;
+  assert.deepEqual(program.levels.map((l: { level: string }) => l.level), ['N5', 'N4', 'N3', 'N2']);
+  const n5 = program.levels[0];
+  assert.equal(n5.ready, n5.total, 'every N5 day is playable');
+  assert.ok(program.levels[3].total > 50, 'the path continues to N2');
+  assert.equal(program.current, 1);
+
+  const t = (await agent.get('/api/program/today').set('x-local-date', today)).body;
+  assert.equal(t.state, 'not_started');
+  assert.equal(t.day.number, 1);
+  assert.equal(t.quests.length, 3);
+  for (const s of t.day.steps) assert.ok(s.minutes >= 1 && s.minutes <= 6, `step ${s.key} stays short (${s.minutes} min)`);
+});
+
+test('program: steps give XP and finishing the required steps completes the day', async () => {
+  const detail = (await agent.get('/api/program/days/1')).body;
+  const steps = detail.content.steps as { key: string; optional?: boolean; kanaIds?: number[]; questions?: { correctAnswer?: string }[] }[];
+  for (const s of steps) for (const q of s.questions ?? []) assert.equal(q.correctAnswer, undefined, 'answers must not leak');
+
+  const first = steps.find((s) => s.key === 'kana-1')!;
+  const r1 = await agent.post(`/api/program/days/1/steps/${first.key}/complete`).set('x-local-date', today).send({ score: 100 });
+  assert.equal(r1.status, 200);
+  assert.equal(r1.body.xp, 15, '10 XP for the step + 5 for 90%+');
+  const user = await prisma.user.findUnique({ where: { email } });
+  const kanaIds = first.kanaIds ?? [];
+  assert.equal(await prisma.reviewItem.count({ where: { userId: user!.id, kanaId: { in: kanaIds } } }), kanaIds.length, 'kana join the review deck');
+  const again = await agent.post(`/api/program/days/1/steps/${first.key}/complete`).set('x-local-date', today).send({});
+  assert.equal(again.body.xp, 2, 'repeating a step gives a little XP');
+
+  let last;
+  for (const s of steps.filter((x) => !x.optional && x.key !== first.key)) {
+    last = await agent.post(`/api/program/days/1/steps/${s.key}/complete`).set('x-local-date', today).send({ score: 80 });
+    assert.equal(last.status, 200);
+  }
+  assert.equal(last!.body.dayCompleted, true);
+  assert.ok(last!.body.achievements.some((a: { code: string }) => a.code === 'first_day'));
+
+  const t = (await agent.get('/api/program/today').set('x-local-date', today)).body;
+  assert.equal(t.state, 'done_today');
+  assert.equal(t.day.number, 2);
+  assert.ok(t.xp.today >= 40);
+});
+
+test('program: outline days and unknown steps are rejected', async () => {
+  const outline = await prisma.programDay.findFirst({ where: { ready: false } });
+  assert.ok(outline);
+  assert.equal((await agent.post(`/api/program/days/${outline.number}/steps/x/complete`).send({})).status, 400);
+  assert.equal((await agent.post('/api/program/days/1/steps/nope/complete').send({})).status, 404);
+});
+
+test('furigana: readings above kanji only', async () => {
+  const res = await agent.post('/api/furigana').send({ texts: ['これは何ですか。', 'バトさんはモンゴル人です。', 'ひらがなだけ'] });
+  assert.equal(res.status, 200);
+  const [a, b, c] = res.body.results;
+  assert.deepEqual(a.find((s: { t: string }) => s.t === '何'), { t: '何', r: 'なん' });
+  assert.deepEqual(b.find((s: { r?: string }) => s.r), { t: '人', r: 'じん' });
+  assert.deepEqual(c, [{ t: 'ひらがなだけ' }]);
+});
+
+test('flashcards and games: decks list words, games give XP', async () => {
+  const decks = (await agent.get('/api/flashcards/decks').set('x-local-date', today)).body;
+  assert.ok(decks.topics.length > 10);
+  const cards = (await agent.get(`/api/flashcards?deck=${encodeURIComponent(decks.topics[0].id)}`)).body.cards;
+  assert.equal(cards.length, decks.topics[0].count);
+  const xp = await agent.post('/api/xp').set('x-local-date', today).send({ source: 'game', amount: 10 });
+  assert.equal(xp.status, 200);
+  assert.equal((await agent.post('/api/xp').send({ source: 'game', amount: 500 })).status, 400);
 });
 
 test('logout clears the session', async () => {

@@ -7,7 +7,7 @@ import { useAuth } from '../hooks/useAuth';
 import { useToast } from '../hooks/useToast';
 import { useI18n } from '../i18n';
 import { formatDuration } from '../lib/format';
-import { Badge, Button, Card, EmptyState, ErrorState, LinkButton, PageHeader, ProgressBar, Segmented, SpeakButton, Spinner, StatTile, StateBadge, cx } from '../components/ui';
+import { Badge, Button, Card, EmptyState, ErrorState, Jp, LinkButton, PageHeader, ProgressBar, Segmented, SpeakButton, Spinner, StatTile, StateBadge, cx } from '../components/ui';
 
 interface Summary {
   dueNow: number;
@@ -103,7 +103,7 @@ function Session({ types, onExit }: { types: string[]; onExit: () => void }) {
             <p className="text-xl font-semibold text-ink">{lang === 'en' && card.meaningEn ? card.meaningEn : card.meaning}</p>
             {card.example && card.itemType !== 'kana' && (
               <div className="mt-2 rounded-xl bg-surface-2 px-4 py-2">
-                <p className="jp text-ink">{card.example}</p>
+                <Jp text={card.example} className="jp block leading-loose text-ink" />
                 <p className="text-sm text-muted">{card.exampleMn}</p>
               </div>
             )}

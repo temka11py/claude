@@ -159,5 +159,9 @@ export const ACHIEVEMENTS = [
   { code: 'review_50', title: '50 давталт', titleEn: '50 Reviews', description: 'Давталтын картыг нийт 50 удаа давтсан.', icon: '復' },
   { code: 'first_speaking', title: 'Анхны яриа', titleEn: 'First Speaking', description: 'Ярих дасгалыг анх удаа хийсэн.', icon: '話' },
   { code: 'module_test', title: 'Модулийн шалгалт', titleEn: 'Module Test Passed', description: 'Модулийн шалгалтад 80%-иас дээш авч тэнцсэн.', icon: '合' },
+  { code: 'first_day', title: 'Эхний өдөр', titleEn: 'First Day', description: 'Өдрийн хөтөлбөрийг анх удаа бүрэн дуусгасан.', icon: '日' },
+  { code: 'days_10', title: '10 өдөр', titleEn: '10 Days', description: 'Хөтөлбөрийн 10 өдрийг дуусгасан.', icon: '十' },
+  { code: 'days_30', title: '30 өдөр', titleEn: '30 Days', description: 'Хөтөлбөрийн 30 өдрийг дуусгасан.', icon: '月' },
+  { code: 'first_game', title: 'Тоглоомчин', titleEn: 'Player', description: 'Судоку эсвэл үг холбох тоглоом анх удаа тоглосон.', icon: '遊' },
   { code: 'mock_exam', title: 'Загвар шалгалт', titleEn: 'Mock Exam Completed', description: 'JLPT N5 загвар шалгалт өгсөн.', icon: '試' },
 ];

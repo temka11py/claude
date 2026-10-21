@@ -16,6 +16,7 @@
     "e2e": "npm run e2e -w client"
   },
   "devDependencies": {
-    "concurrently": "^9.2.4"
+    "concurrently": "^9.2.4",
+    "prisma": "^6.19.3"
   }
 }

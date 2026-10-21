@@ -29,6 +29,7 @@ model User {
   activities   Activity[]
   dailyStats   DailyStat[]
   favorites    Favorite[]
+  dayProgress  DayProgress[]
 }
 
 model UserSettings {
@@ -333,8 +334,51 @@ model DailyStat {
   reviews   Int    @default(0)
   questions Int    @default(0)
   correct   Int    @default(0)
+  xp        Int    @default(0)
+  steps     Int    @default(0) // daily-program steps finished
+  games     Int    @default(0)
 
   @@unique([userId, date])
+}
+
+// ─────────────────────────── Daily program (N5 → N2) ───────────────────────────
+
+// One study day: a single topic split into short steps (words, kanji, grammar,
+// reading, listening, speaking, game, quiz). Days without content yet are
+// outlines (ready = false) shown as "coming soon" on the path.
+model ProgramDay {
+  id        Int     @id @default(autoincrement())
+  number    Int     @unique // 1…N across all levels
+  slug      String  @unique // stable key, survives re-seeding
+  level     String // N5 | N4 | N3 | N2
+  unit      Int // unit number across the program
+  unitTitle String
+  unitTitleJa String @default("")
+  title     String
+  titleJa   String
+  goal      String  @default("")
+  kind      String  @default("lesson") // kana | lesson | review | exam
+  ready     Boolean @default(true)
+  outline   String  @default("[]") // JSON string[] — planned points for outline days
+  lessonId  Int?
+  steps     String  @default("[]") // JSON DayStep[]
+  progress  DayProgress[]
+}
+
+model DayProgress {
+  id          Int       @id @default(autoincrement())
+  userId      String
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  dayId       Int
+  day         ProgramDay @relation(fields: [dayId], references: [id], onDelete: Cascade)
+  stepsDone   String    @default("[]") // JSON step keys
+  scores      String    @default("{}") // JSON { stepKey: percent }
+  xp          Int       @default(0)
+  startedAt   DateTime  @default(now())
+  completedAt DateTime?
+  completedOn String? // learner's local date (YYYY-MM-DD) the day was finished
+
+  @@unique([userId, dayId])
 }
 
 // ─────────────────────────── Spaced repetition ───────────────────────────

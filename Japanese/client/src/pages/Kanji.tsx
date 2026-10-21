@@ -4,7 +4,7 @@ import { ArrowLeft, Check, Plus, Search, Star } from 'lucide-react';
 import type { Kanji } from '../api/types';
 import { useApi } from '../hooks/useApi';
 import { useI18n } from '../i18n';
-import { Button, Card, EmptyState, ErrorState, PageHeader, Segmented, SpeakButton, Spinner, StateBadge, cx } from '../components/ui';
+import { Button, Card, EmptyState, ErrorState, Jp, PageHeader, Segmented, SpeakButton, Spinner, StateBadge, cx } from '../components/ui';
 import { KanjiReadings, KanjiTile, useItemActions } from '../components/cards';
 import { StrokeOrder, WritingCanvas } from '../components/writing';
 import { PracticeRunner } from '../components/quiz/runners';
@@ -184,7 +184,7 @@ export function KanjiDetail() {
                   <div key={s.ja} className="flex items-start gap-2">
                     <SpeakButton text={s.ja} size="sm" />
                     <div>
-                      <p className="jp text-lg text-ink">{s.ja}</p>
+                      <Jp text={s.ja} className="jp block text-lg leading-loose text-ink" />
                       <p className="text-sm text-muted">{s.mn}</p>
                     </div>
                   </div>

@@ -84,18 +84,19 @@ test('redirects anonymous users to login', async () => {
   await page.screenshot({ path: `${shotsDir}/login-desktop.png` });
 });
 
-test('register creates an account and opens the dashboard', async () => {
+test('register creates an account and opens today’s plan', async () => {
   await page.goto('/register');
   await page.getByLabel('Нэр').fill('Тест Сурагч');
   await page.getByLabel('Имэйл').fill(email);
   await page.getByLabel(/Нууц үг/).fill(password);
   await page.getByRole('button', { name: 'Бүртгүүлэх' }).click();
   await expect(page.getByRole('heading', { name: /Сайн байна уу/ })).toBeVisible();
-  await expect(page.getByRole('heading', { name: 'Өнөөдрийн зорилго' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Өнөөдрийн цаг' })).toBeVisible();
+  await expect(page.getByRole('link', { name: /Өнөөдрийн хичээлийг эхлэх/ })).toBeVisible();
   await page.screenshot({ path: `${shotsDir}/dashboard-desktop.png`, fullPage: true });
 });
 
-test('learning path shows first lesson available and the rest locked', async () => {
+test('lesson library lists the lessons', async () => {
   await page.goto('/learn');
   await expect(page.getByRole('heading', { name: 'Сургалтын зам' })).toBeVisible();
   await expect(page.getByRole('link', { name: /Хирагана: あ, か, さ мөр/ })).toBeVisible();
@@ -267,7 +268,8 @@ test('settings: dark theme and language persist', async () => {
   await page.reload();
   await expect(page.locator('html')).toHaveClass(/dark/);
   await page.goto('/');
-  await expect(page.getByRole('heading', { name: 'Өнөөдрийн зорилго' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Өнөөдрийн цаг' })).toBeVisible();
+  await expect(page.getByRole('link', { name: /Өнөөдрийн хичээлийг эхлэх/ })).toBeVisible();
   await page.screenshot({ path: `${shotsDir}/dashboard-dark.png`, fullPage: true });
   await page.goto('/settings');
   await page.getByRole('tab', { name: 'English' }).click();
@@ -282,7 +284,7 @@ test('responsive layouts have no horizontal overflow', async () => {
     { name: 'mobile', width: 390, height: 844 },
     { name: 'tablet', width: 820, height: 1180 },
   ];
-  const paths = ['/', '/learn', '/lessons/hiragana-1', '/hiragana', '/vocabulary', '/kanji', '/stories/my-family', '/review', '/jlpt', '/progress', '/speaking', '/settings'];
+  const paths = ['/', '/program', '/day/1', '/day/10/kanji-1', '/flashcards', '/games', '/learn', '/lessons/hiragana-1', '/hiragana', '/vocabulary', '/kanji', '/stories/my-family', '/review', '/jlpt', '/progress', '/speaking', '/settings'];
   for (const size of sizes) {
     await page.setViewportSize({ width: size.width, height: size.height });
     for (const path of paths) {
@@ -291,7 +293,8 @@ test('responsive layouts have no horizontal overflow', async () => {
       await noHorizontalOverflow(page);
     }
     await page.goto('/');
-    await expect(page.getByRole('heading', { name: 'Өнөөдрийн зорилго' })).toBeVisible();
+    await expect(page.getByRole('heading', { name: 'Өнөөдрийн цаг' })).toBeVisible();
+    await expect(page.getByRole('link', { name: /Өнөөдрийн хичээлийг эхлэх/ })).toBeVisible();
     await page.screenshot({ path: `${shotsDir}/dashboard-${size.name}.png`, fullPage: true });
     await page.goto('/lessons/hiragana-2');
     await expect(page.getByRole('heading', { level: 1 })).toBeVisible();

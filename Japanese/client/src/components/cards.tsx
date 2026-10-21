@@ -7,7 +7,7 @@ import { useAuth } from '../hooks/useAuth';
 import { useToast } from '../hooks/useToast';
 import { useI18n } from '../i18n';
 import { posLabel } from '../lib/labels';
-import { Badge, Button, Card, Ruby, SpeakButton, StateBadge, cx } from './ui';
+import { Badge, Button, Card, Jp, Ruby, SpeakButton, StateBadge, cx } from './ui';
 
 // ───────────── item actions (favorite / known / review) ─────────────
 
@@ -93,7 +93,7 @@ export function VocabItem({ v, onChange, expanded: initiallyExpanded = false }: 
           <div className="flex items-start gap-2">
             <SpeakButton text={item.example} size="sm" />
             <div>
-              <p className="jp text-base text-ink">{item.example}</p>
+              <Jp text={item.example} className="jp block text-base leading-loose text-ink" />
               <p className="text-sm text-muted">{item.exampleMn}</p>
             </div>
           </div>
@@ -181,7 +181,7 @@ export function GrammarBlock({ g, compact }: { g: Grammar; compact?: boolean }) 
             <li key={ex.ja} className="flex items-start gap-2">
               <SpeakButton text={ex.ja.replace(/[→—].*$/, '')} size="sm" />
               <div>
-                <p className="jp text-base text-ink">{ex.ja}</p>
+                <Jp text={ex.ja} className="jp block text-base leading-loose text-ink" />
                 <p className="text-sm text-muted">{ex.mn}</p>
               </div>
             </li>
@@ -194,8 +194,8 @@ export function GrammarBlock({ g, compact }: { g: Grammar; compact?: boolean }) 
           <ul className="flex flex-col gap-2">
             {g.mistakes.map((m) => (
               <li key={m.wrong} className="rounded-xl border border-line p-3 text-sm">
-                <p className="jp text-shu line-through decoration-shu/50">✕ {m.wrong}</p>
-                <p className="jp font-medium text-matcha">○ {m.right}</p>
+                <p className="jp leading-loose text-shu line-through decoration-shu/50">✕ <Jp text={m.wrong} /></p>
+                <p className="jp font-medium leading-loose text-matcha">○ <Jp text={m.right} /></p>
                 <p className="mt-1 flex items-start gap-1.5 text-ink-2">
                   <AlertCircle className="mt-0.5 size-3.5 shrink-0 text-muted" />
                   {m.note}

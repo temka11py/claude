@@ -8,6 +8,11 @@ import { Spinner } from './components/ui';
 
 const Login = lazy(() => import('./pages/Auth').then((m) => ({ default: m.Login })));
 const Register = lazy(() => import('./pages/Auth').then((m) => ({ default: m.Register })));
+const Today = lazy(() => import('./pages/Today'));
+const Program = lazy(() => import('./pages/Program'));
+const Day = lazy(() => import('./pages/Day'));
+const Flashcards = lazy(() => import('./pages/Flashcards'));
+const Games = lazy(() => import('./pages/Games'));
 const Dashboard = lazy(() => import('./pages/Dashboard'));
 const Learn = lazy(() => import('./pages/Learn'));
 const Lesson = lazy(() => import('./pages/Lesson'));
@@ -65,7 +70,13 @@ export default function App() {
                 <Route path="/login" element={<GuestOnly><Login /></GuestOnly>} />
                 <Route path="/register" element={<GuestOnly><Register /></GuestOnly>} />
                 <Route element={<RequireAuth><AppShell /></RequireAuth>}>
-                  <Route index element={<Dashboard />} />
+                  <Route index element={<Today />} />
+                  <Route path="program" element={<Program />} />
+                  <Route path="day/:number" element={<Day />} />
+                  <Route path="day/:number/:step" element={<Day />} />
+                  <Route path="flashcards" element={<Flashcards />} />
+                  <Route path="games" element={<Games />} />
+                  <Route path="overview" element={<Dashboard />} />
                   <Route path="learn" element={<Learn />} />
                   <Route path="lessons/:id" element={<Lesson />} />
                   <Route path="hiragana" element={<KanaPage script="hiragana" />} />

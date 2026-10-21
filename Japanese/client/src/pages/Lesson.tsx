@@ -6,7 +6,7 @@ import type { Achievement, Kana, LessonDetail, SectionKey } from '../api/types';
 import { useApi } from '../hooks/useApi';
 import { useToast } from '../hooks/useToast';
 import { useI18n } from '../i18n';
-import { Badge, Button, Card, EmptyState, ErrorState, LinkButton, ProgressBar, SpeakButton, Spinner, cx } from '../components/ui';
+import { Badge, Button, Card, EmptyState, ErrorState, Jp, LinkButton, ProgressBar, SpeakButton, Spinner, cx } from '../components/ui';
 import { Flashcards, GrammarBlock, KanjiReadings, VocabItem, type Flashcard } from '../components/cards';
 import { KanaCell, KanaDetail, romajiOf } from '../components/kana';
 import { QuizRunner } from '../components/quiz/runners';
@@ -115,7 +115,7 @@ function ExamplesSection({ data }: { data: LessonDetail }) {
               <div key={i} className={cx('flex items-start gap-2', i % 2 === 1 && 'flex-row-reverse text-right')}>
                 <span className={cx('jp grid size-9 shrink-0 place-items-center rounded-full text-xs font-semibold', i % 2 ? 'bg-ai-soft text-ai' : 'bg-shu-soft text-shu')}>{line.speaker.slice(0, 2)}</span>
                 <div className={cx('max-w-[80%] rounded-2xl px-4 py-2.5', i % 2 ? 'bg-ai-soft' : 'bg-surface-2')}>
-                  <p className="jp text-base text-ink">{line.ja}</p>
+                  <Jp text={line.ja} className="jp block text-base leading-loose text-ink" />
                   {showMn && <p className="text-sm text-muted">{line.mn}</p>}
                 </div>
                 <SpeakButton text={line.ja} size="sm" />
@@ -132,7 +132,7 @@ function ExamplesSection({ data }: { data: LessonDetail }) {
               <li key={i} className="flex items-start gap-2 py-2.5">
                 <SpeakButton text={ex.reading ?? ex.ja} size="sm" />
                 <div>
-                  <p className="jp text-lg text-ink">{ex.ja}</p>
+                  <Jp text={ex.ja} className="jp block text-lg leading-loose text-ink" />
                   {ex.reading && <p className="jp text-sm text-ai">{ex.reading}</p>}
                   {showMn && <p className="text-sm text-muted">{ex.mn}</p>}
                 </div>

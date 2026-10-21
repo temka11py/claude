@@ -11,8 +11,8 @@ export interface LessonState {
 }
 
 /**
- * Lessons unlock progressively: the first lesson is always open, every other
- * lesson opens once the previous lesson (in course order) is completed.
+ * Lesson status for the library. The daily program guides the order, so no
+ * lesson is locked: every lesson is open to browse at any time.
  */
 export async function lessonStates(userId: string): Promise<Map<number, LessonState>> {
   const [lessons, progress] = await Promise.all([
@@ -21,20 +21,18 @@ export async function lessonStates(userId: string): Promise<Map<number, LessonSt
   ]);
   const byLesson = new Map(progress.map((p) => [p.lessonId, p]));
   const states = new Map<number, LessonState>();
-  let previousCompleted = true;
   for (const lesson of lessons) {
     const p = byLesson.get(lesson.id);
     let status: LessonStatus;
     if (p?.status === 'completed') status = 'completed';
     else if (p) status = 'in_progress';
-    else status = previousCompleted ? 'available' : 'locked';
+    else status = 'available';
     states.set(lesson.id, {
       id: lesson.id,
       status,
       sectionsDone: parseJson<string[]>(p?.sectionsDone, []),
       quizScore: p?.quizScore ?? null,
     });
-    previousCompleted = status === 'completed';
   }
   return states;
 }

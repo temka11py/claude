@@ -6,3 +6,4 @@ dist/
 client/test-results/
 client/playwright-report/
 screenshots/
+server/prisma/.learning-snapshot.json

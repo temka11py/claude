@@ -1,7 +1,7 @@
-import { useEffect, useState, type ButtonHTMLAttributes, type ReactNode } from 'react';
+import { Fragment, useEffect, useState, type ButtonHTMLAttributes, type ReactNode } from 'react';
 import { Link } from 'react-router';
 import { AlertTriangle, Loader2, Volume2, X } from 'lucide-react';
-import { splitRuby } from '../lib/furigana';
+import { hasKanji, splitRuby, useFurigana } from '../lib/furigana';
 import { playSource, stopAudio, ttsSupported } from '../lib/speech';
 import { useAuth } from '../hooks/useAuth';
 import { useI18n } from '../i18n';
@@ -265,6 +265,31 @@ export function Ruby({ text, reading, show }: { text: string; reading?: string; 
           </ruby>
         ) : (
           <span key={i}>{seg.text}</span>
+        ),
+      )}
+    </span>
+  );
+}
+
+/**
+ * Any Japanese (or mixed) text with automatic furigana above the kanji.
+ * Follows the learner's furigana setting unless `furigana` is given.
+ */
+export function Jp({ text, furigana, className }: { text: string; furigana?: boolean; className?: string }) {
+  const { settings } = useAuth();
+  const on = (furigana ?? settings.showFurigana) && hasKanji(text);
+  const segs = useFurigana(text, on);
+  if (!on || !segs) return <span className={className}>{text}</span>;
+  return (
+    <span className={className}>
+      {segs.map((s, i) =>
+        s.rt ? (
+          <ruby key={i}>
+            {s.text}
+            <rt>{s.rt}</rt>
+          </ruby>
+        ) : (
+          <Fragment key={i}>{s.text}</Fragment>
         ),
       )}
     </span>

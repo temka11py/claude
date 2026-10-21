@@ -6,7 +6,7 @@ import { useApi } from '../hooks/useApi';
 import { useAuth } from '../hooks/useAuth';
 import { useI18n } from '../i18n';
 import { playSource, stopAudio, ttsSupported } from '../lib/speech';
-import { Badge, Card, ErrorState, PageHeader, SpeakButton, Spinner, cx } from '../components/ui';
+import { Badge, Card, ErrorState, Jp, PageHeader, SpeakButton, Spinner, cx } from '../components/ui';
 import QuizEngine from '../components/quiz/QuizEngine';
 import { submitQuiz } from '../components/quiz/runners';
 
@@ -154,7 +154,7 @@ export function ListeningExercise() {
           <li key={i} className="flex items-start gap-2">
             <span className="jp mt-1 w-16 shrink-0 text-xs font-semibold text-muted">{line.speaker}</span>
             <div className="min-w-0 flex-1">
-              <p className="jp text-ink">{line.ja}</p>
+              <Jp text={line.ja} className="jp block leading-loose text-ink" />
               {showMn && <p className="text-sm text-muted">{line.mn}</p>}
             </div>
             <SpeakButton text={line.ja} size="sm" />

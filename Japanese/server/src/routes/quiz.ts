@@ -111,7 +111,7 @@ quizRouter.post('/quiz/check', async (req, res) => {
 
 const submitSchema = z.object({
   quizId: z.number().int().positive().optional(),
-  kind: z.enum(['practice', 'translation', 'kana', 'weak_areas']).optional(),
+  kind: z.enum(['practice', 'translation', 'kana', 'weak_areas', 'daily']).optional(),
   title: z.string().max(120).optional(),
   questionIds: z.array(z.number().int().positive()).max(80).optional(),
   answers: z.record(z.string(), z.string().max(2000)),

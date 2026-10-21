@@ -6,7 +6,7 @@ import { useApi } from '../hooks/useApi';
 import { useToast } from '../hooks/useToast';
 import { useI18n } from '../i18n';
 import { createRecognizer, type Recognizer } from '../lib/speech';
-import { Badge, Button, Card, ErrorState, PageHeader, ProgressRing, SpeakButton, Spinner, cx } from '../components/ui';
+import { Badge, Button, Card, ErrorState, Jp, PageHeader, ProgressRing, SpeakButton, Spinner, cx } from '../components/ui';
 
 interface Keyword {
   ja: string;
@@ -149,7 +149,7 @@ export default function Speaking() {
         <Card className="flex flex-col gap-5 p-5 sm:p-7">
           <div>
             <div className="flex items-start gap-2">
-              <p className="jp text-2xl font-medium text-ink sm:text-3xl">{active.prompt}</p>
+              <Jp text={active.prompt} className="jp block text-2xl font-medium leading-loose text-ink sm:text-3xl" />
               <SpeakButton text={active.prompt} />
             </div>
             <p className="mt-1 text-ink-2">{active.promptMn}</p>
@@ -169,7 +169,7 @@ export default function Speaking() {
                 {active.expected.map((s) => (
                   <li key={s} className="flex items-center gap-2">
                     <SpeakButton text={s} size="sm" />
-                    <span className="jp text-ink">{s}</span>
+                    <Jp text={s} className="jp leading-loose text-ink" />
                   </li>
                 ))}
               </ul>

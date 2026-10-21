@@ -5,7 +5,7 @@ import type { Vocab } from '../api/types';
 import { useAuth } from '../hooks/useAuth';
 import { useI18n } from '../i18n';
 import { posLabel } from '../lib/labels';
-import { Badge, Button, Card, EmptyState, ErrorState, PageHeader, Ruby, Segmented, SpeakButton, Spinner, StateBadge, cx } from '../components/ui';
+import { Badge, Button, Card, EmptyState, ErrorState, Jp, PageHeader, Ruby, Segmented, SpeakButton, Spinner, StateBadge, cx } from '../components/ui';
 import { VocabItem, useItemActions } from '../components/cards';
 
 interface VocabResponse {
@@ -50,7 +50,7 @@ function StudyCard({ items, onUpdate }: { items: Vocab[]; onUpdate: (v: Vocab) =
             <p className="text-xl font-semibold text-ink">{lang === 'en' ? v.meaningEn : v.meaning}</p>
             <Badge>{posLabel(v.partOfSpeech, lang)}</Badge>
             <div className="mt-3 rounded-xl bg-surface-2 px-4 py-2.5">
-              <p className="jp text-ink">{v.example}</p>
+              <Jp text={v.example} className="jp block leading-loose text-ink" />
               <p className="text-sm text-muted">{v.exampleMn}</p>
             </div>
           </div>

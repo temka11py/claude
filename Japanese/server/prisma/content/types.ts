@@ -111,6 +111,24 @@ export interface SpeakingDef {
   keywords: { ja: string; alts?: string[]; mn: string }[];
 }
 
+/**
+ * A full study day for N4 and above, matched to an outline day by slug. The
+ * seed turns it into a lesson with words, kanji, grammar, a reading passage,
+ * a listening exercise and a speaking task, then splits it into short steps.
+ */
+export interface LevelDayContent {
+  slug: string; // outline day slug, e.g. 'n4-001'
+  intro: string;
+  objectives: string[];
+  words: VocabTuple[];
+  kanji: KanjiDef[];
+  grammar: Omit<GrammarDef, 'lesson'>[];
+  dialogue?: DialogueLine[];
+  reading: { passage: string; questions: QuestionDef[] };
+  listening: Omit<ListeningDef, 'lesson' | 'slug'>;
+  speaking: Omit<SpeakingDef, 'slug'>;
+}
+
 export interface TranslationDef {
   ja: string;
   mn: string;

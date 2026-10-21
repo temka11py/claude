@@ -15,6 +15,8 @@ interface Context {
   moduleTestPassed: boolean;
   mockExams: number;
   speaking: number;
+  daysDone: number;
+  games: number;
 }
 
 const RULES: Record<string, Checker> = {
@@ -30,10 +32,14 @@ const RULES: Record<string, Checker> = {
   module_test: (c) => c.moduleTestPassed,
   mock_exam: (c) => c.mockExams >= 1,
   first_speaking: (c) => c.speaking >= 1,
+  first_day: (c) => c.daysDone >= 1,
+  days_10: (c) => c.daysDone >= 10,
+  days_30: (c) => c.daysDone >= 30,
+  first_game: (c) => c.games >= 1,
 };
 
 async function buildContext(userId: string, today: string): Promise<Context> {
-  const [lessonsDone, kanaLessons, streak, learned, bestQuiz, stories, reviews, moduleTestPassed, mockExams, speaking] = await Promise.all([
+  const [lessonsDone, kanaLessons, streak, learned, bestQuiz, stories, reviews, moduleTestPassed, mockExams, speaking, daysDone, games] = await Promise.all([
     prisma.userProgress.count({ where: { userId, status: 'completed' } }),
     prisma.lesson.findMany({ where: { module: { order: 0 } }, select: { id: true, progress: { where: { userId, status: 'completed' }, select: { id: true } } } }),
     getStreak(userId, today),
@@ -44,6 +50,8 @@ async function buildContext(userId: string, today: string): Promise<Context> {
     prisma.quizAttempt.count({ where: { userId, kind: 'module_test', passed: true } }),
     prisma.quizAttempt.count({ where: { userId, kind: 'mock_exam' } }),
     prisma.activity.count({ where: { userId, type: 'speaking' } }),
+    prisma.dayProgress.count({ where: { userId, completedAt: { not: null } } }),
+    prisma.dailyStat.aggregate({ where: { userId }, _sum: { games: true } }),
   ]);
   return {
     lessonsDone,
@@ -57,6 +65,8 @@ async function buildContext(userId: string, today: string): Promise<Context> {
     moduleTestPassed: moduleTestPassed > 0,
     mockExams,
     speaking,
+    daysDone,
+    games: games._sum.games ?? 0,
   };
 }
 

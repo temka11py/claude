@@ -11,6 +11,8 @@ import { practiceRouter } from './routes/practice.js';
 import { quizRouter } from './routes/quiz.js';
 import { reviewRouter } from './routes/review.js';
 import { progressRouter } from './routes/progress.js';
+import { programRouter } from './routes/program.js';
+import { furiganaRouter } from './routes/furigana.js';
 import { requireAuth } from './middleware/auth.js';
 import { errorHandler, HttpError } from './lib/http.js';
 
@@ -27,7 +29,7 @@ export function createApp() {
   app.use('/api/auth', authRouter);
   app.use('/api/settings', requireAuth, settingsRouter);
   app.use('/api/review', requireAuth, reviewRouter);
-  app.use('/api', requireAuth, lessonsRouter, libraryRouter, practiceRouter, quizRouter, progressRouter);
+  app.use('/api', requireAuth, lessonsRouter, libraryRouter, practiceRouter, quizRouter, progressRouter, programRouter, furiganaRouter);
   app.use('/api', (_req, _res, next) => next(new HttpError(404, 'API route not found')));
 
   // Serve the built client in production (npm run build && npm start).

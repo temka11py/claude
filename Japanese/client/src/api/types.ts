@@ -318,3 +318,117 @@ export interface ScriptLine {
   ja: string;
   mn: string;
 }
+
+// ───────────── daily program ─────────────
+
+export type StepKind = 'review' | 'kana' | 'words' | 'kanji' | 'grammar' | 'dialogue' | 'reading' | 'listening' | 'speaking' | 'game' | 'quiz';
+
+export interface DayStepSummary {
+  key: string;
+  kind: StepKind;
+  title: string;
+  minutes: number;
+  optional: boolean;
+  done: boolean;
+  score: number | null;
+}
+
+export interface DaySummary {
+  id: number;
+  number: number;
+  slug: string;
+  level: string;
+  unit: number;
+  unitTitle: string;
+  unitTitleJa: string;
+  title: string;
+  titleJa: string;
+  goal: string;
+  kind: 'kana' | 'lesson' | 'review' | 'exam';
+  ready: boolean;
+  outline: string[];
+  minutes: number;
+  stepsTotal: number;
+  stepsDone: number;
+  completed: boolean;
+  completedOn: string | null;
+  started: boolean;
+  xp: number;
+  steps: DayStepSummary[];
+}
+
+export interface Sentence {
+  ja: string;
+  mn: string;
+  speaker?: string;
+}
+
+export interface StepContent {
+  key: string;
+  kind: StepKind;
+  title: string;
+  minutes: number;
+  optional?: boolean;
+  kanaIds?: number[];
+  vocabIds?: number[];
+  kanjiIds?: number[];
+  grammarIds?: number[];
+  storyId?: number;
+  passages?: string[];
+  sentences?: Sentence[];
+  listeningIds?: number[];
+  speakingId?: number;
+  questions?: Question[];
+  game?: 'sudoku' | 'match';
+  sudoku?: { size: 4 | 6 | 9; symbols: string[]; hints: string[] };
+}
+
+export interface ListeningItem {
+  id: number;
+  slug: string;
+  title: string;
+  type: string;
+  context: string;
+  script: ScriptLine[];
+  vocabulary: { word: string; reading: string; meaning: string }[];
+  grammarNote: string;
+}
+
+export interface SpeakingItem {
+  id: number;
+  slug: string;
+  title: string;
+  prompt: string;
+  promptMn: string;
+  hint: string;
+  expected: string[];
+  keywords: { ja: string; alts?: string[]; mn: string }[];
+}
+
+export interface DayContent {
+  steps: StepContent[];
+  kana: Kana[];
+  vocab: Vocab[];
+  kanji: Kanji[];
+  grammar: Grammar[];
+  stories: { id: number; slug: string; title: string; titleJa: string; summary: string }[];
+  listening: ListeningItem[];
+  speaking: SpeakingItem[];
+}
+
+export interface DayDetail {
+  day: DaySummary;
+  content: DayContent;
+  prev: { number: number; title: string; ready: boolean } | null;
+  next: { number: number; title: string; ready: boolean } | null;
+}
+
+export interface StepCompleteResult {
+  xp: number;
+  xpToday: number;
+  dayCompleted: boolean;
+  stepsDone: string[];
+  nextStep: string | null;
+  reviewItemsAdded: number;
+  achievements: Achievement[];
+}

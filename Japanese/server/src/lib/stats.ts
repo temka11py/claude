@@ -1,7 +1,7 @@
 import { prisma } from './prisma.js';
 import { computeStreak } from './dates.js';
 
-export type DailyField = 'seconds' | 'lessons' | 'vocab' | 'kanji' | 'grammar' | 'stories' | 'reviews' | 'questions' | 'correct';
+export type DailyField = 'seconds' | 'lessons' | 'vocab' | 'kanji' | 'grammar' | 'stories' | 'reviews' | 'questions' | 'correct' | 'xp' | 'steps' | 'games';
 
 /** Increment counters for the learner's current day. */
 export async function bumpDaily(userId: string, date: string, inc: Partial<Record<DailyField, number>>) {
@@ -15,8 +15,8 @@ export async function bumpDaily(userId: string, date: string, inc: Partial<Recor
 }
 
 export async function getStreak(userId: string, today: string) {
-  const days = await prisma.dailyStat.findMany({ where: { userId }, select: { date: true, seconds: true, lessons: true, reviews: true, questions: true, stories: true } });
-  const active = days.filter((d) => d.seconds >= 60 || d.lessons > 0 || d.reviews > 0 || d.questions > 0 || d.stories > 0).map((d) => d.date);
+  const days = await prisma.dailyStat.findMany({ where: { userId }, select: { date: true, seconds: true, lessons: true, reviews: true, questions: true, stories: true, steps: true } });
+  const active = days.filter((d) => d.seconds >= 60 || d.lessons > 0 || d.reviews > 0 || d.questions > 0 || d.stories > 0 || d.steps > 0).map((d) => d.date);
   return computeStreak(active, today);
 }
 

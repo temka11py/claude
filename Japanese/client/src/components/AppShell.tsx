@@ -1,12 +1,12 @@
 import { useEffect, useState, type ReactNode } from 'react';
 import { NavLink, Outlet, useLocation, useNavigate } from 'react-router';
 import {
-  ArrowLeftRight, BookOpen, ChartColumn, ClipboardCheck, Flame, GraduationCap, Headphones, Home, LayoutDashboard,
-  Library, LogOut, Map as MapIcon, Menu, Mic, RotateCcw, ScrollText, Settings, X,
+  ArrowLeftRight, BookOpen, ChartColumn, ChevronDown, ClipboardCheck, Flame, Gamepad2, GraduationCap, Headphones, Layers,
+  Library, ListChecks, LogOut, Map as MapIcon, Menu, Mic, Pause, RotateCcw, ScrollText, Settings, Sun, Timer, X,
 } from 'lucide-react';
 import { useAuth } from '../hooks/useAuth';
 import { useToast } from '../hooks/useToast';
-import { useStudyTimer } from '../hooks/useStudyTimer';
+import { StudyClockProvider, useStudyClock } from '../hooks/useStudyTimer';
 import { useI18n } from '../i18n';
 import { cx } from './ui';
 import { stopAudio } from '../lib/speech';
@@ -34,86 +34,155 @@ interface NavItem {
 }
 
 const ICON = 'size-5';
-const NAV: { mn: string; en: string; items: NavItem[] }[] = [
-  {
-    mn: 'Ерөнхий', en: 'Overview',
-    items: [
-      { to: '/', mn: 'Хяналтын самбар', en: 'Dashboard', icon: <LayoutDashboard className={ICON} /> },
-      { to: '/learn', mn: 'Сургалтын зам', en: 'Learn', icon: <MapIcon className={ICON} /> },
-      { to: '/progress', mn: 'Ахиц', en: 'Progress', icon: <ChartColumn className={ICON} /> },
-    ],
-  },
-  {
-    mn: 'Бичиг', en: 'Writing',
-    items: [
-      { to: '/hiragana', mn: 'Хирагана', en: 'Hiragana', icon: <Glyph>あ</Glyph> },
-      { to: '/katakana', mn: 'Катакана', en: 'Katakana', icon: <Glyph>ア</Glyph> },
-      { to: '/kanji', mn: 'Ханз', en: 'Kanji', icon: <Glyph>漢</Glyph> },
-    ],
-  },
-  {
-    mn: 'Сан', en: 'Library',
-    items: [
-      { to: '/vocabulary', mn: 'Үгсийн сан', en: 'Vocabulary', icon: <Library className={ICON} /> },
-      { to: '/grammar', mn: 'Дүрэм', en: 'Grammar', icon: <BookOpen className={ICON} /> },
-      { to: '/stories', mn: 'Өгүүллэг', en: 'Stories', icon: <ScrollText className={ICON} /> },
-    ],
-  },
-  {
-    mn: 'Дадлага', en: 'Practice',
-    items: [
-      { to: '/listening', mn: 'Сонсгол', en: 'Listening', icon: <Headphones className={ICON} /> },
-      { to: '/speaking', mn: 'Ярих', en: 'Speaking', icon: <Mic className={ICON} /> },
-      { to: '/translation', mn: 'Орчуулга', en: 'Translation', icon: <ArrowLeftRight className={ICON} /> },
-      { to: '/review', mn: 'Давталт', en: 'Review', icon: <RotateCcw className={ICON} /> },
-    ],
-  },
-  {
-    mn: 'Шалгалт', en: 'Exams',
-    items: [
-      { to: '/tests', mn: 'Модулийн шалгалт', en: 'Tests', icon: <ClipboardCheck className={ICON} /> },
-      { to: '/jlpt', mn: 'JLPT N5', en: 'JLPT N5', icon: <GraduationCap className={ICON} /> },
-    ],
-  },
+// The daily program is the main path; everything else lives in the library.
+const MAIN: NavItem[] = [
+  { to: '/', mn: 'Өнөөдөр', en: 'Today', icon: <Sun className={ICON} /> },
+  { to: '/program', mn: 'Хөтөлбөр N5→N2', en: 'Program N5→N2', icon: <MapIcon className={ICON} /> },
+  { to: '/flashcards', mn: 'Флэш карт', en: 'Flashcards', icon: <Layers className={ICON} /> },
+  { to: '/review', mn: 'Давталт', en: 'Review', icon: <RotateCcw className={ICON} /> },
+  { to: '/games', mn: 'Тоглоом', en: 'Games', icon: <Gamepad2 className={ICON} /> },
+  { to: '/progress', mn: 'Ахиц', en: 'Progress', icon: <ChartColumn className={ICON} /> },
+];
+
+const LIBRARY: NavItem[] = [
+  { to: '/hiragana', mn: 'Хирагана', en: 'Hiragana', icon: <Glyph>あ</Glyph> },
+  { to: '/katakana', mn: 'Катакана', en: 'Katakana', icon: <Glyph>ア</Glyph> },
+  { to: '/kanji', mn: 'Ханз', en: 'Kanji', icon: <Glyph>漢</Glyph> },
+  { to: '/vocabulary', mn: 'Үгсийн сан', en: 'Vocabulary', icon: <Library className={ICON} /> },
+  { to: '/grammar', mn: 'Дүрэм', en: 'Grammar', icon: <BookOpen className={ICON} /> },
+  { to: '/stories', mn: 'Өгүүллэг', en: 'Stories', icon: <ScrollText className={ICON} /> },
+  { to: '/listening', mn: 'Сонсгол', en: 'Listening', icon: <Headphones className={ICON} /> },
+  { to: '/speaking', mn: 'Ярих', en: 'Speaking', icon: <Mic className={ICON} /> },
+  { to: '/translation', mn: 'Орчуулга', en: 'Translation', icon: <ArrowLeftRight className={ICON} /> },
+  { to: '/learn', mn: 'Хичээлүүд', en: 'Lessons', icon: <ListChecks className={ICON} /> },
+  { to: '/tests', mn: 'Модулийн шалгалт', en: 'Tests', icon: <ClipboardCheck className={ICON} /> },
+  { to: '/jlpt', mn: 'JLPT загвар', en: 'JLPT mock', icon: <GraduationCap className={ICON} /> },
 ];
 
 const MOBILE_TABS: NavItem[] = [
-  { to: '/', mn: 'Нүүр', en: 'Home', icon: <Home className={ICON} /> },
-  { to: '/learn', mn: 'Сургалт', en: 'Learn', icon: <MapIcon className={ICON} /> },
-  { to: '/review', mn: 'Давталт', en: 'Review', icon: <RotateCcw className={ICON} /> },
-  { to: '/tests', mn: 'Шалгалт', en: 'Tests', icon: <ClipboardCheck className={ICON} /> },
+  { to: '/', mn: 'Өнөөдөр', en: 'Today', icon: <Sun className={ICON} /> },
+  { to: '/program', mn: 'Хөтөлбөр', en: 'Program', icon: <MapIcon className={ICON} /> },
+  { to: '/flashcards', mn: 'Карт', en: 'Cards', icon: <Layers className={ICON} /> },
+  { to: '/games', mn: 'Тоглоом', en: 'Games', icon: <Gamepad2 className={ICON} /> },
 ];
 
-function NavList({ onNavigate }: { onNavigate?: () => void }) {
+const LIBRARY_KEY = 'hanamaru.libraryOpen';
+
+function NavLinkItem({ item, onNavigate }: { item: NavItem; onNavigate?: () => void }) {
   const { lang } = useI18n();
   return (
+    <li>
+      <NavLink
+        to={item.to}
+        end={item.to === '/'}
+        onClick={onNavigate}
+        className={({ isActive }) =>
+          cx('flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium transition-colors', isActive ? 'bg-shu-soft text-shu' : 'text-ink-2 hover:bg-surface-2 hover:text-ink')
+        }
+      >
+        {item.icon}
+        {lang === 'en' ? item.en : item.mn}
+      </NavLink>
+    </li>
+  );
+}
+
+function NavList({ onNavigate }: { onNavigate?: () => void }) {
+  const { L } = useI18n();
+  const location = useLocation();
+  const inLibrary = LIBRARY.some((i) => location.pathname.startsWith(i.to));
+  const [open, setOpen] = useState(() => {
+    try {
+      return localStorage.getItem(LIBRARY_KEY) === '1';
+    } catch {
+      return false;
+    }
+  });
+  const toggle = () => {
+    const next = !open;
+    setOpen(next);
+    try {
+      localStorage.setItem(LIBRARY_KEY, next ? '1' : '0');
+    } catch {
+      /* storage unavailable — the toggle still works for this visit */
+    }
+  };
+  const showLibrary = open || inLibrary;
+  return (
     <nav className="flex flex-col gap-5" aria-label="Main">
-      {NAV.map((group) => (
-        <div key={group.en}>
-          <p className="mb-1.5 px-3 text-[11px] font-semibold uppercase tracking-wider text-muted">{lang === 'en' ? group.en : group.mn}</p>
+      <ul className="flex flex-col gap-0.5">
+        {MAIN.map((item) => (
+          <NavLinkItem key={item.to} item={item} onNavigate={onNavigate} />
+        ))}
+      </ul>
+      <div>
+        <button onClick={toggle} className="mb-1.5 flex w-full items-center justify-between rounded-lg px-3 py-1 text-[11px] font-semibold uppercase tracking-wider text-muted hover:text-ink" aria-expanded={showLibrary}>
+          {L('Номын сан', 'Library')}
+          <ChevronDown className={cx('size-3.5 transition-transform', showLibrary && 'rotate-180')} />
+        </button>
+        {showLibrary && (
           <ul className="flex flex-col gap-0.5">
-            {group.items.map((item) => (
-              <li key={item.to}>
-                <NavLink
-                  to={item.to}
-                  end={item.to === '/'}
-                  onClick={onNavigate}
-                  className={({ isActive }) =>
-                    cx(
-                      'flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium transition-colors',
-                      isActive ? 'bg-shu-soft text-shu' : 'text-ink-2 hover:bg-surface-2 hover:text-ink',
-                    )
-                  }
-                >
-                  {item.icon}
-                  {lang === 'en' ? item.en : item.mn}
-                </NavLink>
-              </li>
+            {LIBRARY.map((item) => (
+              <NavLinkItem key={item.to} item={item} onNavigate={onNavigate} />
             ))}
           </ul>
-        </div>
-      ))}
+        )}
+      </div>
     </nav>
+  );
+}
+
+/** Live "time studied today" — the clock only runs while the learner is active. */
+function StudyTimerPill() {
+  const { seconds, running, goalMinutes } = useStudyClock();
+  const { L } = useI18n();
+  const [open, setOpen] = useState(false);
+  const goal = goalMinutes * 60;
+  const pct = Math.min(100, Math.round((seconds / goal) * 100));
+  const h = Math.floor(seconds / 3600);
+  const m = Math.floor((seconds % 3600) / 60);
+  const sec = seconds % 60;
+  const clock = h ? `${h}:${String(m).padStart(2, '0')}:${String(sec).padStart(2, '0')}` : `${m}:${String(sec).padStart(2, '0')}`;
+  const left = Math.max(0, Math.ceil((goal - seconds) / 60));
+  return (
+    <div className="relative">
+      <button
+        onClick={() => setOpen((o) => !o)}
+        className={cx('flex items-center gap-2 rounded-full border px-3 py-1.5 text-sm font-semibold tabular-nums transition-colors', pct >= 100 ? 'border-matcha/40 bg-matcha-soft text-matcha' : 'border-line bg-surface text-ink')}
+        aria-expanded={open}
+        title={L('Өнөөдөр суралцсан хугацаа', 'Time studied today')}
+      >
+        {running ? <Timer className="size-4 text-shu" /> : <Pause className="size-4 text-muted" />}
+        <span>{clock}</span>
+        <span className="hidden font-normal text-muted sm:inline">
+          / {goalMinutes} {L('мин', 'min')}
+        </span>
+        <span className="relative h-1.5 w-10 overflow-hidden rounded-full bg-surface-2" aria-hidden>
+          <span className={cx('absolute inset-y-0 left-0 rounded-full', pct >= 100 ? 'bg-matcha' : 'bg-shu')} style={{ width: `${pct}%` }} />
+        </span>
+      </button>
+      {open && (
+        <div className="animate-rise absolute right-0 top-full z-50 mt-2 w-72 rounded-2xl border border-line bg-surface p-4 text-sm shadow-lg" role="dialog">
+          <p className="font-semibold text-ink">
+            {L('Өнөөдөр', 'Today')}: {h ? `${h} ${L('цаг', 'h')} ` : ''}
+            {m} {L('мин', 'min')} {sec} {L('сек', 's')}
+          </p>
+          <p className="mt-0.5 text-muted">
+            {pct >= 100 ? L('Өдрийн зорилгоо биелүүллээ!', 'Daily goal reached!') : L(`Зорилго ${goalMinutes} мин — ${left} мин үлдлээ (${pct}%)`, `Goal ${goalMinutes} min — ${left} min left (${pct}%)`)}
+          </p>
+          <div className="mt-3 h-2 overflow-hidden rounded-full bg-surface-2">
+            <div className={cx('h-full rounded-full', pct >= 100 ? 'bg-matcha' : 'bg-shu')} style={{ width: `${pct}%` }} />
+          </div>
+          <p className="mt-3 flex items-start gap-2 text-xs text-ink-2">
+            {running ? <Timer className="mt-0.5 size-3.5 shrink-0 text-shu" /> : <Pause className="mt-0.5 size-3.5 shrink-0 text-muted" />}
+            {running
+              ? L('Цаг явж байна. Та апп дээр идэвхтэй байгаа үед л тоологдоно.', 'The clock is running while you are active in the app.')
+              : L('Түр зогссон: 2 минут юу ч дараагүй эсвэл өөр цонх руу шилжсэн. Дарах эсвэл гүйлгэхэд дахин явна.', 'Paused: no activity for 2 minutes or another tab is open. Tap or scroll to resume.')}
+          </p>
+          <p className="mt-2 text-xs text-muted">{L('Зорилгыг Тохиргоо хэсэгт өөрчилнө.', 'Change the goal in Settings.')}</p>
+        </div>
+      )}
+    </div>
   );
 }
 
@@ -177,12 +246,21 @@ function Toasts() {
 }
 
 export default function AppShell() {
+  const { user, settings } = useAuth();
+  const { lang } = useI18n();
+  const { celebrate } = useToast();
+  return (
+    <StudyClockProvider enabled={!!user} goalMinutes={settings.dailyGoalMinutes} onAchievements={(a) => celebrate(a, lang)}>
+      <Shell />
+    </StudyClockProvider>
+  );
+}
+
+function Shell() {
   const [drawer, setDrawer] = useState(false);
   const location = useLocation();
   const { user } = useAuth();
   const { lang, L } = useI18n();
-  const { celebrate } = useToast();
-  useStudyTimer(!!user, (a) => celebrate(a, lang));
 
   useEffect(() => {
     setDrawer(false);
@@ -199,7 +277,7 @@ export default function AppShell() {
           <BrandMark />
           <div>
             <p className="text-base font-semibold leading-tight text-ink">Hanamaru</p>
-            <p className="jp text-xs text-muted">はなまる · JLPT N5</p>
+            <p className="jp text-xs text-muted">はなまる · N5 → N2</p>
           </div>
         </div>
         <div className="flex-1 overflow-y-auto px-3 pb-4 scrollbar-thin">
@@ -217,6 +295,7 @@ export default function AppShell() {
           <span className="font-semibold text-ink">Hanamaru</span>
         </NavLink>
         <div className="flex items-center gap-2">
+          {user && <StudyTimerPill />}
           {user && (
             <span className="flex items-center gap-1 rounded-full bg-shu-soft px-2.5 py-1 text-xs font-semibold text-shu">
               <Flame className="size-3.5" />
@@ -250,7 +329,18 @@ export default function AppShell() {
         </div>
       )}
 
-      <main className="px-4 pb-28 pt-5 sm:px-6 lg:ml-64 lg:px-10 lg:pb-12 lg:pt-8">
+      <main className="px-4 pb-28 pt-5 sm:px-6 lg:ml-64 lg:px-10 lg:pb-12 lg:pt-5">
+        <div className="sticky top-3 z-30 -mb-2 hidden justify-end lg:flex">
+          <div className="flex items-center gap-2 rounded-full bg-paper/80 p-1 backdrop-blur">
+            <StudyTimerPill />
+            {user && (
+              <span className="flex items-center gap-1 rounded-full bg-shu-soft px-3 py-1.5 text-sm font-semibold text-shu" title={L('Өдөр дараалсан цуваа', 'Daily streak')}>
+                <Flame className="size-4" />
+                {user.streak}
+              </span>
+            )}
+          </div>
+        </div>
         <div className="mx-auto w-full max-w-6xl">
           <Outlet />
         </div>

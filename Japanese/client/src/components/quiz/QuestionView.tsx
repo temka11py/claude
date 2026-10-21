@@ -5,12 +5,17 @@ import { useI18n } from '../../i18n';
 import { useAuth } from '../../hooks/useAuth';
 import { playSource, stopAudio, ttsSupported } from '../../lib/speech';
 import { categoryLabel } from '../../lib/labels';
-import { Badge, cx } from '../ui';
+import { Badge, Jp, cx } from '../ui';
 
 const CHOICE_TYPES = new Set(['multiple_choice', 'kanji_reading', 'listening', 'fill_blank', 'ja_to_mn', 'mn_to_ja']);
 
 export function isChoice(q: Question) {
   return CHOICE_TYPES.has(q.type) && Array.isArray(q.options) && q.options.length > 0;
+}
+
+/** Furigana would give the answer away on reading questions (and JLPT vocabulary items). */
+export function revealsReading(q: Question) {
+  return q.type === 'kanji_reading' || q.category === 'kanji-reading' || q.section === 'vocabulary';
 }
 
 export function isAnswered(q: Question, value: string | undefined) {
@@ -78,6 +83,7 @@ function instruction(q: Question, L: (mn: string, en: string) => string) {
 
 function Choices({ q, value, onChange, disabled }: { q: Question; value: string; onChange: (v: string) => void; disabled?: boolean }) {
   const options = q.options as string[];
+  const furigana = revealsReading(q) ? false : undefined;
   useEffect(() => {
     if (disabled) return;
     const onKey = (e: KeyboardEvent) => {
@@ -105,7 +111,7 @@ function Choices({ q, value, onChange, disabled }: { q: Question; value: string;
           )}
         >
           <span className={cx('grid size-6 shrink-0 place-items-center rounded-md text-xs font-semibold', value === opt ? 'bg-shu text-white' : 'bg-surface-2 text-muted')}>{i + 1}</span>
-          <span className="min-w-0 break-words">{opt}</span>
+          <Jp text={opt} furigana={furigana} className="min-w-0 break-words leading-loose" />
         </button>
       ))}
     </div>
@@ -165,7 +171,7 @@ function Matching({ q, value, onChange, disabled }: { q: Question; value: string
             onClick={() => setActive(i)}
             className={cx('flex min-h-12 items-center justify-between gap-2 rounded-xl border px-4 py-2.5 text-left transition-colors', active === i ? 'border-ai bg-ai-soft' : 'border-line bg-surface hover:bg-surface-2')}
           >
-            <span className="jp text-lg">{l}</span>
+            <Jp text={l} className="jp text-lg" />
             <span className={cx('text-right text-sm', pairs[i] ? 'text-ink' : 'text-muted')}>{pairs[i] || L('сонгоно уу', 'choose')}</span>
           </button>
         ))}
@@ -250,8 +256,14 @@ export default function QuestionView({
         <span className="text-xs text-muted">{instruction(q, L)}</span>
       </div>
       {q.audioText && showAudio && <AudioPrompt key={q.id} text={q.audioText} audioUrl={q.audioUrl} autoPlay />}
-      {q.passage && <div className="jp whitespace-pre-line rounded-2xl border border-line bg-surface-2 p-4 text-[15px] leading-8 text-ink">{q.passage}</div>}
-      <p className={cx('break-words text-ink', bigPrompt ? 'jp text-2xl font-medium leading-relaxed sm:text-3xl' : 'text-lg font-medium leading-relaxed')}>{q.prompt}</p>
+      {q.passage && (
+        <div className="jp whitespace-pre-line rounded-2xl border border-line bg-surface-2 p-4 text-[15px] leading-9 text-ink">
+          <Jp text={q.passage} furigana={revealsReading(q) ? false : undefined} />
+        </div>
+      )}
+      <p className={cx('break-words text-ink', bigPrompt ? 'jp text-2xl font-medium leading-loose sm:text-3xl' : 'text-lg font-medium leading-loose')}>
+        <Jp text={q.prompt} furigana={revealsReading(q) ? false : undefined} />
+      </p>
       {q.type === 'true_false' ? (
         <TrueFalse value={value} onChange={onChange} disabled={disabled} />
       ) : q.type === 'matching' ? (

@@ -1,4 +1,5 @@
 /* eslint-disable no-console */
+import fs from 'node:fs';
 import { PrismaClient, type Prisma } from '@prisma/client';
 import bcrypt from 'bcryptjs';
 import { kanaToRomaji, tokenRomaji, hasKanji } from '../src/lib/kana.js';
@@ -14,10 +15,43 @@ import { READINGS } from './content/reading.js';
 import { LISTENING } from './content/listening.js';
 import { SPEAKING, TRANSLATIONS, ACHIEVEMENTS } from './content/practice.js';
 import { MOCK_EXAM } from './content/mock-exam.js';
-import type { QuestionDef } from './content/types.js';
+import type { GrammarDef, KanjiDef, ListeningDef, ModuleDef, QuestionDef, SpeakingDef, VocabTuple } from './content/types.js';
+import { LEVEL_CONTENT } from './content/levels/index.js';
+import { OUTLINE } from './content/program-outline.js';
+import { planProgram } from './program-build.js';
+import { adoptCompletedLessons, restoreLearning, snapshotLearning, type LearningSnapshot } from './preserve.js';
 
 process.loadEnvFile?.('.env');
 const prisma = new PrismaClient();
+
+// ───────────── N4+ day content → the same shapes as the N5 content ─────────────
+const levelBySlug = new Map(LEVEL_CONTENT.map((d) => [d.slug, d]));
+const LEVEL_MODULES: ModuleDef[] = [];
+const LEVEL_VOCAB: Record<string, { topic: string; items: VocabTuple[] }> = {};
+const LEVEL_KANJI: Record<string, KanjiDef[]> = {};
+const LEVEL_GRAMMAR: GrammarDef[] = [];
+const LEVEL_LISTENING: ListeningDef[] = [];
+const LEVEL_SPEAKING: SpeakingDef[] = [];
+const levelReadings = new Map<string, number[]>();
+const ALL_READINGS = [...READINGS];
+OUTLINE.forEach((unit, u) => {
+  const lessons = unit.days.flatMap((day) => {
+    const c = levelBySlug.get(day.slug);
+    if (!c) return [];
+    LEVEL_VOCAB[day.slug] = { topic: day.title, items: c.words };
+    LEVEL_KANJI[day.slug] = c.kanji;
+    LEVEL_GRAMMAR.push(...c.grammar.map((g) => ({ ...g, lesson: day.slug })));
+    LEVEL_LISTENING.push({ ...c.listening, slug: `${day.slug}-listening`, lesson: day.slug });
+    LEVEL_SPEAKING.push({ ...c.speaking, slug: `${day.slug}-speaking` });
+    levelReadings.set(day.slug, [ALL_READINGS.length]);
+    ALL_READINGS.push({ lesson: day.slug, passage: c.reading.passage, questions: c.reading.questions });
+    return [{ key: day.slug, slug: day.slug, title: day.title, titleJa: day.titleJa, summary: c.intro.split('。')[0], objectives: c.objectives, intro: c.intro, dialogue: c.dialogue, minutes: 25 }];
+  });
+  if (lessons.length) LEVEL_MODULES.push({ order: 100 + u, slug: `${unit.level.toLowerCase()}-unit-${u + 1}`, title: `${unit.level}: ${unit.title}`, titleJa: unit.titleJa, description: unit.title, lessons });
+});
+const ALL_MODULES = [...MODULES, ...LEVEL_MODULES];
+const ALL_LISTENING = [...LISTENING, ...LEVEL_LISTENING];
+const ALL_SPEAKING = [...SPEAKING, ...LEVEL_SPEAKING];
 
 // ───────────── deterministic randomness ─────────────
 function mulberry32(seed: number) {
@@ -108,19 +142,26 @@ async function resetContent() {
   await prisma.vocabulary.deleteMany();
   await prisma.kanji.deleteMany();
   await prisma.grammar.deleteMany();
+  await prisma.programDay.deleteMany();
   await prisma.lesson.deleteMany();
   await prisma.module.deleteMany();
 }
 
 async function main() {
-  console.log('Seeding Hanamaru N5 content…');
+  console.log('Seeding Hanamaru content…');
+  // The snapshot is kept on disk until progress is restored, so a seed that
+  // fails half-way can simply be run again without losing anyone's progress.
+  const snapshotFile = new URL('./.learning-snapshot.json', import.meta.url);
+  const snapshot: LearningSnapshot = fs.existsSync(snapshotFile) ? JSON.parse(fs.readFileSync(snapshotFile, 'utf8')) : await snapshotLearning(prisma);
+  if (!fs.existsSync(snapshotFile)) fs.writeFileSync(snapshotFile, JSON.stringify(snapshot));
+  else console.log('  resuming with the saved progress snapshot from an unfinished seed');
   await resetContent();
 
   // ───────────── modules & lessons ─────────────
   const lessonIds = new Map<string, number>();
   const lessonModule = new Map<number, number>(); // lessonId → module order
   let globalOrder = 0;
-  for (const mod of MODULES) {
+  for (const mod of ALL_MODULES) {
     const created = await prisma.module.create({
       data: { order: mod.order, slug: mod.slug, title: mod.title, titleJa: mod.titleJa, description: mod.description },
     });
@@ -149,7 +190,7 @@ async function main() {
     if (!id) throw new Error(`Unknown lesson key ${key}`);
     return id;
   };
-  console.log(`  ${MODULES.length} modules, ${globalOrder} lessons`);
+  console.log(`  ${ALL_MODULES.length} modules, ${globalOrder} lessons`);
 
   // ───────────── kana ─────────────
   const kanaRows: { id: number; char: string; romaji: string; script: string; group: string; lessonId: number | null }[] = [];
@@ -197,7 +238,7 @@ async function main() {
   // ───────────── vocabulary ─────────────
   const vocabRows: { id: number; word: string; kana: string; meaning: string; pos: string; lessonId: number; romaji: string; example: string; exampleMn: string }[] = [];
   const seen = new Set<string>();
-  for (const source of [VOCAB_A, VOCAB_B]) {
+  for (const source of [VOCAB_A, VOCAB_B, LEVEL_VOCAB]) {
     for (const [key, group] of Object.entries(source)) {
       const lid = lessonId(key);
       const moduleOrder = lessonModule.get(lid) ?? 0;
@@ -225,7 +266,7 @@ async function main() {
   // ───────────── kanji ─────────────
   const kanjiRows: { id: number; char: string; meaning: string; lessonId: number; firstWord: [string, string, string] }[] = [];
   let kanjiOrder = 0;
-  for (const [key, list] of Object.entries(KANJI)) {
+  for (const [key, list] of Object.entries({ ...KANJI, ...LEVEL_KANJI })) {
     for (const k of list) {
       const row = await prisma.kanji.create({
         data: {
@@ -317,8 +358,8 @@ async function main() {
   }
 
   // ───────────── grammar ─────────────
-  const grammarAll = [...GRAMMAR_A, ...GRAMMAR_B];
-  const grammarRows: { id: number; slug: string; lessonId: number; category: string; examples: [string, string][] }[] = [];
+  const grammarAll = [...GRAMMAR_A, ...GRAMMAR_B, ...LEVEL_GRAMMAR];
+  const grammarRows: { id: number; slug: string; title: string; lessonId: number; category: string; examples: [string, string][] }[] = [];
   for (const [i, g] of grammarAll.entries()) {
     const lid = lessonId(g.lesson);
     const row = await prisma.grammar.create({
@@ -328,7 +369,7 @@ async function main() {
         mistakes: JSON.stringify(g.mistakes), category: g.category, order: i + 1, lessonId: lid,
       },
     });
-    grammarRows.push({ id: row.id, slug: g.slug, lessonId: lid, category: g.category, examples: g.examples });
+    grammarRows.push({ id: row.id, slug: g.slug, title: g.title, lessonId: lid, category: g.category, examples: g.examples });
     const category = g.category === 'expressions' ? 'grammar' : g.category;
     g.questions.forEach((q, j) => addQuestion(fromDef(q, `gram-${g.slug}-${j}`, { lessonId: lid, grammarId: row.id, category: q.category ?? category, difficulty: (lessonModule.get(lid) ?? 1) > 6 ? 2 : 1 })));
   }
@@ -349,7 +390,7 @@ async function main() {
   }
 
   // ───────────── reading passages ─────────────
-  READINGS.forEach((r, i) => r.questions.forEach((q, j) => addQuestion(fromDef(q, `read-${i}-${j}`, { lessonId: lessonId(r.lesson), category: 'reading', passage: r.passage }))));
+  ALL_READINGS.forEach((r, i) => r.questions.forEach((q, j) => addQuestion(fromDef(q, `read-${i}-${j}`, { lessonId: lessonId(r.lesson), category: 'reading', passage: r.passage }))));
 
   // ───────────── stories ─────────────
   const vocabByWord = new Map(vocabRows.map((v) => [v.word, v.id]));
@@ -396,7 +437,7 @@ async function main() {
 
   // ───────────── listening ─────────────
   const listeningIds = new Map<string, number>();
-  for (const [order, l] of LISTENING.entries()) {
+  for (const [order, l] of ALL_LISTENING.entries()) {
     const row = await prisma.listeningExercise.create({
       data: {
         slug: l.slug, title: l.title, type: l.type, order: order + 1, context: l.context,
@@ -408,13 +449,15 @@ async function main() {
     const fullScript = l.script.map((line) => `${line.speaker}：${line.ja}`).join('\n');
     l.questions.forEach((q, j) => addQuestion(fromDef(q, `listen-${l.slug}-${j}`, { lessonId: l.lesson ? lessonId(l.lesson) : null, category: 'listening', audioText: fullScript })));
   }
-  console.log(`  ${LISTENING.length} listening exercises`);
+  console.log(`  ${ALL_LISTENING.length} listening exercises`);
 
   // ───────────── speaking ─────────────
-  for (const [order, sp] of SPEAKING.entries()) {
-    await prisma.speakingPrompt.create({
+  const speakingIds = new Map<string, number>();
+  for (const [order, sp] of ALL_SPEAKING.entries()) {
+    const row = await prisma.speakingPrompt.create({
       data: { slug: sp.slug, order: order + 1, title: sp.title, prompt: sp.prompt, promptMn: sp.promptMn, hint: sp.hint, expected: JSON.stringify(sp.expected), keywords: JSON.stringify(sp.keywords) },
     });
+    speakingIds.set(sp.slug, row.id);
   }
 
   // ───────────── translation ─────────────
@@ -432,6 +475,25 @@ async function main() {
 
   // ───────────── mock exam questions ─────────────
   MOCK_EXAM.forEach((q, i) => addQuestion(fromDef(q, `mock-a-${String(i + 1).padStart(2, '0')}`, { category: q.category })));
+
+  // ───────────── daily program (adds generated listening/reading questions) ─────────────
+  const plannedDays = planProgram({
+    modules: ALL_MODULES,
+    lessonIds,
+    vocab: vocabRows,
+    kanji: kanjiRows,
+    grammar: grammarRows,
+    kana: kanaRows,
+    stories: new Map(STORIES.map((s) => [s.slug, { id: storyIds.get(s.slug)!, title: s.title, titleJa: s.titleJa }])),
+    listening: new Map(ALL_LISTENING.map((l) => [l.slug, { id: listeningIds.get(l.slug)!, title: l.title }])),
+    speaking: speakingIds,
+    readingKeys: (i) => ALL_READINGS[i].questions.map((_, j) => `read-${i}-${j}`),
+    readingPassage: (i) => ALL_READINGS[i].passage,
+    levelReadings,
+    levelDays: new Set(levelBySlug.keys()),
+    questions,
+    rand,
+  });
 
   // ───────────── persist questions ─────────────
   const data: Prisma.QuestionCreateManyInput[] = questions.map((q) => ({
@@ -508,7 +570,7 @@ async function main() {
   const modules = await prisma.module.findMany({ include: { lessons: { select: { id: true } } }, orderBy: { order: 'asc' } });
   for (const mod of modules) {
     if (mod.order === 13) continue; // the mock exam is the final test
-    const scope = mod.order === 12 ? allLessons.map((l) => l.id) : mod.lessons.map((l) => l.id);
+    const scope = mod.order === 12 ? allLessons.filter((l) => l.module.order < 100).map((l) => l.id) : mod.lessons.map((l) => l.id);
     const pool = stored.filter(inLessons(scope));
     const keysOf = (pred: (q: (typeof stored)[number]) => boolean) => pool.filter(pred).map((q) => q.key);
     const vocab = keysOf((q) => q.category === 'vocabulary');
@@ -537,10 +599,26 @@ async function main() {
   const quizCount = await prisma.quiz.count();
   console.log(`  ${quizCount} quizzes`);
 
+  for (const day of plannedDays) {
+    const steps = day.steps.map(({ questionKeys, ...step }) => ({
+      ...step,
+      ...(questionKeys ? { questionIds: uniq(questionKeys).map((k) => qid.get(k)).filter((x): x is number => !!x) } : {}),
+    }));
+    await prisma.programDay.create({ data: { ...day, outline: JSON.stringify(day.outline), steps: JSON.stringify(steps) } });
+  }
+  const readyDays = plannedDays.filter((d) => d.ready);
+  console.log(`  ${plannedDays.length} program days (${readyDays.length} ready, ${readyDays.reduce((n, d) => n + d.steps.length, 0)} steps)`);
+
   // ───────────── achievements (upsert keeps users' unlocked badges) ─────────────
   for (const [order, a] of ACHIEVEMENTS.entries()) {
     await prisma.achievement.upsert({ where: { code: a.code }, create: { ...a, order: order + 1 }, update: { ...a, order: order + 1 } });
   }
+
+  // ───────────── learners' progress ─────────────
+  const restored = await restoreLearning(prisma, snapshot);
+  fs.rmSync(snapshotFile);
+  const adopted = await adoptCompletedLessons(prisma);
+  console.log(`  restored progress: ${JSON.stringify(restored)}; days adopted from completed lessons: ${adopted}`);
 
   // ───────────── demo account ─────────────
   const demoEmail = 'demo@hanamaru.app';

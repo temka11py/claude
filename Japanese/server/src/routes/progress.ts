@@ -110,13 +110,25 @@ progressRouter.get('/progress', async (req, res) => {
   });
 });
 
+/** Today's active study time (shown live in the app header). */
+progressRouter.get('/progress/time', async (req, res) => {
+  const userId = uid(req);
+  const today = localDate(req);
+  const [stat, settings] = await Promise.all([
+    prisma.dailyStat.findUnique({ where: { userId_date: { userId, date: today } }, select: { seconds: true } }),
+    prisma.userSettings.findUnique({ where: { userId }, select: { dailyGoalMinutes: true } }),
+  ]);
+  res.json({ date: today, seconds: stat?.seconds ?? 0, goalMinutes: settings?.dailyGoalMinutes ?? 25 });
+});
+
 progressRouter.post('/progress/time', async (req, res) => {
   const userId = uid(req);
   const { seconds } = validate(z.object({ seconds: z.number().int().min(1).max(300) }), req.body);
   const today = localDate(req);
   await bumpDaily(userId, today, { seconds });
   const achievements = await checkAchievements(userId, today);
-  res.json({ ok: true, achievements });
+  const stat = await prisma.dailyStat.findUnique({ where: { userId_date: { userId, date: today } }, select: { seconds: true } });
+  res.json({ ok: true, date: today, seconds: stat?.seconds ?? seconds, achievements });
 });
 
 progressRouter.get('/achievements', async (req, res) => {
