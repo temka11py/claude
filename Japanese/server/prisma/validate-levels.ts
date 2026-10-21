@@ -14,7 +14,13 @@ import { GRAMMAR_B } from './content/grammar-b.js';
 
 const dir = path.join(path.dirname(fileURLToPath(import.meta.url)), 'content', 'levels');
 const only = process.argv.slice(2);
-const files = fs.readdirSync(dir).filter((f) => /^n\d-u\d\d\.ts$/.test(f)).sort((a, b) => order(a) - order(b));
+const isReported = (f: string) => only.length === 0 || only.some((p) => f.startsWith(p));
+// Files you are not checking are registered first, so an item that another
+// file already uses is reported in the file being written now.
+const files = fs
+  .readdirSync(dir)
+  .filter((f) => /^n\d-u\d\d\.ts$/.test(f))
+  .sort((a, b) => Number(isReported(a)) - Number(isReported(b)) || order(a) - order(b));
 function order(f: string) {
   const [, lvl, u] = f.match(/^n(\d)-u(\d\d)/)!;
   return (6 - Number(lvl)) * 100 + Number(u);
@@ -57,7 +63,7 @@ function checkQuestion(q: QuestionDef, where: string, err: (m: string) => void, 
 }
 
 for (const file of files) {
-  const report = only.length === 0 || only.some((p) => file.startsWith(p));
+  const report = isReported(file);
   const mod = (await import(pathToFileURL(path.join(dir, file)).href)) as Record<string, LevelDayContent[]>;
   const list: LevelDayContent[] = Object.values(mod).find((v) => Array.isArray(v)) ?? [];
   const msgs: string[] = [];
