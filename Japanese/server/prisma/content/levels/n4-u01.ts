@@ -9,7 +9,7 @@ const tf = (prompt: string, answer: boolean, explanation: string): QuestionDef =
 const lq = (prompt: string, options: string[], answer: string, explanation: string): QuestionDef => ({ type: 'listening', prompt, options, answer, explanation });
 const k = (char: string, meaning: string, en: string, on: string, kun: string, strokes: number, examples: [string, string, string][], sentence: [string, string]): KanjiDef => ({ char, meaning, en, on, kun, strokes, examples, sentence });
 
-export const N4_DAYS: LevelDayContent[] = [
+export const N4_U01: LevelDayContent[] = [
   // ───────── n4-001 · Чадах хэлбэр ─────────
   {
     slug: 'n4-001',

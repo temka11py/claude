@@ -268,6 +268,10 @@ async function main() {
   let kanjiOrder = 0;
   for (const [key, list] of Object.entries({ ...KANJI, ...LEVEL_KANJI })) {
     for (const k of list) {
+      if (kanjiRows.some((r) => r.char === k.char)) {
+        console.warn(`  ! duplicate kanji skipped: ${k.char} (lesson ${key})`);
+        continue;
+      }
       const row = await prisma.kanji.create({
         data: {
           char: k.char, meaning: k.meaning, meaningEn: k.en, onyomi: k.on, kunyomi: k.kun, strokes: k.strokes,
@@ -360,7 +364,13 @@ async function main() {
   // ───────────── grammar ─────────────
   const grammarAll = [...GRAMMAR_A, ...GRAMMAR_B, ...LEVEL_GRAMMAR];
   const grammarRows: { id: number; slug: string; title: string; lessonId: number; category: string; examples: [string, string][] }[] = [];
+  const grammarSlugs = new Set<string>();
   for (const [i, g] of grammarAll.entries()) {
+    if (grammarSlugs.has(g.slug)) {
+      console.warn(`  ! duplicate grammar slug ${g.slug} renamed to ${g.slug}-${g.lesson}`);
+      g.slug = `${g.slug}-${g.lesson}`;
+    }
+    grammarSlugs.add(g.slug);
     const lid = lessonId(g.lesson);
     const row = await prisma.grammar.create({
       data: {
