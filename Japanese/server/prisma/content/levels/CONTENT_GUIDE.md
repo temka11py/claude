@@ -33,6 +33,15 @@ Some outline days are skill or exam-practice days (reading strategy, listening t
 
 A kanji, or a word with the same `word|kana`, may be taught only once in the whole course. That includes N5 and every other level file. The validator lists what is already taken; pick another item instead of repeating one.
 
+## How to write
+
+Write **one day in two smaller edits**. A single tool call that holds a whole day is large enough to stall the connection.
+
+1. Add the day object with `intro`, `objectives`, `words`, `kanji` and `grammar`.
+2. In a separate edit, add `dialogue`, `reading`, `listening` and `speaking`.
+
+Validate after every day. Keep helper scripts outside the repository.
+
 ## Check your work (from `server/`)
 
 ```bash
