@@ -9,7 +9,7 @@ import { useToast } from '../hooks/useToast';
 import { StudyClockProvider, useStudyClock } from '../hooks/useStudyTimer';
 import { useI18n } from '../i18n';
 import { cx } from './ui';
-import { stopAudio } from '../lib/speech';
+import { onSpeechFailure, stopAudio } from '../lib/speech';
 
 export function BrandMark({ className = 'size-9' }: { className?: string }) {
   // 花丸 (hanamaru) — the teacher's "excellent" circle.
@@ -261,12 +261,36 @@ function Shell() {
   const location = useLocation();
   const { user } = useAuth();
   const { lang, L } = useI18n();
+  const { notify } = useToast();
 
   useEffect(() => {
     setDrawer(false);
     stopAudio();
     window.scrollTo(0, 0);
   }, [location.pathname]);
+
+  // Explain silent audio instead of leaving the learner guessing (at most once a minute).
+  useEffect(() => {
+    let last = 0;
+    return onSpeechFailure((reason) => {
+      if (Date.now() - last < 60_000) return;
+      last = Date.now();
+      notify({
+        kind: 'error',
+        title: L('Дуу гарсангүй', 'No sound'),
+        body:
+          reason === 'no-voice'
+            ? L(
+                'Энэ browser-т япон хоолой алга. Edge эсвэл Chrome ашиглана уу, эсвэл Windows Тохиргоо → Цаг ба хэл → Яриа → "Хоолой нэмэх" хэсгээс 日本語 хоолой суулгана уу.',
+                'This browser has no Japanese voice. Use Edge or Chrome, or add a 日本語 voice in Windows Settings → Time & language → Speech.',
+              )
+            : L(
+                'Япон хоолой интернэтээр ачаалагддаг. Холболтоо шалгаад дахин дарна уу. Интернэтгүй үед ажиллуулах бол Windows Тохиргоо → Цаг ба хэл → Яриа хэсгээс 日本語 хоолой суулгана уу.',
+                'The Japanese voice is loaded over the internet. Check your connection and try again, or add a 日本語 voice in Windows speech settings for offline use.',
+              ),
+      });
+    });
+  }, [notify, L]);
 
   return (
     <div className="min-h-dvh bg-paper">

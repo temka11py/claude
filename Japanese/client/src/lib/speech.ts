@@ -3,49 +3,124 @@
 
 export const ttsSupported = typeof window !== 'undefined' && 'speechSynthesis' in window;
 
-let cachedVoice: SpeechSynthesisVoice | null | undefined;
-function japaneseVoice(): SpeechSynthesisVoice | null {
-  if (!ttsSupported) return null;
-  if (cachedVoice) return cachedVoice;
-  const voices = window.speechSynthesis.getVoices();
-  cachedVoice = voices.find((v) => v.lang === 'ja-JP' && /google|natural|online/i.test(v.name)) ?? voices.find((v) => v.lang.startsWith('ja')) ?? null;
-  return cachedVoice;
-}
-if (ttsSupported) {
-  window.speechSynthesis.addEventListener?.('voiceschanged', () => {
-    cachedVoice = undefined;
-  });
+/**
+ * Japanese voices in the order to try them: the best online "natural" voice,
+ * then an installed (offline) voice, then the rest.
+ */
+function japaneseVoices(): SpeechSynthesisVoice[] {
+  if (!ttsSupported) return [];
+  const ja = window.speechSynthesis.getVoices().filter((v) => v.lang.replace('_', '-').startsWith('ja'));
+  const online = ja.filter((v) => /google|natural|online/i.test(v.name));
+  const local = ja.filter((v) => v.localService);
+  return [...new Set([online[0], local[0], ...ja].filter((v): v is SpeechSynthesisVoice => !!v))];
 }
 
+/** Browsers load (online) voices a moment after the page opens; wait up to `ms` for a Japanese one. */
+function voicesReady(ms = 2500): Promise<void> {
+  if (!ttsSupported || japaneseVoices().length) return Promise.resolve();
+  return new Promise((resolve) => {
+    const synth = window.speechSynthesis;
+    const done = () => {
+      synth.removeEventListener?.('voiceschanged', check);
+      clearTimeout(timer);
+      resolve();
+    };
+    const check = () => japaneseVoices().length && done();
+    synth.addEventListener?.('voiceschanged', check);
+    const timer = setTimeout(done, ms);
+  });
+}
+if (ttsSupported) window.speechSynthesis.getVoices(); // starts loading the voice list
+
 export function hasJapaneseVoice(): boolean {
-  return !!japaneseVoice();
+  return japaneseVoices().length > 0;
+}
+
+// Speech that fails (no Japanese voice, offline online-voice) is reported here so
+// the app can explain it instead of staying silent.
+type FailureListener = (reason: 'no-voice' | 'failed') => void;
+const failureListeners = new Set<FailureListener>();
+export function onSpeechFailure(fn: FailureListener) {
+  failureListeners.add(fn);
+  return () => {
+    failureListeners.delete(fn);
+  };
 }
 
 let currentAudio: HTMLAudioElement | null = null;
 let generation = 0;
+let lastCancel = 0;
 
 export function stopAudio() {
   generation++;
-  if (ttsSupported) window.speechSynthesis.cancel();
+  if (ttsSupported) {
+    const synth = window.speechSynthesis;
+    if (synth.speaking || synth.pending) {
+      synth.cancel();
+      lastCancel = performance.now();
+    }
+  }
   if (currentAudio) {
     currentAudio.pause();
     currentAudio = null;
   }
 }
 
-function speakOnce(text: string, rate: number, pitch: number, gen: number): Promise<void> {
+const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+
+/** One attempt with one voice: true when the browser actually started speaking. */
+function trySpeak(text: string, rate: number, pitch: number, voice: SpeechSynthesisVoice | null, gen: number): Promise<boolean> {
   return new Promise((resolve) => {
-    if (!ttsSupported || gen !== generation) return resolve();
+    const synth = window.speechSynthesis;
     const u = new SpeechSynthesisUtterance(text);
     u.lang = 'ja-JP';
-    const voice = japaneseVoice();
     if (voice) u.voice = voice;
     u.rate = rate;
     u.pitch = pitch;
-    u.onend = () => resolve();
-    u.onerror = () => resolve();
-    window.speechSynthesis.speak(u);
+    let started = false;
+    let settled = false;
+    const finish = (ok: boolean) => {
+      if (settled) return;
+      settled = true;
+      clearTimeout(watchdog);
+      resolve(ok);
+    };
+    u.onstart = () => {
+      started = true;
+    };
+    u.onend = () => finish(started || gen !== generation);
+    u.onerror = (e) => finish(e.error === 'interrupted' || e.error === 'canceled');
+    // Online voices need a moment (often 1–3 s); if nothing starts within 6 s the voice is not working.
+    const watchdog = setTimeout(() => {
+      if (started) return;
+      synth.cancel();
+      lastCancel = performance.now();
+      finish(false);
+    }, 6000);
+    synth.resume(); // Chrome can be left in a paused state
+    synth.speak(u);
   });
+}
+
+async function speakOnce(text: string, rate: number, pitch: number, gen: number): Promise<void> {
+  if (!ttsSupported || gen !== generation) return;
+  await voicesReady();
+  // Chrome drops an utterance queued right after cancel(); give it a short pause.
+  const sinceCancel = performance.now() - lastCancel;
+  if (sinceCancel < 150) await sleep(150 - sinceCancel);
+  if (gen !== generation) return;
+  const voices = japaneseVoices();
+  if (!voices.length) {
+    failureListeners.forEach((fn) => fn('no-voice'));
+    return;
+  }
+  // Try the best voice, then one other Japanese voice.
+  for (const voice of voices.slice(0, 2)) {
+    if (gen !== generation) return;
+    if (await trySpeak(text, rate, pitch, voice, gen)) return;
+    await sleep(150);
+  }
+  if (gen === generation) failureListeners.forEach((fn) => fn('failed'));
 }
 
 export interface ScriptPart {
