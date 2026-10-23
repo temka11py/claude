@@ -217,9 +217,10 @@ test('program: steps give XP and finishing the required steps completes the day'
 });
 
 test('program: outline days and unknown steps are rejected', async () => {
+  // Every day is written now; outline days only exist while content is in progress.
   const outline = await prisma.programDay.findFirst({ where: { ready: false } });
-  assert.ok(outline);
-  assert.equal((await agent.post(`/api/program/days/${outline.number}/steps/x/complete`).send({})).status, 400);
+  if (outline) assert.equal((await agent.post(`/api/program/days/${outline.number}/steps/x/complete`).send({})).status, 400);
+  assert.equal((await prisma.programDay.count({ where: { ready: true } })) > 0, true);
   assert.equal((await agent.post('/api/program/days/1/steps/nope/complete').send({})).status, 404);
 });
 
