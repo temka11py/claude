@@ -1,0 +1,904 @@
+{
+  "id": "b1-08",
+  "level": "B1",
+  "order": 8,
+  "title": "Technology & the Internet",
+  "topic": "Technology",
+  "description": "Talk about the devices and apps you use, deal with everyday tech problems, stay safe online, and say what you can, could and might be able to do with technology.",
+  "descriptionMn": "Хэрэглэдэг төхөөрөмж, аппликейшнийхаа тухай ярих, өдөр тутмын технологийн асуудлыг шийдэх, интернэтэд аюулгүй байх, технологиор юу хийж чадах, чаддаг байсан, магадгүй хийж чадах тухайгаа ярих.",
+  "objectives": [
+    { "text": "Talk about ability now, in the past and in the future with can, could and be able to", "skills": ["grammar", "speaking"] },
+    { "text": "Talk about possibility with may, might and could (It might be the Wi-Fi.)", "skills": ["grammar"] },
+    { "text": "Use verb patterns correctly: enjoy using, decide to buy, avoid clicking", "skills": ["grammar", "writing"] },
+    { "text": "Use natural words and collocations for devices, the internet and online safety (install an app, a weak signal, a suspicious link)", "skills": ["vocabulary"] },
+    { "text": "Understand an article about older people learning technology and a conversation about a hacked account, and stress can and can't clearly", "skills": ["reading", "listening", "pronunciation"] },
+    { "text": "Write a forum post about how you use technology in your daily life", "skills": ["writing"] }
+  ],
+  "targets": {
+    "grammar": ["Ability: can, could, be able to", "Possibility: may, might, could", "Verb + -ing / to-infinitive"],
+    "vocabulary": ["devices", "the internet", "online safety", "technology in daily life"],
+    "reading": "A magazine article about older people learning to use smartphones",
+    "listening": "Two friends talk about a hacked social media account",
+    "speaking": "Compare life before and after the internet; give a short talk with tips for staying safe online",
+    "writing": "A forum post about technology in your daily life",
+    "pronunciation": "Can and can't: sentence stress and the weak form /kən/"
+  },
+  "grammar": [
+    {
+      "id": "modals-ability-possibility",
+      "title": "Ability and possibility: can, could, be able to, may, might",
+      "level": "B1",
+      "summary": "Use can and could for ability now and in the past. Use be able to where can is not possible (after will, have, etc.) and for one specific success in the past. Use may, might or could when something is possible but not certain.",
+      "summaryMn": "Can, could-ийг одоо болон өнгөрсөн үеийн чадварт хэрэглэнэ. Can хэрэглэх боломжгүй үед (will, have гэх мэтийн дараа) болон өнгөрсөнд нэг удаа амжилттай хийж чадсан үйлд be able to хэрэглэнэ. Ямар нэг зүйл боломжтой ч баттай биш бол may, might, could хэрэглэнэ.",
+      "structure": [
+        "Present ability: can / can't + base verb · I can type fast. · Can you hear me? · She can't open the file.",
+        "Past ability (general): could / couldn't + base verb · I couldn't use a computer when I was ten.",
+        "be able to + base verb: am/is/are able to · was/were able to · will be able to · have been able to",
+        "Possibility (not certain): may / might / could + base verb · It might be the Wi-Fi. · The website may be down.",
+        "Negative possibility: may not / might not + base verb · The link might not work on your phone."
+      ],
+      "usage": [
+        { "use": "Ability now", "example": "My grandmother can send photos on her phone now.", "useMn": "Одоогийн чадвар" },
+        { "use": "General ability in the past", "example": "When I was a teenager, I could fix almost any old radio.", "useMn": "Өнгөрсөн үеийн ерөнхий чадвар" },
+        { "use": "One specific success in the past (not could)", "example": "The Wi-Fi was terrible, but I was able to send the email in the end.", "useMn": "Өнгөрсөнд тодорхой нэг удаа хийж чадсан үйл (could биш)" },
+        { "use": "Ability in the future and in other tenses", "example": "Soon you'll be able to pay for the bus with your phone.", "useMn": "Ирээдүйн болон бусад цаг дахь чадвар" },
+        { "use": "Possibility now or in the future", "example": "I'm not sure where my phone is. It may be in the car.", "useMn": "Одоо эсвэл ирээдүйд байж, болж магадгүй зүйл" }
+      ],
+      "examples": [
+        { "en": "I can use a computer, but I can't write code.", "note": "Present ability: can + base verb, with no 'to'." },
+        { "en": "Ten years ago, I couldn't buy anything online. Now I can buy almost everything.", "note": "Past ability (couldn't) vs present ability (can)." },
+        { "en": "My laptop crashed, but I was able to save my work.", "note": "One specific success in the past → was able to, not could." },
+        { "en": "I haven't been able to connect to the Wi-Fi all morning.", "note": "Can has no present perfect form → have been able to." },
+        { "en": "The shop might be closed today. Let's check online first.", "note": "Might = perhaps; the speaker is not sure." }
+      ],
+      "contrast": {
+        "with": "could vs was able to · can vs might",
+        "pairs": [
+          { "a": "I could swim when I was six.", "b": "The water was cold, but I was able to swim to the island.", "why": "The first is a general ability in the past. The second is one specific success on one occasion, so use was able to (or managed to), not could.", "whyMn": "Эхнийх нь өнгөрсөн үеийн ерөнхий чадвар. Хоёр дахь нь тодорхой нэг удаагийн амжилт тул could биш was able to (эсвэл managed to) хэрэглэнэ." },
+          { "a": "You can download the app for free.", "b": "The app might be free — let's check.", "why": "Can = we know this is possible. Might = we think it is possible, but we are not sure.", "whyMn": "Can — боломжтой гэдгийг мэдэж байна. Might — боломжтой гэж бодож байгаа ч итгэлтэй биш." },
+          { "a": "I couldn't open the file yesterday.", "b": "I wasn't able to open the file yesterday.", "why": "In the negative, couldn't and wasn't able to are both correct, even for one specific situation.", "whyMn": "Үгүйсгэл хэлбэрт нэг тодорхой тохиолдлын хувьд ч couldn't болон wasn't able to хоёулаа зөв." }
+        ]
+      },
+      "mistakes": [
+        { "wrong": "I will can help you tomorrow.", "right": "I'll be able to help you tomorrow.", "why": "Two modal verbs can't go together. After will, use be able to.", "whyMn": "Хоёр модаль үйл үг зэрэг орохгүй. will-ийн дараа be able to хэрэглэнэ." },
+        { "wrong": "She can to speak three languages.", "right": "She can speak three languages.", "why": "After can, could, may and might, use the base verb without to.", "whyMn": "can, could, may, might-ийн дараа to-гүй үндсэн хэлбэрийн үйл үг орно." },
+        { "wrong": "The internet was slow, but I could send the file in the end.", "right": "The internet was slow, but I was able to send the file in the end.", "why": "For one specific success in the past, use was able to or managed to, not could.", "whyMn": "Өнгөрсөнд нэг удаа амжилттай хийсэн үйлд could биш was able to эсвэл managed to хэрэглэнэ." },
+        { "wrong": "Do you can see my screen?", "right": "Can you see my screen?", "why": "To make a question, put can before the subject. Don't use do.", "whyMn": "Асуулт үүсгэхдээ can-ийг эзэн биеийн өмнө тавина. do хэрэглэхгүй." },
+        { "wrong": "It mights be the charger.", "right": "It might be the charger.", "why": "Modal verbs never take -s, even with he, she or it.", "whyMn": "Модаль үйл үг he, she, it-тэй ч -s авдаггүй." }
+      ],
+      "guided": [
+        { "type": "mcq", "prompt": "When I was a teenager, I ___ go online at home because we didn't have the internet.", "options": ["can't", "couldn't", "wasn't able"], "answer": 1, "explanation": "General past ability, negative → couldn't. 'Wasn't able' needs 'to'." },
+        { "type": "mcq", "prompt": "The file was huge, but in the end I ___ send it by email.", "options": ["could", "can", "was able to"], "answer": 2, "explanation": "One specific success in the past → was able to." },
+        { "type": "mcq", "prompt": "Next year, students ___ use the new computer room.", "options": ["will be able to", "will can", "can will"], "answer": 0, "explanation": "Future ability → will be able to. Two modals can't go together." },
+        { "type": "mcq", "prompt": "I don't know why the printer isn't working. It ___ be out of paper.", "options": ["can", "must to", "might"], "answer": 2, "explanation": "A possibility you are not sure about → might." },
+        { "type": "gap", "prompt": "___ you hear me now? I've turned on my microphone.", "answers": ["Can"], "options": ["Are", "Can", "Might"], "explanation": "Asking about ability now → Can you…?" },
+        { "type": "mcq", "prompt": "Which sentence means 'Perhaps the website isn't working'?", "options": ["The website must be down.", "The website might be down.", "The website can't be down."], "answer": 1, "explanation": "Might = perhaps. The speaker is not sure." }
+      ],
+      "free": [
+        { "type": "gap", "prompt": "I've forgotten my password, so I ___ (not / be able to) log in since Monday.", "answers": ["haven't been able to", "have not been able to"], "explanation": "'Since Monday' needs the present perfect: haven't been able to." },
+        { "type": "gap", "prompt": "In a few years, we ___ (be able to) talk to our computers like people.", "answers": ["will be able to", "'ll be able to", "are going to be able to"], "explanation": "Future ability → will be able to." },
+        { "type": "correct", "prompt": "Correct the sentence.", "sentence": "My brother can to fix computers.", "answers": ["My brother can fix computers."], "explanation": "No 'to' after can." },
+        { "type": "transform", "prompt": "Rewrite the sentence with the word given.", "sentence": "Perhaps the battery is dead.", "keyword": "might", "answers": ["The battery might be dead.", "It might be that the battery is dead."], "explanation": "Perhaps + present → might + base verb." },
+        { "type": "transform", "prompt": "Rewrite the sentence with the word given.", "sentence": "I managed to download the app in the end.", "keyword": "able", "answers": ["I was able to download the app in the end.", "In the end I was able to download the app.", "In the end, I was able to download the app."], "explanation": "Managed to = was able to (one specific success)." }
+      ],
+      "prerequisites": []
+    },
+    {
+      "id": "verb-ing-infinitive",
+      "title": "Verb + -ing or verb + to-infinitive",
+      "level": "B1",
+      "summary": "When one verb follows another, the second verb is either -ing (enjoy using) or to + infinitive (decide to buy). It depends on the first verb, so learn the verbs in groups. A few verbs, like stop, remember and try, change their meaning.",
+      "summaryMn": "Нэг үйл үгийн дараа өөр үйл үг орохдоо -ing хэлбэртэй (enjoy using) эсвэл to + үндсэн хэлбэртэй (decide to buy) байна. Энэ нь эхний үйл үгээс хамаардаг тул бүлгээр нь цээжлээрэй. stop, remember, try зэрэг цөөн үйл үгийн утга өөрчлөгддөг.",
+      "structure": [
+        "Verb + -ing: enjoy, avoid, mind, finish, keep, suggest, can't stand, spend (time), give up · I enjoy playing online games.",
+        "Verb + to-infinitive: want, decide, hope, plan, need, manage, learn, offer, agree, refuse, afford · I decided to buy a new laptop.",
+        "Both, same meaning: like, love, hate, prefer, start, begin · I started using / to use a new app.",
+        "Preposition + -ing: interested in, good at, instead of, before, after · Before clicking on a link, check who sent it.",
+        "Different meaning: stop, remember, forget, try + -ing or + to"
+      ],
+      "usage": [
+        { "use": "Likes, dislikes and habits: enjoy, can't stand, mind + -ing", "example": "I can't stand waiting for a slow website to load.", "useMn": "Дуртай, дургүй зүйл, зуршил" },
+        { "use": "Plans, decisions and wishes: want, plan, decide, hope + to", "example": "We're planning to get faster internet at home.", "useMn": "Төлөвлөгөө, шийдвэр, хүсэл" },
+        { "use": "Success and failure: manage + to, fail + to", "example": "I finally managed to connect the printer.", "useMn": "Амжилт, бүтэлгүйтэл" },
+        { "use": "After a preposition, always -ing", "example": "She's good at finding cheap flights online.", "useMn": "Угтвар үгийн дараа үргэлж -ing" },
+        { "use": "stop + -ing = not do something any more", "example": "I've stopped using that app — it was too slow.", "useMn": "stop + -ing = больсон, дахиж хийхгүй" }
+      ],
+      "examples": [
+        { "en": "I enjoy watching videos, but I avoid reading the comments.", "note": "enjoy and avoid + -ing." },
+        { "en": "My dad has decided to learn how to use a tablet.", "note": "decide + to-infinitive." },
+        { "en": "Remember to back up your photos. — I remember backing them up last week.", "note": "remember + to = don't forget; remember + -ing = a memory of the past." },
+        { "en": "Would you mind turning off your phone during the film?", "note": "mind + -ing — a polite request." }
+      ],
+      "contrast": {
+        "with": "Verbs that change meaning: stop, remember, try",
+        "pairs": [
+          { "a": "I stopped checking my email at weekends.", "b": "I stopped to check my email.", "why": "stop + -ing = I don't do it any more. stop + to = I stopped one activity in order to do something else.", "whyMn": "stop + -ing — тэр үйлээ больсон. stop + to — өөр зүйл хийхийн тулд зогссон." },
+          { "a": "Remember to charge your phone tonight.", "b": "I remember charging my phone, but now the battery is empty.", "why": "remember + to = don't forget to do it (future). remember + -ing = I have a memory of doing it (past).", "whyMn": "remember + to — мартаж болохгүй, хийх ёстой. remember + -ing — хийснээ санаж байна." },
+          { "a": "Try restarting your laptop.", "b": "I tried to open the file, but I couldn't.", "why": "try + -ing = do it as an experiment to see if it helps. try + to = make an effort to do something difficult.", "whyMn": "try + -ing — тус болох эсэхийг туршиж үзэх. try + to — хэцүү зүйлийг хийхийг хичээх." }
+        ]
+      },
+      "mistakes": [
+        { "wrong": "I enjoy to play games online.", "right": "I enjoy playing games online.", "why": "Enjoy is always followed by -ing.", "whyMn": "enjoy-ийн дараа үргэлж -ing хэлбэр орно." },
+        { "wrong": "She decided buying a new phone.", "right": "She decided to buy a new phone.", "why": "Decide is followed by to + infinitive.", "whyMn": "decide-ийн дараа to + үйл үг орно." },
+        { "wrong": "He suggested to reset the password.", "right": "He suggested resetting the password.", "why": "Suggest is followed by -ing (or 'suggest that…'), not to + infinitive.", "whyMn": "suggest-ийн дараа -ing (эсвэл suggest that…) орно, to + үйл үг орохгүй." },
+        { "wrong": "Before to click the link, check the address.", "right": "Before clicking the link, check the address.", "why": "After a preposition (before, after, without, instead of), use -ing.", "whyMn": "Угтвар үгийн (before, after, without, instead of) дараа -ing хэлбэр хэрэглэнэ." }
+      ],
+      "guided": [
+        { "type": "mcq", "prompt": "Would you mind ___ me with this app?", "options": ["to help", "helping", "help"], "answer": 1, "explanation": "mind + -ing." },
+        { "type": "mcq", "prompt": "We can't afford ___ a new computer this year.", "options": ["buying", "buy", "to buy"], "answer": 2, "explanation": "afford + to-infinitive." },
+        { "type": "mcq", "prompt": "I avoid ___ my phone in bed — it keeps me awake.", "options": ["using", "to use", "use"], "answer": 0, "explanation": "avoid + -ing." },
+        { "type": "gap", "prompt": "She finally managed ___ the old photos from her laptop.", "answers": ["to download"], "options": ["downloading", "download", "to download"], "explanation": "manage + to-infinitive." },
+        { "type": "mcq", "prompt": "Which sentence means 'I don't use Facebook any more'?", "options": ["I stopped to use Facebook.", "I stop use Facebook.", "I stopped using Facebook."], "answer": 2, "explanation": "stop + -ing = not do something any more." }
+      ],
+      "free": [
+        { "type": "gap", "prompt": "I'm thinking of ___ (buy) a new laptop.", "answers": ["buying"], "explanation": "After a preposition (of) → -ing." },
+        { "type": "gap", "prompt": "Don't forget ___ (turn off) the computer before you leave.", "answers": ["to turn off"], "explanation": "forget + to = not remember to do something." },
+        { "type": "correct", "prompt": "Correct the sentence.", "sentence": "He refused giving me his password.", "answers": ["He refused to give me his password."], "explanation": "refuse + to-infinitive." },
+        { "type": "transform", "prompt": "Rewrite the sentence with the word given.", "sentence": "My laptop crashes again and again.", "keyword": "keeps", "answers": ["My laptop keeps crashing.", "My laptop keeps on crashing."], "explanation": "keep + -ing = do something again and again." }
+      ],
+      "prerequisites": []
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "can-cant-stress",
+      "title": "Can and can't: sentence stress",
+      "category": "sentence_stress",
+      "explanation": "In positive sentences, can is usually NOT stressed. It becomes a short, weak /kən/, and the main verb is stressed: I can SWIM. In negative sentences, can't IS stressed and has a long, strong vowel: I CAN'T swim. At the end of a short answer, can is strong: Yes, I CAN /kæn/. The t in can't is often very soft, so listen for the stress, not for the t.",
+      "explanationMn": "Батлах өгүүлбэрт can ихэвчлэн өргөлтгүй, богино сул /kən/ болж, гол үйл үг өргөлт авна: I can SWIM. Үгүйсгэх өгүүлбэрт can't өргөлттэй, эгшиг нь урт хүчтэй: I CAN'T swim. Богино хариултын төгсгөлд can хүчтэй дуудагдана: Yes, I CAN /kæn/. can't-ийн t авиа бараг сонсогддоггүй тул t-г биш, өргөлтийг нь сонсоорой.",
+      "items": [
+        { "display": "I can SWIM. — can = /kən/ (weak)", "say": "I can swim.", "tip": "Say can very quickly, almost 'kn'. Put the energy on swim." },
+        { "display": "I CAN'T swim. — can't = /kɑːnt/ (strong)", "say": "I can't swim.", "tip": "Make the vowel long and strong. American English: /kænt/." },
+        { "display": "Yes, I CAN. — can = /kæn/ (strong at the end)", "say": "Yes, I can.", "tip": "In short answers, can is never weak." },
+        { "display": "Can you HEAR me? — /kən/ at the start of a question", "say": "Can you hear me?", "tip": "In quick questions, can is weak too." },
+        { "display": "I COULDn't conNECT. — couldn't is stressed", "say": "I couldn't connect.", "tip": "Negatives are stressed: COULD-nt. The l is silent." },
+        { "display": "I'll be ABle to HELP. — be and to are weak", "say": "I'll be able to help.", "tip": "Stress AB-le and the main verb; 'to' is a quick /tə/." }
+      ],
+      "shadowing": [
+        { "text": "I can download the app, but I can't install it.", "stress": "I can DOWNload the APP, but I CAN'T inSTALL it.", "tip": "Weak can /kən/ in the first half, strong CAN'T /kɑːnt/ in the second.", "difficult": ["can", "can't", "install"] },
+        { "text": "Can you hear me now? Yes, I can, but I can't see you.", "stress": "Can you HEAR me NOW? YES, I CAN, but I CAN'T SEE you.", "tip": "The first can is weak; the short answer 'I CAN' is strong.", "difficult": ["Can you", "I can"] },
+        { "text": "I couldn't log in yesterday, but today I was able to reset my password.", "stress": "I COULDn't log IN YESterday, but toDAY I was ABle to reSET my PASSword.", "tip": "Stress the negative COULDn't and AB in 'able'.", "difficult": ["couldn't", "was able to"] }
+      ],
+      "spokenForms": [
+        { "written": "can", "spoken": "/kən/ ('kn')", "note": "Weak form in the middle of positive sentences and questions." },
+        { "written": "can't", "spoken": "/kɑːnt/ (UK), /kænt/ (US)", "note": "Always stressed; the final t is often very soft." },
+        { "written": "couldn't", "spoken": "/ˈkʊdnt/", "note": "Two syllables: COULD-nt. The l is silent." }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "b1-08-l1",
+      "title": "Never too old to go online",
+      "focus": "vocabulary",
+      "difficulty": 3,
+      "minutes": 25,
+      "objectives": [
+        "Use 11 words and collocations for devices and how we use them",
+        "Understand the main idea and details of a magazine article about older people and technology",
+        "Talk about the devices you use every day"
+      ],
+      "warmup": {
+        "intro": "Think about the devices you use every day. Which one could you not live without?",
+        "questions": [
+          { "type": "mcq", "prompt": "What do you use to put power back into your phone?", "options": ["a keyboard", "a speaker", "a charger", "a screen"], "answer": 2, "skill": "vocabulary" },
+          { "type": "mcq", "prompt": "The article in this lesson is called 'Never Too Old to Go Online'. What do you think it is about?", "options": ["A computer course for teenagers", "Older people learning to use the internet", "A new phone for children", "The history of the internet"], "answer": 1, "explanation": "'Never too old' suggests older people learning something new.", "skill": "reading", "tag": "prediction" }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "device", "pos": "noun", "ipa": "/dɪˈvaɪs/",
+          "definition": "a machine or tool made for a particular job, such as a phone, tablet or laptop",
+          "mn": "төхөөрөмж",
+          "examples": ["You can watch the series on any device: your phone, tablet or TV.", "How many devices do you use in a normal day?"],
+          "collocations": ["an electronic device", "a mobile device", "a smart device", "on any device"],
+          "synonyms": ["gadget", "machine"], "antonyms": [],
+          "mistake": "Don't translate 'аппарат' as 'apparatus' when you talk about phones and tablets — in English they are 'devices'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "gadget", "pos": "noun", "ipa": "/ˈɡædʒɪt/",
+          "definition": "a small, clever machine or tool, often a new electronic one",
+          "mn": "гаджет, орчин үеийн ухаалаг жижиг төхөөрөмж",
+          "examples": ["My brother loves gadgets — he buys every new smartwatch.", "This little gadget turns any TV into a smart TV."],
+          "collocations": ["the latest gadget", "a kitchen gadget", "a useful gadget"],
+          "synonyms": ["device"], "antonyms": [],
+          "note": "'Gadget' is a little informal and often suggests something new, fun or clever. 'Device' is more neutral.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "charger", "pos": "noun", "ipa": "/ˈtʃɑːdʒə(r)/",
+          "definition": "the thing you use to put electricity into the battery of a phone or laptop",
+          "mn": "цэнэглэгч",
+          "examples": ["Can I borrow your charger? My phone is almost dead.", "I always forget my laptop charger when I travel."],
+          "collocations": ["a phone charger", "a laptop charger", "a wireless charger", "plug in the charger"],
+          "synonyms": [], "antonyms": [],
+          "mistake": "'Charger' is the thing; the verb is 'charge'. Say 'I need to charge my phone', not 'I need to charger my phone'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "battery", "pos": "noun", "ipa": "/ˈbætri/",
+          "definition": "the part of a phone, laptop or car that stores electricity",
+          "mn": "батарей, зай",
+          "examples": ["My phone battery only lasts half a day now.", "Can I charge my laptop here? The battery is nearly flat."],
+          "collocations": ["battery life", "the battery is dead / flat", "run out of battery", "a low battery"],
+          "synonyms": [], "antonyms": [],
+          "mistake": "Don't say 'My charge is finished' (цэнэг дууссан). Say 'My battery is dead' or 'My phone has run out of battery'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "install", "pos": "verb", "ipa": "/ɪnˈstɔːl/",
+          "definition": "to put a new program or app on a computer or phone so that it is ready to use",
+          "mn": "(програм, апп) суулгах",
+          "examples": ["You need to install the app before you can pay by phone.", "It took twenty minutes to install the new software."],
+          "collocations": ["install an app", "install software", "install updates"],
+          "synonyms": [], "antonyms": ["uninstall", "delete"],
+          "note": "Also used for machines in a building: 'They installed air conditioning in the office.'",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "download", "pos": "verb / noun", "ipa": "/ˌdaʊnˈləʊd/",
+          "definition": "to copy a file, app or song from the internet onto your phone or computer",
+          "mn": "(интернэтээс) татаж авах",
+          "examples": ["I downloaded the map so that I can use it without the internet.", "The app is free to download."],
+          "collocations": ["download an app", "download a file", "free to download", "a free download"],
+          "synonyms": [], "antonyms": ["upload"],
+          "mistake": "Say 'download it from the internet' — with 'the'. Not 'download from internet'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "user-friendly", "pos": "adjective", "ipa": "/ˌjuːzə ˈfrendli/",
+          "definition": "easy for people to use or understand",
+          "mn": "хэрэглэхэд хялбар, ойлгомжтой",
+          "examples": ["The new banking app is very user-friendly, even for my parents.", "The website isn't very user-friendly — I can never find anything."],
+          "collocations": ["very user-friendly", "a user-friendly app", "a user-friendly design"],
+          "synonyms": ["easy to use", "simple"], "antonyms": ["complicated", "confusing"],
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "tech-savvy", "pos": "adjective", "ipa": "/ˌtek ˈsævi/",
+          "definition": "knowing a lot about modern technology and good at using it",
+          "mn": "технологид гаршсан, техник сайн мэддэг",
+          "examples": ["My twelve-year-old nephew is more tech-savvy than me.", "You don't have to be tech-savvy to use this phone."],
+          "collocations": ["very tech-savvy", "tech-savvy young people", "not very tech-savvy"],
+          "synonyms": ["good with technology"], "antonyms": [],
+          "note": "Informal. In a CV, write 'good IT skills' or 'confident with technology' instead.",
+          "level": "B2", "difficulty": 4
+        },
+        {
+          "word": "set up", "pos": "phrasal verb", "ipa": "/ˌset ˈʌp/",
+          "definition": "to prepare a device or program so that it is ready to use",
+          "mn": "(төхөөрөмж, програм) тохируулах, суурилуулах",
+          "examples": ["Can you help me set up my new phone?", "It only took ten minutes to set up the printer."],
+          "collocations": ["set up a new phone", "set up an account", "set up the Wi-Fi"],
+          "synonyms": [], "antonyms": [],
+          "note": "Irregular: set – set – set. The noun is one word: 'The setup is easy.'",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "crash", "pos": "verb", "ipa": "/kræʃ/",
+          "definition": "(of a computer or program) to suddenly stop working",
+          "mn": "(компьютер, програм) гацах, гэнэт унтрах",
+          "examples": ["My laptop crashed and I lost two hours of work.", "The app keeps crashing when I try to open it."],
+          "collocations": ["the computer crashed", "keep crashing", "the website crashed"],
+          "synonyms": ["stop working", "freeze"], "antonyms": [],
+          "note": "'Freeze' is similar: the screen stops moving, but the computer is still on. 'Crash' is also used for cars: 'The car crashed into a tree.'",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "settings", "pos": "noun (plural)", "ipa": "/ˈsetɪŋz/",
+          "definition": "the options on a phone or computer that you can change to control how it works",
+          "mn": "тохиргоо",
+          "examples": ["Go to settings and turn on dark mode.", "You can make the text bigger in the settings."],
+          "collocations": ["change the settings", "go to settings", "sound settings", "default settings"],
+          "synonyms": ["options"], "antonyms": [],
+          "mistake": "Usually plural: 'Check your settings', not 'Check your setting'.",
+          "level": "B1", "difficulty": 2
+        }
+      ],
+      "reading": {
+        "id": "r-never-too-old",
+        "title": "Never Too Old to Go Online",
+        "genre": "article",
+        "text": [
+          "Every Tuesday morning, a small classroom in a community centre in Ulaanbaatar fills with students. They are not teenagers — the youngest is sixty-three and the oldest is eighty-one. They come to learn how to use the devices that younger people take for granted.",
+          "Dolgor, a retired teacher, joined the course last autumn. 'My son gave me a smartphone for my seventieth birthday, but for months I only used it to make calls,' she says. 'I was afraid to press the wrong button. I thought I might break it!' Now she sends photos to her friends, reads the news and talks to her grandson in Seoul on video every Sunday.",
+          "The teacher, Bat-Erdene, is twenty-six and very tech-savvy, but he explains everything slowly and never uses difficult words. In the first lessons, students learn simple things, like how to use a charger and how to make the battery last longer. Later, they learn to download and install useful apps, such as maps and online banking, and to change the settings so that the text on the screen is bigger. 'Many gadgets are not very user-friendly for older people,' he says. 'The buttons are tiny and the menus are confusing. That's not the students' fault.'",
+          "Of course, things don't always go well. Last month, Bat-Erdene's laptop crashed in the middle of a lesson, and his students helped him to set it up again. 'They were so proud of themselves,' he laughs.",
+          "Safety is an important part of the course, too. Bat-Erdene tells his students never to give their bank details to anyone on the phone and to ask a family member if a message looks strange. For Dolgor, the biggest change is her confidence. 'Before, I always asked my grandchildren for help,' she says. 'Now they sometimes ask me!'"
+        ],
+        "glossary": [
+          { "term": "take something for granted", "meaning": "to expect something to always be there and not think about how special it is", "mn": "байх л ёстой зүйл гэж тоомсорлохгүй хандах" },
+          { "term": "tiny", "meaning": "very small", "mn": "маш жижиг" },
+          { "term": "confidence", "meaning": "the feeling that you can do something well", "mn": "өөртөө итгэх итгэл" }
+        ],
+        "questions": [
+          { "type": "mcq", "tag": "main_idea", "prompt": "What is the article mainly about?", "options": ["Why young people are better at technology than older people", "A course that helps older people use modern technology", "How to choose a smartphone for your parents", "A young teacher who repairs laptops"], "answer": 1, "explanation": "The article describes a course for people over sixty who are learning to use devices." },
+          { "type": "tfng", "tag": "detail", "prompt": "Everyone on the course is over sixty.", "answer": "true", "explanation": "Paragraph 1: the youngest student is sixty-three." },
+          { "type": "tfng", "tag": "detail", "prompt": "Dolgor started using lots of apps as soon as she got her smartphone.", "answer": "false", "explanation": "Paragraph 2: 'for months I only used it to make calls'." },
+          { "type": "tfng", "tag": "detail", "prompt": "Dolgor's grandson is studying at a university in Seoul.", "answer": "not_given", "explanation": "We know he lives in Seoul, but not what he does there." },
+          { "type": "mcq", "tag": "vocab_context", "prompt": "In paragraph 3, 'user-friendly' means…", "options": ["cheap to buy", "made for young people", "easy to use", "connected to the internet"], "answer": 2 },
+          { "type": "mcq", "tag": "attitude", "prompt": "What does Bat-Erdene think about older people's problems with gadgets?", "options": ["The gadgets are not designed well for them.", "The students should try harder.", "Older people shouldn't use smartphones.", "The problems are his own fault."], "answer": 0, "explanation": "'The buttons are tiny and the menus are confusing. That's not the students' fault.'" },
+          { "type": "mcq", "tag": "inference", "prompt": "Why were the students 'so proud of themselves'?", "options": ["They finished the course.", "They bought new laptops.", "They passed a difficult test.", "They helped their teacher solve a problem."], "answer": 3, "explanation": "Paragraph 4: they helped him set up his laptop again after it crashed." },
+          { "type": "short", "tag": "detail", "prompt": "Who does Bat-Erdene tell students to ask if a message looks strange?", "answers": ["a family member", "family"], "explanation": "Paragraph 5: 'ask a family member if a message looks strange'." }
+        ]
+      },
+      "quiz": [
+        { "type": "gap", "skill": "vocabulary", "prompt": "Can I borrow your ___? My phone is almost dead.", "answers": ["charger"], "options": ["battery", "charger", "gadget", "device"] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "If a computer program crashes, it…", "options": ["gets faster", "suddenly stops working", "downloads a file", "changes its settings"], "answer": 1 },
+        { "type": "match", "skill": "vocabulary", "prompt": "Match the words with their meanings.", "pairs": [["gadget", "a small, clever machine"], ["charger", "you use it to put power into a battery"], ["settings", "options you can change on a phone"], ["tech-savvy", "good at using modern technology"]] },
+        { "type": "gap", "skill": "vocabulary", "prompt": "This app is really user-___ — my grandmother learned to use it in five minutes.", "answers": ["friendly"] },
+        { "type": "mcq", "skill": "vocabulary", "tag": "collocation", "prompt": "My battery is almost ___. Is there a socket anywhere?", "options": ["finished", "crashed", "dead", "broken"], "answer": 2, "explanation": "We say a battery is 'dead' or 'flat', not 'finished'." },
+        { "type": "gap", "skill": "vocabulary", "tag": "collocation", "prompt": "You need to ___ the app before you can use it.", "answers": ["install", "download"], "options": ["install", "crash", "charge", "set"] },
+        { "type": "mcq", "skill": "reading", "prompt": "In the article, why did Dolgor only use her phone to make calls at first?", "options": ["She was afraid of breaking it.", "It was too expensive to use.", "She didn't have the internet at home.", "Her son didn't let her."], "answer": 0 }
+      ]
+    },
+    {
+      "id": "b1-08-l2",
+      "title": "Life before Wi-Fi",
+      "focus": "grammar",
+      "difficulty": 3,
+      "minutes": 25,
+      "objectives": [
+        "Talk about ability in the present, past and future with can, could and be able to",
+        "Talk about possibility with may, might and could",
+        "Compare life before and after the internet"
+      ],
+      "warmup": {
+        "intro": "Quick grammar check — trust your first feeling.",
+        "questions": [
+          { "type": "mcq", "prompt": "Sorry, I ___ hear you. The signal is really bad.", "options": ["don't can", "can't", "not can"], "answer": 1, "skill": "grammar", "explanation": "The negative of can is can't (cannot). Don't use do." },
+          { "type": "mcq", "prompt": "I'm not sure where my phone is. It ___ be in my bag.", "options": ["might", "can", "is able to"], "answer": 0, "skill": "grammar", "explanation": "A possibility you are not sure about → might." }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "connection", "pos": "noun", "ipa": "/kəˈnekʃn/",
+          "definition": "the link between a device and the internet or a network",
+          "mn": "холболт",
+          "examples": ["The internet connection in this café is really slow.", "I lost the connection in the middle of the call."],
+          "collocations": ["an internet connection", "a slow / fast connection", "lose the connection", "a stable connection"],
+          "synonyms": [], "antonyms": [],
+          "mistake": "The verb needs 'to': 'connect to the internet', not 'connect the internet'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "signal", "pos": "noun", "ipa": "/ˈsɪɡnəl/",
+          "definition": "the waves that carry phone and internet information through the air",
+          "mn": "(утасны) сүлжээ, дохио",
+          "examples": ["I can't call you — there's no signal in the mountains.", "The signal is much better near the window."],
+          "collocations": ["no signal", "a weak / strong signal", "lose the signal", "get a signal"],
+          "synonyms": ["reception"], "antonyms": [],
+          "note": "Your phone screen may say 'No service', but in conversation 'I've got no signal' is the most natural.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "Wi-Fi", "pos": "noun", "ipa": "/ˈwaɪ faɪ/",
+          "definition": "a way of connecting to the internet without wires",
+          "mn": "утасгүй интернэт, вай фай",
+          "examples": ["What's the Wi-Fi password?", "The hotel has free Wi-Fi in every room."],
+          "collocations": ["free Wi-Fi", "the Wi-Fi password", "connect to the Wi-Fi", "the Wi-Fi is down"],
+          "synonyms": ["wireless internet"], "antonyms": [],
+          "mistake": "Pronounce it /ˈwaɪ faɪ/ ('why-fye'), not 'vee-fee'.",
+          "level": "B1", "difficulty": 1
+        },
+        {
+          "word": "data", "pos": "noun (uncountable)", "ipa": "/ˈdeɪtə/",
+          "definition": "the internet you use on your phone through the mobile network, not Wi-Fi",
+          "mn": "мобайл дата, интернэтийн багц",
+          "examples": ["I've used all my data, so I can't watch videos until next month.", "Turn off mobile data when you travel abroad — it can be very expensive."],
+          "collocations": ["mobile data", "run out of data", "a data plan", "use a lot of data"],
+          "synonyms": [], "antonyms": [],
+          "mistake": "'Data' is uncountable in everyday English: 'I don't have much data left', not 'many datas'.",
+          "note": "'Data' also means information in general: 'personal data'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "browse", "pos": "verb", "ipa": "/braʊz/",
+          "definition": "to look at different websites or pages without looking for anything special",
+          "mn": "(интернэтээр) гүйлгэж үзэх, сонирхон үзэх",
+          "examples": ["I spent an hour browsing online shops but didn't buy anything.", "You can browse the internet on this tablet, but you can't make calls."],
+          "collocations": ["browse the internet / web", "browse online shops", "browse through"],
+          "synonyms": ["look around"], "antonyms": [],
+          "note": "Also used in real shops: 'I'm just browsing, thanks' = I'm only looking.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "search engine", "pos": "noun", "ipa": "/ˈsɜːtʃ ˌendʒɪn/",
+          "definition": "a website that helps you find information on the internet, for example Google",
+          "mn": "хайлтын систем",
+          "examples": ["Most people use a search engine dozens of times a day.", "Type the name of the shop into a search engine."],
+          "collocations": ["use a search engine", "type something into a search engine", "search engine results"],
+          "synonyms": [], "antonyms": [],
+          "note": "Informally, people use 'google' as a verb: 'Just google it.'",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "stream", "pos": "verb", "ipa": "/striːm/",
+          "definition": "to watch or listen to something directly from the internet without saving it first",
+          "mn": "(кино, хөгжим) онлайнаар шууд үзэх, сонсох",
+          "examples": ["We usually stream films at home instead of going to the cinema.", "You need a fast connection to stream videos in HD."],
+          "collocations": ["stream films / music", "stream live", "a streaming service"],
+          "synonyms": [], "antonyms": [],
+          "note": "Compare: download = save a copy on your device; stream = watch or listen online without saving.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "upload", "pos": "verb", "ipa": "/ˌʌpˈləʊd/",
+          "definition": "to send a file, photo or video from your device to the internet",
+          "mn": "(интернэтэд) байршуулах, илгээх",
+          "examples": ["It took ages to upload the video.", "Could you upload the photos to our shared folder?"],
+          "collocations": ["upload a photo", "upload a video", "upload a file to a website"],
+          "synonyms": [], "antonyms": ["download"],
+          "mistake": "Don't mix it up with 'download': you upload TO the internet and download FROM the internet.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "log in", "pos": "phrasal verb", "ipa": "/ˌlɒɡ ˈɪn/",
+          "definition": "to type your name and password so that you can use a website, app or computer",
+          "mn": "(бүртгэлдээ) нэвтрэх",
+          "examples": ["I can't log in — I think I've forgotten my password.", "Log in to the website to check your order."],
+          "collocations": ["log in to your account", "log in with your email", "log in again"],
+          "synonyms": ["sign in"], "antonyms": ["log out"],
+          "mistake": "Say 'log in to the website', not 'log in the website'.",
+          "note": "Verb = two words (log in); noun = one word: 'your login details'.",
+          "level": "B1", "difficulty": 2
+        }
+      ],
+      "grammar": "modals-ability-possibility",
+      "speaking": {
+        "id": "s-before-internet",
+        "type": "compare",
+        "prompt": "Compare life before the internet with life today. What could and couldn't people do thirty years ago? What can we do now? What might we be able to do in the future?",
+        "promptMn": "Интернэтээс өмнөх амьдралыг өнөөгийн амьдралтай харьцуул. 30 жилийн өмнө хүмүүс юу хийж чаддаг, чаддаггүй байсан бэ? Одоо бид юу хийж чадах вэ? Ирээдүйд магадгүй юу хийж чаддаг болох вэ?",
+        "points": ["How people found information, watched films or talked to faraway friends in the past", "What you can do now with the internet", "One thing we might be able to do in the future", "Is life better or worse now? Why?"],
+        "phrases": ["Thirty years ago, people couldn't…", "They had to…", "Nowadays we can…", "In the future, we might be able to…", "I'm not sure, but…"],
+        "targetWords": ["connection", "search engine", "stream", "browse"],
+        "prepSeconds": 45,
+        "speakSeconds": 90,
+        "sample": "Thirty years ago, most people in Mongolia couldn't use the internet at all. If you wanted information, you had to go to a library or ask someone. You couldn't stream films — you just watched whatever was on TV. Nowadays we can find almost anything with a search engine in a few seconds, and we can browse online shops from our sofa. With a good connection, I can talk to my cousin in Korea every week. In the future, we might be able to translate any language instantly, so maybe I won't need English lessons! But I think we'll have to be careful, because people might forget how to live without screens."
+      },
+      "quiz": [
+        { "type": "mcq", "skill": "grammar", "prompt": "I ___ ride a bike when I was five.", "options": ["could", "can", "was able"], "answer": 0 },
+        { "type": "mcq", "skill": "grammar", "prompt": "The Wi-Fi on the train was terrible, but I ___ finish my presentation.", "options": ["could", "was able to", "can"], "answer": 1, "explanation": "One specific success in the past → was able to." },
+        { "type": "gap", "skill": "grammar", "prompt": "I'm sorry, but I ___ (not / be able to) come to the meeting tomorrow.", "answers": ["won't be able to", "will not be able to", "am not able to", "'m not able to"] },
+        { "type": "transform", "skill": "grammar", "prompt": "Rewrite the sentence with the word given.", "sentence": "It's possible that the website is down.", "keyword": "may", "answers": ["The website may be down.", "The website may be down at the moment."] },
+        { "type": "words", "skill": "grammar", "prompt": "Put the words in order.", "answer": "Will you be able to fix my laptop?" },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "You watch a film on the internet without saving it on your device. You ___ it.", "options": ["upload", "browse", "install", "stream"], "answer": 3 },
+        { "type": "gap", "skill": "vocabulary", "prompt": "The ___ is very weak in the mountains, so I can't make calls.", "answers": ["signal"], "options": ["search engine", "signal", "upload", "settings"] }
+      ]
+    },
+    {
+      "id": "b1-08-l3",
+      "title": "My account was hacked!",
+      "focus": "listening",
+      "difficulty": 4,
+      "minutes": 25,
+      "objectives": [
+        "Understand a conversation about a hacked social media account",
+        "Use words for online safety: password, scam, suspicious link",
+        "Stress can and can't clearly so that people hear the difference",
+        "Give a short talk with tips for staying safe online"
+      ],
+      "warmup": {
+        "intro": "Have you, or someone you know, ever received a strange message asking for money or a password?",
+        "questions": [
+          { "type": "mcq", "prompt": "A message says: 'You've won a free phone! Click here and enter your bank details.' This is probably…", "options": ["a gift", "a trick to steal your money", "a message from your bank", "a new app"], "answer": 1, "skill": "vocabulary" }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "account", "pos": "noun", "ipa": "/əˈkaʊnt/",
+          "definition": "your personal space on a website or app, which you open with a username and password",
+          "mn": "бүртгэл, аккаунт",
+          "examples": ["I've created an account so I can save my favourite recipes.", "Someone tried to get into my email account last night."],
+          "collocations": ["create an account", "delete your account", "an email account", "a bank account"],
+          "synonyms": ["profile"], "antonyms": [],
+          "mistake": "We 'create', 'open' or 'sign up for' an account — not 'make a registration'.",
+          "note": "It also means money kept in a bank: 'a bank account'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "password", "pos": "noun", "ipa": "/ˈpɑːswɜːd/",
+          "definition": "a secret word or group of letters and numbers that you type to open an account",
+          "mn": "нууц үг",
+          "examples": ["Use a different password for every account.", "I've forgotten my password again!"],
+          "collocations": ["a strong / weak password", "change your password", "reset your password", "enter your password"],
+          "synonyms": [], "antonyms": [],
+          "mistake": "We 'enter' or 'type in' a password on a website. 'Write' is for paper.",
+          "level": "B1", "difficulty": 1
+        },
+        {
+          "word": "hack", "pos": "verb", "ipa": "/hæk/",
+          "definition": "to get into someone's computer or account without permission",
+          "mn": "хакердах, зөвшөөрөлгүй нэвтрэх",
+          "examples": ["My sister's Instagram account was hacked last week.", "Criminals hacked the company's computers and stole customer data."],
+          "collocations": ["be hacked", "hack into an account", "hack a computer"],
+          "synonyms": ["break into"], "antonyms": [],
+          "mistake": "When it happens to you, use the passive: 'My account was hacked', not 'My account hacked'.",
+          "note": "The person who does it is a 'hacker'.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "scam", "pos": "noun", "ipa": "/skæm/",
+          "definition": "a dishonest plan to get money from people by tricking them",
+          "mn": "луйвар, залилан",
+          "examples": ["Be careful — that 'free iPhone' message is a scam.", "Thousands of people lose money to online scams every year."],
+          "collocations": ["an online scam", "fall for a scam", "a phone scam", "it's a scam"],
+          "synonyms": ["fraud", "trick"], "antonyms": [],
+          "note": "Informal but very common. 'Fraud' is the formal and legal word.",
+          "level": "B2", "difficulty": 3
+        },
+        {
+          "word": "suspicious", "pos": "adjective", "ipa": "/səˈspɪʃəs/",
+          "definition": "making you feel that something is wrong or dishonest",
+          "mn": "сэжигтэй, хардмаар",
+          "examples": ["I got a suspicious email asking for my bank details.", "If a message looks suspicious, don't answer it."],
+          "collocations": ["a suspicious email / link", "look suspicious", "be suspicious of something"],
+          "synonyms": ["strange", "dodgy (informal)"], "antonyms": ["trustworthy"],
+          "mistake": "The stress is on the second syllable: su-SPI-cious, not SU-spi-cious.",
+          "level": "B1+", "difficulty": 4
+        },
+        {
+          "word": "link", "pos": "noun", "ipa": "/lɪŋk/",
+          "definition": "words or a picture on a screen that take you to another page when you click on them",
+          "mn": "холбоос, линк",
+          "examples": ["Click on the link to reset your password.", "I'll send you a link to the video."],
+          "collocations": ["click on a link", "send someone a link", "a suspicious link", "a broken link"],
+          "synonyms": [], "antonyms": [],
+          "mistake": "Say 'click on the link' or 'click the link', not 'press to the link'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "privacy", "pos": "noun", "ipa": "/ˈprɪvəsi/ (UK), /ˈpraɪvəsi/ (US)",
+          "definition": "the right to keep your personal life and information secret",
+          "mn": "хувийн нууц, хувийн мэдээллийн нууцлал",
+          "examples": ["Check your privacy settings so that strangers can't see your photos.", "Many people worry about their privacy online."],
+          "collocations": ["privacy settings", "protect your privacy", "invasion of privacy"],
+          "synonyms": [], "antonyms": [],
+          "note": "Both pronunciations are correct: PRIV-a-see (British) and PRY-va-see (American).",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "back up", "pos": "phrasal verb", "ipa": "/ˌbæk ˈʌp/",
+          "definition": "to make a copy of your files so that you don't lose them if something goes wrong",
+          "mn": "(файлаа) нөөцлөх, нөөц хуулбар хийх",
+          "examples": ["Back up your photos regularly in case you lose your phone.", "I back up my laptop to an external hard drive every Friday."],
+          "collocations": ["back up your files", "back up your phone", "back up to the cloud"],
+          "synonyms": ["make a copy"], "antonyms": [],
+          "note": "Verb = two words (back up); noun = one word: 'Make a backup.'",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "virus", "pos": "noun", "ipa": "/ˈvaɪrəs/",
+          "definition": "a program that gets into a computer and damages files or stops it working",
+          "mn": "(компьютерийн) вирус",
+          "examples": ["I think my laptop has a virus — it's really slow.", "Don't open that file. It might contain a virus."],
+          "collocations": ["a computer virus", "get a virus", "antivirus software"],
+          "synonyms": ["malware"], "antonyms": [],
+          "mistake": "Pronounce it /ˈvaɪrəs/ ('VY-rus'), not 'vee-roos'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "secure", "pos": "adjective", "ipa": "/sɪˈkjʊə(r)/",
+          "definition": "safe and protected, so that other people cannot get in or steal something",
+          "mn": "аюулгүй, найдвартай хамгаалагдсан",
+          "examples": ["Only shop on secure websites — look for the little lock next to the address.", "Is this Wi-Fi network secure?"],
+          "collocations": ["a secure website", "a secure connection", "keep something secure"],
+          "synonyms": ["safe", "protected"], "antonyms": ["insecure", "unsafe"],
+          "note": "The noun is 'security': 'online security'.",
+          "level": "B1+", "difficulty": 3
+        }
+      ],
+      "listening": {
+        "id": "l-hacked-account",
+        "title": "Did you send me a message last night?",
+        "kind": "conversation",
+        "context": "Oyuka calls her friend Daniel early in the morning because she got a strange message from his account.",
+        "speakers": [
+          { "name": "Oyuka", "voice": "female", "accent": "en-GB" },
+          { "name": "Daniel", "voice": "male", "accent": "en-AU" }
+        ],
+        "lines": [
+          { "speaker": "Oyuka", "text": "Hi Daniel, it's Oyuka. Sorry to call so early, but did you send me a message last night?" },
+          { "speaker": "Daniel", "text": "A message? No, I don't think so. Why?" },
+          { "speaker": "Oyuka", "text": "Well, it came from your account. It said, 'Look, is this you in this video?' and there was a link. It looked a bit suspicious, so I didn't click on it." },
+          { "speaker": "Daniel", "text": "Oh no. That definitely wasn't me. Hang on, I'm trying to log in now… No, I can't. It says my password is wrong." },
+          { "speaker": "Oyuka", "text": "I think your account has been hacked. Did you click on anything strange recently?" },
+          { "speaker": "Daniel", "text": "Well, yesterday I got an email that looked like it was from the app. It said someone had tried to log in to my account, so I clicked the link and typed in my password. Oh… it was a scam, wasn't it?" },
+          { "speaker": "Oyuka", "text": "It probably was. Real companies never ask for your password like that. But don't worry, you might be able to get your account back." },
+          { "speaker": "Daniel", "text": "How? I can't even log in." },
+          { "speaker": "Oyuka", "text": "Open the app and click 'Forgot password'. They'll send a code to your phone. Then choose a new, strong password — and please don't use the same one for everything." },
+          { "speaker": "Daniel", "text": "Actually, I do use the same password for everything. I suppose I need to change them all." },
+          { "speaker": "Oyuka", "text": "Yes, definitely. And tell your friends not to open any links from your account." },
+          { "speaker": "Daniel", "text": "Good idea. I'll send everyone a message as soon as I can." },
+          { "speaker": "Oyuka", "text": "Oh, and do you back up your photos? If you lose the account, you might lose them too." },
+          { "speaker": "Daniel", "text": "I've never done it. OK, that's my job for this afternoon. Thanks, Oyuka — you're a lifesaver." }
+        ],
+        "gist": [
+          { "type": "mcq", "tag": "main_idea", "prompt": "What is the main problem in the conversation?", "options": ["Daniel's phone is broken.", "Someone has got into Daniel's account.", "Oyuka has lost her photos.", "Daniel forgot his bank password."], "answer": 1 },
+          { "type": "mcq", "tag": "purpose", "prompt": "Why does Oyuka call Daniel?", "options": ["To warn him about a strange message from his account", "To ask him to help her with her phone", "To invite him to watch a video", "To tell him about her new account"], "answer": 0 }
+        ],
+        "detail": [
+          { "type": "tfng", "tag": "detail", "prompt": "Oyuka clicked on the link in the message.", "answer": "false", "explanation": "She says: 'It looked a bit suspicious, so I didn't click on it.'" },
+          { "type": "mcq", "tag": "detail", "prompt": "Why did Daniel type in his password?", "options": ["His friend asked him to.", "He wanted to change his profile photo.", "An email said someone had tried to log in to his account.", "His bank called him."], "answer": 2 },
+          { "type": "tfng", "tag": "detail", "prompt": "Daniel uses the same password for all his accounts.", "answer": "true", "explanation": "'Actually, I do use the same password for everything.'" },
+          { "type": "gap", "tag": "detail", "prompt": "To get his account back, Daniel should click '___ password' in the app.", "answers": ["forgot"] },
+          { "type": "mcq", "tag": "detail", "prompt": "What does Oyuka suggest at the end?", "options": ["Backing up his photos", "Buying a new phone", "Deleting the app", "Calling the police"], "answer": 0 }
+        ],
+        "expressions": [
+          { "phrase": "Sorry to call so early, but…", "meaning": "a polite way to start a phone call at a bad time", "mn": "Эрт залгасанд уучлаарай, гэхдээ…" },
+          { "phrase": "Hang on.", "meaning": "wait a moment (informal, spoken)", "mn": "Түр хүлээ." },
+          { "phrase": "as soon as I can", "meaning": "at the first moment that is possible", "mn": "боломж гармагц, аль болох хурдан" },
+          { "phrase": "You're a lifesaver.", "meaning": "an informal way to say thank you when someone has helped you a lot", "mn": "Чи намайг аварлаа. (их баярлалаа)" }
+        ]
+      },
+      "pronunciation": "can-cant-stress",
+      "speaking": {
+        "id": "s-safety-tips",
+        "type": "presentation",
+        "prompt": "Give a short talk to a group of older learners: 'Five simple ways to stay safe online'.",
+        "promptMn": "Ахмад настнуудад зориулж 'Интернэтэд аюулгүй байх энгийн таван арга' сэдвээр богино илтгэл тавь.",
+        "points": ["Introduce your topic", "Give tips about passwords and suspicious links", "Explain what might happen if people are not careful", "Finish with one piece of advice to remember"],
+        "phrases": ["Today I'd like to talk about…", "First of all, …", "Another thing you can do is…", "If you…, someone might…", "Finally, remember to…"],
+        "targetWords": ["password", "suspicious", "scam", "back up", "secure"],
+        "prepSeconds": 60,
+        "speakSeconds": 120,
+        "sample": "Today I'd like to talk about five simple ways to stay safe online. First of all, use a strong password — not your birthday or '123456' — and use a different one for every account. Secondly, be careful with links. If a message looks suspicious, don't click on it, even if it comes from a friend, because their account might be hacked. Thirdly, never give your bank details to anyone who calls or writes to you. Real banks don't ask for them, so it's almost certainly a scam. Another thing you can do is only shop on secure websites. And finally, remember to back up your photos. If you lose your phone, you won't be able to get them back. Thank you for listening."
+      },
+      "quiz": [
+        { "type": "match", "skill": "vocabulary", "tag": "collocation", "prompt": "Match to make phrases about online safety.", "pairs": [["fall for", "a scam"], ["click on", "a link"], ["back up", "your photos"], ["reset", "your password"]] },
+        { "type": "gap", "skill": "vocabulary", "prompt": "My email account was ___, and someone sent strange messages to all my contacts.", "answers": ["hacked"], "options": ["backed up", "installed", "hacked", "streamed"] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "'I got a suspicious message' means the message…", "options": ["was very long", "came from a friend", "seemed wrong or dishonest", "had a lot of photos"], "answer": 2 },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "Which website should you use for online shopping?", "options": ["a secure one", "a suspicious one", "one with a virus", "one that crashes"], "answer": 0 },
+        { "type": "mcq", "skill": "pronunciation", "prompt": "In which sentence is 'can' weak /kən/?", "options": ["Yes, I can.", "I can't come today.", "I can send it now.", "No, you can't."], "answer": 2, "explanation": "In positive sentences, can is weak and the main verb is stressed: I can SEND it now." },
+        { "type": "tfng", "skill": "listening", "prompt": "In the conversation, Daniel can still log in to his account.", "answer": "false", "explanation": "He says: 'I can't even log in.'" }
+      ]
+    },
+    {
+      "id": "b1-08-l4",
+      "title": "Me and my phone",
+      "focus": "writing",
+      "difficulty": 4,
+      "minutes": 30,
+      "objectives": [
+        "Use verb + -ing and verb + to-infinitive patterns correctly",
+        "Use natural phrases for asking for and giving tech help",
+        "Write a forum post about technology in your daily life (100–130 words)"
+      ],
+      "warmup": {
+        "intro": "How much do you rely on your phone? Think about what you do with it from morning to night.",
+        "questions": [
+          { "type": "mcq", "prompt": "I really enjoy ___ podcasts on the bus.", "options": ["to listen to", "listening to", "listen to"], "answer": 1, "skill": "grammar", "explanation": "enjoy + -ing." },
+          { "type": "mcq", "prompt": "You're writing a post on an online forum for English learners. Which opening is best?", "options": ["Dear Sir or Madam,", "To whom it may concern,", "Hi everyone! Great question.", "Yours faithfully,"], "answer": 2, "skill": "writing", "tag": "register" }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "rely on", "pos": "phrasal verb", "ipa": "/rɪˈlaɪ ɒn/",
+          "definition": "to need someone or something and trust them to help you",
+          "mn": "найдах, түшиглэх, (ямар нэг зүйлээс) хамааралтай байх",
+          "examples": ["I rely on my phone for everything — maps, banking, even my alarm.", "You can't always rely on the Wi-Fi in this building."],
+          "collocations": ["rely heavily on", "rely on someone for something", "can't rely on"],
+          "synonyms": ["depend on", "count on"], "antonyms": [],
+          "mistake": "Always use 'on': 'rely on my phone', not 'rely my phone' or 'rely to my phone'.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "handy", "pos": "adjective", "ipa": "/ˈhændi/",
+          "definition": "useful and easy to use",
+          "mn": "хэрэгцээтэй, ашиглахад амар",
+          "examples": ["This app is really handy for splitting the bill in restaurants.", "Keep a spare charger in your bag — it will come in handy."],
+          "collocations": ["really handy", "come in handy", "a handy tip", "handy for something"],
+          "synonyms": ["useful", "practical"], "antonyms": ["useless"],
+          "note": "Informal and very common in speech. 'Come in handy' = be useful at some time in the future.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "time-consuming", "pos": "adjective", "ipa": "/ˈtaɪm kənsjuːmɪŋ/",
+          "definition": "taking a lot of time",
+          "mn": "их цаг шаарддаг, цаг их авдаг",
+          "examples": ["Answering emails is time-consuming, so I only do it twice a day.", "Setting up a new laptop can be very time-consuming."],
+          "collocations": ["very time-consuming", "a time-consuming job", "time-consuming and expensive"],
+          "synonyms": ["slow"], "antonyms": ["quick"],
+          "mistake": "Don't say 'It consumes a lot of time' in everyday English — say 'It's time-consuming' or 'It takes a lot of time'.",
+          "level": "B2", "difficulty": 4
+        },
+        {
+          "word": "look up", "pos": "phrasal verb", "ipa": "/ˌlʊk ˈʌp/",
+          "definition": "to find information in a book or online",
+          "mn": "(үг, мэдээлэл) хайж харах, лавлах",
+          "examples": ["I looked up the word in an online dictionary.", "Can you look up the opening times of the museum?"],
+          "collocations": ["look up a word", "look up information", "look something up online"],
+          "synonyms": ["search for", "check"], "antonyms": [],
+          "mistake": "With a pronoun, the pronoun goes in the middle: 'look it up', not 'look up it'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "keep track of", "pos": "phrase", "ipa": "/kiːp ˈtræk əv/",
+          "definition": "to know what is happening, or to record information so that you don't forget it",
+          "mn": "хянаж байх, бүртгэж явах",
+          "examples": ["I use an app to keep track of my spending.", "It's hard to keep track of all my passwords."],
+          "collocations": ["keep track of time", "keep track of your spending", "keep track of your steps"],
+          "synonyms": ["follow", "record"], "antonyms": ["lose track of"],
+          "level": "B1+", "difficulty": 4
+        },
+        {
+          "word": "video call", "pos": "noun", "ipa": "/ˈvɪdiəʊ kɔːl/",
+          "definition": "a call over the internet in which you can see the other person",
+          "mn": "видео дуудлага",
+          "examples": ["I have a video call with my parents every Sunday.", "The job interview was on a video call."],
+          "collocations": ["make a video call", "have a video call", "join a video call"],
+          "synonyms": [], "antonyms": [],
+          "note": "Informally, people also use it as a verb: 'I'll video-call you tonight.'",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "out of date", "pos": "adjective phrase", "ipa": "/ˌaʊt əv ˈdeɪt/",
+          "definition": "old and no longer useful or correct, because there is something newer",
+          "mn": "хуучирсан, цаг үеэсээ хоцорсон",
+          "examples": ["My phone is so out of date that I can't install new apps.", "This information is out of date — the shop closed last year."],
+          "collocations": ["completely out of date", "go out of date", "out-of-date software"],
+          "synonyms": ["old", "outdated"], "antonyms": ["up to date"],
+          "note": "Before a noun, use hyphens: 'out-of-date software'. After a verb, no hyphens: 'The software is out of date.'",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "screenshot", "pos": "noun", "ipa": "/ˈskriːnʃɒt/",
+          "definition": "a picture of what is on your screen that you save on your device",
+          "mn": "дэлгэцийн зураг, скриншот",
+          "examples": ["Take a screenshot of the error message and send it to me.", "She sent me a screenshot of the conversation."],
+          "collocations": ["take a screenshot", "send a screenshot", "a screenshot of something"],
+          "synonyms": ["screen grab"], "antonyms": [],
+          "mistake": "We 'take' a screenshot, not 'make' or 'do' a screenshot.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "old-fashioned", "pos": "adjective", "ipa": "/ˌəʊld ˈfæʃnd/",
+          "definition": "not modern; typical of the past",
+          "mn": "хуучинсаг, хуучны маягийн",
+          "examples": ["My dad is a bit old-fashioned — he still prints his emails.", "Some people think paper books are old-fashioned, but I love them."],
+          "collocations": ["a bit old-fashioned", "old-fashioned ideas", "the old-fashioned way"],
+          "synonyms": ["traditional", "out of date"], "antonyms": ["modern", "up to date"],
+          "note": "Not always negative: it can also sound warm, e.g. 'good old-fashioned home cooking'.",
+          "level": "B1", "difficulty": 2
+        }
+      ],
+      "phrases": [
+        { "phrase": "Can you walk me through it?", "meaning": "Can you explain it to me step by step?", "mn": "Надад алхам алхмаар тайлбарлаад өгөөч?", "register": "spoken", "whenToUse": "When you ask a friend or colleague to help you with a device or program slowly, step by step. In a formal email, write 'Could you explain the steps?'", "example": "I've never set up a printer before. Can you walk me through it?" },
+        { "phrase": "I can't get it to work.", "meaning": "I've tried, but it doesn't work.", "mn": "Ажиллуулж чадахгүй байна.", "register": "spoken", "whenToUse": "When you describe a problem with a device, app or machine. Very common in everyday speech and informal messages.", "example": "I've installed the app, but I can't get it to work." },
+        { "phrase": "Have you tried turning it off and on again?", "meaning": "the classic first suggestion for fixing a tech problem", "mn": "Унтрааж асааж үзсэн үү?", "register": "informal", "whenToUse": "When someone has a tech problem. People often say it as a joke, because IT support always asks it first.", "example": "My laptop has frozen. — Have you tried turning it off and on again?" },
+        { "phrase": "I'm hopeless with technology.", "meaning": "I'm very bad at using technology.", "mn": "Би технологид огт муу.", "register": "informal", "whenToUse": "To say, often with humour, that you're not good with devices. Don't say it in a job interview!", "example": "Sorry, I'm hopeless with technology — could you help me with this?" },
+        { "phrase": "I couldn't live without…", "meaning": "This is very important to me.", "mn": "…гүйгээр амьдарч чадахгүй", "register": "neutral", "whenToUse": "To say that you love or need something very much. It's an exaggeration, so it's natural in speech and informal writing such as forum posts, not in formal reports.", "example": "I couldn't live without my headphones." },
+        { "phrase": "On the other hand, …", "meaning": "used to give a different or opposite point", "mn": "Нөгөө талаар, …", "register": "neutral", "whenToUse": "In speech and writing, after you have made one point and want to show the other side. Fine in forum posts, emails and essays.", "example": "Smartphones are very handy. On the other hand, it's easy to spend too long on them." }
+      ],
+      "grammar": "verb-ing-infinitive",
+      "writing": {
+        "id": "w-tech-forum-post",
+        "type": "paragraph",
+        "prompt": "An online forum for English learners asks: 'How has technology changed your daily life?' Write a post. Say which devices and apps you rely on, what you enjoy (and avoid) doing online, and one thing you have decided to do differently.",
+        "promptMn": "Англи хэл суралцагчдын онлайн форумд 'Технологи таны өдөр тутмын амьдралыг хэрхэн өөрчилсөн бэ?' гэсэн асуулт байна. Нийтлэл бичээрэй: ямар төхөөрөмж, аппликейшнд найддаг, интернэтэд юу хийх дуртай (болон юунаас зайлсхийдэг), мөн юуг өөрөөр хийхээр шийдсэнээ бичээрэй.",
+        "register": "neutral",
+        "minWords": 100,
+        "maxWords": 130,
+        "points": ["The devices and apps you rely on, and why", "What you enjoy doing online (enjoy / love + -ing)", "What you try to avoid (avoid / can't stand + -ing)", "Something you have decided or are planning to do differently (decide / plan + to)"],
+        "phrases": ["I couldn't live without…", "I rely on… for…", "I really enjoy …-ing", "I try to avoid …-ing", "On the other hand, …", "Recently I've decided to…"],
+        "targetWords": ["rely on", "handy", "time-consuming", "keep track of", "look up"],
+        "sample": "Hi everyone! Great question. Technology has changed my life a lot. I rely on my phone for almost everything: I use it to pay bills, keep track of my spending and look up new English words. I couldn't live without my banking app — it's so handy! I also enjoy watching cooking videos and having video calls with my sister in Busan.\n\nOn the other hand, some things are very time-consuming. I can't stand reading long arguments in the comments, so I try to avoid opening them. Recently I've decided to stop using my phone after ten o'clock, because I was going to bed too late. It isn't easy, but I'm sleeping much better. How about you?"
+      },
+      "quiz": [
+        { "type": "mcq", "skill": "grammar", "prompt": "My brother offered ___ me set up my new phone.", "options": ["helping", "help", "to help"], "answer": 2, "explanation": "offer + to-infinitive." },
+        { "type": "mcq", "skill": "grammar", "prompt": "I can't stand ___ adverts before every video.", "options": ["watch", "watching", "to watching"], "answer": 1, "explanation": "can't stand + -ing." },
+        { "type": "gap", "skill": "grammar", "prompt": "Would you mind ___ (send) me a screenshot?", "answers": ["sending"] },
+        { "type": "error", "skill": "grammar", "prompt": "Tap the part with the mistake.", "segments": ["I've decided", "to stop", "to use", "my phone after ten."], "wrongIndex": 2, "correction": "using", "explanation": "stop + -ing = not do something any more." },
+        { "type": "gap", "skill": "vocabulary", "prompt": "If you don't know a word, ___ it up online.", "answers": ["look"], "options": ["set", "look", "back", "log"] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "My phone is so ___ that it can't install new apps.", "options": ["out of date", "handy", "time-consuming", "tech-savvy"], "answer": 0 },
+        { "type": "mcq", "skill": "writing", "tag": "register", "prompt": "Which phrase is best for giving the other side of an argument in a forum post?", "options": ["Hang on,", "Guess what?", "On the other hand,", "You're a lifesaver."], "answer": 2 }
+      ]
+    }
+  ],
+  "test": {
+    "reading": {
+      "id": "t-repair-cafe",
+      "title": "Don't Throw It Away — Fix It!",
+      "genre": "blog",
+      "text": [
+        "On the second Saturday of every month, I spend the afternoon in a small room behind the city library with a screwdriver in my hand. I'm a volunteer at a repair café — a place where people bring broken things and we try to fix them for free.",
+        "Most of what we see is technology: phones with cracked screens, laptops that won't turn on, headphones that only work on one side. Last month a young man brought in a tablet that his little sister had dropped in the bath. We opened it up, dried it carefully, and after two hours we were able to turn it on again. He couldn't believe it.",
+        "Of course, we can't fix everything. Sometimes a part is too old and nobody sells it any more. But even then, we can often save the photos and files before the device goes for recycling.",
+        "Why do I do this? Partly because I enjoy solving problems, but mainly because I hate seeing good things in the rubbish. Many people buy a new phone every two years, even when the old one works perfectly well. Companies want us to think that repairing things is old-fashioned or difficult. It isn't. With a free online video and a little patience, you might be able to do it yourself.",
+        "So next time your laptop is slow or your charger stops working, don't rush to the shop. Come and see us first. The coffee is free, too."
+      ],
+      "glossary": [
+        { "term": "volunteer", "meaning": "a person who works without being paid", "mn": "сайн дурын ажилтан" },
+        { "term": "patience", "meaning": "the ability to wait or keep trying without getting angry", "mn": "тэвчээр" }
+      ],
+      "questions": [
+        { "type": "mcq", "tag": "main_idea", "prompt": "What is the main purpose of the blog post?", "options": ["To sell second-hand phones", "To describe the repair café and encourage people to repair things", "To explain how to fix a cracked screen", "To complain about the city library"], "answer": 1 },
+        { "type": "tfng", "tag": "detail", "prompt": "The repair café is open every Saturday.", "answer": "false", "explanation": "It is open on the second Saturday of every month." },
+        { "type": "tfng", "tag": "detail", "prompt": "People have to pay a small amount for each repair.", "answer": "false", "explanation": "'We try to fix them for free.'" },
+        { "type": "mcq", "tag": "detail", "prompt": "What happened to the young man's tablet?", "options": ["Its screen cracked.", "It fell into water.", "Its battery was dead.", "It had a virus."], "answer": 1 },
+        { "type": "tfng", "tag": "detail", "prompt": "The writer learned to repair things at university.", "answer": "not_given" },
+        { "type": "short", "tag": "detail", "prompt": "When the volunteers can't fix a device, what can they often save?", "answers": ["photos and files", "photos", "files"] },
+        { "type": "mcq", "tag": "attitude", "prompt": "What does the writer think about repairing things?", "options": ["It's too difficult for most people.", "It's old-fashioned.", "Only experts should try it.", "Many people can do it with a little help."], "answer": 3 }
+      ]
+    },
+    "listening": {
+      "id": "t-phone-shop",
+      "title": "Choosing a new phone",
+      "kind": "conversation",
+      "context": "Nomin is in a phone shop in London. She is talking to Sam, a shop assistant.",
+      "speakers": [
+        { "name": "Sam", "voice": "male", "accent": "en-GB" },
+        { "name": "Nomin", "voice": "female", "accent": "en-US" }
+      ],
+      "lines": [
+        { "speaker": "Sam", "text": "Hi there. Can I help you with anything?" },
+        { "speaker": "Nomin", "text": "Yes, please. I'm looking for a new phone. My old one is really out of date — I can't even install the banking app." },
+        { "speaker": "Sam", "text": "OK. What do you mainly use your phone for?" },
+        { "speaker": "Nomin", "text": "Mostly video calls with my family, and taking photos. Oh, and the battery is really important. At the moment it only lasts about five hours." },
+        { "speaker": "Sam", "text": "Then I'd recommend this one. The battery lasts about two days, and the camera is excellent." },
+        { "speaker": "Nomin", "text": "It looks great. How much is it?" },
+        { "speaker": "Sam", "text": "It's four hundred and fifty pounds. But if you bring in your old phone, you might be able to get fifty pounds off." },
+        { "speaker": "Nomin", "text": "Oh, that's good. Is it easy to set up? I'm not very tech-savvy." },
+        { "speaker": "Sam", "text": "Don't worry. We can set it up for you here, and we'll move all your photos and contacts from your old phone." },
+        { "speaker": "Nomin", "text": "Perfect. How long will that take?" },
+        { "speaker": "Sam", "text": "About half an hour. You could have a coffee next door while you wait." },
+        { "speaker": "Nomin", "text": "Great. Let's do that, then." }
+      ],
+      "gist": [
+        { "type": "mcq", "tag": "main_idea", "prompt": "What is Nomin doing?", "options": ["Returning a broken phone", "Buying a new phone", "Repairing her laptop", "Complaining about a bill"], "answer": 1 }
+      ],
+      "detail": [
+        { "type": "mcq", "tag": "detail", "prompt": "Why does Nomin want a new phone?", "options": ["She lost her old one.", "Her screen is cracked.", "Her old phone is too old for some apps.", "She wants a cheaper phone."], "answer": 2 },
+        { "type": "gap", "tag": "detail", "prompt": "At the moment, her battery lasts about ___ hours.", "answers": ["five", "5"] },
+        { "type": "tfng", "tag": "detail", "prompt": "The new phone costs four hundred pounds.", "answer": "false", "explanation": "It costs four hundred and fifty pounds." },
+        { "type": "mcq", "tag": "detail", "prompt": "How can Nomin get fifty pounds off?", "options": ["By paying in cash", "By buying a charger", "By coming back tomorrow", "By bringing in her old phone"], "answer": 3 },
+        { "type": "tfng", "tag": "detail", "prompt": "The shop will move her photos to the new phone.", "answer": "true" }
+      ],
+      "expressions": [
+        { "phrase": "Can I help you with anything?", "meaning": "a shop assistant's polite offer of help", "mn": "Танд юугаар туслах вэ?" },
+        { "phrase": "fifty pounds off", "meaning": "a discount of fifty pounds", "mn": "тавин фунтын хөнгөлөлт" }
+      ]
+    },
+    "writing": {
+      "id": "t-app-email",
+      "type": "email_informal",
+      "prompt": "Your friend Chris wrote: 'I'm always forgetting things and I spend too much money! Do you know any good apps?' Write a reply (90–120 words). Recommend one app, explain what you can do with it and why you enjoy using it, and warn Chris about one thing.",
+      "promptMn": "Найз Крис тань 'Би байнга юм мартдаг, бас хэт их мөнгө үрдэг! Сайн апп мэдэх үү?' гэж бичжээ. Хариу бичээрэй (90–120 үг): нэг апп санал болгож, түүгээр юу хийж болох, яагаад ашиглах дуртайгаа тайлбарлаж, Крист нэг зүйлийг анхааруулаарай.",
+      "register": "informal",
+      "minWords": 90,
+      "maxWords": 120,
+      "points": ["Recommend one app", "Explain what you can do with it (can / will be able to)", "Say why you enjoy using it (enjoy + -ing)", "Warn Chris about one thing (it might…)"],
+      "phrases": ["You should try…", "With this app, you can…", "I really enjoy…", "Just remember to…", "Speak soon,"],
+      "targetWords": ["handy", "keep track of", "download", "user-friendly"],
+      "sample": "Hi Chris,\n\nThanks for your message! You should try an app called MoneyNote. It's really handy. With it, you can keep track of everything you spend, and you'll be able to see where your money goes every month. You can also set reminders, so you won't forget to pay your bills. It's free to download and very user-friendly — I set it up in five minutes.\n\nI really enjoy using it because it shows my spending in colourful charts. Just one thing: it might ask for your bank details. Don't give them — you can add your spending by hand instead.\n\nSpeak soon,\nTsetseg"
+    },
+    "speaking": {
+      "id": "t-kids-phones",
+      "type": "opinion",
+      "prompt": "Should children under twelve have their own smartphone? Give your opinion and your reasons.",
+      "promptMn": "Арван хоёроос доош насны хүүхэд өөрийн гэсэн ухаалаг утастай байх ёстой юу? Санал бодол, шалтгаанаа хэлээрэй.",
+      "points": ["Your opinion", "Advantages: what children can do with a phone", "Dangers: what might happen", "Your conclusion or a compromise"],
+      "phrases": ["In my opinion, …", "On the one hand, … On the other hand, …", "Children can… / might…", "I'd suggest…"],
+      "targetWords": ["device", "scam", "privacy", "rely on"],
+      "prepSeconds": 45,
+      "speakSeconds": 90,
+      "sample": "In my opinion, children under twelve shouldn't have their own smartphone, but they can use a family device. On the one hand, phones are useful. Children can call their parents, look up information for homework and learn a lot from good videos. On the other hand, there are real dangers. Young children can't always recognise a scam, and they might share photos without thinking about their privacy. They might also start to rely on the phone for everything and stop playing outside. So I'd suggest a simple phone for calls, and a shared tablet at home that parents can check."
+    },
+    "questions": [
+      { "type": "mcq", "skill": "grammar", "prompt": "When I was a child, I ___ play chess really well.", "options": ["can", "could", "am able to"], "answer": 1 },
+      { "type": "mcq", "skill": "grammar", "prompt": "I haven't ___ call you all day — I've been in meetings.", "options": ["could", "can", "been able to"], "answer": 2 },
+      { "type": "gap", "skill": "grammar", "prompt": "Take an umbrella. It ___ rain later.", "answers": ["might"], "options": ["can", "might", "is able to"] },
+      { "type": "correct", "skill": "grammar", "prompt": "Correct the sentence.", "sentence": "Will you can come to the meeting?", "answers": ["Will you be able to come to the meeting?", "Can you come to the meeting?"] },
+      { "type": "mcq", "skill": "grammar", "prompt": "Do you enjoy ___ online?", "options": ["to shop", "shop", "shopping"], "answer": 2 },
+      { "type": "gap", "skill": "grammar", "prompt": "We can't afford ___ (buy) a new computer right now.", "answers": ["to buy"] },
+      { "type": "transform", "skill": "grammar", "prompt": "Rewrite the sentence with the word given.", "sentence": "Please don't forget to back up your files.", "keyword": "remember", "answers": ["Please remember to back up your files.", "Remember to back up your files."] },
+      { "type": "gap", "skill": "vocabulary", "tag": "collocation", "prompt": "Click on the ___ to reset your password.", "answers": ["link"], "options": ["signal", "gadget", "link", "charger"] },
+      { "type": "mcq", "skill": "vocabulary", "prompt": "A person who is 'tech-savvy'…", "options": ["is good at using technology", "hates technology", "repairs phones for a living", "has an old phone"], "answer": 0 },
+      { "type": "mcq", "skill": "vocabulary", "prompt": "I got a ___ email asking for my bank details, so I deleted it.", "options": ["user-friendly", "suspicious", "secure", "handy"], "answer": 1 },
+      { "type": "gap", "skill": "vocabulary", "prompt": "You can ___ films on this service without downloading them.", "answers": ["stream"], "options": ["upload", "install", "stream", "browse"] },
+      { "type": "mcq", "skill": "vocabulary", "prompt": "What does 'back up your files' mean?", "options": ["delete them", "open them", "send them to a friend", "make a copy of them"], "answer": 3 }
+    ]
+  }
+}

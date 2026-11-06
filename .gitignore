@@ -1,0 +1,7 @@
+# Only the two apps are versioned. The launcher scripts and database backups stay on this computer.
+/autostart/
+/backups/
+
+node_modules/
+.env
+*.log

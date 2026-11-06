@@ -1,0 +1,128 @@
+{
+  "levels": [
+    {
+      "code": "B1",
+      "title": "B1 · Threshold",
+      "description": "Handle everyday life in English: talk about your routine, experiences, plans and opinions, and understand clear standard English on familiar topics.",
+      "descriptionMn": "Өдөр тутмын амьдралд англи хэлээр харилцах: дадал, туршлага, төлөвлөгөө, санал бодлоо илэрхийлэх, танил сэдвээр тодорхой ярианы англи хэлийг ойлгох.",
+      "canDo": [
+        "Understand the main points of clear speech on familiar topics like work, school and free time",
+        "Describe experiences, events, hopes and plans and briefly give reasons for opinions",
+        "Write simple connected texts and personal emails on familiar topics",
+        "Deal with most situations while travelling in an English-speaking area",
+        "Read short articles and messages and find the information you need"
+      ]
+    },
+    {
+      "code": "B1+",
+      "title": "B1+ · Beyond the everyday",
+      "description": "Go beyond familiar situations: tell stories with the right tenses, report what others said, write formal emails and follow longer articles and conversations.",
+      "descriptionMn": "Танил нөхцөл байдлаас хальж: зөв цагаар түүх ярих, бусдын үгийг дамжуулах, албан захидал бичих, урт нийтлэл, ярианы гол санааг ойлгох.",
+      "canDo": [
+        "Tell a detailed story using narrative tenses and time linkers",
+        "Report what other people said, asked and suggested",
+        "Write clear formal and informal emails for different purposes",
+        "Follow longer conversations and articles on a wide range of everyday topics",
+        "Explain problems and give advice with appropriate modal verbs"
+      ]
+    },
+    {
+      "code": "B2",
+      "title": "B2 · Vantage",
+      "description": "Communicate with fluency and spontaneity: understand news, opinion pieces and natural-speed speech, and argue a viewpoint with supporting reasons.",
+      "descriptionMn": "Чөлөөтэй, байгалийн хурдаар харилцах: мэдээ, нийтлэл, хэвийн хурдтай яриаг ойлгох, үндэслэлтэйгээр байр сууриа хамгаалах.",
+      "canDo": [
+        "Understand the main ideas of complex texts on concrete and abstract topics",
+        "Interact with native speakers with a degree of fluency and spontaneity",
+        "Write clear, detailed opinion essays and reports giving reasons for and against",
+        "Understand most TV news, podcasts and films in standard English",
+        "Explain a viewpoint on a topical issue, giving the advantages and disadvantages of various options"
+      ]
+    },
+    {
+      "code": "B2+",
+      "title": "B2+ · Towards proficiency",
+      "description": "Refine accuracy and range: persuade, hedge, and adapt register; follow interviews, discussions and complex articles with confidence.",
+      "descriptionMn": "Нарийвчлал, үгсийн баялгаа сайжруулах: ятгах, зөөлрүүлж хэлэх, хэв маягаа тохируулах; ярилцлага, хэлэлцүүлэг, нарийн нийтлэлийг итгэлтэй ойлгох.",
+      "canDo": [
+        "Follow extended discussions and interviews even when the structure is not clear",
+        "Use hedging and softening language to express opinions diplomatically",
+        "Write argumentative essays and professional reports with a clear structure",
+        "Switch between formal and informal register appropriately",
+        "Evaluate sources and arguments in news and opinion writing"
+      ]
+    },
+    {
+      "code": "C1",
+      "title": "C1 · Effective operational proficiency",
+      "description": "Use English flexibly and effectively for social, academic and professional purposes: understand implicit meaning, discuss abstract ideas and write well-structured, detailed texts.",
+      "descriptionMn": "Нийгэм, эрдэм шинжилгээ, мэргэжлийн зорилгоор англи хэлийг уян хатан, үр дүнтэй ашиглах: далд утгыг ойлгох, хийсвэр санааг хэлэлцэх, нарийн бүтэцтэй бичвэр бичих.",
+      "canDo": [
+        "Understand a wide range of demanding, longer texts and recognise implicit meaning",
+        "Express ideas fluently and spontaneously without much obvious searching for expressions",
+        "Use language flexibly and effectively for social, academic and professional purposes",
+        "Produce clear, well-structured, detailed text on complex subjects",
+        "Follow lectures, debates and native-speed conversations on abstract and professional topics"
+      ]
+    }
+  ],
+  "outline": [
+    { "id": "b1-01", "level": "B1", "order": 1, "title": "Everyday Life & Routines", "topic": "Daily Life", "description": "Talk about routines, habits and what is happening now.", "grammar": ["Present simple vs present continuous", "Adverbs of frequency", "State verbs"], "vocabulary": ["daily routines", "time expressions", "household tasks"] },
+    { "id": "b1-02", "level": "B1", "order": 2, "title": "People & Relationships", "topic": "Family & Friends", "description": "Describe people, relationships and past events in your life.", "grammar": ["Past simple vs past continuous", "used to"], "vocabulary": ["personality adjectives", "relationships", "life events"] },
+    { "id": "b1-03", "level": "B1", "order": 3, "title": "Home & City Life", "topic": "Home & Cities", "description": "Compare places, describe homes and neighbourhoods and give directions.", "grammar": ["Comparatives and superlatives", "too / enough", "(not) as ... as"], "vocabulary": ["housing", "neighbourhood", "city facilities"] },
+    { "id": "b1-04", "level": "B1", "order": 4, "title": "Food & Health", "topic": "Food & Health", "description": "Talk about diet, cooking and health, and give advice.", "grammar": ["Countable and uncountable nouns", "Quantifiers", "should / shouldn't for advice"], "vocabulary": ["food and cooking", "diet", "common health problems"] },
+    { "id": "b1-05", "level": "B1", "order": 5, "title": "Travel & Transport", "topic": "Travel", "description": "Talk about travel experiences and handle situations at airports and hotels.", "grammar": ["Present perfect for experience", "Present perfect vs past simple"], "vocabulary": ["transport", "airports", "accommodation"] },
+    { "id": "b1-06", "level": "B1", "order": 6, "title": "Work & Career", "topic": "Work", "description": "Discuss jobs, responsibilities and career plans.", "grammar": ["Present perfect with for / since", "just / already / yet"], "vocabulary": ["jobs", "workplace", "career collocations"] },
+    { "id": "b1-07", "level": "B1", "order": 7, "title": "Education & Learning", "topic": "Education", "description": "Talk about studying, plans and possible future results.", "grammar": ["Future forms: will, going to, present continuous", "First conditional"], "vocabulary": ["school and university", "studying", "exams"] },
+    { "id": "b1-08", "level": "B1", "order": 8, "title": "Technology & the Internet", "topic": "Technology", "description": "Discuss devices, apps and online life.", "grammar": ["Modals of ability and possibility", "Verb + -ing / to-infinitive"], "vocabulary": ["devices", "the internet", "online safety"] },
+    { "id": "b1-09", "level": "B1", "order": 9, "title": "Free Time: Sport, Music & Film", "topic": "Free Time", "description": "Talk about hobbies, entertainment and feelings.", "grammar": ["-ed / -ing adjectives", "so / such", "Gerunds as subjects"], "vocabulary": ["sport", "music", "films and series"] },
+    { "id": "b1-10", "level": "B1", "order": 10, "title": "Shopping, Money & Services", "topic": "Money", "description": "Shop, handle money, make polite requests and complaints.", "grammar": ["Passive voice (present and past simple)", "Polite requests"], "vocabulary": ["shopping", "money", "customer service"] },
+    { "id": "b1-11", "level": "B1", "order": 11, "title": "Nature & the Environment", "topic": "Environment", "description": "Talk about nature, environmental problems and imaginary situations.", "grammar": ["Second conditional", "Relative clauses: who, which, that, where"], "vocabulary": ["nature", "weather", "environmental problems"] },
+
+    { "id": "b1p-01", "level": "B1+", "order": 1, "title": "Communication & Social Media", "topic": "Communication", "description": "Report conversations and discuss how we communicate online.", "grammar": ["Reported speech", "say vs tell"], "vocabulary": ["communication", "social media"] },
+    { "id": "b1p-02", "level": "B1+", "order": 2, "title": "Personal Growth & Habits", "topic": "Personal Development", "description": "Talk about changes, goals and getting used to new things.", "grammar": ["Present perfect continuous", "used to / be used to / get used to"], "vocabulary": ["habits", "goals", "motivation"] },
+    { "id": "b1p-03", "level": "B1+", "order": 3, "title": "Health & Wellbeing", "topic": "Health", "description": "Discuss wellbeing, rules and advice.", "grammar": ["Modals of obligation and advice", "mustn't vs don't have to"], "vocabulary": ["mental health", "fitness", "lifestyle"] },
+    { "id": "b1p-04", "level": "B1+", "order": 4, "title": "Travel Stories & Culture", "topic": "Culture", "description": "Tell travel stories and compare cultures and customs.", "grammar": ["Narrative tenses: past perfect", "Time linkers"], "vocabulary": ["customs", "culture", "travel problems"] },
+    { "id": "b1p-05", "level": "B1+", "order": 5, "title": "The World of Work", "topic": "Careers", "description": "Apply for jobs, prepare for interviews and write formal emails.", "grammar": ["Defining and non-defining relative clauses"], "vocabulary": ["recruitment", "job interviews", "office life"] },
+    { "id": "b1p-06", "level": "B1+", "order": 6, "title": "Consumer Society & Money", "topic": "Finance", "description": "Talk about advertising, spending and saving.", "grammar": ["The passive (all tenses)", "have something done"], "vocabulary": ["advertising", "banking", "personal finance"] },
+    { "id": "b1p-07", "level": "B1+", "order": 7, "title": "Science & Discovery", "topic": "Science", "description": "Talk about inventions, discoveries and past possibilities.", "grammar": ["Third conditional", "wish + past simple"], "vocabulary": ["science", "inventions", "research"] },
+    { "id": "b1p-08", "level": "B1+", "order": 8, "title": "Cities & Society", "topic": "Society", "description": "Discuss urban life and make deductions.", "grammar": ["Modals of deduction (present)", "Articles"], "vocabulary": ["urban issues", "community", "public services"] },
+    { "id": "b1p-09", "level": "B1+", "order": 9, "title": "Media & News", "topic": "News", "description": "Understand news stories and connect ideas clearly.", "grammar": ["Linkers of contrast and purpose", "Question tags"], "vocabulary": ["news and journalism", "headlines"] },
+
+    { "id": "b2-01", "level": "B2", "order": 1, "title": "Identity & Personality", "topic": "Psychology", "description": "Describe personality and identity with precision.", "grammar": ["Compound adjectives", "Personality phrasal verbs"], "vocabulary": ["personality", "identity", "behaviour"] },
+    { "id": "b2-02", "level": "B2", "order": 2, "title": "Lifelong Learning", "topic": "Education", "description": "Discuss education systems and learning throughout life.", "grammar": ["Future continuous and future perfect"], "vocabulary": ["education systems", "skills", "learning phrasal verbs"] },
+    { "id": "b2-03", "level": "B2", "order": 3, "title": "Work-Life Balance & Productivity", "topic": "Productivity", "description": "Discuss productivity, stress and balance.", "grammar": ["Verbs that change meaning with -ing / to"], "vocabulary": ["productivity", "stress", "time management"] },
+    { "id": "b2-04", "level": "B2", "order": 4, "title": "Technology & Artificial Intelligence", "topic": "Artificial Intelligence", "description": "Discuss AI and make predictions about technology.", "grammar": ["Passive reporting structures", "Future probability (likely to, bound to)"], "vocabulary": ["artificial intelligence", "automation", "digital life"] },
+    { "id": "b2-05", "level": "B2", "order": 5, "title": "Environment & Climate Change", "topic": "Climate", "description": "Explain causes and effects of climate change and discuss solutions.", "grammar": ["unless, provided that, as long as", "Cause and effect linkers"], "vocabulary": ["climate", "energy", "sustainability"] },
+    { "id": "b2-06", "level": "B2", "order": 6, "title": "Health, Science & Medicine", "topic": "Medicine", "description": "Discuss medical science and speculate about the past.", "grammar": ["Modals of deduction (past)", "should have / shouldn't have"], "vocabulary": ["medicine", "research", "healthcare"] },
+    { "id": "b2-07", "level": "B2", "order": 7, "title": "Business & Entrepreneurship", "topic": "Business", "description": "Discuss start-ups, meetings and business decisions.", "grammar": ["Reporting verbs"], "vocabulary": ["business", "start-ups", "negotiation"] },
+    { "id": "b2-08", "level": "B2", "order": 8, "title": "Culture, Arts & Entertainment", "topic": "Culture", "description": "Review films, books and art and describe them precisely.", "grammar": ["Advanced relative clauses", "Participle clauses"], "vocabulary": ["arts", "reviews", "entertainment industry"] },
+    { "id": "b2-09", "level": "B2", "order": 9, "title": "Relationships & Psychology", "topic": "Relationships", "description": "Talk about relationships, regrets and preferences.", "grammar": ["wish / if only", "would rather / it's time"], "vocabulary": ["relationships", "emotions", "conflict"] },
+    { "id": "b2-10", "level": "B2", "order": 10, "title": "Crime, Law & Society", "topic": "Law", "description": "Discuss crime, justice and social rules.", "grammar": ["Causative have / get", "Advanced passive"], "vocabulary": ["crime", "law", "justice"] },
+    { "id": "b2-11", "level": "B2", "order": 11, "title": "Travel & Globalisation", "topic": "Globalisation", "description": "Discuss tourism, globalisation and cultural change.", "grammar": ["Quantifiers and determiners", "Advanced comparisons"], "vocabulary": ["tourism", "globalisation", "cultural change"] },
+    { "id": "b2-12", "level": "B2", "order": 12, "title": "Money & Economics", "topic": "Economics", "description": "Describe trends, data and economic ideas.", "grammar": ["Cleft sentences for emphasis", "Describing trends"], "vocabulary": ["economics", "trends", "consumerism"] },
+
+    { "id": "b2p-01", "level": "B2+", "order": 1, "title": "Persuasion & Advertising", "topic": "Persuasion", "description": "Analyse and use persuasive language.", "grammar": ["Inversion after negative adverbials"], "vocabulary": ["persuasion", "marketing", "rhetoric"] },
+    { "id": "b2p-02", "level": "B2+", "order": 2, "title": "Leadership & Teamwork", "topic": "Leadership", "description": "Lead meetings and discuss teamwork.", "grammar": ["Modal nuances: needn't have, be supposed to"], "vocabulary": ["leadership", "teamwork", "meetings"] },
+    { "id": "b2p-03", "level": "B2+", "order": 3, "title": "Innovation & Future Technology", "topic": "Innovation", "description": "Discuss innovation and future scenarios.", "grammar": ["Future in the past", "be about to / be on the verge of"], "vocabulary": ["innovation", "future technology"] },
+    { "id": "b2p-04", "level": "B2+", "order": 4, "title": "Global Issues & Development", "topic": "Global Issues", "description": "Discuss global challenges diplomatically.", "grammar": ["Hedging and softening", "Nominalisation"], "vocabulary": ["development", "inequality", "aid"] },
+    { "id": "b2p-05", "level": "B2+", "order": 5, "title": "Mind & Behaviour", "topic": "Psychology", "description": "Discuss decisions, biases and behaviour.", "grammar": ["Mixed conditionals", "Conditionals without if"], "vocabulary": ["psychology", "decision-making", "bias"] },
+    { "id": "b2p-06", "level": "B2+", "order": 6, "title": "Media, Truth & Misinformation", "topic": "Media", "description": "Evaluate sources and discuss misinformation.", "grammar": ["Distancing language", "Ellipsis and substitution"], "vocabulary": ["media literacy", "misinformation"] },
+    { "id": "b2p-07", "level": "B2+", "order": 7, "title": "Space & Exploration", "topic": "Space", "description": "Discuss space exploration and describe complex processes.", "grammar": ["Reduced relative clauses", "Complex noun phrases"], "vocabulary": ["space", "exploration", "astronomy"] },
+    { "id": "b2p-08", "level": "B2+", "order": 8, "title": "Professional Communication", "topic": "Professional English", "description": "Write and speak professionally in formal register.", "grammar": ["Formal register", "Passive for formality"], "vocabulary": ["professional communication", "formal equivalents of phrasal verbs"] },
+    { "id": "b2p-09", "level": "B2+", "order": 9, "title": "Problem Solving & Decisions", "topic": "Problem Solving", "description": "Structure arguments and reach decisions.", "grammar": ["Concession and contrast", "Discourse markers for argument"], "vocabulary": ["problem solving", "decision idioms"] },
+
+    { "id": "c1-01", "level": "C1", "order": 1, "title": "Language & Communication", "topic": "Language", "description": "Explore how language works and shift register naturally.", "grammar": ["Advanced discourse markers", "Register shifts"], "vocabulary": ["linguistics", "idiomatic language"] },
+    { "id": "c1-02", "level": "C1", "order": 2, "title": "Ethics & Moral Dilemmas", "topic": "Ethics", "description": "Discuss moral dilemmas with precision and nuance.", "grammar": ["The subjunctive", "Formal conditionals"], "vocabulary": ["ethics", "morality"] },
+    { "id": "c1-03", "level": "C1", "order": 3, "title": "Philosophy & Big Ideas", "topic": "Philosophy", "description": "Discuss abstract ideas and complex concepts.", "grammar": ["Nominalisation in depth", "Advanced cleft sentences"], "vocabulary": ["philosophy", "abstract nouns"] },
+    { "id": "c1-04", "level": "C1", "order": 4, "title": "Economics & Inequality", "topic": "Economics", "description": "Interpret data and discuss economic inequality.", "grammar": ["Precise data language", "Academic hedging"], "vocabulary": ["economics", "inequality", "policy"] },
+    { "id": "c1-05", "level": "C1", "order": 5, "title": "Scientific Debates", "topic": "Science", "description": "Evaluate evidence and discuss scientific controversies.", "grammar": ["Impersonal structures", "Evaluating evidence"], "vocabulary": ["academic vocabulary", "research methods"] },
+    { "id": "c1-06", "level": "C1", "order": 6, "title": "Technology Ethics & AI", "topic": "Technology Ethics", "description": "Debate the ethics of technology and AI.", "grammar": ["Advanced speculation", "Strong collocations"], "vocabulary": ["technology ethics", "privacy", "regulation"] },
+    { "id": "c1-07", "level": "C1", "order": 7, "title": "Social Change & Movements", "topic": "Society", "description": "Analyse social change and historical movements.", "grammar": ["Fronting and emphasis", "Advanced participle structures"], "vocabulary": ["social change", "activism"] },
+    { "id": "c1-08", "level": "C1", "order": 8, "title": "Leadership & Organisations", "topic": "Leadership", "description": "Negotiate, summarise and lead with sophisticated language.", "grammar": ["Summarising and reporting", "Negotiation language"], "vocabulary": ["organisations", "negotiation"] },
+    { "id": "c1-09", "level": "C1", "order": 9, "title": "Arts, Culture & Criticism", "topic": "Criticism", "description": "Write and discuss nuanced critical evaluations.", "grammar": ["Evaluative adverbs", "Nuance and qualification"], "vocabulary": ["criticism", "aesthetics"] },
+    { "id": "c1-10", "level": "C1", "order": 10, "title": "Global Health & Society", "topic": "Global Health", "description": "Synthesise information on public health issues.", "grammar": ["Complex cause and effect", "Synthesis language"], "vocabulary": ["public health", "policy"] },
+    { "id": "c1-11", "level": "C1", "order": 11, "title": "Professional Decision-Making", "topic": "Professional English", "description": "Write proposals and make persuasive professional cases.", "grammar": ["Persuasive structures", "Formal proposals"], "vocabulary": ["strategy", "risk", "proposals"] },
+    { "id": "c1-12", "level": "C1", "order": 12, "title": "Complex Arguments & Debate", "topic": "Argumentation", "description": "Build, challenge and defend complex arguments.", "grammar": ["Rebuttal and concession", "Rhetorical devices"], "vocabulary": ["argumentation", "debate"] }
+  ]
+}

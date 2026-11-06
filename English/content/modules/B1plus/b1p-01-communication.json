@@ -1,0 +1,903 @@
+{
+  "id": "b1p-01",
+  "level": "B1+",
+  "order": 1,
+  "title": "Communication & Social Media",
+  "topic": "Communication",
+  "description": "Report conversations accurately, avoid misunderstandings and discuss how we communicate — face to face and online.",
+  "descriptionMn": "Бусдын яриаг зөв дамжуулах, үл ойлголцлоос сэргийлэх, нүүр тулж болон онлайнаар хэрхэн харилцдаг тухайгаа ярилцах.",
+  "objectives": [
+    { "text": "Report statements, questions and commands with the correct tense, pronoun and word-order changes", "skills": ["grammar", "writing"] },
+    { "text": "Choose correctly between say and tell, and use fixed expressions like tell the truth and say sorry", "skills": ["grammar", "speaking"] },
+    { "text": "Use B1+ vocabulary for communication and social media (get your point across, go viral, mute, clarify)", "skills": ["vocabulary"] },
+    { "text": "Understand a longer article about online misunderstandings and a natural conversation about going offline", "skills": ["reading", "listening"] },
+    { "text": "Retell conversations and give opinions about social media, using falling intonation in reported questions", "skills": ["speaking", "pronunciation"] },
+    { "text": "Write an informal email telling a friend what people said, asked and decided", "skills": ["writing"] }
+  ],
+  "targets": {
+    "grammar": ["Reported speech: statements, questions and commands", "say vs tell"],
+    "vocabulary": ["communication and misunderstandings", "social media", "screen time and going offline", "reporting verbs and gossip"],
+    "reading": "A magazine article about why online messages are so often misunderstood",
+    "listening": "Two colleagues talk about a week without social media",
+    "speaking": "Tell the story of a post or message that caused a surprise, and give your opinion on going offline",
+    "writing": "An informal email telling a friend what was said and decided on a group video call",
+    "pronunciation": "Intonation in direct questions and reported questions"
+  },
+  "grammar": [
+    {
+      "id": "reported-speech",
+      "title": "Reported speech: statements, questions and commands",
+      "level": "B1+",
+      "summary": "When we report what someone said, we usually move the verb one tense back (am → was, will → would) and change pronouns and time words. Reported questions use normal statement word order, and commands use tell/ask + person + (not) to + verb.",
+      "summaryMn": "Бусдын хэлсэн үгийг дамжуулахдаа ихэвчлэн үйл үгийн цагийг нэг алхам ухрааж (am → was, will → would), төлөөний үг болон цаг хугацааны үгсийг өөрчилнө. Дамжуулсан асуулт энгийн хүүрнэх өгүүлбэрийн үгийн дараалалтай байна. Тушаал, хүсэлтийг tell/ask + хүн + (not) to + үйл үг хэлбэрээр дамжуулна.",
+      "structure": [
+        "Statements: say (that) + clause · tell + person + (that) + clause → 'I'm tired.' → She said (that) she was tired.",
+        "Tense changes (one step back): am/is → was · are → were · present simple → past simple · present continuous → past continuous · present perfect / past simple → past perfect · will → would · can → could · must / have to → had to",
+        "Yes/no questions: ask (+ person) + if/whether + subject + verb → 'Are you OK?' → He asked (me) if I was OK.",
+        "Wh- questions: ask (+ person) + question word + subject + verb → 'Where do you live?' → She asked (me) where I lived.",
+        "Commands and requests: tell/ask + person + (not) to + verb → 'Don't be late.' → He told me not to be late.",
+        "Time and place words: today → that day · tomorrow → the next day · yesterday → the day before · now → then · here → there · this → that"
+      ],
+      "usage": [
+        { "use": "Report what someone said earlier", "example": "Ana said she was working from home that day.", "useMn": "Хэн нэгний өмнө нь хэлсэн зүйлийг дамжуулах" },
+        { "use": "Report yes/no questions with if or whether", "example": "My manager asked me whether I had finished the report.", "useMn": "Тийм/үгүй асуултыг if эсвэл whether ашиглан дамжуулах" },
+        { "use": "Report wh- questions with the question word + statement word order", "example": "The journalist asked her why she had deleted her account.", "useMn": "Асуух үгтэй асуултыг асуух үг + хүүрнэх өгүүлбэрийн дараалалаар дамжуулах" },
+        { "use": "Report instructions, requests and advice", "example": "The doctor told me to rest for a few days.", "useMn": "Заавар, хүсэлт, зөвлөгөөг дамжуулах" },
+        { "use": "Keep the tense when the reporting verb is in the present, or when the information is still true", "example": "He says he's running late. / She told me she lives in Berlin.", "useMn": "Үйл үг нь одоо цагт (says) байвал эсвэл мэдээлэл одоо ч үнэн бол цагийг өөрчлөхгүй байж болно" }
+      ],
+      "examples": [
+        { "en": "'I'm working on a new project.' → She said she was working on a new project.", "note": "Present continuous → past continuous; I → she." },
+        { "en": "'We've already posted the photos.' → They said they had already posted the photos.", "note": "Present perfect → past perfect." },
+        { "en": "'Will you be online tonight?' → He asked me if I would be online that night.", "note": "Yes/no question → if; will → would; tonight → that night." },
+        { "en": "'What time does the meeting start?' → She asked what time the meeting started.", "note": "No 'does' in the reported question; statement word order; no question mark." },
+        { "en": "'Don't reply to that email.' → My boss told me not to reply to that email.", "note": "Negative command → not to + verb." }
+      ],
+      "contrast": {
+        "with": "Direct speech",
+        "pairs": [
+          { "a": "'Where do you work?' she asked.", "b": "She asked me where I worked.", "why": "In a reported question the word order is subject + verb, there is no do/does/did, and there is no question mark.", "whyMn": "Дамжуулсан асуултад үгийн дараалал 'эзэн + үйл үг' байна; do/does/did хэрэглэхгүй, асуултын тэмдэг тавихгүй." },
+          { "a": "'Are you coming to the party?' he asked.", "b": "He asked if I was coming to the party.", "why": "Yes/no questions need 'if' or 'whether' when you report them.", "whyMn": "Тийм/үгүй асуултыг дамжуулахдаа 'if' эсвэл 'whether' заавал хэрэглэнэ." },
+          { "a": "'Please call me back,' she said.", "b": "She asked me to call her back.", "why": "Requests and commands become ask/tell + person + to + verb.", "whyMn": "Хүсэлт, тушаал нь ask/tell + хүн + to + үйл үг болж хувирна." }
+        ]
+      },
+      "mistakes": [
+        { "wrong": "She asked me where did I live.", "right": "She asked me where I lived.", "why": "Reported questions use statement word order and no auxiliary 'did'.", "whyMn": "Дамжуулсан асуултад хүүрнэх өгүүлбэрийн үгийн дараалал хэрэглэж, 'did' туслах үйл үгийг хасна." },
+        { "wrong": "He asked me do I like my job.", "right": "He asked me if I liked my job.", "why": "Report yes/no questions with if/whether + statement word order, and move the tense back.", "whyMn": "Тийм/үгүй асуултыг if/whether + хүүрнэх дараалалтай дамжуулж, цагийг нэг алхам ухраана." },
+        { "wrong": "My boss told me don't be late.", "right": "My boss told me not to be late.", "why": "Negative commands become 'not to + verb'.", "whyMn": "Үгүйсгэсэн тушаал 'not to + үйл үг' хэлбэрт шилжинэ." },
+        { "wrong": "She asked me that I was free.", "right": "She asked me if I was free.", "why": "Don't use 'that' after 'ask'. Use if/whether or a question word.", "whyMn": "'Ask'-ийн дараа 'that' хэрэглэдэггүй; if/whether эсвэл асуух үг хэрэглэнэ." }
+      ],
+      "guided": [
+        { "type": "mcq", "prompt": "'I'm really busy this week,' Sara said. → Sara said she ___ really busy that week.", "options": ["was", "is being", "has"], "answer": 0, "explanation": "am/is → was when the reporting verb is in the past." },
+        { "type": "mcq", "prompt": "'Where do you live?' → He asked me where ___.", "options": ["I lived", "did I live", "do I live"], "answer": 0, "explanation": "Reported questions use statement word order and no do/did." },
+        { "type": "mcq", "prompt": "'Don't share the password,' the IT manager said. → The IT manager told us ___ the password.", "options": ["not to share", "don't share", "not sharing"], "answer": 0, "explanation": "Negative commands → tell + person + not to + verb." },
+        { "type": "mcq", "prompt": "'Will you be at the meeting?' → She asked ___ I would be at the meeting.", "options": ["if", "that", "what"], "answer": 0, "explanation": "Yes/no questions are reported with if or whether." },
+        { "type": "mcq", "prompt": "Which sentence correctly reports 'I've already posted the photos'?", "options": ["He said he had already posted the photos.", "He said he has already post the photos.", "He said me he had already posted the photos."], "answer": 0, "explanation": "Present perfect → past perfect (had + past participle). 'Said me' is wrong — use 'told me' or just 'said'." }
+      ],
+      "free": [
+        { "type": "transform", "prompt": "Report this sentence a week after Leila said it. Begin: Leila said…", "sentence": "'I can't come to the party tomorrow.'", "answers": ["Leila said she couldn't come to the party the next day.", "Leila said that she couldn't come to the party the next day.", "Leila said she couldn't come to the party the following day.", "Leila said that she couldn't come to the party the following day."], "explanation": "can → could; tomorrow → the next day / the following day." },
+        { "type": "transform", "prompt": "Report the question. Begin: My teacher asked me…", "sentence": "'Are you enjoying the course?'", "answers": ["My teacher asked me if I was enjoying the course.", "My teacher asked me whether I was enjoying the course."], "explanation": "Yes/no question → if/whether; are → was; you → I." },
+        { "type": "transform", "prompt": "Report the request. Begin: Our manager asked us…", "sentence": "'Please turn off your notifications during the meeting.'", "answers": ["Our manager asked us to turn off our notifications during the meeting.", "Our manager asked us to turn our notifications off during the meeting."], "explanation": "Request → ask + person + to + verb; your → our." },
+        { "type": "correct", "prompt": "Correct the sentence.", "sentence": "She asked me what time did the film start.", "answers": ["She asked me what time the film started."], "explanation": "No 'did' in a reported question: question word + subject + verb (past)." },
+        { "type": "gap", "prompt": "'How long have you worked here?' → He asked me how long I ___ there.", "answers": ["had worked"], "explanation": "Present perfect → past perfect: had worked." }
+      ],
+      "prerequisites": []
+    },
+    {
+      "id": "say-tell",
+      "title": "say vs tell",
+      "level": "B1+",
+      "summary": "Use 'tell' with a person as the object (tell me, tell Anna). Use 'say' without a person, or with 'to + person'. Some fixed expressions always use one verb: tell the truth / a lie / a story / a joke, but say hello / goodbye / sorry / thank you / yes / no.",
+      "summaryMn": "'Tell'-ийн дараа хүн (tell me, tell Anna) заавал орно. 'Say'-ийн дараа хүн шууд орохгүй, хэрэв орвол 'to + хүн' хэлбэртэй. Монгол хэлэнд хоёулаа 'хэлэх' гэж орчуулагддаг тул андуурах нь элбэг. Тогтвортой хэллэгүүдийг цээжлээрэй: tell the truth / a lie / a story / a joke; say hello / goodbye / sorry / thank you.",
+      "structure": [
+        "say + (that) + clause → She said (that) she was tired.",
+        "say + something + to + person → He said something to me. · What did she say to you?",
+        "tell + person + (that) + clause → She told me (that) she was tired.",
+        "tell + person + (not) to + verb → He told us to wait. · She told me not to worry.",
+        "tell + person + about + something → Tell me about your trip.",
+        "Fixed: tell the truth / a lie / a story / a joke / the time / the difference · say hello / goodbye / sorry / thank you / yes / no"
+      ],
+      "usage": [
+        { "use": "Report words without mentioning the listener", "example": "Tom said the meeting was cancelled.", "useMn": "Сонсогчийг дурдахгүйгээр үгийг дамжуулах — say" },
+        { "use": "Report words and mention the listener", "example": "Tom told me the meeting was cancelled.", "useMn": "Хэнд хэлснийг дурдах — tell + хүн" },
+        { "use": "Report an instruction or advice", "example": "The teacher told us to switch off our phones.", "useMn": "Заавар, зөвлөгөө дамжуулах — tell + хүн + to" },
+        { "use": "Fixed expressions", "example": "Are you telling the truth? / Don't forget to say thank you.", "useMn": "Тогтвортой хэллэгүүд" }
+      ],
+      "examples": [
+        { "en": "She said she'd call later. / She told me she'd call later.", "note": "Same meaning; 'told' needs a person." },
+        { "en": "What did he say to you?", "note": "'say to + person', never 'say you'." },
+        { "en": "Can you tell the difference between these two photos?", "note": "'tell the difference' is a fixed expression." },
+        { "en": "I have to say, your presentation was excellent.", "note": "'I have to say' / 'I must say' introduce an honest opinion." }
+      ],
+      "contrast": {
+        "with": "tell",
+        "pairs": [
+          { "a": "He said that he was leaving.", "b": "He told me that he was leaving.", "why": "'Tell' needs a person directly after it; 'say' doesn't.", "whyMn": "'Tell'-ийн дараа хүн шууд орно; 'say'-ийн дараа хүн шаардлагагүй." },
+          { "a": "She said goodbye to everyone.", "b": "She told everyone a funny story.", "why": "Fixed expressions: say goodbye / say sorry, but tell a story / tell a joke.", "whyMn": "Тогтвортой хэллэг: say goodbye, say sorry; харин tell a story, tell a joke." },
+          { "a": "What did she say to you?", "b": "What did she tell you?", "why": "Both are correct. With 'say', the person comes after 'to'. With 'tell', the person comes straight after the verb.", "whyMn": "Хоёулаа зөв. 'Say'-д хүн 'to'-гийн дараа, 'tell'-д үйл үгийн шууд дараа орно." }
+        ]
+      },
+      "mistakes": [
+        { "wrong": "She said me that she was busy.", "right": "She told me that she was busy.", "why": "Don't put a person directly after 'say'. Use 'tell me' or just 'she said'.", "whyMn": "'Say'-ийн шууд дараа хүн орохгүй. 'Told me' эсвэл зүгээр 'she said' гэнэ." },
+        { "wrong": "He told that he would be late.", "right": "He said that he would be late.", "why": "'Tell' needs a person: 'He told us that…' or use 'said'.", "whyMn": "'Tell'-ийн дараа хүн заавал орно: 'He told us that…', эсвэл 'said' хэрэглэнэ." },
+        { "wrong": "Can you say me the time?", "right": "Can you tell me the time?", "why": "'Tell someone the time' is a fixed expression.", "whyMn": "'Tell someone the time' бол тогтвортой хэллэг." },
+        { "wrong": "Don't say lies.", "right": "Don't tell lies.", "why": "In English we 'tell' lies, the truth, stories and jokes.", "whyMn": "Англи хэлэнд худал, үнэн, түүх, хошигнолыг 'tell' гэдэг — Монголоор бүгд 'хэлэх' ч англиар ялгаатай." }
+      ],
+      "guided": [
+        { "type": "mcq", "prompt": "She ___ me that she had deleted the app.", "options": ["told", "said", "spoke"], "answer": 0, "explanation": "A person (me) comes straight after the verb → told." },
+        { "type": "mcq", "prompt": "What did the doctor ___ to you?", "options": ["say", "tell", "told"], "answer": 0, "explanation": "'say + to + person'." },
+        { "type": "mcq", "prompt": "My grandfather loves ___ stories about his childhood.", "options": ["telling", "saying", "speaking"], "answer": 0, "explanation": "Fixed expression: tell a story." },
+        { "type": "mcq", "prompt": "He ___ sorry for the misunderstanding.", "options": ["said", "told", "talked"], "answer": 0, "explanation": "Fixed expression: say sorry." },
+        { "type": "mcq", "prompt": "Which sentence is correct?", "options": ["They told us to arrive early.", "They said us to arrive early.", "They told to us to arrive early."], "answer": 0, "explanation": "tell + person + to + verb." }
+      ],
+      "free": [
+        { "type": "gap", "prompt": "Please ___ me the truth — did you read my messages?", "answers": ["tell"], "explanation": "Fixed expression: tell (someone) the truth." },
+        { "type": "gap", "prompt": "I just wanted to ___ thank you for your help yesterday.", "answers": ["say"], "explanation": "Fixed expression: say thank you." },
+        { "type": "correct", "prompt": "Correct the sentence.", "sentence": "My sister said me not to worry.", "answers": ["My sister told me not to worry."], "explanation": "Instructions and advice: tell + person + (not) to + verb." },
+        { "type": "correct", "prompt": "Correct the sentence.", "sentence": "He told that the post had gone viral.", "answers": ["He said that the post had gone viral.", "He said the post had gone viral.", "He told me that the post had gone viral.", "He told me the post had gone viral.", "He told us that the post had gone viral.", "He told us the post had gone viral."], "explanation": "Either use 'said' or add a person after 'told'." },
+        { "type": "transform", "prompt": "Report the sentence using the word given.", "sentence": "'I'll call you after the meeting,' Nara said to me.", "keyword": "told", "answers": ["Nara told me she would call me after the meeting.", "Nara told me that she would call me after the meeting."], "explanation": "tell + person + (that) + clause; will → would; I → she; you → me." }
+      ],
+      "prerequisites": ["reported-speech"]
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "question-intonation",
+      "title": "Intonation in direct and reported questions",
+      "category": "intonation",
+      "explanation": "Questions in English usually have one of two tunes. Yes/no questions (Did you…? Are you…?) often go up ↗ at the end. Wh- questions (Where…? Why…? What…?) usually go down ↘. When you report a question (She asked if…, He wanted to know why…), it is no longer a real question — it is a statement, so your voice goes down ↘ and you don't write a question mark.",
+      "explanationMn": "Англи асуулт ихэвчлэн хоёр янзын аялгатай. Тийм/үгүй асуулт (Did you…? Are you…?) төгсгөлдөө дээшилдэг ↗. Асуух үгтэй асуулт (Where…? Why…? What…?) ихэвчлэн доошилдог ↘. Асуултыг дамжуулахад (She asked if…, He wanted to know why…) энэ нь жинхэнэ асуулт биш, хүүрнэх өгүүлбэр болно — тиймээс дуу доошилж ↘, асуултын тэмдэг тавихгүй.",
+      "items": [
+        { "display": "↗ Did you see my message?", "say": "Did you see my message?", "tip": "Yes/no question: your voice goes up on MESS-age." },
+        { "display": "↗ Are you going offline this weekend?", "say": "Are you going offline this weekend?", "tip": "Rise at the end ↗." },
+        { "display": "↘ Where did you hear that?", "say": "Where did you hear that?", "tip": "Wh- question: your voice goes down at the end." },
+        { "display": "↘ Why did you unfollow him?", "say": "Why did you unfollow him?", "tip": "Strong stress on WHY, fall at the end." },
+        { "display": "↘ She asked if I'd seen her message.", "say": "She asked if I'd seen her message.", "tip": "A reported question is a statement: voice goes down ↘." },
+        { "display": "↘ He wanted to know where I'd heard that.", "say": "He wanted to know where I'd heard that.", "tip": "No question tune — it's information, not a question." }
+      ],
+      "shadowing": [
+        { "text": "Did you get my message?", "stress": "Did you GET my MESSage?", "tip": "Rise ↗ on MESSage.", "difficult": ["message"] },
+        { "text": "Where did you hear about it?", "stress": "WHERE did you HEAR aBOUT it?", "tip": "Fall ↘ at the end. 'Did you' is quick and weak: /dɪdʒə/.", "difficult": ["did you"] },
+        { "text": "She asked me if I was going to the party.", "stress": "She ASKED me if I was GOing to the PARty.", "tip": "Statement intonation: fall ↘ on PARty.", "difficult": ["asked me"] },
+        { "text": "He wanted to know why I hadn't replied.", "stress": "He WANTed to KNOW why I HADn't rePLIED.", "tip": "Fall ↘ at the end — this is not a real question.", "difficult": ["hadn't replied"] }
+      ],
+      "spokenForms": [
+        { "written": "Did you…?", "spoken": "/ˈdɪdʒə/ (didja)", "note": "In fast speech 'did you' often sounds like 'didja'. You need to understand it; you don't have to say it." },
+        { "written": "What did you…?", "spoken": "/ˈwɒdɪdʒə/ (wadidja)", "note": "The t of 'what' almost disappears in fast, informal speech." }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "b1p-01-l1",
+      "title": "Why online messages go wrong",
+      "focus": "vocabulary",
+      "difficulty": 4,
+      "minutes": 30,
+      "objectives": [
+        "Use 12 words and phrases for communication and misunderstandings",
+        "Understand the main idea, details and the writer's purpose in a longer magazine article",
+        "Talk about why messages are misunderstood and how to avoid it"
+      ],
+      "warmup": {
+        "intro": "Think about the last message that confused or annoyed you. Was the problem the words — or the way you read them?",
+        "questions": [
+          { "type": "mcq", "prompt": "Which word describes a situation in which two people understand something differently?", "options": ["misunderstanding", "agreement", "announcement", "conversation"], "answer": 0, "skill": "vocabulary" },
+          { "type": "mcq", "prompt": "The article in this lesson is called 'Lost in Translation: Why Online Messages Go Wrong'. What do you think it is about?", "options": ["Why texts and emails are often read in the wrong way", "Problems with translation apps", "Why online shopping orders get lost"], "answer": 0, "skill": "reading", "tag": "prediction", "explanation": "The subtitle 'Why Online Messages Go Wrong' tells you the topic." }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "misunderstanding", "pos": "noun", "ipa": "/ˌmɪsʌndəˈstændɪŋ/",
+          "definition": "a situation in which someone does not understand something correctly",
+          "mn": "үл ойлголцол, буруу ойлголт",
+          "examples": ["There must be a misunderstanding — I never said I was angry.", "Most arguments in our team start with a simple misunderstanding."],
+          "collocations": ["clear up a misunderstanding", "a simple misunderstanding", "lead to a misunderstanding", "a misunderstanding about something"],
+          "synonyms": ["confusion"], "antonyms": [],
+          "mistake": "The noun is 'misunderstanding'; the verb is 'misunderstand' (past: misunderstood). Say 'I misunderstood you', not 'I misunderstanding you'.",
+          "level": "B2", "difficulty": 3
+        },
+        {
+          "word": "tone", "pos": "noun", "ipa": "/təʊn/",
+          "definition": "the feeling or attitude that a voice or a piece of writing expresses",
+          "mn": "өнгө аяс (яриа, бичвэрийн)",
+          "examples": ["I didn't like the tone of her email — it sounded quite cold.", "He said 'fine', but his tone of voice told me he wasn't happy."],
+          "collocations": ["tone of voice", "a friendly tone", "the tone of a message", "a formal tone"],
+          "synonyms": ["manner"], "antonyms": [],
+          "mistake": "Say 'in a friendly tone' (with 'in'), not 'with a friendly tone' or 'by a friendly tone'.",
+          "note": "In writing, tone comes from word choice and punctuation: 'Fine.' sounds colder than 'Fine, no problem!'",
+          "level": "B2", "difficulty": 3
+        },
+        {
+          "word": "misinterpret", "pos": "verb", "ipa": "/ˌmɪsɪnˈtɜːprɪt/",
+          "definition": "to understand something wrongly, especially someone's words or actions",
+          "mn": "буруугаар ойлгох, буруу тайлбарлах",
+          "examples": ["She misinterpreted my silence as anger.", "Short messages are very easy to misinterpret."],
+          "collocations": ["misinterpret someone's words", "misinterpret something as something", "easily misinterpreted"],
+          "synonyms": ["misunderstand", "misread"], "antonyms": [],
+          "mistake": "Use 'misinterpret something AS something': 'He misinterpreted my joke as criticism', not 'like criticism'.",
+          "level": "B2", "difficulty": 4
+        },
+        {
+          "word": "get your point across", "pos": "phrase", "ipa": "/ɡet jɔː ˈpɔɪnt əˌkrɒs/",
+          "definition": "to make other people understand what you mean",
+          "mn": "санаагаа ойлгуулах, хэлэх гэсэн зүйлээ ойлгуулж чадах",
+          "examples": ["It's hard to get your point across in a short text message.", "A simple diagram can help you get your point across."],
+          "collocations": ["get your point across clearly", "struggle to get your point across", "get your point across in a meeting"],
+          "synonyms": ["make yourself understood"], "antonyms": [],
+          "note": "Change the possessive to match the person: get my / his / her / our point across.",
+          "level": "B2", "difficulty": 4
+        },
+        {
+          "word": "body language", "pos": "noun", "ipa": "/ˈbɒdi ˌlæŋɡwɪdʒ/",
+          "definition": "the way you move your body, face and hands, which shows what you are feeling",
+          "mn": "биеийн хэлэмж, дохио хөдөлгөөн",
+          "examples": ["His body language showed that he was nervous.", "In a video call it's harder to read people's body language."],
+          "collocations": ["read someone's body language", "positive body language", "body language shows that…"],
+          "synonyms": ["non-verbal communication"], "antonyms": [],
+          "mistake": "'Body language' is uncountable: 'Her body language was friendly', not 'Her body languages were friendly'.",
+          "level": "B1+", "difficulty": 2
+        },
+        {
+          "word": "face to face", "pos": "adverb", "ipa": "/ˌfeɪs tə ˈfeɪs/",
+          "definition": "meeting in the same place, not by phone or online",
+          "mn": "нүүр тулж, биечлэн",
+          "examples": ["Some problems are much easier to solve face to face.", "We've chatted online for months, but we've never met face to face."],
+          "collocations": ["meet face to face", "talk face to face", "come face to face with"],
+          "synonyms": ["in person"], "antonyms": ["online", "remotely"],
+          "note": "Before a noun, use hyphens: a face-to-face meeting.",
+          "level": "B1+", "difficulty": 2
+        },
+        {
+          "word": "blunt", "pos": "adjective", "ipa": "/blʌnt/",
+          "definition": "saying what you think directly, without trying to be polite",
+          "mn": "шулуун, илэн далангүй (заримдаа бүдүүлэг сонсогдох)",
+          "examples": ["Her reply was so blunt that I thought she was angry.", "To be blunt, your presentation was too long."],
+          "collocations": ["a blunt reply", "to be blunt", "blunt feedback"],
+          "synonyms": ["direct", "frank"], "antonyms": ["tactful", "diplomatic"],
+          "note": "'Direct' is often positive; 'blunt' suggests the words felt a little rude.",
+          "level": "B2", "difficulty": 4
+        },
+        {
+          "word": "sarcastic", "pos": "adjective", "ipa": "/sɑːˈkæstɪk/",
+          "definition": "saying the opposite of what you mean, as a joke or to criticise someone",
+          "mn": "ёжтой, шоолонгуй",
+          "examples": ["When he said 'Great job!', I couldn't tell if he was being sarcastic.", "Sarcastic comments rarely work well in emails."],
+          "collocations": ["a sarcastic comment", "be sarcastic", "a sarcastic tone"],
+          "synonyms": ["ironic", "mocking"], "antonyms": ["sincere"],
+          "mistake": "The stress is on the second syllable: sar-CAS-tic, not SAR-cas-tic.",
+          "level": "B2", "difficulty": 4
+        },
+        {
+          "word": "clarify", "pos": "verb", "ipa": "/ˈklærəfaɪ/",
+          "definition": "to make something clearer or easier to understand, often by explaining it again",
+          "mn": "тодруулах, тодорхой болгох",
+          "examples": ["Could you clarify what you mean by 'soon'?", "I sent a second email to clarify the meeting time."],
+          "collocations": ["clarify a point", "clarify what you mean", "clarify the situation"],
+          "synonyms": ["explain", "make clear"], "antonyms": ["confuse"],
+          "mistake": "Don't add 'about': 'Can you clarify this?', not 'Can you clarify about this?'",
+          "note": "Neutral to formal. In conversation you can also say 'Just to be clear, …'",
+          "level": "B2", "difficulty": 3
+        },
+        {
+          "word": "assume", "pos": "verb", "ipa": "/əˈsjuːm/",
+          "definition": "to think that something is true without having proof",
+          "mn": "(баталгаагүйгээр) гэж бодох, таамаглах",
+          "examples": ["I assumed you were busy because you didn't reply.", "Don't assume that everyone reads their messages immediately."],
+          "collocations": ["assume (that)…", "wrongly assume", "it's safe to assume", "assume the worst"],
+          "synonyms": ["suppose", "presume"], "antonyms": [],
+          "mistake": "'Assume' doesn't mean 'check' or 'make sure'. 'I assumed he knew' = I thought he knew, but I didn't check.",
+          "level": "B2", "difficulty": 3
+        },
+        {
+          "word": "respond", "pos": "verb", "ipa": "/rɪˈspɒnd/",
+          "definition": "to reply, or to react to something",
+          "mn": "хариу өгөх, хариулах",
+          "examples": ["She still hasn't responded to my message.", "It's better not to respond when you're angry."],
+          "collocations": ["respond to a message", "respond quickly", "fail to respond"],
+          "synonyms": ["reply", "answer"], "antonyms": ["ignore"],
+          "mistake": "Say 'respond TO an email', not 'respond an email'.",
+          "note": "A little more formal than 'reply' or 'get back to someone'.",
+          "level": "B1+", "difficulty": 2
+        },
+        {
+          "word": "overthink", "pos": "verb", "ipa": "/ˌəʊvəˈθɪŋk/",
+          "definition": "to think about something too much, so that it becomes worrying or confusing",
+          "mn": "хэт их бодох, юмыг хэтэрхий бодож санаа зовох",
+          "examples": ["You're overthinking it — she probably just forgot to reply.", "I tend to overthink every email I send to my boss."],
+          "collocations": ["overthink things", "overthink a message", "stop overthinking"],
+          "synonyms": [], "antonyms": [],
+          "note": "Informal to neutral. Past form: overthought.",
+          "level": "B2", "difficulty": 3
+        }
+      ],
+      "reading": {
+        "id": "r-online-messages",
+        "title": "Lost in Translation: Why Online Messages Go Wrong",
+        "genre": "article",
+        "text": [
+          "You send a colleague a quick reply: 'Fine. See you tomorrow.' To you, it is a perfectly friendly message. To your colleague, it sounds cold, maybe even angry. An hour later, they ask if everything is OK, and you have no idea what they are talking about. Situations like this are so common that communication researchers have a name for them: digital misunderstandings.",
+          "The main problem is that written messages lose most of the information we normally use to understand each other. When we talk face to face, we hear the other person's tone of voice and see their body language. A smile tells us that a comment is a joke; a raised eyebrow warns us that the speaker is being sarcastic. In a text message, all of that disappears, and the reader has to guess.",
+          "Unfortunately, we are not very good at guessing. In one well-known American study, people who sent emails believed that their readers would identify the tone correctly almost 80 per cent of the time. In reality, the readers got it right only a little over half the time. Other research suggests that when we are unsure, we often assume the worst. A short reply seems blunt, and a slow reply looks like a sign that the other person is annoyed.",
+          "Age can make things even more complicated. Many younger people read a full stop at the end of a short message as a sign of anger, while their parents simply see correct punctuation. Emojis cause similar problems: a thumbs-up can mean 'Great!' to one person and 'I don't want to talk to you' to another. As a result, different generations regularly misinterpret each other.",
+          "So how can we get our point across more clearly? Experts suggest a few simple rules. First, if a topic is important or emotional, don't type it — call or meet in person. Second, read your message again before you send it and ask yourself how it might sound to someone who is tired or stressed. Finally, if a message upsets you, don't respond immediately. Ask the sender to clarify what they meant. Most of the time, you will discover that you were overthinking it — and that 'Fine' really did mean fine."
+        ],
+        "glossary": [
+          { "term": "raised eyebrow", "meaning": "an eyebrow lifted to show surprise or doubt", "mn": "өргөсөн хөмсөг (гайхсан, эргэлзсэн дохио)" },
+          { "term": "punctuation", "meaning": "marks such as . , ? ! used in writing", "mn": "цэг таслал" },
+          { "term": "thumbs-up", "meaning": "a sign with the thumb pointing up, meaning 'OK' or 'good'", "mn": "эрхий хуруу өргөсөн тэмдэг" }
+        ],
+        "questions": [
+          { "type": "mcq", "tag": "main_idea", "prompt": "What is the article mainly about?", "options": ["Why written messages are often misunderstood, and how to avoid it", "Why young people should stop using emojis", "How to write a formal email at work", "Why phone calls are more popular than text messages"], "answer": 0, "explanation": "The article explains why messages are misread and ends with advice." },
+          { "type": "tfng", "tag": "detail", "prompt": "In the study, readers understood the tone of emails as often as the senders expected.", "answer": "false", "explanation": "Senders expected almost 80 per cent; readers were right only a little over half the time." },
+          { "type": "tfng", "tag": "detail", "prompt": "When people are not sure about a message, they often imagine something negative.", "answer": "true", "explanation": "Paragraph 3: 'when we are unsure, we often assume the worst'." },
+          { "type": "tfng", "tag": "detail", "prompt": "Older people send more emojis than younger people.", "answer": "not_given", "explanation": "The article talks about how generations read emojis, not who sends more." },
+          { "type": "mcq", "tag": "vocab_context", "prompt": "In paragraph 3, a 'blunt' reply is one that…", "options": ["is direct and may seem rude", "is very long and detailed", "arrives too late", "contains a joke"], "answer": 0 },
+          { "type": "short", "tag": "detail", "prompt": "According to paragraph 2, what do we lose in a written message? Write one thing.", "answers": ["tone of voice", "tone", "body language"], "explanation": "We lose the other person's tone of voice and body language." },
+          { "type": "order", "tag": "detail", "prompt": "Put the writer's advice in the order it appears in the article.", "items": ["Call or meet in person for important topics", "Reread your message before you send it", "Wait before you reply to a message that upsets you", "Ask the sender what they meant"] },
+          { "type": "mcq", "tag": "purpose", "prompt": "Why does the writer return to the message 'Fine' in the last sentence?", "options": ["To show that the original message was probably innocent", "To give an example of a sarcastic reply", "To suggest that 'Fine' is always a rude word", "To show that colleagues often lie"], "answer": 0, "explanation": "The ending links back to the first paragraph: 'Fine' really did mean fine." }
+        ]
+      },
+      "quiz": [
+        { "type": "gap", "skill": "vocabulary", "prompt": "I tried hard, but I couldn't get my ___ across in the meeting.", "answers": ["point"], "options": ["point", "tone", "word", "body"] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "If someone is being sarcastic, they…", "options": ["say the opposite of what they mean", "speak very quietly", "refuse to answer", "use very formal language"], "answer": 0 },
+        { "type": "match", "skill": "vocabulary", "tag": "collocation", "prompt": "Match the words to make collocations.", "pairs": [["clear up", "a misunderstanding"], ["tone", "of voice"], ["read someone's", "body language"], ["respond", "to a message"]] },
+        { "type": "gap", "skill": "vocabulary", "prompt": "I ___ you had already left, so I didn't wait.", "answers": ["assumed"], "options": ["assumed", "clarified", "responded", "misinterpreted"] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "Which reply to an invitation is the most blunt?", "options": ["No.", "I'm afraid I can't, sorry.", "I'd love to, but I'm busy that day.", "Maybe another time?"], "answer": 0 },
+        { "type": "gap", "skill": "vocabulary", "prompt": "Could you ___ what you mean? I'm a bit confused.", "answers": ["clarify", "explain"] }
+      ]
+    },
+    {
+      "id": "b1p-01-l2",
+      "title": "She said it had gone viral",
+      "focus": "grammar",
+      "difficulty": 5,
+      "minutes": 30,
+      "objectives": [
+        "Report statements, questions and commands with the correct tense and word order",
+        "Use social media vocabulary: post, feed, go viral, notification, content",
+        "Tell the story of a post or message, reporting what people said and asked"
+      ],
+      "warmup": {
+        "intro": "Quick check: how do you pass on what someone said? Trust your first feeling.",
+        "questions": [
+          { "type": "mcq", "prompt": "'I'm tired,' Anna said. → Anna said she ___ tired.", "options": ["was", "is being", "were"], "answer": 0, "skill": "grammar", "explanation": "In reported speech, am/is usually becomes was." },
+          { "type": "mcq", "prompt": "When a video is shared by millions of people very quickly, it…", "options": ["goes viral", "goes offline", "gets deleted", "gets muted"], "answer": 0, "skill": "vocabulary" }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "post", "pos": "verb / noun", "ipa": "/pəʊst/",
+          "definition": "to put a message, photo or video on social media or a website; a message or photo put online",
+          "mn": "(сошиал медиад) нийтлэх, оруулах; пост, нийтлэл",
+          "examples": ["She posted a photo of her new flat on Instagram.", "His last post got more than five hundred likes."],
+          "collocations": ["post a photo", "post something online", "a Facebook post", "write a post"],
+          "synonyms": ["upload", "share"], "antonyms": ["delete"],
+          "mistake": "We post something ON social media: 'post it on Instagram', not 'post it in Instagram'.",
+          "level": "B1+", "difficulty": 1
+        },
+        {
+          "word": "scroll", "pos": "verb", "ipa": "/skrəʊl/",
+          "definition": "to move text or images up or down on a screen to see more",
+          "mn": "(дэлгэц) гүйлгэх",
+          "examples": ["I scrolled through my phone for an hour instead of sleeping.", "Scroll down to read the comments."],
+          "collocations": ["scroll through", "scroll down", "endless scrolling"],
+          "synonyms": [], "antonyms": [],
+          "note": "'Doomscrolling' (informal) means reading lots of bad news online without being able to stop.",
+          "level": "B2", "difficulty": 2
+        },
+        {
+          "word": "follower", "pos": "noun", "ipa": "/ˈfɒləʊə(r)/",
+          "definition": "a person who chooses to see someone's posts on social media",
+          "mn": "дагагч",
+          "examples": ["The singer has over ten million followers.", "I lost a few followers after I posted about politics."],
+          "collocations": ["gain followers", "lose followers", "a loyal follower", "have thousands of followers"],
+          "synonyms": ["fan", "subscriber"], "antonyms": [],
+          "mistake": "We 'gain' or 'get' followers — not 'win' or 'earn' followers.",
+          "level": "B1+", "difficulty": 2
+        },
+        {
+          "word": "go viral", "pos": "phrase", "ipa": "/ɡəʊ ˈvaɪrəl/",
+          "definition": "(of a video, photo, etc.) to spread very quickly online and be seen by a huge number of people",
+          "mn": "интернэтэд маш хурдан тархах, их хандалттай болох",
+          "examples": ["The video went viral overnight.", "Nobody really knows why some posts go viral and others don't."],
+          "collocations": ["go viral overnight", "a video goes viral", "a post that went viral"],
+          "synonyms": ["spread quickly"], "antonyms": [],
+          "note": "Informal to neutral. The verb is always 'go': went viral, has gone viral.",
+          "level": "B2", "difficulty": 3
+        },
+        {
+          "word": "notification", "pos": "noun", "ipa": "/ˌnəʊtɪfɪˈkeɪʃn/",
+          "definition": "a message on your phone or computer that tells you something new has happened",
+          "mn": "мэдэгдэл",
+          "examples": ["I turned off all my notifications during exam week.", "My phone buzzed with a new notification every few seconds."],
+          "collocations": ["turn off notifications", "get a notification", "push notification"],
+          "synonyms": ["alert"], "antonyms": [],
+          "mistake": "Don't say 'close notifications'. Say 'turn off' or 'switch off' notifications.",
+          "level": "B2", "difficulty": 2
+        },
+        {
+          "word": "feed", "pos": "noun", "ipa": "/fiːd/",
+          "definition": "the list of new posts you see when you open a social media app",
+          "mn": "(сошиал медиагийн) мэдээний урсгал, фийд",
+          "examples": ["My feed is full of holiday photos this week.", "The app decides what appears in your feed."],
+          "collocations": ["news feed", "your Instagram feed", "clean up your feed"],
+          "synonyms": ["timeline"], "antonyms": [],
+          "note": "Also called 'news feed'. Don't confuse it with the verb 'feed' (give food to).",
+          "level": "B2", "difficulty": 3
+        },
+        {
+          "word": "influencer", "pos": "noun", "ipa": "/ˈɪnfluənsə(r)/",
+          "definition": "a person with many followers who is paid by companies to show and recommend their products online",
+          "mn": "инфлюэнсер (олон дагагчтай, бараа бүтээгдэхүүн сурталчилдаг хүн)",
+          "examples": ["The influencer was paid to post about the new phone.", "Many teenagers say they want to become influencers."],
+          "collocations": ["a social media influencer", "a fitness influencer", "work with influencers"],
+          "synonyms": ["content creator"], "antonyms": [],
+          "note": "The stress is on the first syllable: IN-flu-en-cer.",
+          "level": "B2", "difficulty": 3
+        },
+        {
+          "word": "content", "pos": "noun", "ipa": "/ˈkɒntent/",
+          "definition": "the videos, texts, photos, etc. that people create and share online",
+          "mn": "контент, агуулга",
+          "examples": ["She creates content about cooking and travel.", "The platform removes harmful content."],
+          "collocations": ["create content", "online content", "content creator", "harmful content"],
+          "synonyms": ["material"], "antonyms": [],
+          "mistake": "In this meaning 'content' is uncountable: 'a lot of content', not 'a lot of contents'.",
+          "note": "Stress: CON-tent (noun). The adjective con-TENT means 'happy and satisfied'.",
+          "level": "B2", "difficulty": 3
+        },
+        {
+          "word": "trending", "pos": "adjective", "ipa": "/ˈtrendɪŋ/",
+          "definition": "being talked about by a lot of people online at the moment",
+          "mn": "одоогоор олны анхаарлыг татаж буй, тренд болж буй",
+          "examples": ["What's trending on social media today?", "The hashtag was trending for three days."],
+          "collocations": ["be trending", "trending topics", "trending worldwide"],
+          "synonyms": ["popular"], "antonyms": [],
+          "level": "B2", "difficulty": 3
+        }
+      ],
+      "grammar": "reported-speech",
+      "speaking": {
+        "id": "s-viral-story",
+        "type": "story",
+        "prompt": "Tell the story of a post, video or message that caused a surprise or a small problem — for you or for someone you know. Report what people said, asked and told each other to do.",
+        "promptMn": "Та болон таны танил хүнд гэнэтийн зүйл эсвэл жижиг асуудал үүсгэсэн пост, видео, мессежийн тухай ярина уу. Хүмүүс юу хэлсэн, юу асуусан, бие биедээ юу хийхийг хэлснийг дамжуулан ярь.",
+        "points": ["What was posted or sent, and by whom", "What happened next (comments, followers, notifications)", "What someone said or asked (reported speech)", "What someone told or asked another person to do", "How the story ended"],
+        "phrases": ["It all started when…", "She told me (that)…", "He asked me whether…", "They wanted to know why…", "I told her not to…", "In the end, …"],
+        "targetWords": ["post", "go viral", "follower", "notification", "feed"],
+        "prepSeconds": 60,
+        "speakSeconds": 120,
+        "sample": "Last spring my cousin posted a short video of her grandmother making dumplings in the countryside. She told me she had only shared it with her family, but the next morning she called me and said that the video had gone viral. She had thousands of new followers and her phone was full of notifications. She asked me what she should do, because a few people were leaving rude comments. I told her not to read every comment and to turn off her notifications for a few days. A week later, a TV journalist contacted her and asked whether her grandmother would appear on a morning show. In the end, they said yes, and now her grandmother is a small celebrity in her village!"
+      },
+      "quiz": [
+        { "type": "mcq", "skill": "grammar", "prompt": "'We're moving to Canada,' they said. → They said they ___ to Canada.", "options": ["were moving", "will move", "have moving"], "answer": 0, "explanation": "Present continuous → past continuous." },
+        { "type": "mcq", "skill": "grammar", "prompt": "'Can you help me?' → She asked me ___ help her.", "options": ["if I could", "can I", "that I could"], "answer": 0, "explanation": "Yes/no question → if + statement order; can → could." },
+        { "type": "gap", "skill": "grammar", "prompt": "'Don't post that photo!' → My sister told me ___ that photo.", "answers": ["not to post"], "explanation": "Negative command → not to + verb." },
+        { "type": "transform", "skill": "grammar", "prompt": "Report the question. Begin: He asked me…", "sentence": "'Why did you delete your account?'", "answers": ["He asked me why I had deleted my account.", "He asked me why I deleted my account."], "explanation": "Past simple → past perfect (or it can stay in the past simple); statement word order." },
+        { "type": "words", "skill": "grammar", "prompt": "Put the words in order to make a reported question.", "answer": "She asked me what time the meeting started." },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "Someone who chooses to see your posts on social media is your…", "options": ["follower", "influencer", "feed", "content"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "b1p-01-l3",
+      "title": "A week without social media",
+      "focus": "listening",
+      "difficulty": 5,
+      "minutes": 30,
+      "objectives": [
+        "Follow a natural conversation about going offline and understand the details",
+        "Use vocabulary for screen time and online habits",
+        "Use rising and falling intonation in direct and reported questions",
+        "Give your opinion about taking a break from social media"
+      ],
+      "warmup": {
+        "intro": "How many hours a day do you think you spend on your phone? Most people guess too low.",
+        "questions": [
+          { "type": "mcq", "prompt": "Which phrase means the total time you spend looking at a phone, computer or TV?", "options": ["screen time", "free time", "time zone", "full time"], "answer": 0, "skill": "vocabulary" }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "go offline", "pos": "phrase", "ipa": "/ɡəʊ ˌɒfˈlaɪn/",
+          "definition": "to stop using the internet, or disconnect from it, for a period of time",
+          "mn": "интернэтээс салах, офлайн болох",
+          "examples": ["I'm going offline for the weekend, so don't expect a reply.", "She went offline for a month to focus on her exams."],
+          "collocations": ["go offline for a while", "go completely offline"],
+          "synonyms": ["disconnect"], "antonyms": ["go online"],
+          "level": "B2", "difficulty": 2
+        },
+        {
+          "word": "screen time", "pos": "noun", "ipa": "/ˈskriːn taɪm/",
+          "definition": "the amount of time you spend looking at a phone, computer or TV screen",
+          "mn": "дэлгэцийн өмнө өнгөрүүлэх цаг",
+          "examples": ["My phone says my screen time is six hours a day!", "Many parents try to limit their children's screen time."],
+          "collocations": ["limit screen time", "reduce your screen time", "daily screen time"],
+          "synonyms": [], "antonyms": [],
+          "mistake": "'Screen time' is uncountable: 'too much screen time', not 'too many screen times'.",
+          "level": "B1+", "difficulty": 2
+        },
+        {
+          "word": "addictive", "pos": "adjective", "ipa": "/əˈdɪktɪv/",
+          "definition": "making you want more and more of something, so that it is hard to stop",
+          "mn": "донтуулдаг, салахад хэцүү",
+          "examples": ["Some apps are designed to be addictive.", "This series is really addictive — I watched five episodes in one night."],
+          "collocations": ["highly addictive", "an addictive game", "strangely addictive"],
+          "synonyms": ["compulsive"], "antonyms": [],
+          "mistake": "Don't mix up 'addictive' (the thing: an addictive game) and 'addicted' (the person: I'm addicted to it).",
+          "level": "B2", "difficulty": 3
+        },
+        {
+          "word": "distraction", "pos": "noun", "ipa": "/dɪˈstrækʃn/",
+          "definition": "something that takes your attention away from what you should be doing",
+          "mn": "анхаарал сарниулагч зүйл",
+          "examples": ["My phone is the biggest distraction when I'm studying.", "I work in a library because there are fewer distractions than at home."],
+          "collocations": ["a big distraction", "without distractions", "a welcome distraction", "avoid distractions"],
+          "synonyms": ["interruption"], "antonyms": ["focus"],
+          "level": "B2", "difficulty": 3
+        },
+        {
+          "word": "keep up with", "pos": "phrasal verb", "ipa": "/kiːp ˈʌp wɪð/",
+          "definition": "to stay informed about something or someone",
+          "mn": "(мэдээ, хүмүүсийн амьдралаас) хоцролгүй байх, мэдээлэлтэй байх",
+          "examples": ["I use Instagram to keep up with friends who live abroad.", "It's impossible to keep up with all the news these days."],
+          "collocations": ["keep up with the news", "keep up with friends", "keep up with the latest trends"],
+          "synonyms": ["follow", "stay informed about"], "antonyms": ["fall behind"],
+          "note": "Don't confuse it with 'keep in touch' (stay in contact with someone).",
+          "level": "B2", "difficulty": 3
+        },
+        {
+          "word": "FOMO", "pos": "noun", "ipa": "/ˈfəʊməʊ/",
+          "definition": "fear of missing out: the worry that other people are having fun or good experiences without you",
+          "mn": "бусад хөгжилтэй юм хийж байхад хоцорч үлдэх вий гэсэн айдас (FOMO)",
+          "examples": ["I get terrible FOMO when I see my friends' holiday photos.", "FOMO is one reason why people check their phones so often."],
+          "collocations": ["get FOMO", "have FOMO", "suffer from FOMO"],
+          "synonyms": ["fear of missing out"], "antonyms": [],
+          "note": "Informal. Say it as one word: FOH-moh. In formal writing use 'fear of missing out'.",
+          "level": "B2", "difficulty": 3
+        },
+        {
+          "word": "mute", "pos": "verb", "ipa": "/mjuːt/",
+          "definition": "to stop getting messages or posts from a person or group without leaving or blocking them; to turn off the sound",
+          "mn": "(группийн, хүний) мэдэгдлийг хаах; дууг хаах",
+          "examples": ["I've muted the family group chat — it was too noisy.", "Could you mute your microphone when you're not speaking?"],
+          "collocations": ["mute a group chat", "mute notifications", "mute your microphone", "on mute"],
+          "synonyms": ["silence"], "antonyms": ["unmute"],
+          "note": "'You're on mute!' is one of the most common phrases in video calls.",
+          "level": "B2", "difficulty": 2
+        },
+        {
+          "word": "unfollow", "pos": "verb", "ipa": "/ʌnˈfɒləʊ/",
+          "definition": "to stop following someone on social media",
+          "mn": "дагахаа болих",
+          "examples": ["I unfollowed a lot of accounts that made me feel bad.", "Why did you unfollow me?"],
+          "collocations": ["unfollow someone", "unfollow an account"],
+          "synonyms": [], "antonyms": ["follow"],
+          "note": "'Block' is stronger: a blocked person can't contact you or see your posts.",
+          "level": "B2", "difficulty": 2
+        },
+        {
+          "word": "switch off", "pos": "phrasal verb", "ipa": "/swɪtʃ ˈɒf/",
+          "definition": "to stop thinking about work or problems and relax",
+          "mn": "бодлоо амраах, ажил, санаа зовнилоо мартаж тайвшрах",
+          "examples": ["I find it hard to switch off after work.", "On holiday I finally managed to switch off."],
+          "collocations": ["switch off completely", "switch off from work", "find it hard to switch off"],
+          "synonyms": ["relax", "unwind"], "antonyms": [],
+          "note": "It also has a literal meaning: switch off the TV. The 'relax' meaning is common in British English.",
+          "level": "B2", "difficulty": 3
+        }
+      ],
+      "listening": {
+        "id": "l-offline-week",
+        "title": "A whole week offline",
+        "kind": "conversation",
+        "context": "Priya has just come back to work after a week without social media. Her colleague Dan wants to hear about it.",
+        "speakers": [
+          { "name": "Dan", "voice": "male", "accent": "en-GB" },
+          { "name": "Priya", "voice": "female", "accent": "en-IN" }
+        ],
+        "lines": [
+          { "speaker": "Dan", "text": "Priya! Welcome back. So how was it? A whole week offline?" },
+          { "speaker": "Priya", "text": "Well, not completely offline. I still had to use email for work. But no social media at all — I deleted the apps on Sunday night." },
+          { "speaker": "Dan", "text": "Wow. I don't think I could do that. I check my feed about fifty times a day." },
+          { "speaker": "Priya", "text": "That's exactly why I did it. My screen time was over five hours a day, and I kept picking up my phone without even thinking. To be honest, it was starting to feel a bit addictive." },
+          { "speaker": "Dan", "text": "So what was the hardest part?" },
+          { "speaker": "Priya", "text": "The first two days, definitely. I had terrible FOMO. My sister told me I was being dramatic, but I honestly felt like everyone was having fun without me." },
+          { "speaker": "Dan", "text": "Ha! And after that?" },
+          { "speaker": "Priya", "text": "After that it got much easier. I read two novels, I went to bed earlier, and I actually managed to switch off in the evenings." },
+          { "speaker": "Dan", "text": "Did anyone get annoyed because you weren't replying?" },
+          { "speaker": "Priya", "text": "A couple of people. My friend Jess sent me an email asking if I was angry with her! I had to explain that I'd just gone offline for a week." },
+          { "speaker": "Dan", "text": "That's funny. So, are you going back to normal now?" },
+          { "speaker": "Priya", "text": "Not exactly. I've put the apps back on, but I've muted most of the group chats and unfollowed about two hundred accounts. I only want to keep up with people I actually care about." },
+          { "speaker": "Dan", "text": "Hmm, that makes sense. Maybe I should try it — even just for a weekend." },
+          { "speaker": "Priya", "text": "Honestly, do it. I realised the biggest distraction in my life was sitting in my pocket." }
+        ],
+        "gist": [
+          { "type": "mcq", "tag": "main_idea", "prompt": "What are Dan and Priya mainly talking about?", "options": ["Priya's week without social media", "A problem with Priya's new phone", "Why Priya was angry with her friend Jess", "A book Priya has just read"], "answer": 0 },
+          { "type": "mcq", "tag": "attitude", "prompt": "How does Priya feel about the experience overall?", "options": ["Positive — she recommends it", "Disappointed — it didn't change anything", "Angry — her friends ignored her", "Unsure — she doesn't want to talk about it"], "answer": 0 }
+        ],
+        "detail": [
+          { "type": "mcq", "tag": "detail", "prompt": "What did Priya still use during the week?", "options": ["Email for work", "Instagram, but only at weekends", "Group chats with her family", "Nothing at all"], "answer": 0 },
+          { "type": "tfng", "tag": "detail", "prompt": "Before the break, Priya's screen time was more than five hours a day.", "answer": "true" },
+          { "type": "mcq", "tag": "detail", "prompt": "When was the break most difficult for Priya?", "options": ["During the first two days", "At the end of the week", "At weekends", "When she was at work"], "answer": 0 },
+          { "type": "tfng", "tag": "detail", "prompt": "Priya's sister supported her decision from the start.", "answer": "false", "explanation": "Her sister told her she was being dramatic." },
+          { "type": "mcq", "tag": "detail", "prompt": "What has Priya done since the break?", "options": ["Muted group chats and unfollowed many accounts", "Deleted all her accounts for ever", "Bought a new phone without apps", "Stopped using email"], "answer": 0 },
+          { "type": "gap", "tag": "detail", "prompt": "Priya read two ___ during the week.", "answers": ["novels", "books"] }
+        ],
+        "expressions": [
+          { "phrase": "To be honest, …", "meaning": "used before saying what you really think or feel", "mn": "Үнэнийг хэлэхэд, …" },
+          { "phrase": "Not exactly.", "meaning": "a soft way to say 'no' or 'not completely'", "mn": "Тийм ч биш." },
+          { "phrase": "That makes sense.", "meaning": "I understand, and it sounds logical", "mn": "Ойлгомжтой, утга учиртай байна." },
+          { "phrase": "Honestly, do it.", "meaning": "a strong, friendly way to recommend something", "mn": "Үнэхээр, заавал хийгээд үз." }
+        ]
+      },
+      "pronunciation": "question-intonation",
+      "speaking": {
+        "id": "s-offline-opinion",
+        "type": "opinion",
+        "prompt": "Your friend says: 'I'm thinking of deleting all my social media apps for a month.' Give your opinion. Would you recommend it? Could you do it yourself? Why or why not?",
+        "promptMn": "Найз тань 'Бүх сошиал медиа аппаа нэг сар устгах гэж бодож байна' гэлээ. Санал бодлоо хэлээрэй: та үүнийг зөвлөх үү? Өөрөө чадах уу? Яагаад?",
+        "points": ["Say whether you think it's a good idea", "Give one benefit and one problem", "Say what you would find hardest", "Suggest a smaller change (muting groups, limiting screen time)"],
+        "phrases": ["To be honest, I think…", "The main advantage is that…", "On the other hand, …", "I'd find it really hard to…", "If I were you, I'd…"],
+        "targetWords": ["go offline", "screen time", "distraction", "FOMO", "mute"],
+        "prepSeconds": 60,
+        "speakSeconds": 90,
+        "sample": "To be honest, I think it's a great idea, but it isn't for everyone. The main advantage is that you get a lot of time back. My screen time is about four hours a day, so a month offline would give me more than a hundred hours for reading or sport. You'd probably sleep better too, because your phone is a huge distraction at night. On the other hand, I'd find it really hard, because the family group chat is how I talk to my parents in the countryside, and I'd definitely get FOMO when my friends make plans online. So if I were you, I'd start with something smaller: mute the noisy groups, turn off notifications and go offline just at weekends. If that works, then try a whole month."
+      },
+      "quiz": [
+        { "type": "mcq", "skill": "vocabulary", "prompt": "'I find it hard to switch off after work' means…", "options": ["I find it hard to relax and stop thinking about work", "I can't turn off my computer", "I often forget to leave the office", "I don't like my job"], "answer": 0 },
+        { "type": "gap", "skill": "vocabulary", "prompt": "Social media apps are designed to be ___ — it's really hard to stop scrolling.", "answers": ["addictive"], "options": ["addictive", "addicted", "distracted", "trending"] },
+        { "type": "match", "skill": "vocabulary", "prompt": "Match the phrases with their meanings.", "pairs": [["mute", "stop hearing from a group without leaving it"], ["unfollow", "stop seeing someone's posts"], ["go offline", "stop using the internet for a while"], ["keep up with", "stay informed about"]] },
+        { "type": "mcq", "skill": "pronunciation", "prompt": "In which sentence does the voice usually go UP at the end?", "options": ["Did you read my message?", "Where did you read it?", "She asked if I'd read it.", "He wanted to know what I'd read."], "answer": 0, "explanation": "Yes/no questions usually rise; wh- questions and reported questions fall." },
+        { "type": "mcq", "skill": "pronunciation", "prompt": "Why does 'She asked if I was free.' have falling intonation?", "options": ["It's a reported question, so it's really a statement", "It's a yes/no question", "It's a very polite question", "It's a wh- question"], "answer": 0 },
+        { "type": "tfng", "skill": "listening", "prompt": "At the end of the conversation, Dan says he will definitely delete his apps for a month.", "answer": "false", "explanation": "He says maybe he should try it, even just for a weekend." }
+      ]
+    },
+    {
+      "id": "b1p-01-l4",
+      "title": "Guess what he told me!",
+      "focus": "writing",
+      "difficulty": 5,
+      "minutes": 35,
+      "objectives": [
+        "Choose correctly between say and tell",
+        "Use reporting verbs like mention, admit and warn",
+        "Use natural phrases for passing on news (Apparently, Long story short)",
+        "Write an informal email reporting what people said (100–150 words)"
+      ],
+      "warmup": {
+        "intro": "In Mongolian, 'хэлэх' covers both 'say' and 'tell'. In English, the choice depends on what comes after the verb.",
+        "questions": [
+          { "type": "mcq", "prompt": "Which sentence is correct?", "options": ["He told me the news.", "He said me the news.", "He told the news me."], "answer": 0, "skill": "grammar", "explanation": "tell + person + thing." }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "mention", "pos": "verb", "ipa": "/ˈmenʃn/",
+          "definition": "to talk or write about something briefly, without giving details",
+          "mn": "дурдах, дурсах",
+          "examples": ["She mentioned that she was looking for a new job.", "Did he mention the party when you spoke?"],
+          "collocations": ["mention something to someone", "mention that…", "not to mention", "briefly mention"],
+          "synonyms": ["refer to"], "antonyms": [],
+          "mistake": "Don't add 'about': 'He mentioned the problem', not 'He mentioned about the problem'.",
+          "level": "B1+", "difficulty": 2
+        },
+        {
+          "word": "admit", "pos": "verb", "ipa": "/ədˈmɪt/",
+          "definition": "to agree, often unwillingly, that something is true or that you did something wrong",
+          "mn": "(буруугаа) хүлээн зөвшөөрөх",
+          "examples": ["He admitted that he hadn't read my message.", "I have to admit, I was a bit jealous of her post."],
+          "collocations": ["admit (that)…", "admit a mistake", "admit doing something", "I have to admit"],
+          "synonyms": ["confess", "accept"], "antonyms": ["deny"],
+          "mistake": "Use -ing or a that-clause: 'She admitted taking the phone' or 'She admitted that she took it', not 'She admitted to take it'.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "warn", "pos": "verb", "ipa": "/wɔːn/",
+          "definition": "to tell someone about a possible danger or problem so that they can avoid it",
+          "mn": "анхааруулах, сэрэмжлүүлэх",
+          "examples": ["My brother warned me not to believe everything I read online.", "The bank warned customers about fake text messages."],
+          "collocations": ["warn someone (not) to do something", "warn someone about something", "warn someone that…"],
+          "synonyms": ["alert", "caution"], "antonyms": [],
+          "mistake": "Say 'warn someone ABOUT something', not 'warn someone for something'.",
+          "note": "Pronounced like 'worn' /wɔːn/.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "gossip", "pos": "noun / verb", "ipa": "/ˈɡɒsɪp/",
+          "definition": "talk about other people's private lives, which may be unkind or untrue; to talk in this way",
+          "mn": "хов жив; хов ярих",
+          "examples": ["There's a lot of gossip about the new manager.", "They spent the whole evening gossiping about their colleagues."],
+          "collocations": ["office gossip", "gossip about someone", "a piece of gossip", "spread gossip"],
+          "synonyms": ["rumours", "chat"], "antonyms": [],
+          "mistake": "As a noun, 'gossip' is uncountable: 'a piece of gossip', not 'a gossip' (which means a person who gossips).",
+          "level": "B2", "difficulty": 3
+        },
+        {
+          "word": "rumour", "pos": "noun", "ipa": "/ˈruːmə(r)/",
+          "definition": "a story that people pass on to each other, which may or may not be true",
+          "mn": "цуу яриа, сураг",
+          "examples": ["There's a rumour that the company is closing.", "Don't believe every rumour you read online."],
+          "collocations": ["spread a rumour", "a rumour that…", "deny a rumour", "the rumour turned out to be true"],
+          "synonyms": ["gossip", "hearsay"], "antonyms": ["fact"],
+          "note": "British spelling 'rumour'; American spelling 'rumor'.",
+          "level": "B2", "difficulty": 3
+        },
+        {
+          "word": "exaggerate", "pos": "verb", "ipa": "/ɪɡˈzædʒəreɪt/",
+          "definition": "to describe something as bigger, better or worse than it really is",
+          "mn": "хэтрүүлэх, дөвийлгөх",
+          "examples": ["He exaggerated the story to make it more exciting.", "I'm not exaggerating — there were at least a thousand comments!"],
+          "collocations": ["greatly exaggerate", "exaggerate a problem", "I'm not exaggerating"],
+          "synonyms": ["overstate"], "antonyms": ["understate", "play down"],
+          "mistake": "Spelling: exaggerate has a double g and one r.",
+          "level": "B2", "difficulty": 4
+        },
+        {
+          "word": "reveal", "pos": "verb", "ipa": "/rɪˈviːl/",
+          "definition": "to tell people something that was secret or surprising",
+          "mn": "илчлэх, дэлгэх",
+          "examples": ["In the interview, she revealed that she had deleted all her accounts.", "He finally revealed the name of the new product."],
+          "collocations": ["reveal a secret", "reveal that…", "reveal the truth"],
+          "synonyms": ["disclose", "make known"], "antonyms": ["hide", "conceal"],
+          "level": "B2", "difficulty": 3
+        },
+        {
+          "word": "keep me posted", "pos": "phrase", "ipa": "/ˌkiːp mi ˈpəʊstɪd/",
+          "definition": "please keep telling me the latest news about something",
+          "mn": "мэдээ сонингоо надад байнга дуулгаж байгаарай",
+          "examples": ["Good luck with the interview — keep me posted!", "Please keep me posted about the trip."],
+          "collocations": ["keep me posted about something", "please keep me posted", "keep me posted on your plans"],
+          "synonyms": ["let me know", "keep me updated"], "antonyms": [],
+          "note": "Informal to neutral; very common in emails and messages. 'I'll keep you posted' = I'll tell you the news.",
+          "level": "B2", "difficulty": 3
+        },
+        {
+          "word": "get the wrong idea", "pos": "phrase", "ipa": "/ɡet ðə ˌrɒŋ aɪˈdɪə/",
+          "definition": "to understand a situation incorrectly and believe something that is not true",
+          "mn": "буруу ойлгох, буруу дүгнэлт хийх",
+          "examples": ["Please don't get the wrong idea — I'm not angry with you.", "She saw us together and got the wrong idea."],
+          "collocations": ["don't get the wrong idea", "get the wrong idea about someone", "easy to get the wrong idea"],
+          "synonyms": ["misunderstand"], "antonyms": [],
+          "level": "B2", "difficulty": 3
+        }
+      ],
+      "phrases": [
+        { "phrase": "Apparently, …", "meaning": "I have heard that… (but I'm not 100% sure)", "mn": "Сонссоноор бол, …", "register": "neutral", "whenToUse": "When you pass on information that you heard or read somewhere else. Very common in conversation and informal emails; in formal writing use 'It appears that…'.", "example": "Apparently, the office is closing early on Friday." },
+        { "phrase": "Long story short, …", "meaning": "to give the main point without all the details", "mn": "Товчхон хэлэхэд, …", "register": "informal", "whenToUse": "In conversation and messages to friends, when you want to skip the details. Too informal for work emails — use 'In short, …' instead.", "example": "Long story short, we missed the train and had to take a taxi." },
+        { "phrase": "To be honest, …", "meaning": "used before saying what you really think, especially something a little negative", "mn": "Үнэнийг хэлэхэд, …", "register": "spoken", "whenToUse": "In speech and informal writing before a sincere opinion. Don't use it in every sentence — it can sound as if you are usually not honest!", "example": "To be honest, I didn't enjoy the film very much." },
+        { "phrase": "As far as I know, …", "meaning": "I think this is true, but I'm not completely sure", "mn": "Миний мэдэхээр бол, …", "register": "neutral", "whenToUse": "In speech and in work emails, when you want to give information without promising it is 100% correct.", "example": "As far as I know, the meeting is still at three." },
+        { "phrase": "I didn't mean it like that.", "meaning": "you understood my words in a way I didn't intend", "mn": "Би тэгж хэлэх гэсэн юм биш.", "register": "spoken", "whenToUse": "When someone is upset because they misunderstood something you said or wrote. Natural with friends and colleagues.", "example": "Sorry — when I said your idea was 'interesting', I didn't mean it like that." }
+      ],
+      "grammar": "say-tell",
+      "writing": {
+        "id": "w-call-email",
+        "type": "email_informal",
+        "prompt": "Your friend Chris couldn't join last night's video call, where your group of friends planned a weekend trip together. Write an email to Chris. Tell him what was decided, what two people said, one question someone asked about him, and one thing they asked him to do.",
+        "promptMn": "Найз Крис тань өчигдөр оройн видео дуудлагад оролцож чадсангүй. Та нар дуудлага дээр хамтдаа амралтын өдрөөр аялахаар төлөвлөсөн. Крист имэйл бичиж, юу шийдсэн, хоёр хүн юу хэлсэн, түүний тухай хэн юу асуусан, түүнээс юу хийхийг хүссэнийг дамжуулаарай.",
+        "register": "informal",
+        "minWords": 100,
+        "maxWords": 150,
+        "points": ["Open in a friendly way and give the main news", "Report what two people said (said / told us)", "Report a question someone asked about Chris (asked if / whether)", "Report a request (asked him to…)", "Close the email in a friendly way"],
+        "phrases": ["Shame you missed…", "Long story short, …", "Apparently, …", "X told us that…", "Y asked whether you…", "She asked me to tell you to…", "Keep me posted!"],
+        "targetWords": ["mention", "admit", "warn", "keep me posted", "get the wrong idea"],
+        "sample": "Hi Chris,\n\nShame you missed the call last night! Long story short, we're going to Terelj for the weekend of 14 June.\n\nAnu said she had found a lovely ger camp near the river, and Bat told us it would cost about 150,000 tögrög each. Tuya admitted that she was a bit worried about the weather, so she warned everyone to bring warm clothes. Apparently, it can snow there even in June!\n\nBat asked whether you could drive, because we need two cars. He also asked me to tell you to book the Friday off work as soon as possible. And don't get the wrong idea — nobody was annoyed that you weren't there.\n\nLet me know about the car, and keep me posted!\n\nSpeak soon,\nOyuka"
+      },
+      "quiz": [
+        { "type": "mcq", "skill": "grammar", "prompt": "Can you ___ me how to turn off these notifications?", "options": ["tell", "say", "speak"], "answer": 0 },
+        { "type": "gap", "skill": "grammar", "prompt": "I didn't have time to ___ goodbye to everyone.", "answers": ["say"], "options": ["say", "tell", "talk"] },
+        { "type": "error", "skill": "grammar", "prompt": "Tap the part with the mistake.", "segments": ["She said me", "that the rumour", "wasn't true."], "wrongIndex": 0, "correction": "She told me", "explanation": "'Say' can't take a person directly after it." },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "'He admitted that he had read my messages' means he…", "options": ["agreed that he had done it, although he didn't want to", "was proud that he had done it", "said that he hadn't done it", "asked if he could do it"], "answer": 0 },
+        { "type": "gap", "skill": "vocabulary", "prompt": "My friend ___ me not to trust that website.", "answers": ["warned"], "options": ["warned", "mentioned", "revealed", "admitted"] },
+        { "type": "mcq", "skill": "writing", "tag": "register", "prompt": "Which phrase is best for passing on something you heard, in an informal email to a friend?", "options": ["Apparently, …", "I am writing to inform you that…", "Yours faithfully,", "With reference to…"], "answer": 0 }
+      ]
+    }
+  ],
+  "test": {
+    "reading": {
+      "id": "t-phone-anxiety",
+      "title": "Please Don't Call Me: The Rise of Phone Anxiety",
+      "genre": "article",
+      "text": [
+        "When Lucy Harding's phone rings, her heart starts to race. 'If it's a number I don't know, I just let it ring,' says the 24-year-old marketing assistant from Manchester. 'Then I search for the number online, and if it's important, I reply by text.' Lucy is far from alone. In one recent British survey, about a quarter of 18- to 34-year-olds said they never answer phone calls, and more than half said they would assume an unexpected call meant bad news.",
+        "Experts call this 'phone anxiety', and they say it is not surprising. Many people now in their twenties grew up with messaging apps rather than home phones. For them, a text message has clear advantages: you can think before you reply, check your spelling and choose the right tone. A phone call, on the other hand, happens in real time. There is no chance to plan your words, and there may be awkward silences to deal with.",
+        "Some older people find this attitude strange, or even rude. 'When I was young, you called someone to show you cared,' says Martin Reyes, 58, a teacher from Madrid. 'Now my students tell me that calling without warning is almost aggressive. They say you should always send a message first to ask if a call is OK.'",
+        "However, avoiding calls completely can cause problems, especially at work. Employers say that some young staff are nervous about calling clients, even when a quick conversation would solve a problem faster than ten emails. As a result, a few companies now offer training courses in which employees practise making simple phone calls.",
+        "Psychologists suggest a gradual approach for people who want to feel more confident. Start by calling friends or family members you feel comfortable with, then move on to short practical calls, such as booking a table at a restaurant. Writing down two or three notes before a call can also help. 'The more you do it, the less frightening it becomes,' says one therapist. 'And remember — most calls are over in less than three minutes.'"
+      ],
+      "glossary": [
+        { "term": "race", "meaning": "(of your heart) to beat very fast", "mn": "(зүрх) хүчтэй цохилох" },
+        { "term": "gradual", "meaning": "happening slowly, step by step", "mn": "аажмаар, алхам алхмаар" }
+      ],
+      "questions": [
+        { "type": "mcq", "tag": "main_idea", "prompt": "What is the article mainly about?", "options": ["Why many young people avoid phone calls, and how they can become more confident", "Why phone companies are losing customers", "How to write better text messages at work", "Why older people prefer letters to phone calls"], "answer": 0 },
+        { "type": "tfng", "tag": "detail", "prompt": "Lucy usually answers calls from numbers she doesn't know.", "answer": "false", "explanation": "She lets unknown numbers ring." },
+        { "type": "tfng", "tag": "detail", "prompt": "Lucy's manager has asked her to make more phone calls.", "answer": "not_given" },
+        { "type": "mcq", "tag": "detail", "prompt": "According to paragraph 2, why do many young people prefer text messages?", "options": ["They have time to plan what they say", "Messages are cheaper than calls", "Their phones don't make calls well", "Their parents told them to use messages"], "answer": 0 },
+        { "type": "mcq", "tag": "attitude", "prompt": "How does Martin Reyes feel about his students' attitude to phone calls?", "options": ["Surprised — it's very different from his own experience", "Angry — he refuses to send them messages", "Happy — he also hates phone calls", "Worried — he thinks they are ill"], "answer": 0 },
+        { "type": "mcq", "tag": "vocab_context", "prompt": "In paragraph 2, 'awkward silences' are…", "options": ["uncomfortable moments when nobody speaks", "quiet places to make calls", "calls with no sound", "polite pauses before answering"], "answer": 0 },
+        { "type": "short", "tag": "detail", "prompt": "What do some companies now offer staff who are nervous about calling? (1–3 words)", "answers": ["training courses", "training"] },
+        { "type": "order", "tag": "detail", "prompt": "Put the psychologists' suggestions in the order they appear in the article.", "items": ["Call friends or family you feel comfortable with", "Make short practical calls, like booking a table", "Write down a few notes before a call"] }
+      ]
+    },
+    "listening": {
+      "id": "t-frozen-interview",
+      "title": "The interview that froze",
+      "kind": "conversation",
+      "context": "Tom tells his friend Grace about an online job interview he had this morning.",
+      "speakers": [
+        { "name": "Grace", "voice": "female", "accent": "en-GB" },
+        { "name": "Tom", "voice": "male", "accent": "en-AU" }
+      ],
+      "lines": [
+        { "speaker": "Grace", "text": "So? How did the interview go? You look a bit stressed." },
+        { "speaker": "Tom", "text": "Honestly, it was a bit of a disaster. Well, not the interview itself — the internet connection." },
+        { "speaker": "Grace", "text": "Oh no. What happened?" },
+        { "speaker": "Tom", "text": "Everything was fine at the start. The manager, Ms Chen, asked me why I wanted to leave my current job, and I think I gave a really good answer." },
+        { "speaker": "Grace", "text": "OK, so far so good." },
+        { "speaker": "Tom", "text": "Then she asked me to describe a difficult project, and right in the middle of my answer, the video froze. I kept talking for about two minutes before I realised she couldn't hear me." },
+        { "speaker": "Grace", "text": "No! What did you do?" },
+        { "speaker": "Tom", "text": "I called her on my phone. She was really nice about it, actually. She said it happened all the time and told me not to worry." },
+        { "speaker": "Grace", "text": "Well, that's good. Did you get to finish your answer?" },
+        { "speaker": "Tom", "text": "Yeah, we finished the interview by phone. But without video I couldn't see her face, so I had no idea if she liked my answers." },
+        { "speaker": "Grace", "text": "I'm sure it went better than you think. Did she say when they'd let you know?" },
+        { "speaker": "Tom", "text": "She said they'd contact everyone by Friday. Oh, and she asked if I could send her some examples of my work by tomorrow." },
+        { "speaker": "Grace", "text": "See? That sounds really positive. They wouldn't ask for more if they weren't interested." },
+        { "speaker": "Tom", "text": "I hope you're right. Next time I'm doing it from the library — their wi-fi is much better than mine!" }
+      ],
+      "gist": [
+        { "type": "mcq", "tag": "main_idea", "prompt": "What is the conversation mainly about?", "options": ["A job interview that had technical problems", "Tom's problems with his current manager", "How to prepare for a job interview", "Tom's new internet provider"], "answer": 0 }
+      ],
+      "detail": [
+        { "type": "mcq", "tag": "detail", "prompt": "What was the first question the manager asked?", "options": ["Why Tom wanted to leave his current job", "What his biggest weakness was", "When he could start", "Whether he had any questions"], "answer": 0 },
+        { "type": "tfng", "tag": "detail", "prompt": "Tom noticed immediately that the video had frozen.", "answer": "false", "explanation": "He kept talking for about two minutes before he realised." },
+        { "type": "mcq", "tag": "detail", "prompt": "How did they finish the interview?", "options": ["By phone", "By email", "They met face to face", "They didn't finish it"], "answer": 0 },
+        { "type": "gap", "tag": "detail", "prompt": "The company will contact all the candidates by ___.", "answers": ["Friday"] },
+        { "type": "mcq", "tag": "inference", "prompt": "Why does Grace think the interview went well?", "options": ["The manager asked Tom to send examples of his work", "Tom said all his answers were perfect", "The manager offered Tom the job", "Tom saw the manager smile"], "answer": 0 }
+      ],
+      "expressions": [
+        { "phrase": "a bit of a disaster", "meaning": "quite bad; it went wrong", "mn": "нэлээд бүтэлгүй" },
+        { "phrase": "so far so good", "meaning": "everything is going well up to now", "mn": "одоогоор бүх зүйл сайн байна" },
+        { "phrase": "She was really nice about it.", "meaning": "she reacted kindly to the problem", "mn": "Тэр үүнд их эелдэг хандсан." }
+      ]
+    },
+    "writing": {
+      "id": "t-forum-post",
+      "type": "paragraph",
+      "prompt": "An online forum asks: 'Has social media made us better or worse communicators?' Write a post (110–150 words) giving your opinion. Include at least one example of something a friend, colleague or family member told you or asked you, using reported speech.",
+      "promptMn": "Онлайн форум дээр 'Сошиал медиа биднийг илүү сайн эсвэл муу харилцагч болгосон уу?' гэж асуужээ. Санал бодлоо илэрхийлсэн пост бичээрэй (110–150 үг). Найз, хамт ажиллагч эсвэл гэр бүлийн гишүүн тань танд юу хэлсэн, юу асуусныг дор хаяж нэг удаа дамжуулсан яриагаар оруулаарай.",
+      "register": "neutral",
+      "minWords": 110,
+      "maxWords": 150,
+      "points": ["Give your opinion clearly at the start", "Give one advantage and one disadvantage of online communication", "Report something someone told you or asked you", "Finish with a conclusion or a piece of advice"],
+      "phrases": ["In my opinion, …", "On the one hand, … On the other hand, …", "A friend of mine once told me that…", "Having said that, …", "All in all, …"],
+      "targetWords": ["misunderstanding", "face to face", "tone", "keep up with", "get your point across"],
+      "sample": "In my opinion, social media has made us faster communicators, but not always better ones. On the one hand, it helps me keep up with friends all over the world. My cousin lives in Seoul, and we chat almost every day, which would have been impossible twenty years ago. On the other hand, short messages often lead to misunderstandings. A colleague once told me that she had been upset by my one-word reply, 'OK'. She said it had sounded angry, but I had simply been busy. Since then, I've been more careful with my tone. Having said that, I don't think the technology itself is the problem. All in all, if something really matters, we should talk face to face or at least call — it's still the easiest way to get your point across."
+    },
+    "speaking": {
+      "id": "t-report-meeting",
+      "type": "roleplay",
+      "prompt": "Your manager, Ms Harris, missed this morning's team meeting. Tell her what happened, using these notes. Aziz: 'The new website will be ready next week.' Mei: 'Can we have more time for testing?' Aziz to everyone: 'Please send me your comments by Thursday.' Mei: 'I'm worried about the budget.'",
+      "promptMn": "Таны менежер хатагтай Харрис өнөө өглөөний багийн хуралд оролцож чадсангүй. Тэмдэглэлээ ашиглан хурал дээр юу болсныг түүнд дамжуулан ярь.",
+      "points": ["Report Aziz's statement", "Report Mei's question", "Report Aziz's request", "Report Mei's worry and add your own comment"],
+      "phrases": ["Aziz said (that)…", "Mei asked whether…", "He asked us to…", "She mentioned that…", "As far as I know, …"],
+      "targetWords": ["mention", "clarify", "respond"],
+      "prepSeconds": 60,
+      "speakSeconds": 90,
+      "sample": "Good morning, Ms Harris. Let me quickly tell you what happened in the meeting. First, Aziz said that the new website would be ready the following week, so we're more or less on schedule. Then Mei asked whether we could have more time for testing, because she thinks there might be some problems with the mobile version. Aziz didn't respond immediately — he said he would think about it. He also asked us to send him our comments by Thursday. Finally, Mei mentioned that she was worried about the budget. As far as I know, nobody has clarified how much money is left, so maybe you could talk to Aziz about that."
+    },
+    "questions": [
+      { "type": "mcq", "skill": "grammar", "prompt": "'I've lost my phone,' Jamal said. → Jamal said he ___ his phone.", "options": ["had lost", "have lost", "was losing"], "answer": 0 },
+      { "type": "mcq", "skill": "grammar", "prompt": "'Do you speak Korean?' → She asked me ___ Korean.", "options": ["if I spoke", "do I speak", "that I spoke", "did I speak"], "answer": 0 },
+      { "type": "gap", "skill": "grammar", "prompt": "'Where is the station?' → A tourist asked me where the station ___.", "answers": ["was", "is"], "explanation": "Usually 'was'; 'is' is also possible because the station is still there." },
+      { "type": "transform", "skill": "grammar", "prompt": "Report the request. Begin: Sara asked me…", "sentence": "'Please don't tell anyone.'", "answers": ["Sara asked me not to tell anyone.", "Sara asked me not to tell anybody."] },
+      { "type": "transform", "skill": "grammar", "prompt": "Report this a week later. Begin: Ben said…", "sentence": "'I will send the photos tomorrow.'", "answers": ["Ben said he would send the photos the next day.", "Ben said that he would send the photos the next day.", "Ben said he would send the photos the following day.", "Ben said that he would send the photos the following day."] },
+      { "type": "correct", "skill": "grammar", "prompt": "Correct the sentence.", "sentence": "He asked me what was I doing.", "answers": ["He asked me what I was doing."] },
+      { "type": "mcq", "skill": "grammar", "prompt": "Did she ___ anything about the meeting?", "options": ["say", "tell", "speak", "talk"], "answer": 0 },
+      { "type": "gap", "skill": "grammar", "prompt": "Stop joking and ___ me the truth!", "answers": ["tell"], "options": ["tell", "say", "speak"] },
+      { "type": "mcq", "skill": "vocabulary", "prompt": "A reply that is short and direct, and may sound rude, is…", "options": ["blunt", "sarcastic", "trending", "addictive"], "answer": 0 },
+      { "type": "gap", "skill": "vocabulary", "prompt": "Her video about Mongolian throat singing went ___ and got two million views in a week.", "answers": ["viral"], "options": ["viral", "offline", "trending", "public"] },
+      { "type": "match", "skill": "vocabulary", "tag": "collocation", "prompt": "Match the verbs and nouns.", "pairs": [["spread", "a rumour"], ["turn off", "notifications"], ["clear up", "a misunderstanding"], ["limit", "screen time"]] },
+      { "type": "gap", "skill": "vocabulary", "prompt": "I didn't mean to upset you — please don't get the wrong ___.", "answers": ["idea"] }
+    ]
+  }
+}

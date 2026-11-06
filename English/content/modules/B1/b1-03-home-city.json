@@ -1,0 +1,882 @@
+{
+  "id": "b1-03",
+  "level": "B1",
+  "order": 3,
+  "title": "Home & City Life",
+  "topic": "Home & Cities",
+  "description": "Describe homes and neighbourhoods, compare places, and say what is good or not good enough about where you live.",
+  "descriptionMn": "Гэр орон, хороолол орчноо тайлбарлах, газруудыг харьцуулах, амьдардаг газрынхаа сайн болон хангалтгүй талуудын тухай ярих.",
+  "objectives": [
+    { "text": "Describe homes and housing with words like spacious, cramped, landlord and deposit", "skills": ["vocabulary", "reading"] },
+    { "text": "Compare places with comparatives and superlatives (bigger, more convenient, the best)", "skills": ["grammar", "speaking"] },
+    { "text": "Say what is right or wrong with a place using too, enough and (not) as … as", "skills": ["grammar", "writing"] },
+    { "text": "Understand a conversation about a neighbourhood and its facilities", "skills": ["listening", "vocabulary"] },
+    { "text": "Pronounce compound nouns and long words with the correct stress", "skills": ["pronunciation", "speaking"] },
+    { "text": "Write an informal email comparing two flats and asking for advice", "skills": ["writing"] }
+  ],
+  "targets": {
+    "grammar": ["Comparatives and superlatives", "too / enough", "(not) as … as"],
+    "vocabulary": ["housing", "neighbourhood", "city facilities"],
+    "reading": "A blog about moving from a ger district to a flat in the city",
+    "listening": "A neighbour tells a newcomer about the area",
+    "speaking": "Compare two places you know, and tell a new neighbour about your area",
+    "writing": "An informal email comparing two flats",
+    "pronunciation": "Word stress in compound nouns (BUS stop) and long words (conVENient)"
+  },
+  "grammar": [
+    {
+      "id": "comparatives-superlatives",
+      "title": "Comparatives and superlatives",
+      "level": "B1",
+      "summary": "Use a comparative (bigger, more expensive) + than to compare two things. Use a superlative (the biggest, the most expensive) to say that one thing is more than all the others in a group.",
+      "summaryMn": "Хоёр зүйлийг харьцуулахдаа comparative (bigger, more expensive) + than хэрэглэнэ. Нэг зүйл бүлэг доторх бусад бүхнээс илүү болохыг хэлэхдээ superlative (the biggest, the most expensive) хэрэглэнэ.",
+      "structure": [
+        "One syllable: cheap → cheaper → the cheapest · big → bigger → the biggest (double the last letter after one short vowel)",
+        "Two syllables ending in -y: busy → busier → the busiest · noisy → noisier → the noisiest",
+        "Two or more syllables: modern → more modern → the most modern · expensive → more expensive → the most expensive",
+        "Irregular: good → better → the best · bad → worse → the worst · far → further → the furthest",
+        "A is + comparative + than B · the + superlative + in/of … (the tallest building in the city)",
+        "Bigger or smaller difference: much / a lot / far + comparative (much bigger) · a bit / slightly + comparative (a bit cheaper)"
+      ],
+      "usage": [
+        { "use": "Comparing two people, places or things", "example": "My new flat is bigger than my old one.", "useMn": "Хоёр зүйлийг харьцуулах" },
+        { "use": "Saying one thing is at the top or bottom of a group", "example": "It's the most expensive neighbourhood in the city.", "useMn": "Бүлэг дотроос хамгийн их эсвэл хамгийн бага нь" },
+        { "use": "Showing a big or a small difference", "example": "The suburbs are much quieter, but the centre is a bit more convenient.", "useMn": "Ялгаа их эсвэл бага болохыг харуулах (much, a bit)" },
+        { "use": "Superlative + present perfect for experience", "example": "It's the best view I've ever seen.", "useMn": "Хамгийн … + урьд өмнө үзэж байсан туршлага" }
+      ],
+      "examples": [
+        { "en": "Life in the countryside is slower and more peaceful than life in the city.", "note": "Short adjective: -er. Long adjective: more …" },
+        { "en": "Winter is the worst time for air pollution in Ulaanbaatar.", "note": "Irregular: bad → worse → the worst." },
+        { "en": "This is the cheapest flat we've seen so far.", "note": "the + -est, often with the present perfect." },
+        { "en": "Public transport is much better than it was ten years ago.", "note": "'Much' makes the difference bigger." }
+      ],
+      "contrast": {
+        "with": "Comparative vs superlative",
+        "pairs": [
+          { "a": "Zaisan is quieter than the city centre.", "b": "Zaisan is the quietest area I know.", "why": "The comparative compares two places. The superlative compares one place with all the others in a group.", "whyMn": "Comparative нь хоёр газрыг, superlative нь нэг газрыг бүлэг доторх бусад бүх газартай харьцуулна." },
+          { "a": "My flat is more modern than yours.", "b": "Ours is the most modern building on the street.", "why": "Long adjectives use 'more' for two things and 'the most' for a whole group.", "whyMn": "Урт тэмдэг нэрд хоёр зүйлд 'more', бүхэл бүлэгт 'the most' хэрэглэнэ." }
+        ]
+      },
+      "mistakes": [
+        { "wrong": "My flat is more big than yours.", "right": "My flat is bigger than yours.", "why": "Short adjectives take -er, not 'more'.", "whyMn": "Богино тэмдэг нэр 'more' биш -er авна." },
+        { "wrong": "This area is more cheaper.", "right": "This area is cheaper.", "why": "Don't use 'more' and -er together.", "whyMn": "'More' болон -er-ийг хамт хэрэглэхгүй." },
+        { "wrong": "The city is bigger that my town.", "right": "The city is bigger than my town.", "why": "After a comparative, use 'than', not 'that'.", "whyMn": "Comparative-ийн дараа 'that' биш 'than' хэрэглэнэ." },
+        { "wrong": "It's the most tall building in the city.", "right": "It's the tallest building in the city.", "why": "Short adjectives take -est.", "whyMn": "Богино тэмдэг нэр -est авна." },
+        { "wrong": "It's the best restaurant of the city.", "right": "It's the best restaurant in the city.", "why": "Use 'in' with places and groups (in the city, in my family).", "whyMn": "Газар болон бүлгийн өмнө 'of' биш 'in' хэрэглэнэ." }
+      ],
+      "guided": [
+        { "type": "mcq", "prompt": "The centre is ___ than the suburbs.", "options": ["noisyer", "noisier", "the noisiest"], "answer": 1, "explanation": "Two-syllable adjective ending in -y → change y to i + -er." },
+        { "type": "mcq", "prompt": "This is ___ café in our neighbourhood.", "options": ["the better", "best", "the best"], "answer": 2, "explanation": "One café compared with all the others → the best." },
+        { "type": "mcq", "prompt": "Our new flat is ___ than the old one.", "options": ["more spacious", "spaciouser", "most spacious"], "answer": 0, "explanation": "Long adjective → more + adjective." },
+        { "type": "gap", "prompt": "Traffic is ___ in winter than in summer.", "answers": ["worse"], "options": ["bad", "worse", "worst"], "explanation": "Irregular comparative: bad → worse." },
+        { "type": "mcq", "prompt": "Which sentence shows a BIG difference?", "options": ["The bus is a bit cheaper than a taxi.", "The bus is slightly cheaper than a taxi.", "The bus is much cheaper than a taxi."], "answer": 2, "explanation": "'Much' shows a big difference; 'a bit' and 'slightly' show a small one." }
+      ],
+      "free": [
+        { "type": "gap", "prompt": "Mount Everest is ___ (high) mountain in the world.", "answers": ["the highest"], "explanation": "One mountain compared with all others → the + -est." },
+        { "type": "gap", "prompt": "Living in the centre is ___ (convenient) than living in the suburbs.", "answers": ["more convenient"], "explanation": "Long adjective → more convenient." },
+        { "type": "correct", "prompt": "Correct the sentence.", "sentence": "Ulaanbaatar is the most cold capital city of the world.", "answers": ["Ulaanbaatar is the coldest capital city in the world."], "explanation": "Short adjective → the coldest; with places use 'in'." },
+        { "type": "transform", "prompt": "Rewrite the sentence so it means the same. Use the word given.", "sentence": "My old flat was smaller than my new flat.", "keyword": "bigger", "answers": ["My new flat is bigger than my old flat.", "My new flat is bigger than my old one.", "My new flat is bigger than the old one."], "explanation": "Change the order of the two flats and use the opposite adjective." }
+      ],
+      "prerequisites": []
+    },
+    {
+      "id": "too-enough-as-as",
+      "title": "too / enough / (not) as … as",
+      "level": "B1",
+      "summary": "'Too' means more than you want or need (too expensive). 'Enough' means as much as you need (big enough, enough space). 'As … as' says two things are the same; 'not as … as' says the first is less than the second.",
+      "summaryMn": "'Too' — хэрэгцээнээс хэтэрсэн (хэт үнэтэй). 'Enough' — хангалттай (хангалттай том, хангалттай зай). 'As … as' — хоёр зүйл адилхан; 'not as … as' — эхнийх нь хоёр дахиасаа дутуу гэсэн утгатай.",
+      "structure": [
+        "too + adjective / adverb: too small · too far · It's too expensive for us.",
+        "too much + uncountable noun · too many + plural noun: too much noise · too many cars",
+        "adjective + enough: big enough · not quiet enough",
+        "enough + noun: enough space · not enough parking spaces",
+        "(not) as + adjective + as: The flat is as big as the house. · The suburbs aren't as lively as the centre.",
+        "+ to-infinitive or for someone: It's too far to walk. · The room isn't big enough for two people."
+      ],
+      "usage": [
+        { "use": "too: more than is good or possible (a negative meaning)", "example": "The flat is too small for a family of five.", "useMn": "Хэтэрхий, шаардлагаас их (сөрөг утга)" },
+        { "use": "enough: the amount you need", "example": "Is the kitchen big enough for a table?", "useMn": "Хангалттай, шаардлагатай хэмжээнд" },
+        { "use": "not … enough: less than you need", "example": "There aren't enough parks in our district.", "useMn": "Хангалтгүй, дутуу" },
+        { "use": "as … as: two things are equal", "example": "The new shopping centre is as big as a football stadium.", "useMn": "Хоёр зүйл адилхан" },
+        { "use": "not as … as: the first is less than the second", "example": "Our street isn't as noisy as the main road.", "useMn": "Эхнийх нь хоёр дахиасаа бага" }
+      ],
+      "examples": [
+        { "en": "It's too cold to walk to work in January.", "note": "too + adjective + to-infinitive" },
+        { "en": "The balcony isn't big enough for a table and chairs.", "note": "'Enough' comes AFTER an adjective." },
+        { "en": "We don't have enough storage space.", "note": "'Enough' comes BEFORE a noun." },
+        { "en": "A flat in the suburbs isn't as expensive as a flat in the centre.", "note": "= A flat in the suburbs is cheaper." }
+      ],
+      "contrast": {
+        "with": "too vs very · not as … as vs comparative",
+        "pairs": [
+          { "a": "The flat is very expensive, but we can afford it.", "b": "The flat is too expensive. We can't afford it.", "why": "'Very' just makes the adjective stronger. 'Too' means there is a problem: it is more than we can accept.", "whyMn": "'Very' зөвхөн утгыг хүчтэй болгоно. 'Too' нь асуудал байгааг буюу хүлээн авах хэмжээнээс хэтэрснийг илэрхийлнэ." },
+          { "a": "My room isn't as big as yours.", "b": "My room is smaller than yours.", "why": "The two sentences mean the same. 'Not as … as' often sounds softer and more polite.", "whyMn": "Хоёр өгүүлбэр ижил утгатай. 'Not as … as' нь илүү зөөлөн, эелдэг сонсогддог." }
+        ]
+      },
+      "mistakes": [
+        { "wrong": "The room is enough big.", "right": "The room is big enough.", "why": "'Enough' goes after an adjective.", "whyMn": "'Enough' тэмдэг нэрийн ДАРАА орно." },
+        { "wrong": "There isn't parking spaces enough.", "right": "There aren't enough parking spaces.", "why": "'Enough' goes before a noun.", "whyMn": "'Enough' нэр үгийн ӨМНӨ орно." },
+        { "wrong": "This neighbourhood is too nice! I love it.", "right": "This neighbourhood is really nice! I love it.", "why": "'Too' has a negative meaning. For a positive meaning, use 'very' or 'really'.", "whyMn": "'Too' нь сөрөг утгатай. Эерэг утгад 'very' эсвэл 'really' хэрэглэнэ." },
+        { "wrong": "My flat is not as big than yours.", "right": "My flat is not as big as yours.", "why": "The pattern is as … as, not as … than.", "whyMn": "Загвар нь as … as байна, 'as … than' биш." }
+      ],
+      "guided": [
+        { "type": "mcq", "prompt": "I can't buy that flat. It's ___ expensive.", "options": ["too", "enough", "as"], "answer": 0, "explanation": "More than I can pay → too." },
+        { "type": "mcq", "prompt": "Is the kitchen ___ for a dishwasher?", "options": ["enough big", "big enough", "as big"], "answer": 1, "explanation": "Adjective + enough." },
+        { "type": "mcq", "prompt": "The suburbs aren't ___ the city centre.", "options": ["lively as", "as lively than", "as lively as"], "answer": 2, "explanation": "not as + adjective + as." },
+        { "type": "mcq", "prompt": "Which sentence means 'There are more cars than the streets can take'?", "options": ["There are too many cars.", "There are enough cars.", "There are too much cars."], "answer": 0, "explanation": "'Cars' is a plural noun → too many." },
+        { "type": "gap", "prompt": "There isn't ___ space for a sofa in this room.", "answers": ["enough"], "options": ["too", "enough", "as"], "explanation": "enough + noun." }
+      ],
+      "free": [
+        { "type": "gap", "prompt": "We can't walk there. It's ___ (far).", "answers": ["too far"], "explanation": "More than is possible → too + adjective." },
+        { "type": "gap", "prompt": "The flat isn't ___ (quiet) for me — I need to work from home.", "answers": ["quiet enough"], "explanation": "Adjective + enough." },
+        { "type": "transform", "prompt": "Rewrite the sentence so it means the same. Use the word given.", "sentence": "The bus is slower than a taxi.", "keyword": "as", "answers": ["The bus isn't as fast as a taxi.", "The bus is not as fast as a taxi.", "The bus isn't as quick as a taxi."], "explanation": "slower than = not as fast as." },
+        { "type": "transform", "prompt": "Rewrite the sentence so it means the same. Use the word given.", "sentence": "The flat isn't big enough for our family.", "keyword": "too", "answers": ["The flat is too small for our family."], "explanation": "not big enough = too small." },
+        { "type": "correct", "prompt": "Correct the sentence.", "sentence": "My new flat is as bigger as my parents' house.", "answers": ["My new flat is as big as my parents' house."], "explanation": "Use the normal adjective between as … as." }
+      ],
+      "prerequisites": ["comparatives-superlatives"]
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "word-stress-city",
+      "title": "Word stress: compound nouns and long words",
+      "category": "word_stress",
+      "explanation": "In most compound nouns (two words used as one noun), the stress is on the FIRST part: BUS stop, TRAFfic jam, SHOPping centre, CAR park. In long words, the stress is often not on the first syllable: aPARTment, conVENient, afFORDable, peDEStrian. Words ending in -tion and -ity are stressed just before the ending: polLUtion, faCILity. If the stress is in the wrong place, people may not understand you, even when all the sounds are right.",
+      "explanationMn": "Ихэнх нийлмэл нэр үгэнд (хоёр үгээс тогтсон нэг нэр) өргөлт ЭХНИЙ хэсэгт буудаг: BUS stop, TRAFfic jam, SHOPping centre. Урт үгэнд өргөлт ихэвчлэн эхний үед биш байдаг: aPARTment, conVENient, afFORDable. -tion, -ity-ээр төгссөн үгэнд өргөлт төгсгөлийн яг өмнөх үед бууна: polLUtion, faCILity. Өргөлтийг буруу газар тавибал бүх авиа зөв байсан ч сонсогч ойлгохгүй байж болно.",
+      "items": [
+        { "display": "BUS stop · CAR park · TRAFfic jam", "say": "bus stop, car park, traffic jam", "tip": "Compound nouns: stress the first word." },
+        { "display": "SHOPping centre · SWIMming pool", "say": "shopping centre, swimming pool" },
+        { "display": "NEIGHbourhood (NEIGH-bour-hood)", "say": "neighbourhood", "tip": "Stress the first syllable; 'bour' is weak: /bə/." },
+        { "display": "aPARTment · conVENient", "say": "apartment, convenient", "tip": "Stress the second syllable." },
+        { "display": "afFORDable · peDEStrian", "say": "affordable, pedestrian", "tip": "Stress the second syllable." },
+        { "display": "faCILities · polLUtion", "say": "facilities, pollution", "tip": "-ity and -tion: stress the syllable just before the ending." }
+      ],
+      "shadowing": [
+        { "text": "The bus stop is opposite the shopping centre.", "stress": "The BUS stop is OPPosite the SHOPping centre.", "tip": "Two compound nouns: stress the first word of each.", "difficult": ["opposite", "shopping centre"] },
+        { "text": "Our apartment is very convenient for public transport.", "stress": "Our aPARTment is VEry conVENient for PUBlic TRANSport.", "tip": "'For' is weak: /fə/.", "difficult": ["apartment", "convenient"] },
+        { "text": "The traffic jams in winter are the worst in the country.", "stress": "The TRAFfic jams in WINter are the WORST in the COUNtry.", "tip": "In 'traffic jams', the stress is on TRAF.", "difficult": ["traffic jams"] },
+        { "text": "Is there a cheap car park in the neighbourhood?", "stress": "Is there a CHEAP CAR park in the NEIGHbourhood?", "difficult": ["car park", "neighbourhood"] }
+      ],
+      "spokenForms": [
+        { "written": "than", "spoken": "/ðən/", "note": "Weak in comparisons: bigger than /ðən/ mine." },
+        { "written": "as … as", "spoken": "/əz … əz/", "note": "Both 'as' words are weak: as big as /əz bɪɡ əz/." }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "b1-03-l1",
+      "title": "A new home in the city",
+      "focus": "vocabulary",
+      "difficulty": 3,
+      "minutes": 25,
+      "objectives": [
+        "Use 11 words and collocations for homes and renting",
+        "Understand the main idea and details of a blog about moving house",
+        "Describe your own home with the new words"
+      ],
+      "warmup": {
+        "intro": "Where do you live: in a flat, a house or a ger? What do you like about it?",
+        "questions": [
+          { "type": "mcq", "prompt": "Which word means 'the area of a town where you live'?", "options": ["neighbourhood", "kitchen", "furniture", "ceiling"], "answer": 0, "skill": "vocabulary" },
+          { "type": "mcq", "prompt": "The blog in this lesson is called 'From a Ger District to the Fourteenth Floor'. What do you think it is about?", "options": ["A family holiday in the countryside", "Someone who moved from a house in a ger district to a flat in a tall building", "How to build a ger", "A new hotel in Ulaanbaatar"], "answer": 1, "skill": "reading", "tag": "prediction" }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "neighbourhood", "pos": "noun", "ipa": "/ˈneɪbəhʊd/",
+          "definition": "an area of a town or city where people live",
+          "mn": "хороолол, орчин тойрон",
+          "examples": ["We live in a quiet neighbourhood near the river.", "Is this a safe neighbourhood at night?"],
+          "collocations": ["a quiet neighbourhood", "a safe neighbourhood", "in the neighbourhood", "a residential neighbourhood"],
+          "synonyms": ["area", "district"], "antonyms": [],
+          "mistake": "Spelling: neighbour + hood. The 'gh' is silent: /ˈneɪbəhʊd/.",
+          "note": "American spelling: neighborhood.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "suburb", "pos": "noun", "ipa": "/ˈsʌbɜːb/",
+          "definition": "an area where people live on the edge of a city, away from the centre",
+          "mn": "хотын захын хороолол",
+          "examples": ["More and more families are moving to the suburbs.", "We live in a suburb about twenty minutes from the centre."],
+          "collocations": ["in the suburbs", "a quiet suburb", "live in the suburbs"],
+          "synonyms": ["outskirts"], "antonyms": ["city centre"],
+          "note": "The adjective is 'suburban': a suburban street.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "spacious", "pos": "adjective", "ipa": "/ˈspeɪʃəs/",
+          "definition": "large, with a lot of space inside",
+          "mn": "өргөн уудам, зайтай",
+          "examples": ["The living room is bright and spacious.", "We need a more spacious flat now that we have a baby."],
+          "collocations": ["a spacious flat", "a spacious room", "bright and spacious"],
+          "synonyms": ["roomy", "large"], "antonyms": ["cramped"],
+          "note": "Used for rooms, homes and cars, not for people.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "cramped", "pos": "adjective", "ipa": "/kræmpt/",
+          "definition": "too small for the people or things in it",
+          "mn": "давчуу, багтаамж муутай",
+          "examples": ["Five of us lived in a cramped two-room flat.", "The office feels cramped with ten desks in it."],
+          "collocations": ["cramped conditions", "a cramped flat", "feel cramped"],
+          "synonyms": ["crowded", "small"], "antonyms": ["spacious"],
+          "level": "B2", "difficulty": 4
+        },
+        {
+          "word": "affordable", "pos": "adjective", "ipa": "/əˈfɔːdəbl/",
+          "definition": "cheap enough for most people to pay for",
+          "mn": "хүртээмжтэй үнэтэй, боломжийн үнэтэй",
+          "examples": ["It's hard to find affordable housing in the city centre.", "The flats in this new building are more affordable than I expected."],
+          "collocations": ["affordable housing", "affordable prices", "more affordable"],
+          "synonyms": ["reasonable", "inexpensive"], "antonyms": ["expensive", "unaffordable"],
+          "note": "'Affordable' sounds more positive than 'cheap', which can also mean 'low quality'.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "landlord", "pos": "noun", "ipa": "/ˈlændlɔːd/",
+          "definition": "a person who owns a house or flat and rents it to other people",
+          "mn": "байрны эзэн (түрээслүүлэгч)",
+          "examples": ["Our landlord lives in the flat downstairs.", "I called the landlord because the heating wasn't working."],
+          "collocations": ["a friendly landlord", "contact the landlord", "landlord and tenant"],
+          "synonyms": ["owner"], "antonyms": ["tenant"],
+          "note": "For a woman, 'landlady' is also used.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "tenant", "pos": "noun", "ipa": "/ˈtenənt/",
+          "definition": "a person who pays rent to live in a house or flat",
+          "mn": "түрээслэгч",
+          "examples": ["The previous tenant left the flat very clean.", "Tenants must pay the rent by the fifth of each month."],
+          "collocations": ["a new tenant", "the previous tenant", "tenants' rights"],
+          "synonyms": ["renter"], "antonyms": ["landlord", "owner"],
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "deposit", "pos": "noun", "ipa": "/dɪˈpɒzɪt/",
+          "definition": "money you pay when you start renting a place, which you get back later if you don't damage anything",
+          "mn": "барьцаа мөнгө, дэнчин",
+          "examples": ["The landlord wants a deposit of one month's rent.", "We got our deposit back when we moved out."],
+          "collocations": ["pay a deposit", "get your deposit back", "a deposit of (one month's rent)"],
+          "synonyms": [], "antonyms": [],
+          "mistake": "A deposit is not the rent. You pay rent every month; you pay a deposit once and get it back at the end.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "furnished", "pos": "adjective", "ipa": "/ˈfɜːnɪʃt/",
+          "definition": "with furniture already in it",
+          "mn": "тавилгатай",
+          "examples": ["The flat is fully furnished, so you only need to bring your clothes.", "Furnished flats are usually more expensive to rent."],
+          "collocations": ["fully furnished", "a furnished flat", "partly furnished"],
+          "synonyms": [], "antonyms": ["unfurnished"],
+          "mistake": "'Furniture' is uncountable: 'a lot of furniture' or 'a piece of furniture', not 'furnitures'.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "move in", "pos": "phrasal verb", "ipa": "/muːv ˈɪn/",
+          "definition": "to start living in a new home",
+          "mn": "(шинэ байранд) нүүж орох",
+          "examples": ["We moved in last weekend, and the flat is still full of boxes.", "When are your new neighbours moving in?"],
+          "collocations": ["move in with someone", "move in together", "move into a new flat"],
+          "synonyms": [], "antonyms": ["move out"],
+          "note": "Use 'move into' + a place ('We moved into a new flat') and 'move in' with no object ('We moved in on Monday').",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "heating", "pos": "noun", "ipa": "/ˈhiːtɪŋ/",
+          "definition": "a system that keeps a building warm",
+          "mn": "халаалт",
+          "examples": ["In Ulaanbaatar, the central heating usually comes on in September.", "Can you turn the heating down? It's too hot in here."],
+          "collocations": ["central heating", "turn the heating up / down", "the heating is on"],
+          "synonyms": [], "antonyms": ["air conditioning"],
+          "note": "'Central heating' heats the whole building from one system.",
+          "level": "B1", "difficulty": 2
+        }
+      ],
+      "reading": {
+        "id": "r-ger-to-flat",
+        "title": "From a Ger District to the Fourteenth Floor",
+        "genre": "blog",
+        "text": [
+          "Until last year, I lived with my parents in a ger district in the north of Ulaanbaatar. Our house was small, but our yard was spacious: my father grew vegetables there every summer, and my little brother played football with the neighbours' children. It was a quiet neighbourhood, and everyone knew everyone.",
+          "But life there had its problems. In winter we heated the house with a coal stove, so it was always either too hot or too cold, and the air was terrible. The nearest bus stop was a twenty-minute walk away, and my commute to the office took more than an hour.",
+          "Last September I moved into a one-bedroom flat on the fourteenth floor of a new apartment block near the city centre. I'm a tenant, so I pay rent every month. My landlord, a retired engineer, asked for a deposit of two months' rent, which was difficult, but the flat is furnished, so I didn't need to buy a bed or a sofa. The best thing is the central heating: for the first time in my life, I'm warm all winter without doing anything.",
+          "Of course, it isn't perfect. The flat is quite cramped — my kitchen is about the size of our old bathroom — and I don't know any of my neighbours yet. Flats in the centre aren't very affordable either: I spend almost half of my salary on rent and bills.",
+          "Do I miss the ger district? Sometimes. On Sundays I take the bus to my parents' house, and my mother cooks buuz while my father shows me his vegetables. My parents are thinking about moving too. Many families are leaving the ger districts for flats in the suburbs, where housing is cheaper than in the centre but still has central heating. The city is changing fast, and so are we."
+        ],
+        "glossary": [
+          { "term": "ger district", "meaning": "an area of Ulaanbaatar where people live in gers and small houses, usually without central heating", "mn": "гэр хороолол" },
+          { "term": "yard", "meaning": "the area of land around a house", "mn": "хашаа" },
+          { "term": "coal stove", "meaning": "a metal box that burns coal to heat a room", "mn": "нүүрсний зуух" },
+          { "term": "salary", "meaning": "the money you earn every month from your job", "mn": "цалин" }
+        ],
+        "questions": [
+          { "type": "mcq", "tag": "main_idea", "prompt": "What is the blog mainly about?", "options": ["How to find a cheap flat in Ulaanbaatar", "Why ger districts are better than apartment blocks", "The writer's move from a ger district to a city flat, with its good and bad sides", "The writer's problems with her landlord"], "answer": 2 },
+          { "type": "tfng", "tag": "detail", "prompt": "The writer's old home had a large yard.", "answer": "true", "explanation": "Paragraph 1: 'our yard was spacious'." },
+          { "type": "tfng", "tag": "detail", "prompt": "The writer had to buy a bed and a sofa for the new flat.", "answer": "false", "explanation": "Paragraph 3: the flat is furnished, so she didn't need to buy them." },
+          { "type": "tfng", "tag": "detail", "prompt": "The writer's neighbours in the apartment block are very noisy.", "answer": "not_given", "explanation": "She says she doesn't know them yet; she says nothing about noise." },
+          { "type": "mcq", "tag": "detail", "prompt": "What does the writer like most about her new flat?", "options": ["The size of the kitchen", "The central heating", "The friendly neighbours", "The low rent"], "answer": 1 },
+          { "type": "mcq", "tag": "vocab_context", "prompt": "In paragraph 4, 'cramped' means…", "options": ["too small", "very dirty", "too cold", "very modern"], "answer": 0 },
+          { "type": "summary", "tag": "summary", "prompt": "Complete the summary with words from the box.", "text": "The writer used to live in a {1} ger district with a big yard. Now she is a {2} in a small flat near the centre. The flat is warm, but it is {3} and expensive.", "bank": ["quiet", "tenant", "cramped", "landlord", "spacious", "noisy"], "answers": ["quiet", "tenant", "cramped"] },
+          { "type": "mcq", "tag": "inference", "prompt": "Why are many families moving from the ger districts to the suburbs?", "options": ["They want to live near their parents.", "The suburbs have better schools.", "Flats there are cheaper than in the centre but still have central heating.", "The government pays for their flats."], "answer": 2, "explanation": "Last paragraph: housing in the suburbs 'is cheaper than in the centre but still has central heating'." }
+        ]
+      },
+      "quiz": [
+        { "type": "gap", "skill": "vocabulary", "prompt": "The flat is ___, so you don't need to buy a bed or a table.", "answers": ["furnished"], "options": ["spacious", "furnished", "affordable", "cramped"] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "Who owns the flat that a tenant lives in?", "options": ["the neighbour", "the deposit", "the landlord", "the suburb"], "answer": 2 },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "The opposite of 'spacious' is…", "options": ["cramped", "furnished", "affordable", "central"], "answer": 0 },
+        { "type": "match", "skill": "vocabulary", "prompt": "Match the words with their meanings.", "pairs": [["deposit", "money you pay at the start and get back later"], ["tenant", "a person who rents a home"], ["suburb", "an area on the edge of a city"], ["affordable", "not too expensive"]] },
+        { "type": "gap", "skill": "vocabulary", "prompt": "It's freezing in here! Can you turn the ___ up?", "answers": ["heating"] },
+        { "type": "gap", "skill": "vocabulary", "prompt": "We ___ in on Saturday, so the flat is still full of boxes.", "answers": ["moved"], "options": ["went", "moved", "came", "lived"] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "Which sentence is correct?", "options": ["We bought a lot of new furnitures.", "We bought many new furniture.", "We bought a lot of new furniture."], "answer": 2, "explanation": "'Furniture' is uncountable." }
+      ]
+    },
+    {
+      "id": "b1-03-l2",
+      "title": "Bigger, busier, better?",
+      "focus": "grammar",
+      "difficulty": 3,
+      "minutes": 25,
+      "objectives": [
+        "Form and use comparatives and superlatives correctly",
+        "Use much, a bit and slightly to show how big a difference is",
+        "Compare two places you know well"
+      ],
+      "warmup": {
+        "intro": "Which is better: the city centre or the suburbs? First, a quick grammar check.",
+        "questions": [
+          { "type": "mcq", "prompt": "Ulaanbaatar is ___ than Darkhan.", "options": ["big", "more big", "bigger"], "answer": 2, "skill": "grammar", "explanation": "Short adjective → -er (and double the g)." },
+          { "type": "mcq", "prompt": "It's the ___ building in the city.", "options": ["tallest", "taller", "most tall"], "answer": 0, "skill": "grammar", "explanation": "One building compared with all the others → the + -est." }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "facilities", "pos": "noun (plural)", "ipa": "/fəˈsɪlətiz/",
+          "definition": "buildings, services or equipment for a particular purpose, such as sports centres, hospitals and shops",
+          "mn": "үйлчилгээний байгууламж, тоног төхөөрөмж",
+          "examples": ["Our district has good sports facilities, but there's no cinema.", "The new school has excellent facilities."],
+          "collocations": ["sports facilities", "good facilities", "public facilities", "medical facilities"],
+          "synonyms": ["amenities", "services"], "antonyms": [],
+          "mistake": "In this meaning it is usually plural: 'The facilities are good', not 'The facility is good'.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "public transport", "pos": "noun", "ipa": "/ˌpʌblɪk ˈtrænspɔːt/",
+          "definition": "buses, trains and trams that everyone can use",
+          "mn": "нийтийн тээвэр",
+          "examples": ["Public transport in the city is cheap but very crowded in the morning.", "I don't have a car, so I use public transport."],
+          "collocations": ["use public transport", "by public transport", "the public transport system"],
+          "synonyms": [], "antonyms": ["private car"],
+          "mistake": "Say 'by public transport' or 'on public transport', not 'with public transport'.",
+          "note": "American English: public transportation.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "traffic jam", "pos": "noun", "ipa": "/ˈtræfɪk dʒæm/",
+          "definition": "a long line of cars that are moving very slowly or not moving at all",
+          "mn": "замын түгжрэл",
+          "examples": ["I was stuck in a traffic jam for an hour this morning.", "Traffic jams are worst between eight and nine o'clock."],
+          "collocations": ["stuck in a traffic jam", "a long traffic jam", "cause traffic jams"],
+          "synonyms": ["congestion"], "antonyms": [],
+          "mistake": "Say 'the traffic is heavy' or 'there's a lot of traffic', not 'the traffic is many'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "pollution", "pos": "noun", "ipa": "/pəˈluːʃn/",
+          "definition": "dirty air, water or land that is harmful to people and nature",
+          "mn": "бохирдол",
+          "examples": ["Air pollution is the city's biggest problem in winter.", "Cars and coal stoves cause a lot of pollution."],
+          "collocations": ["air pollution", "reduce pollution", "high levels of pollution", "noise pollution"],
+          "synonyms": ["smog"], "antonyms": [],
+          "mistake": "'Pollution' is uncountable: 'a lot of pollution', not 'many pollutions'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "crowded", "pos": "adjective", "ipa": "/ˈkraʊdɪd/",
+          "definition": "full of people",
+          "mn": "хүн ихтэй, бөөгнөрсөн",
+          "examples": ["The buses are always crowded at rush hour.", "The market gets very crowded at the weekend."],
+          "collocations": ["a crowded bus", "crowded streets", "crowded with tourists"],
+          "synonyms": ["busy", "packed"], "antonyms": ["empty", "quiet"],
+          "note": "'Crowded' is about people. For a room with too little space, use 'cramped'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "pedestrian", "pos": "noun", "ipa": "/pəˈdestriən/",
+          "definition": "a person who is walking in the street, not driving",
+          "mn": "явган зорчигч",
+          "examples": ["Drivers must stop for pedestrians at the crossing.", "The main square is for pedestrians only — no cars are allowed."],
+          "collocations": ["a pedestrian crossing", "a pedestrian street", "pedestrians only"],
+          "synonyms": ["walker"], "antonyms": ["driver"],
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "convenient", "pos": "adjective", "ipa": "/kənˈviːniənt/",
+          "definition": "easy to use or reach; suitable for your plans",
+          "mn": "тохиромжтой, эвтэй",
+          "examples": ["The flat is very convenient — the bus stop is right outside.", "Is Friday convenient for you?"],
+          "collocations": ["convenient for the shops", "a convenient location", "more convenient"],
+          "synonyms": ["handy", "practical"], "antonyms": ["inconvenient"],
+          "mistake": "People are not 'convenient'. Say 'Is 3 p.m. convenient for you?', not 'Are you convenient at 3 p.m.?'",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "lively", "pos": "adjective", "ipa": "/ˈlaɪvli/",
+          "definition": "full of energy, activity and people",
+          "mn": "хөл хөдөлгөөнтэй, эрч хүчтэй, хөгжилтэй",
+          "examples": ["Seoul Street is one of the liveliest parts of Ulaanbaatar at night.", "The centre is lively, but it's also noisy."],
+          "collocations": ["a lively area", "lively nightlife", "a lively atmosphere"],
+          "synonyms": ["busy", "vibrant"], "antonyms": ["quiet", "dull"],
+          "mistake": "Pronounce it /ˈlaɪvli/, like 'alive', not /ˈlɪvli/.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "peaceful", "pos": "adjective", "ipa": "/ˈpiːsfl/",
+          "definition": "quiet and calm",
+          "mn": "тайван, амгалан",
+          "examples": ["It's much more peaceful in the countryside than in the city.", "We found a peaceful spot by the river for our picnic."],
+          "collocations": ["a peaceful place", "peaceful and quiet", "a peaceful atmosphere"],
+          "synonyms": ["calm", "quiet"], "antonyms": ["noisy", "busy"],
+          "level": "B1", "difficulty": 2
+        }
+      ],
+      "grammar": "comparatives-superlatives",
+      "speaking": {
+        "id": "s-compare-places",
+        "type": "compare",
+        "prompt": "Compare two places you know well — for example, your home town and the city where you live now, or two districts of Ulaanbaatar. Which is better to live in, and why?",
+        "promptMn": "Сайн мэддэг хоёр газраа харьцуулаарай — жишээ нь төрсөн нутаг болон одоо амьдарч буй хот, эсвэл Улаанбаатарын хоёр дүүрэг. Аль нь амьдрахад илүү вэ, яагаад?",
+        "points": ["Transport and traffic", "Facilities (shops, parks, hospitals, schools)", "Noise, pollution and atmosphere", "Which place is the best for you, and why"],
+        "phrases": ["X is much … than Y.", "Y is a bit more …", "The best thing about X is…", "The worst thing about Y is…", "On the other hand, …"],
+        "targetWords": ["facilities", "public transport", "traffic jam", "convenient", "lively", "peaceful"],
+        "prepSeconds": 60,
+        "speakSeconds": 90,
+        "sample": "I'd like to compare Ulaanbaatar with my home town, Erdenet. Ulaanbaatar is much bigger and livelier than Erdenet, and the facilities are better — there are more hospitals, universities and shopping centres. However, the traffic jams are terrible, and the air pollution in winter is much worse. Erdenet is smaller and more peaceful. Public transport isn't as good, but you don't really need it because everything is close. In my opinion, Ulaanbaatar is the best place to build a career, but Erdenet is a better place to bring up children. The worst thing about the capital is the traffic — sometimes I spend more time in my car than at home!"
+      },
+      "quiz": [
+        { "type": "mcq", "skill": "grammar", "prompt": "This is ___ restaurant in the neighbourhood.", "options": ["the cheaper", "the cheapest", "cheapest"], "answer": 1 },
+        { "type": "gap", "skill": "grammar", "prompt": "The suburbs are ___ (peaceful) than the city centre.", "answers": ["more peaceful"] },
+        { "type": "mcq", "skill": "grammar", "prompt": "The traffic today is ___ than yesterday.", "options": ["worse", "worst", "more bad"], "answer": 0 },
+        { "type": "error", "skill": "grammar", "prompt": "Tap the part with the mistake.", "segments": ["Darkhan is", "more smaller", "than Ulaanbaatar,", "but it's very pleasant."], "wrongIndex": 1, "correction": "smaller", "explanation": "Don't use 'more' with -er." },
+        { "type": "gap", "skill": "vocabulary", "prompt": "I was stuck in a traffic ___ for forty minutes.", "answers": ["jam"], "options": ["jam", "block", "line", "crowd"] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "'Is Monday convenient for you?' means…", "options": ["Do you like Mondays?", "Are you busy every Monday?", "Do you work on Mondays?", "Is Monday a good time for you?"], "answer": 3 },
+        { "type": "match", "skill": "vocabulary", "prompt": "Match the opposites.", "pairs": [["crowded", "empty"], ["convenient", "inconvenient"], ["peaceful", "noisy"], ["pedestrian", "driver"]] }
+      ]
+    },
+    {
+      "id": "b1-03-l3",
+      "title": "Welcome to the neighbourhood",
+      "focus": "listening",
+      "difficulty": 3,
+      "minutes": 25,
+      "objectives": [
+        "Understand a conversation about a neighbourhood and its facilities",
+        "Use words for buildings and local services",
+        "Put the stress in the right place in compound nouns and long words",
+        "Tell a new neighbour about your area"
+      ],
+      "warmup": {
+        "intro": "Imagine you have just moved into a new building. What do you want to know about the area?",
+        "questions": [
+          { "type": "mcq", "prompt": "What do you call the door where you go into a building?", "options": ["exit", "entrance", "window", "ceiling"], "answer": 1, "skill": "vocabulary" }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "nearby", "pos": "adjective / adverb", "ipa": "/ˌnɪəˈbaɪ/",
+          "definition": "not far away",
+          "mn": "ойролцоо, ойрхон",
+          "examples": ["Is there a pharmacy nearby?", "We had lunch at a nearby café."],
+          "collocations": ["a nearby park", "live nearby", "somewhere nearby"],
+          "synonyms": ["close by", "near here"], "antonyms": ["far away"],
+          "mistake": "'Nearby' is one word. Say 'She lives nearby', not 'She lives nearby of here'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "walking distance", "pos": "noun phrase", "ipa": "/ˈwɔːkɪŋ ˌdɪstəns/",
+          "definition": "a distance that is short enough to walk",
+          "mn": "явганаар хүрэх зай",
+          "examples": ["The school is within walking distance of our flat.", "Everything we need is within walking distance."],
+          "collocations": ["within walking distance of something", "in walking distance"],
+          "synonyms": ["close", "near"], "antonyms": [],
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "local", "pos": "adjective", "ipa": "/ˈləʊkl/",
+          "definition": "in or from the area near you",
+          "mn": "орон нутгийн, ойр орчмын",
+          "examples": ["I buy bread from the local bakery every morning.", "Our local park is small but very clean."],
+          "collocations": ["local shops", "a local school", "local people", "the local news"],
+          "synonyms": ["neighbourhood"], "antonyms": ["national", "international"],
+          "note": "As a noun, 'the locals' means the people who live in a place.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "entrance", "pos": "noun", "ipa": "/ˈentrəns/",
+          "definition": "the door or gate where you go into a building",
+          "mn": "орц, орох хаалга",
+          "examples": ["Our flat is in the second entrance on the left.", "Meet me at the main entrance of the shopping centre."],
+          "collocations": ["the main entrance", "the front entrance", "at the entrance"],
+          "synonyms": ["way in", "doorway"], "antonyms": ["exit"],
+          "note": "In Mongolian apartment blocks, each 'орц' is an entrance with its own stairs and lift.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "lift", "pos": "noun", "ipa": "/lɪft/",
+          "definition": "a machine that carries people up and down in a building",
+          "mn": "цахилгаан шат, лифт",
+          "examples": ["The lift is broken again, so we have to use the stairs.", "Take the lift to the ninth floor."],
+          "collocations": ["take the lift", "the lift is broken", "wait for the lift"],
+          "synonyms": ["elevator"], "antonyms": ["stairs"],
+          "note": "British English. American English: elevator.",
+          "level": "B1", "difficulty": 1
+        },
+        {
+          "word": "parking space", "pos": "noun", "ipa": "/ˈpɑːkɪŋ speɪs/",
+          "definition": "a place where one car can park",
+          "mn": "машины зогсоол",
+          "examples": ["It's almost impossible to find a parking space in the evening.", "Each flat comes with one parking space."],
+          "collocations": ["find a parking space", "a free parking space", "an underground parking space"],
+          "synonyms": ["parking spot"], "antonyms": [],
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "community", "pos": "noun", "ipa": "/kəˈmjuːnəti/",
+          "definition": "the people who live in one area, or a group of people who have something in common",
+          "mn": "олон нийт, хамт олон, орон нутгийн иргэд",
+          "examples": ["There's a strong sense of community in our building.", "The local community planted fifty trees in the park."],
+          "collocations": ["the local community", "a sense of community", "a community centre"],
+          "synonyms": ["neighbourhood", "society"], "antonyms": [],
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "run-down", "pos": "adjective", "ipa": "/ˌrʌn ˈdaʊn/",
+          "definition": "in bad condition because nobody has repaired or looked after it",
+          "mn": "хуучирч муудсан, эвдэрч гандсан",
+          "examples": ["The old cinema was run-down, and nobody went there.", "They bought a run-down house and repaired it themselves."],
+          "collocations": ["a run-down building", "a run-down area", "look run-down"],
+          "synonyms": ["shabby", "neglected"], "antonyms": ["well-kept"],
+          "level": "B2", "difficulty": 4
+        },
+        {
+          "word": "renovate", "pos": "verb", "ipa": "/ˈrenəveɪt/",
+          "definition": "to repair and improve an old building",
+          "mn": "засварлаж шинэчлэх",
+          "examples": ["They're renovating the old school, and it'll open again next year.", "We renovated the kitchen last summer."],
+          "collocations": ["renovate a building", "fully renovated", "newly renovated"],
+          "synonyms": ["repair", "do up"], "antonyms": [],
+          "level": "B2", "difficulty": 4
+        }
+      ],
+      "listening": {
+        "id": "l-new-neighbour",
+        "title": "You must be the new neighbour!",
+        "kind": "conversation",
+        "context": "Lisa moved into a new flat yesterday. Her neighbour, Ben, knocks on her door to say hello.",
+        "speakers": [
+          { "name": "Ben", "voice": "male", "accent": "en-GB" },
+          { "name": "Lisa", "voice": "female", "accent": "en-US" }
+        ],
+        "lines": [
+          { "speaker": "Ben", "text": "Hi there! You must be the new neighbour. I'm Ben. I live in flat twelve, just opposite you." },
+          { "speaker": "Lisa", "text": "Oh, hi! I'm Lisa. Nice to meet you. Sorry about all the boxes — I only moved in yesterday." },
+          { "speaker": "Ben", "text": "No problem at all. So, how are you finding the flat?" },
+          { "speaker": "Lisa", "text": "I love it. It's bigger than my old place, and it's much brighter. But I don't know the area at all yet." },
+          { "speaker": "Ben", "text": "Well, it's a great neighbourhood. The supermarket is just round the corner, and there's a really good local bakery opposite the bus stop." },
+          { "speaker": "Lisa", "text": "That's handy. What about a gym? Is there one nearby?" },
+          { "speaker": "Ben", "text": "Yes, there's a sports centre about ten minutes away. It's within walking distance, but in winter most people take the bus." },
+          { "speaker": "Lisa", "text": "Good to know. And is it easy to find a parking space here? I've got a car." },
+          { "speaker": "Ben", "text": "Honestly, not really. There aren't enough spaces for everyone, so try to get back before seven." },
+          { "speaker": "Lisa", "text": "OK. Oh, and I noticed the old building next to the park. It looks a bit run-down." },
+          { "speaker": "Ben", "text": "That's the old library. It used to be really popular, but they're renovating it now. It's going to be a community centre." },
+          { "speaker": "Lisa", "text": "Oh, nice. Is there anything else I should know?" },
+          { "speaker": "Ben", "text": "Just one thing. The lift is really slow, so if you're in a hurry, take the stairs. And if you need anything, just knock on my door." },
+          { "speaker": "Lisa", "text": "Thanks, Ben. That's really kind of you." }
+        ],
+        "gist": [
+          { "type": "mcq", "tag": "main_idea", "prompt": "What is the main purpose of the conversation?", "options": ["Ben is complaining about the noise.", "Ben is welcoming Lisa and telling her about the area.", "Lisa is asking Ben to help her move.", "Lisa wants to rent Ben's parking space."], "answer": 1 }
+        ],
+        "detail": [
+          { "type": "mcq", "tag": "detail", "prompt": "Where is the bakery?", "options": ["Next to the supermarket", "Inside the sports centre", "Opposite the bus stop", "Next to the park"], "answer": 2 },
+          { "type": "tfng", "tag": "detail", "prompt": "The sports centre is too far to walk to.", "answer": "false", "explanation": "Ben says it's within walking distance." },
+          { "type": "mcq", "tag": "detail", "prompt": "What does Ben say about parking?", "options": ["It's free for everyone.", "Lisa can use his space.", "There's a big car park behind the building.", "There aren't enough spaces, so it's better to come back early."], "answer": 3 },
+          { "type": "gap", "tag": "detail", "prompt": "The old library is going to be a ___ centre.", "answers": ["community"] },
+          { "type": "tfng", "tag": "inference", "prompt": "According to Ben, the stairs can be quicker than the lift.", "answer": "true", "explanation": "'The lift is really slow, so if you're in a hurry, take the stairs.'" }
+        ],
+        "expressions": [
+          { "phrase": "just round the corner", "meaning": "very near", "mn": "ойрхон, тэр булан тойроод л" },
+          { "phrase": "That's handy.", "meaning": "That's useful and convenient (informal).", "mn": "Тохиромжтой юм байна." },
+          { "phrase": "How are you finding…?", "meaning": "What do you think of … so far?", "mn": "…чинь танд ямар санагдаж байна?" },
+          { "phrase": "Good to know.", "meaning": "Thanks, that's useful information.", "mn": "Мэдсэн нь сайн боллоо." }
+        ]
+      },
+      "pronunciation": "word-stress-city",
+      "speaking": {
+        "id": "s-welcome-neighbour",
+        "type": "roleplay",
+        "prompt": "Role-play: A new neighbour has just moved into your building. Welcome them and tell them about the neighbourhood: shops, transport, facilities and one problem they should know about.",
+        "promptMn": "Дүрд тоглох: Танай байранд шинэ хөрш нүүж ирлээ. Түүнийг угтаж, хороололынхоо тухай — дэлгүүр, тээвэр, үйлчилгээний газрууд болон мэдэх ёстой нэг асуудлын тухай хэлж өгөөрэй.",
+        "points": ["Introduce yourself and welcome them", "Where the nearest shops and bus stop are", "Facilities nearby (a gym, a park, a school…)", "One problem (parking, noise, the lift…) and a tip", "Offer help"],
+        "phrases": ["You must be the new neighbour!", "It's just round the corner.", "It's within walking distance.", "There aren't enough…", "If you need anything, just…"],
+        "targetWords": ["nearby", "local", "walking distance", "parking space", "entrance"],
+        "prepSeconds": 45,
+        "speakSeconds": 90,
+        "sample": "Hi, you must be the new neighbour! I'm Nomin, from flat 35. Welcome to the building! The neighbourhood is really convenient. There's a small supermarket just round the corner, and the local market is within walking distance — it's much cheaper than the supermarket. The bus stop is right in front of our entrance. There's also a nice park nearby, and it's very peaceful in the mornings. One problem is parking: there aren't enough parking spaces, so try to come home before seven. Oh, and the lift is quite old, so be careful with heavy boxes. If you need anything, just knock on my door."
+      },
+      "quiz": [
+        { "type": "mcq", "skill": "vocabulary", "prompt": "'The station is within walking distance' means…", "options": ["you can walk there easily", "you need a car to get there", "it is closed to pedestrians", "it's next to a bus stop"], "answer": 0 },
+        { "type": "gap", "skill": "vocabulary", "prompt": "The old factory is ___, but the city is going to renovate it.", "answers": ["run-down"], "options": ["spacious", "lively", "run-down", "nearby"] },
+        { "type": "gap", "skill": "vocabulary", "prompt": "Meet me at the main ___ of the hospital.", "answers": ["entrance", "door", "gate"] },
+        { "type": "match", "skill": "vocabulary", "tag": "collocation", "prompt": "Match to make phrases.", "pairs": [["find a", "parking space"], ["the local", "community"], ["take the", "lift"], ["within walking", "distance"]] },
+        { "type": "mcq", "skill": "pronunciation", "prompt": "Where is the stress in 'traffic jam'?", "options": ["traffic JAM", "TRAFfic jam", "trafFIC jam"], "answer": 1 },
+        { "type": "mcq", "skill": "pronunciation", "prompt": "Which word is stressed on the SECOND syllable?", "options": ["neighbourhood", "public", "convenient", "centre"], "answer": 2 },
+        { "type": "tfng", "skill": "listening", "prompt": "In the conversation, Lisa has a car.", "answer": "true", "explanation": "Lisa says, 'I've got a car.'" }
+      ]
+    },
+    {
+      "id": "b1-03-l4",
+      "title": "Flat-hunting",
+      "focus": "writing",
+      "difficulty": 4,
+      "minutes": 30,
+      "objectives": [
+        "Use too, enough and (not) as … as to describe problems and compare",
+        "Use natural phrases to talk about good and bad points",
+        "Write an informal email comparing two flats (90–130 words)"
+      ],
+      "warmup": {
+        "intro": "When you look for a flat, what matters most to you: the price, the size or the location?",
+        "questions": [
+          { "type": "mcq", "prompt": "Which sentence has a NEGATIVE meaning?", "options": ["The flat is very big.", "The flat is too big.", "The flat is big enough."], "answer": 1, "skill": "grammar", "explanation": "'Too' means there is a problem." }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "location", "pos": "noun", "ipa": "/ləʊˈkeɪʃn/",
+          "definition": "the place where something is",
+          "mn": "байршил",
+          "examples": ["The flat is small, but the location is perfect.", "We're looking for a flat in a central location."],
+          "collocations": ["a good location", "a central location", "a convenient location"],
+          "synonyms": ["position", "place"], "antonyms": [],
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "view", "pos": "noun", "ipa": "/vjuː/",
+          "definition": "what you can see from a place, especially something beautiful",
+          "mn": "харагдах байдал, үзэмж",
+          "examples": ["From our window we have a great view of the mountains.", "The rooms at the back don't have much of a view."],
+          "collocations": ["a view of the city", "a great view", "a room with a view", "block the view"],
+          "synonyms": ["scenery"], "antonyms": [],
+          "mistake": "A 'view' is what you see from one place. For the natural area in general, use 'scenery' or 'landscape'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "storage", "pos": "noun", "ipa": "/ˈstɔːrɪdʒ/",
+          "definition": "space where you can keep things when you are not using them",
+          "mn": "эд зүйл хадгалах зай, агуулах",
+          "examples": ["The flat is nice, but there isn't enough storage.", "We use the space under the bed for storage."],
+          "collocations": ["storage space", "plenty of storage", "a storage room"],
+          "synonyms": ["cupboard space"], "antonyms": [],
+          "mistake": "'Storage' is uncountable: 'not enough storage', not 'not enough storages'.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "bright", "pos": "adjective", "ipa": "/braɪt/",
+          "definition": "full of light",
+          "mn": "гэрэлтэй, гэгээтэй",
+          "examples": ["The living room is bright because it has two big windows.", "I'd like a bright flat, even if it's a bit smaller."],
+          "collocations": ["bright and spacious", "a bright room", "bright colours"],
+          "synonyms": ["light", "sunny"], "antonyms": ["dark"],
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "studio", "pos": "noun", "ipa": "/ˈstjuːdiəʊ/",
+          "definition": "a small flat with one main room for living and sleeping",
+          "mn": "нэг өрөө (студи) байр",
+          "examples": ["I rent a studio near the university.", "A studio is fine for one person, but not for a couple."],
+          "collocations": ["a studio flat", "a studio apartment", "a small studio"],
+          "synonyms": ["bedsit"], "antonyms": [],
+          "note": "British English: studio flat. American English: studio apartment.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "bills", "pos": "noun (plural)", "ipa": "/bɪlz/",
+          "definition": "the money you must pay regularly for electricity, water, heating, the internet and so on",
+          "mn": "ашиглалтын төлбөр (цахилгаан, ус, халаалт…)",
+          "examples": ["The rent is 900,000 tögrög a month, plus bills.", "Are bills included in the rent?"],
+          "collocations": ["pay the bills", "bills included", "electricity and water bills", "utility bills"],
+          "synonyms": ["utilities"], "antonyms": [],
+          "note": "For the money you pay in a restaurant, British English says 'the bill' (American English: 'the check').",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "downside", "pos": "noun", "ipa": "/ˈdaʊnsaɪd/",
+          "definition": "the negative part of a situation",
+          "mn": "сул тал, муу тал",
+          "examples": ["The only downside of the flat is the noise from the road.", "Living in the centre is convenient; the downside is the price."],
+          "collocations": ["the only downside", "the main downside", "the downside of something"],
+          "synonyms": ["disadvantage", "drawback"], "antonyms": ["upside", "advantage"],
+          "mistake": "Say 'the downside of living there', not 'the downside to live there'.",
+          "level": "B2", "difficulty": 3
+        },
+        {
+          "word": "balcony", "pos": "noun", "ipa": "/ˈbælkəni/",
+          "definition": "a small area outside an upstairs window where you can stand or sit",
+          "mn": "тагт",
+          "examples": ["We keep our winter vegetables on the balcony.", "The flat has a small balcony with a view of the park."],
+          "collocations": ["a small balcony", "on the balcony", "a balcony with a view"],
+          "synonyms": [], "antonyms": [],
+          "mistake": "Say 'on the balcony', not 'in the balcony'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "decent", "pos": "adjective", "ipa": "/ˈdiːsnt/",
+          "definition": "good enough; of an acceptable quality",
+          "mn": "боломжийн сайн, дажгүй",
+          "examples": ["It's hard to find a decent flat for under a million tögrög.", "The kitchen is old, but it's a decent size."],
+          "collocations": ["a decent size", "a decent price", "a decent flat"],
+          "synonyms": ["reasonable", "good enough"], "antonyms": ["poor"],
+          "note": "Very common in informal speech. Don't confuse 'decent' /ˈdiːsnt/ with 'descent' /dɪˈsent/.",
+          "level": "B1+", "difficulty": 3
+        }
+      ],
+      "phrases": [
+        { "phrase": "It's a stone's throw from…", "meaning": "It's very close to…", "mn": "…-аас маш ойрхон (чулуу шидэхийн газар).", "register": "informal", "whenToUse": "In speech and informal writing, to say a place is very near. In formal writing, use 'very close to'.", "example": "The flat is a stone's throw from the park." },
+        { "phrase": "On the plus side, …", "meaning": "used to introduce a good point", "mn": "Сайн тал нь гэвэл, …", "register": "neutral", "whenToUse": "When you compare good and bad points, in speech or writing.", "example": "On the plus side, the rent includes bills." },
+        { "phrase": "The thing is, …", "meaning": "used to introduce a problem or the most important point", "mn": "Гол нь…", "register": "spoken", "whenToUse": "In conversation and informal messages, just before you explain a problem. Avoid it in formal writing.", "example": "I really like the flat. The thing is, it's too far from my office." },
+        { "phrase": "It's a bit of a trek.", "meaning": "It's a long, tiring walk or journey.", "mn": "Нэлээн хол зам шүү.", "register": "informal", "whenToUse": "In speech and informal messages about distances.", "example": "The nearest supermarket is a bit of a trek, especially in winter." },
+        { "phrase": "right in the heart of…", "meaning": "exactly in the centre of", "mn": "яг төвд нь", "register": "neutral", "whenToUse": "Describing a location in a positive way, for example in adverts, emails and reviews.", "example": "The hotel is right in the heart of the old town." },
+        { "phrase": "What would you do?", "meaning": "asking someone for advice", "mn": "Чи байсан бол яах байсан бэ?", "register": "neutral", "whenToUse": "At the end of a message when you want a friend's opinion.", "example": "Both flats have good and bad points. What would you do?" }
+      ],
+      "grammar": "too-enough-as-as",
+      "writing": {
+        "id": "w-two-flats",
+        "type": "email_informal",
+        "prompt": "You are looking for a new flat and you have seen two. Write an email to an English-speaking friend. Describe both flats, compare them and ask for advice.",
+        "promptMn": "Та шинэ байр хайж байгаа бөгөөд хоёр байр үзжээ. Англиар ярьдаг найздаа имэйл бичээрэй: хоёр байраа тайлбарлаж, харьцуулаад, зөвлөгөө асуугаарай.",
+        "register": "informal",
+        "minWords": 90,
+        "maxWords": 130,
+        "points": ["Say why you're writing", "Describe the first flat (location, size, price, one downside)", "Describe the second flat and compare it with the first (comparatives, not as … as)", "Explain the problem (too … / not … enough) and ask for advice"],
+        "phrases": ["I've been flat-hunting and…", "The first one is…", "On the plus side, …", "The thing is, …", "It isn't as … as…", "What would you do?"],
+        "targetWords": ["location", "bright", "storage", "downside", "bills", "decent"],
+        "sample": "Hi Jess,\n\nI've been flat-hunting all week, and I've found two decent flats. I can't decide, so I need your advice!\n\nThe first one is a studio right in the heart of the city. The location is perfect — it's a stone's throw from my office — but it's quite dark, and there isn't enough storage for all my things.\n\nThe second one is bigger and brighter, with a lovely balcony. On the plus side, the rent includes bills, so it's cheaper than the studio. The thing is, it's in the suburbs, and the bus takes forty minutes. It isn't as convenient as the first one.\n\nWhat would you do?\n\nLove,\nOyuna"
+      },
+      "quiz": [
+        { "type": "mcq", "skill": "grammar", "prompt": "I can't carry this sofa on my own. It's ___ heavy.", "options": ["enough", "too", "as"], "answer": 1 },
+        { "type": "gap", "skill": "grammar", "prompt": "The kitchen isn't ___ (big) for a table and four chairs.", "answers": ["big enough"] },
+        { "type": "mcq", "skill": "grammar", "prompt": "The new flat is ___ my old one — they're both 50 square metres.", "options": ["as big as", "bigger than", "as big than"], "answer": 0 },
+        { "type": "error", "skill": "grammar", "prompt": "Tap the part with the mistake.", "segments": ["There aren't", "parking spaces enough", "for all", "the tenants."], "wrongIndex": 1, "correction": "enough parking spaces", "explanation": "'Enough' goes before a noun." },
+        { "type": "gap", "skill": "vocabulary", "prompt": "The only ___ of the flat is that it's on the fifth floor and there's no lift.", "answers": ["downside"], "options": ["storage", "downside", "location", "view"] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "Which sentence is correct?", "options": ["We had breakfast in the balcony.", "We had breakfast at the balcony.", "We had breakfast on the balcony."], "answer": 2 },
+        { "type": "mcq", "skill": "writing", "tag": "register", "prompt": "Which is the best way to end an informal email when you want a friend's advice?", "options": ["I await your response.", "Please advise at your earliest convenience.", "What would you do?", "Reply immediately."], "answer": 2 }
+      ]
+    }
+  ],
+  "test": {
+    "reading": {
+      "id": "t-small-space",
+      "title": "Small Space, Big Life",
+      "genre": "article",
+      "text": [
+        "When people visit Khulan's flat for the first time, they usually say the same thing: 'Is this all?' The 27-year-old designer lives in a studio of just 22 square metres in the centre of Ulaanbaatar. Her kitchen, bedroom and living room are all in one room, and the bathroom is smaller than most people's wardrobes.",
+        "So why did she choose it? 'Location, location, location,' she laughs. 'I can walk to work in ten minutes. Most of my friends live in bigger flats in the suburbs, but they spend two hours a day in traffic. I spend that time sleeping, reading or going to the gym.'",
+        "Living in a small space has taught Khulan to be organised. Her bed folds up into the wall during the day, and there is storage everywhere: under the sofa, above the door and even under the window seat. 'The secret is not to buy too many things,' she says. 'If I buy a new jumper, an old one goes to charity.'",
+        "Of course, there are downsides. The flat isn't big enough for guests to stay overnight, and cooking a big family dinner is impossible. 'My mum wants to come for Tsagaan Sar,' Khulan says, 'but my kitchen isn't as big as her dining table!' She would also love a dog, but the studio is too small.",
+        "Does she plan to move? 'One day, when I have a family, I'll need something more spacious. But for now, this is enough for me. It's the cheapest, simplest and happiest home I've ever had.'"
+      ],
+      "glossary": [
+        { "term": "square metre", "meaning": "a unit for measuring area (1 m × 1 m)", "mn": "хавтгай дөрвөлжин метр" },
+        { "term": "fold up", "meaning": "to become smaller by bending", "mn": "эвхэгдэх" },
+        { "term": "charity", "meaning": "an organisation that helps people in need", "mn": "буяны байгууллага" }
+      ],
+      "questions": [
+        { "type": "mcq", "tag": "main_idea", "prompt": "What is the article mainly about?", "options": ["Why flats in the suburbs are better", "A woman who is happy living in a very small flat", "How to find a cheap flat in Ulaanbaatar", "The problems of living with your parents"], "answer": 1 },
+        { "type": "tfng", "tag": "detail", "prompt": "Khulan's flat has a separate bedroom.", "answer": "false", "explanation": "The kitchen, bedroom and living room are all in one room." },
+        { "type": "mcq", "tag": "detail", "prompt": "Why did Khulan choose this flat?", "options": ["It is close to her office.", "It was the biggest flat she could find.", "Her parents live in the same building.", "It has a view of the mountains."], "answer": 0 },
+        { "type": "tfng", "tag": "detail", "prompt": "Khulan's friends in the suburbs spend a lot of time travelling.", "answer": "true", "explanation": "'They spend two hours a day in traffic.'" },
+        { "type": "short", "tag": "detail", "prompt": "What happens to an old jumper when Khulan buys a new one?", "answers": ["charity"], "match": "keywords", "explanation": "'An old one goes to charity.'" },
+        { "type": "tfng", "tag": "detail", "prompt": "Khulan works for a large international company.", "answer": "not_given" },
+        { "type": "mcq", "tag": "inference", "prompt": "What does Khulan mean when she says 'my kitchen isn't as big as her dining table'?", "options": ["Her mother has a very small table.", "Her kitchen is too small to cook for the family.", "She wants to buy a bigger table.", "Her mother doesn't like cooking."], "answer": 1 },
+        { "type": "tfng", "tag": "detail", "prompt": "Khulan has a dog.", "answer": "false", "explanation": "She would love one, but the studio is too small." }
+      ]
+    },
+    "listening": {
+      "id": "t-calling-agent",
+      "title": "Calling about a flat",
+      "kind": "conversation",
+      "context": "Tom phones a letting agency about a flat he saw online.",
+      "speakers": [
+        { "name": "Sarah", "voice": "female", "accent": "en-GB" },
+        { "name": "Tom", "voice": "male", "accent": "en-US" }
+      ],
+      "lines": [
+        { "speaker": "Sarah", "text": "Good morning, City Homes. Sarah speaking." },
+        { "speaker": "Tom", "text": "Hi, I'm calling about the two-bedroom flat on Park Street. Is it still available?" },
+        { "speaker": "Sarah", "text": "Yes, it is. It's on the sixth floor, and it's very bright, with a balcony that looks over the park." },
+        { "speaker": "Tom", "text": "Great. How much is the rent?" },
+        { "speaker": "Sarah", "text": "It's nine hundred and fifty pounds a month, and bills aren't included." },
+        { "speaker": "Tom", "text": "Hmm, that's a bit more than I wanted to pay. Is there a deposit?" },
+        { "speaker": "Sarah", "text": "Yes, one month's rent. But the flat is fully furnished, so you won't need to buy anything." },
+        { "speaker": "Tom", "text": "And is there parking? I drive to work." },
+        { "speaker": "Sarah", "text": "I'm afraid there's no parking space with this flat. But the tram stop is right outside, and it's only fifteen minutes to the city centre." },
+        { "speaker": "Tom", "text": "OK, that's not too bad. Can I come and see it?" },
+        { "speaker": "Sarah", "text": "Of course. How about Thursday at six?" },
+        { "speaker": "Tom", "text": "Thursday at six is perfect. Thanks very much." }
+      ],
+      "gist": [
+        { "type": "mcq", "tag": "main_idea", "prompt": "Why is Tom calling?", "options": ["To complain about his landlord", "To ask about a flat to rent", "To sell his car", "To book a table at a restaurant"], "answer": 1 }
+      ],
+      "detail": [
+        { "type": "mcq", "tag": "detail", "prompt": "Which floor is the flat on?", "options": ["the second", "the fourth", "the sixth", "the tenth"], "answer": 2 },
+        { "type": "tfng", "tag": "detail", "prompt": "Bills are included in the rent.", "answer": "false" },
+        { "type": "mcq", "tag": "detail", "prompt": "How much is the deposit?", "options": ["one month's rent", "two months' rent", "five hundred pounds", "There is no deposit."], "answer": 0 },
+        { "type": "tfng", "tag": "detail", "prompt": "There is a tram stop right outside the building.", "answer": "true" },
+        { "type": "gap", "tag": "detail", "prompt": "Tom will see the flat on ___ at six.", "answers": ["Thursday"] }
+      ],
+      "expressions": [
+        { "phrase": "I'm calling about…", "meaning": "a polite way to say why you are phoning", "mn": "Би …-ийн талаар залгаж байна." },
+        { "phrase": "I'm afraid…", "meaning": "a polite way to give bad news", "mn": "Харамсалтай нь…" }
+      ]
+    },
+    "writing": {
+      "id": "t-neighbourhood-guide",
+      "type": "description",
+      "prompt": "A website for international students wants short descriptions of neighbourhoods. Write a description (100–130 words) of the area where you live. Say what it is like, what facilities there are, how it compares with other areas and what could be better.",
+      "promptMn": "Гадаад оюутнуудад зориулсан вэбсайт хорооллуудын тухай богино тайлбар хүсч байна. Өөрийн амьдардаг хорооллынхоо тухай (100–130 үг) бичээрэй: ямар газар, ямар үйлчилгээний байгууламжууд байдаг, бусад хороололтой харьцуулахад ямар, юу нь илүү сайн байж болох вэ.",
+      "register": "neutral",
+      "minWords": 100,
+      "maxWords": 130,
+      "points": ["Where the neighbourhood is and what it is like", "Facilities and transport", "A comparison with other areas (comparatives, not as … as)", "One problem (too … / not … enough)"],
+      "phrases": ["My neighbourhood is…", "There are plenty of…", "It's much … than…", "It isn't as … as…", "The only downside is…"],
+      "targetWords": ["neighbourhood", "facilities", "public transport", "crowded", "convenient"],
+      "sample": "I live in Bayanzurkh, a large residential area in the east of Ulaanbaatar. It's a lively neighbourhood with plenty of facilities: there are two big supermarkets, several schools, a hospital and a sports centre. Public transport is convenient, and most buses to the centre take about twenty minutes. The area is cheaper than the city centre, so it's popular with students and young families. It's also greener — there are a few small parks where people walk their dogs in the evening. The only downside is the traffic. The main road is very crowded in the morning, and the air isn't as clean as it is in the countryside. Overall, though, it's a friendly and practical place to live."
+    },
+    "speaking": {
+      "id": "t-city-or-country",
+      "type": "opinion",
+      "prompt": "Is it better to live in a big city or in a small town or the countryside? Give your opinion, with reasons and examples.",
+      "promptMn": "Том хотод амьдрах нь дээр үү, эсвэл жижиг хот, хөдөө амьдрах нь дээр үү? Шалтгаан, жишээтэйгээр санал бодлоо хэлээрэй.",
+      "points": ["Your opinion", "Two reasons, with comparisons", "One disadvantage of your choice", "A conclusion"],
+      "phrases": ["In my view, …", "Firstly, … Secondly, …", "Life in … is much … than…", "… isn't as … as…", "Of course, the downside is…"],
+      "targetWords": ["peaceful", "lively", "pollution", "facilities"],
+      "prepSeconds": 30,
+      "speakSeconds": 75,
+      "sample": "In my view, it's better to live in a big city, at least when you're young. Firstly, there are more jobs, and the facilities are much better — the best hospitals and universities are in the city. Secondly, city life is livelier: there are always concerts, restaurants and new people to meet. Of course, the downside is that cities are noisier and more crowded, and the pollution in winter can be terrible. The countryside is much more peaceful, but it isn't as convenient, and you need a car for everything. So for now I'd choose the city, but maybe I'll move to the countryside when I retire."
+    },
+    "questions": [
+      { "type": "mcq", "skill": "grammar", "prompt": "This is ___ view I've ever seen!", "options": ["the most beautiful", "the more beautiful", "most beautiful"], "answer": 0 },
+      { "type": "gap", "skill": "grammar", "prompt": "My new flat is much ___ (quiet) than my old one.", "answers": ["quieter"] },
+      { "type": "mcq", "skill": "grammar", "prompt": "Winter here is ___ than summer.", "options": ["more cold", "colder", "coldest"], "answer": 1 },
+      { "type": "gap", "skill": "grammar", "prompt": "This is ___ area in the city for families with children.", "answers": ["the best"], "options": ["the better", "the good", "the best", "best"] },
+      { "type": "correct", "skill": "grammar", "prompt": "Correct the sentence.", "sentence": "The room isn't enough big for two beds.", "answers": ["The room isn't big enough for two beds."] },
+      { "type": "transform", "skill": "grammar", "prompt": "Rewrite the sentence so it means the same. Use the word given.", "sentence": "My flat is smaller than my sister's flat.", "keyword": "big", "answers": ["My flat isn't as big as my sister's flat.", "My flat isn't as big as my sister's.", "My flat is not as big as my sister's."] },
+      { "type": "mcq", "skill": "grammar", "prompt": "I can't hear you. The music is ___ loud.", "options": ["enough", "as", "too"], "answer": 2 },
+      { "type": "gap", "skill": "vocabulary", "prompt": "We pay the rent to our ___ on the first day of every month.", "answers": ["landlord"], "options": ["tenant", "landlord", "neighbour", "pedestrian"] },
+      { "type": "mcq", "skill": "vocabulary", "prompt": "A flat with no furniture in it is…", "options": ["cramped", "spacious", "unfurnished", "affordable"], "answer": 2 },
+      { "type": "gap", "skill": "vocabulary", "prompt": "Air ___ is a serious problem in many big cities.", "answers": ["pollution"] },
+      { "type": "match", "skill": "vocabulary", "prompt": "Match the words with their meanings.", "pairs": [["suburb", "an area on the edge of a city"], ["pedestrian", "a person walking in the street"], ["run-down", "in bad condition"], ["decent", "good enough"]] },
+      { "type": "gap", "skill": "vocabulary", "prompt": "Is there a supermarket ___? I need some milk.", "answers": ["nearby"], "options": ["nearby", "next", "beside", "around of"] }
+    ]
+  }
+}

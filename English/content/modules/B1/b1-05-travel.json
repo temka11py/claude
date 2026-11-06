@@ -1,0 +1,910 @@
+{
+  "id": "b1-05",
+  "level": "B1",
+  "order": 5,
+  "title": "Travel & Transport",
+  "topic": "Travel",
+  "description": "Talk about your travel experiences, get through airports with confidence and write a review of a place you have stayed.",
+  "descriptionMn": "Аяллын туршлагаа ярих, нисэх буудал дээр итгэлтэй харилцах, байрлаж байсан газрынхаа тухай сэтгэгдэл бичих.",
+  "objectives": [
+    { "text": "Talk about travel experiences with the present perfect, ever, never, been and gone", "skills": ["grammar", "speaking"] },
+    { "text": "Choose correctly between the present perfect and the past simple when you talk about trips", "skills": ["grammar", "writing"] },
+    { "text": "Use words and collocations for journeys, airports and accommodation (set off, go through security, check out)", "skills": ["vocabulary"] },
+    { "text": "Understand a travel blog and a conversation at an airport", "skills": ["reading", "listening"] },
+    { "text": "Handle simple situations at a check-in desk and a hotel reception", "skills": ["speaking", "listening"] },
+    { "text": "Write a short online review of a place you have stayed", "skills": ["writing"] }
+  ],
+  "targets": {
+    "grammar": ["Present perfect for experience (ever, never)", "been vs gone", "Present perfect vs past simple"],
+    "vocabulary": ["transport and journeys", "airports and flying", "accommodation"],
+    "reading": "A travel blog about a twelve-hour bus journey in northern Mongolia",
+    "listening": "A first-time flyer gets advice from a friend at the airport",
+    "speaking": "Talk about your travel experiences and deal with a delayed flight at the check-in desk",
+    "writing": "A short online review of a hotel, hostel or ger camp",
+    "pronunciation": "Weak forms of have, has, been and to in present perfect questions"
+  },
+  "grammar": [
+    {
+      "id": "present-perfect-experience",
+      "title": "Present perfect for experience: ever, never, been and gone",
+      "level": "B1",
+      "summary": "Use the present perfect (have/has + past participle) to talk about experiences in your life up to now, when we don't say exactly when they happened. Use 'ever' in questions and 'never' in negative sentences.",
+      "summaryMn": "Амьдралынхаа туршид (одоог хүртэл) олж авсан туршлагынхаа тухай, яг хэзээ болсныг хэлэхгүйгээр ярихад present perfect (have/has + V3) хэрэглэнэ. Асуултад 'ever' (хэзээ нэгэн цагт), үгүйсгэлд 'never' (хэзээ ч) хэрэглэнэ.",
+      "structure": [
+        "Positive: I/you/we/they have ('ve) + past participle · he/she/it has ('s) + past participle → I've visited Japan. · She's flown a lot.",
+        "Negative: haven't/hasn't + past participle, or have/has + never + past participle → I haven't seen the sea. · I've never ridden a camel.",
+        "Question: Have/Has + subject + (ever) + past participle? → Have you ever been to Korea? — Yes, I have. / No, I haven't.",
+        "been to = went and came back · gone to = went and is still there",
+        "Past participles: regular -ed (visited, travelled) · irregular (be → been, go → gone, fly → flown, see → seen, eat → eaten, ride → ridden)"
+      ],
+      "usage": [
+        { "use": "Life experiences, when the time is not important or not known", "example": "I've been to China three times.", "useMn": "Амьдралын туршлага — хэзээ болсон нь чухал биш эсвэл тодорхойгүй" },
+        { "use": "Asking about experiences with 'ever'", "example": "Have you ever slept in a ger?", "useMn": "'Ever'-ээр хүний туршлагыг асуух" },
+        { "use": "Saying you have no experience with 'never'", "example": "My parents have never travelled abroad.", "useMn": "'Never'-ээр хэзээ ч хийж байгаагүйгээ хэлэх" },
+        { "use": "Saying how many times", "example": "She's flown to Europe twice.", "useMn": "Хэдэн удаа хийснээ хэлэх" },
+        { "use": "With superlatives: the best / worst… I've ever…", "example": "It's the most beautiful place I've ever seen.", "useMn": "Хамгийн … зэрэгтэй: 'the best … I've ever …'" }
+      ],
+      "examples": [
+        { "en": "Have you ever been to the Gobi Desert? — No, I haven't, but I'd love to go.", "note": "A question with 'ever' and a short answer with have/haven't." },
+        { "en": "I've never eaten sushi in Japan, but I've eaten it in Ulaanbaatar.", "note": "No time is mentioned — we only talk about the experience." },
+        { "en": "My brother has gone to Korea to work. He'll be back next year.", "note": "'Gone' — he is still in Korea." },
+        { "en": "It's the best hotel I've ever stayed in.", "note": "Superlative + present perfect with 'ever'." }
+      ],
+      "contrast": {
+        "with": "been to vs gone to",
+        "pairs": [
+          { "a": "Saraa has been to Berlin.", "b": "Saraa has gone to Berlin.", "why": "'Been to' means she went and came back — she is here now. 'Gone to' means she went and she is still there (or on her way).", "whyMn": "'Been to' — очоод буцаж ирсэн. 'Gone to' — явсан, одоо ч тэнд байгаа (эсвэл замдаа явж байгаа)." },
+          { "a": "Have you ever been to Japan?", "b": "Where's Anu? — She's gone to the shop.", "why": "Use 'been' for experiences. Use 'gone' to explain why someone is not here now.", "whyMn": "Туршлагын тухай 'been'; одоо энд байхгүй байгаа хүний тухай 'gone' хэрэглэнэ." }
+        ]
+      },
+      "mistakes": [
+        { "wrong": "Have you ever went to Europe?", "right": "Have you ever been to Europe?", "why": "After have/has, use the past participle (been, seen, eaten), not the past simple (went, saw, ate).", "whyMn": "have/has-ийн дараа V3 (been, seen, eaten) хэрэглэнэ, V2 (went, saw, ate) биш." },
+        { "wrong": "I haven't never flown.", "right": "I've never flown. / I haven't flown.", "why": "Don't use two negatives together. 'Never' is already negative.", "whyMn": "Хоёр үгүйсгэлийг хамт хэрэглэхгүй. 'Never' өөрөө үгүйсгэл." },
+        { "wrong": "I've ever been to Russia.", "right": "I've been to Russia.", "why": "'Ever' is used in questions and after superlatives, not in positive statements.", "whyMn": "'Ever'-ийг асуулт болон 'хамгийн' зэргийн дараа хэрэглэнэ, энгийн эерэг өгүүлбэрт хэрэглэхгүй." },
+        { "wrong": "Do you ever been to Korea?", "right": "Have you ever been to Korea?", "why": "Present perfect questions start with have/has, not do.", "whyMn": "Present perfect-ийн асуулт do биш have/has-ээр эхэлнэ." }
+      ],
+      "guided": [
+        { "type": "mcq", "prompt": "Have you ever ___ airag?", "options": ["drank", "drunk", "drink"], "answer": 1, "explanation": "After have, use the past participle: drink – drank – drunk." },
+        { "type": "mcq", "prompt": "I've ___ been to Europe, but I'd love to go one day.", "options": ["ever", "not", "never"], "answer": 2, "explanation": "'Never' = not at any time in my life." },
+        { "type": "mcq", "prompt": "Where's Dorj? — He's ___ to the airport to meet his sister.", "options": ["gone", "been", "went"], "answer": 0, "explanation": "He is not here now — he is at the airport or on the way → gone." },
+        { "type": "mcq", "prompt": "Which sentence is correct?", "options": ["I've ever travelled by train.", "Did you ever travelled by train?", "Have you ever travelled by train?"], "answer": 2, "explanation": "Present perfect question: Have + you + ever + past participle." },
+        { "type": "mcq", "prompt": "'Anu has been to Paris.' Where is Anu now?", "options": ["Still in Paris", "Probably back home — she went and came back", "On the plane to Paris"], "answer": 1, "explanation": "'Been to' = went and came back." }
+      ],
+      "free": [
+        { "type": "gap", "prompt": "Have you ever ___ (ride) a camel?", "answers": ["ridden"], "explanation": "ride – rode – ridden." },
+        { "type": "gap", "prompt": "My grandparents ___ (never / fly) in a plane.", "answers": ["have never flown"], "explanation": "have + never + past participle (fly – flew – flown)." },
+        { "type": "correct", "prompt": "Correct the sentence.", "sentence": "She has went to Japan twice.", "answers": ["She has been to Japan twice.", "She's been to Japan twice."], "explanation": "Use the past participle 'been' for experiences. 'Gone' is wrong here because she is not in Japan now." },
+        { "type": "transform", "prompt": "Rewrite the sentence with the present perfect. Use the word given.", "sentence": "I went to Japan in 2019 and again in 2023.", "keyword": "twice", "answers": ["I've been to Japan twice.", "I have been to Japan twice.", "I've visited Japan twice.", "I have visited Japan twice."], "explanation": "No time is mentioned any more → present perfect + 'twice'." }
+      ],
+      "prerequisites": []
+    },
+    {
+      "id": "present-perfect-past-simple",
+      "title": "Present perfect vs past simple",
+      "level": "B1",
+      "summary": "Use the present perfect for experiences and past actions when we don't say when, or when the time period is not finished (today, this year). Use the past simple when we say or know exactly when something happened (yesterday, last summer, in 2020, two days ago).",
+      "summaryMn": "Хэзээ болсныг хэлээгүй эсвэл хугацаа нь дуусаагүй (today, this year) үед present perfect хэрэглэнэ. Яг хэзээ болсныг хэлсэн эсвэл мэдэгдэж байгаа (yesterday, last summer, in 2020, two days ago) үед past simple хэрэглэнэ.",
+      "structure": [
+        "Present perfect: have/has + past participle — no finished time → I've been to Seoul.",
+        "Past simple: verb + -ed or irregular past — finished time → I went to Seoul last year.",
+        "Finished time (past simple): yesterday, last week, in 2019, two days ago, when I was a child",
+        "Unfinished time (present perfect): today, this week, this year, in my life",
+        "Questions about details (When? Where? How long?) use the past simple → When did you go?"
+      ],
+      "usage": [
+        { "use": "Start with the experience (present perfect), then give details (past simple)", "example": "I've been to Japan. I went there in 2022 and stayed for two weeks.", "useMn": "Эхлээд туршлагаа (present perfect), дараа нь дэлгэрэнгүйг (past simple) хэлнэ" },
+        { "use": "A finished time is mentioned or clear → past simple", "example": "We flew to Istanbul last Monday.", "useMn": "Дууссан цаг дурдсан эсвэл тодорхой бол → past simple" },
+        { "use": "The time period is not finished → present perfect", "example": "I've taken three flights this year.", "useMn": "Хугацаа нь дуусаагүй бол → present perfect" },
+        { "use": "Questions with 'When…?' use the past simple", "example": "When did you arrive?", "useMn": "'When…?' асуултад past simple хэрэглэнэ" }
+      ],
+      "examples": [
+        { "en": "Have you ever been to Istanbul? — Yes, I have. I went there last spring.", "note": "Experience → present perfect; the detail with a time → past simple." },
+        { "en": "We've visited four countries this year. Last month we went to Vietnam.", "note": "'This year' is not finished; 'last month' is finished." },
+        { "en": "Did you enjoy the trip? — Yes, it was amazing.", "note": "The trip is finished and both speakers know when it was → past simple." }
+      ],
+      "contrast": {
+        "with": "Past simple",
+        "pairs": [
+          { "a": "I've been to Korea twice.", "b": "I went to Korea in 2018 and in 2021.", "why": "No time is mentioned vs exact finished times.", "whyMn": "Цаг дурдаагүй ба яг хэзээ болсныг дурдсан." },
+          { "a": "I've had two coffees today.", "b": "I had two coffees yesterday.", "why": "'Today' is not finished yet; 'yesterday' is finished.", "whyMn": "'Today' дуусаагүй; 'yesterday' дууссан." },
+          { "a": "Have you ever tried airag?", "b": "Did you try airag when you were in Mongolia?", "why": "Any time in your life vs one specific, finished trip.", "whyMn": "Амьдралын аль ч үед ба дууссан тодорхой нэг аяллын үеэр." }
+        ]
+      },
+      "mistakes": [
+        { "wrong": "I have visited Paris last year.", "right": "I visited Paris last year.", "why": "'Last year' is a finished time → past simple.", "whyMn": "'Last year' бол дууссан цаг → past simple." },
+        { "wrong": "When have you arrived?", "right": "When did you arrive?", "why": "'When' asks about a specific time → past simple.", "whyMn": "'When' тодорхой цагийг асуудаг → past simple." },
+        { "wrong": "I've seen him two days ago.", "right": "I saw him two days ago.", "why": "'Ago' always goes with the past simple.", "whyMn": "'Ago' үргэлж past simple-тэй хамт хэрэглэгдэнэ." },
+        { "wrong": "Yes, I have been there in 2019.", "right": "Yes, I have. I went there in 2019.", "why": "Answer with the present perfect, then use the past simple for the date.", "whyMn": "Эхлээд present perfect-ээр хариулаад, огноог past simple-ээр хэлнэ." }
+      ],
+      "guided": [
+        { "type": "mcq", "prompt": "I ___ to Kharkhorin last summer.", "options": ["have been", "went", "have gone"], "answer": 1, "explanation": "'Last summer' is a finished time → past simple." },
+        { "type": "mcq", "prompt": "___ you ever ___ in a ger?", "options": ["Have / stayed", "Did / stay", "Have / stay"], "answer": 0, "explanation": "A question about life experience → Have + ever + past participle." },
+        { "type": "mcq", "prompt": "We ___ three countries so far this year.", "options": ["visited", "visit", "have visited"], "answer": 2, "explanation": "'This year' is not finished → present perfect." },
+        { "type": "mcq", "prompt": "When ___ back from your trip?", "options": ["have you come", "did you come", "you came"], "answer": 1, "explanation": "'When' questions use the past simple." },
+        { "type": "mcq", "prompt": "Which sentence is correct?", "options": ["I bought this souvenir two days ago.", "I've bought this souvenir two days ago.", "I have buy this souvenir two days ago."], "answer": 0, "explanation": "'Two days ago' → past simple." }
+      ],
+      "free": [
+        { "type": "gap", "prompt": "I ___ (fly) to Tokyo in 2022.", "answers": ["flew"], "explanation": "'In 2022' is a finished time → past simple: fly – flew." },
+        { "type": "gap", "prompt": "My little sister ___ (never / see) the sea.", "answers": ["has never seen"], "explanation": "Life experience, no time → has + never + seen." },
+        { "type": "correct", "prompt": "Correct the sentence.", "sentence": "I have met a famous actor on the plane last month.", "answers": ["I met a famous actor on the plane last month."], "explanation": "'Last month' is finished → past simple." },
+        { "type": "transform", "prompt": "Add the time 'last April' and change the tense.", "sentence": "I've been to Istanbul.", "keyword": "last April", "answers": ["I went to Istanbul last April.", "Last April I went to Istanbul.", "I visited Istanbul last April.", "Last April I visited Istanbul.", "I was in Istanbul last April.", "Last April I was in Istanbul."], "explanation": "A finished time → past simple." }
+      ],
+      "prerequisites": ["present-perfect-experience"]
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "have-been-weak-forms",
+      "title": "Weak forms: have, has, been and to",
+      "category": "weak_forms",
+      "explanation": "In natural speech, small grammar words are usually weak — short, quiet and with the vowel /ə/ or /ɪ/. In present perfect sentences, 'have' often sounds like /həv/ (or just /v/), 'has' like /həz/ (or /z/), 'been' like /bɪn/ and 'to' like /tə/. The important words — ever, never, the main verb, the place — are stressed. In short answers at the end of a sentence we use the strong form: 'Yes, I HAVE' /hæv/.",
+      "explanationMn": "Байгалийн ярианд жижиг туслах үгс ихэвчлэн сул хэлбэрээр — богино, намуухан, /ə/ эсвэл /ɪ/ эгшигтэй дуудагдана. Present perfect-д 'have' нь /həv/ (эсвэл зөвхөн /v/), 'has' нь /həz/ (эсвэл /z/), 'been' нь /bɪn/, 'to' нь /tə/ болно. Чухал үгс (ever, never, үндсэн үйл үг, газрын нэр) өргөлттэй. Харин өгүүлбэрийн төгсгөл дэх богино хариултад хүчтэй хэлбэр хэрэглэнэ: 'Yes, I HAVE' /hæv/.",
+      "items": [
+        { "display": "have → /həv/: Have you ever…? = /həv jə ˈevə/", "say": "Have you ever", "tip": "Don't say a strong /hæv/ at the start of a question. Keep it short and quick." },
+        { "display": "been → /bɪn/: I've been to Japan.", "say": "I've been to Japan.", "tip": "'Been' sounds like 'bin', not 'bean'." },
+        { "display": "to → /tə/: been to Seoul", "say": "been to Seoul", "tip": "'To' is very short: /tə/." },
+        { "display": "has → /həz/: Has she ever flown?", "say": "Has she ever flown?" },
+        { "display": "Strong form in short answers: Yes, I HAVE. /hæv/", "say": "Yes, I have.", "tip": "At the end of a sentence, 'have' is strong and clear." },
+        { "display": "haven't / hasn't are always strong: No, I HAVEN'T.", "say": "No, I haven't." }
+      ],
+      "shadowing": [
+        { "text": "Have you ever been to the Gobi Desert?", "stress": "Have you EVer been to the GObi DESert?", "tip": "'Have you' = /həv jə/; 'been to' = /bɪn tə/.", "difficult": ["Have you", "been to"] },
+        { "text": "I've never flown on such a long flight.", "stress": "I've NEVer FLOWN on such a LONG FLIGHT.", "tip": "Don't drop the /v/ in I've: /aɪv/.", "difficult": ["I've never", "flown"] },
+        { "text": "She's been to Korea twice, but she's never been to Japan.", "stress": "She's been to koREa TWICE, but she's NEVer been to jaPAN.", "tip": "The two countries are stressed because they are the contrast.", "difficult": ["She's been", "twice"] },
+        { "text": "Yes, I have. I went there last summer.", "stress": "YES, I HAVE. I WENT there last SUMmer.", "tip": "The short answer uses the strong form /hæv/.", "difficult": ["I have"] }
+      ],
+      "spokenForms": [
+        { "written": "I have been", "spoken": "I've been /aɪv bɪn/", "note": "Normal in speech and informal writing." },
+        { "written": "Have you ever…?", "spoken": "/həv jə ˈevə/", "note": "Weak 'have' at the start of questions." },
+        { "written": "She has never", "spoken": "She's never /ʃiːz ˈnevə/", "note": "'Has' becomes just /z/ after she, he and it." }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "b1-05-l1",
+      "title": "Twelve hours on a bus",
+      "focus": "vocabulary",
+      "difficulty": 3,
+      "minutes": 25,
+      "objectives": [
+        "Use 11 words and collocations for journeys and public transport",
+        "Understand the main idea, details and order of events in a travel blog",
+        "Describe a long journey with natural collocations (set off, reach your destination)"
+      ],
+      "warmup": {
+        "intro": "Think about the longest journey you have ever made. How did you travel, and how long did it take?",
+        "questions": [
+          { "type": "mcq", "prompt": "What do you call a person who travels on a bus or plane but isn't the driver or pilot?", "options": ["a guide", "a passenger", "a tourist", "a local"], "answer": 1, "skill": "vocabulary" },
+          { "type": "mcq", "prompt": "The blog in this lesson is called 'Twelve Hours on the Bus to Mörön'. What do you think it is about?", "options": ["How to become a bus driver", "Problems with city buses in Ulaanbaatar", "A traveller's long bus trip to northern Mongolia"], "answer": 2, "skill": "reading", "tag": "prediction", "explanation": "Mörön is a town in northern Mongolia, near Lake Khövsgöl." }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "journey", "pos": "noun", "ipa": "/ˈdʒɜːni/",
+          "definition": "the act of travelling from one place to another, especially over a long distance",
+          "mn": "аялал, зорчилт (нэг газраас нөгөөд очих зам)",
+          "examples": ["The journey from Ulaanbaatar to Mörön takes about twelve hours by bus.", "Have a safe journey and call me when you arrive!"],
+          "collocations": ["a long journey", "a safe journey", "the journey home", "make a journey"],
+          "synonyms": ["trip"], "antonyms": [],
+          "mistake": "Don't say 'a travel'. 'Travel' is a verb or an uncountable noun. Say 'a journey' or 'a trip'.",
+          "note": "A 'trip' is the whole visit (going, staying and coming back). A 'journey' is the travelling part.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "destination", "pos": "noun", "ipa": "/ˌdestɪˈneɪʃn/",
+          "definition": "the place where someone or something is going",
+          "mn": "очих газар, зорьсон газар",
+          "examples": ["We reached our destination late at night.", "Lake Khövsgöl is a popular destination for summer holidays."],
+          "collocations": ["reach your destination", "a popular destination", "a holiday destination", "final destination"],
+          "synonyms": [], "antonyms": ["starting point"],
+          "note": "Stress the fourth syllable: des-ti-NA-tion.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "passenger", "pos": "noun", "ipa": "/ˈpæsɪndʒə(r)/",
+          "definition": "a person who is travelling in a vehicle but is not driving it or working on it",
+          "mn": "зорчигч",
+          "examples": ["The bus was full, with more than forty passengers on board.", "Passengers must keep their seatbelts on until the plane stops."],
+          "collocations": ["a passenger seat", "airline passengers", "passengers on board"],
+          "synonyms": ["traveller"], "antonyms": ["driver"],
+          "mistake": "The 'g' sounds like /dʒ/ and there is an /n/ before it: PAS-in-jer, not 'pas-sen-ger' with a hard g.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "public transport", "pos": "noun phrase", "ipa": "/ˌpʌblɪk ˈtrænspɔːt/",
+          "definition": "buses, trains and other vehicles that everyone can pay to travel on",
+          "mn": "нийтийн тээвэр",
+          "examples": ["I usually use public transport to get around the city.", "Public transport in Ulaanbaatar is cheap but often crowded."],
+          "collocations": ["use public transport", "by public transport", "take public transport"],
+          "synonyms": [], "antonyms": ["private car"],
+          "mistake": "'Transport' is uncountable here: say 'public transport', not 'public transports'.",
+          "note": "American English: public transportation.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "fare", "pos": "noun", "ipa": "/feə(r)/",
+          "definition": "the money you pay to travel by bus, train, plane or taxi",
+          "mn": "зорчих хөлс, тээврийн төлбөр",
+          "examples": ["How much is the train fare to Darkhan?", "Taxi fares usually go up at night."],
+          "collocations": ["bus fare", "train fare", "a return fare", "pay the fare"],
+          "synonyms": ["ticket price"], "antonyms": [],
+          "mistake": "Use 'fare' for transport, 'fee' for services (a course fee) and 'price' for things in shops.",
+          "note": "'Fare' and 'fair' sound exactly the same: /feə/.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "crowded", "pos": "adjective", "ipa": "/ˈkraʊdɪd/",
+          "definition": "full of people",
+          "mn": "хүн ихтэй, пиг дүүрэн",
+          "examples": ["The buses are always crowded during rush hour.", "We avoided the crowded beaches and found a quiet one."],
+          "collocations": ["a crowded bus", "crowded with tourists", "extremely crowded"],
+          "synonyms": ["packed", "busy"], "antonyms": ["empty", "quiet"],
+          "mistake": "Don't say 'It was many people.' Say 'It was crowded' or 'There were a lot of people.'",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "delay", "pos": "noun / verb", "ipa": "/dɪˈleɪ/",
+          "definition": "a situation in which something happens later than planned; to make something late",
+          "mn": "саатал, хоцролт; саатах, хойшлогдох",
+          "examples": ["There was a two-hour delay because of the snow.", "Our flight was delayed by fog."],
+          "collocations": ["a long delay", "a two-hour delay", "be delayed by", "without delay"],
+          "synonyms": ["hold-up"], "antonyms": [],
+          "mistake": "Use the passive for transport: 'The flight was delayed', not 'The flight delayed'.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "set off", "pos": "phrasal verb", "ipa": "/ˌset ˈɒf/",
+          "definition": "to start a journey",
+          "mn": "замд гарах, хөдлөх",
+          "examples": ["We set off at six to avoid the traffic.", "What time do you need to set off tomorrow?"],
+          "collocations": ["set off early", "set off on a journey", "set off for the airport"],
+          "synonyms": ["leave", "depart"], "antonyms": ["arrive"],
+          "note": "Irregular: set – set – set. Common in both speech and writing.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "abroad", "pos": "adverb", "ipa": "/əˈbrɔːd/",
+          "definition": "in or to a foreign country",
+          "mn": "гадаадад, гадаад руу",
+          "examples": ["Have you ever travelled abroad?", "My cousin is studying abroad, in Korea."],
+          "collocations": ["go abroad", "travel abroad", "study abroad", "live abroad"],
+          "synonyms": ["overseas"], "antonyms": ["at home"],
+          "mistake": "'Abroad' is an adverb, so there is no preposition: say 'go abroad', not 'go to abroad'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "sightseeing", "pos": "noun", "ipa": "/ˈsaɪtsiːɪŋ/",
+          "definition": "visiting famous or interesting places as a tourist",
+          "mn": "үзэсгэлэнт газруудаар зугаалах, үзвэр үзэх",
+          "examples": ["We spent the afternoon sightseeing in the old town.", "Did you have time for any sightseeing?"],
+          "collocations": ["go sightseeing", "a sightseeing tour", "do some sightseeing"],
+          "synonyms": ["touring"], "antonyms": [],
+          "mistake": "Say 'go sightseeing', not 'go to sightseeing' — the same as 'go shopping' and 'go swimming'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "scenery", "pos": "noun", "ipa": "/ˈsiːnəri/",
+          "definition": "the natural features of a place, such as mountains, rivers and forests, especially when they are beautiful",
+          "mn": "байгалийн үзэсгэлэн, байгалийн төрх",
+          "examples": ["The scenery on the road to Khövsgöl is amazing.", "We stopped the car to enjoy the scenery."],
+          "collocations": ["beautiful scenery", "stunning scenery", "mountain scenery", "enjoy the scenery"],
+          "synonyms": ["landscape", "views"], "antonyms": [],
+          "mistake": "'Scenery' is uncountable: 'the scenery is beautiful', not 'the sceneries are beautiful'.",
+          "level": "B1+", "difficulty": 3
+        }
+      ],
+      "reading": {
+        "id": "r-bus-to-moron",
+        "title": "Twelve Hours on the Bus to Mörön",
+        "genre": "blog",
+        "text": [
+          "Most foreign tourists who visit Lake Khövsgöl in northern Mongolia hire a private jeep with a driver. It's comfortable, but it isn't cheap. I'm a student from New Zealand on a tight budget, so I decided to use public transport instead. My friends in Ulaanbaatar told me I was crazy. Now that I've done it, I can say it was the best journey of my whole trip.",
+          "The bus was supposed to leave the Dragon bus station at eight in the morning, but we waited forty minutes for two passengers who were late, so we finally set off at twenty to nine. The fare to Mörön was about 50,000 tögrög — less than twenty US dollars for almost 700 kilometres. The bus was crowded: every seat was taken, and there were bags of flour, boxes of vegetables and even a small fridge in the aisle.",
+          "That wasn't the only delay. Somewhere after Bulgan, one of the tyres went flat, and the driver changed it at the side of the road. Nobody complained. Instead, an old woman offered everyone aaruul — hard, dried curd — and the teenager next to me practised his English by asking me questions about rugby.",
+          "The scenery was the best part. For hours we drove past green hills, rivers and huge herds of horses, and we stopped at small roadside cafés for milk tea and khuushuur. We reached our destination just after nine in the evening, more than twelve hours after we left. I was exhausted, but very happy.",
+          "The next day I took a minivan to the lake and spent three days hiking and sightseeing. Would I take the bus again? Absolutely. If you travel abroad and really want to understand a country, don't just look at it through the window of a private car. Get on the bus with everyone else — just bring snacks, a warm jacket and a lot of patience."
+        ],
+        "glossary": [
+          { "term": "hire", "meaning": "to pay to use something (or someone's work) for a short time", "mn": "хөлслөх" },
+          { "term": "on a tight budget", "meaning": "with very little money to spend", "mn": "мөнгө хязгаартай, төсөв багатай" },
+          { "term": "go flat", "meaning": "(about a tyre) to lose all its air", "mn": "(дугуй) хийгүй болох" },
+          { "term": "patience", "meaning": "the ability to wait calmly without getting angry", "mn": "тэвчээр" }
+        ],
+        "questions": [
+          { "type": "mcq", "tag": "main_idea", "prompt": "What is the main idea of the blog?", "options": ["Private jeeps are the best way to see northern Mongolia.", "A long, uncomfortable bus journey turned out to be a great experience.", "Buses in Mongolia are often late and dangerous.", "Lake Khövsgöl is too far from Ulaanbaatar for tourists."], "answer": 1, "explanation": "The writer describes problems on the journey but calls it 'the best journey of my whole trip'." },
+          { "type": "tfng", "tag": "detail", "prompt": "The bus left Ulaanbaatar exactly on time.", "answer": "false", "explanation": "Paragraph 2: they waited forty minutes and set off at twenty to nine." },
+          { "type": "tfng", "tag": "detail", "prompt": "The ticket cost less than twenty US dollars.", "answer": "true", "explanation": "Paragraph 2: 'less than twenty US dollars'." },
+          { "type": "tfng", "tag": "detail", "prompt": "The teenager on the bus wanted to study in New Zealand.", "answer": "not_given", "explanation": "We only know that he asked questions about rugby." },
+          { "type": "mcq", "tag": "vocab_context", "prompt": "In paragraph 2, 'crowded' means…", "options": ["very expensive", "very slow", "full of people and things", "very dirty"], "answer": 2 },
+          { "type": "mcq", "tag": "inference", "prompt": "What can we understand about the other passengers?", "options": ["They were angry about the delays.", "They didn't talk to the writer.", "They were mostly foreign tourists.", "They were friendly and patient."], "answer": 3, "explanation": "Nobody complained, a woman shared food and a teenager chatted with the writer." },
+          { "type": "order", "tag": "detail", "prompt": "Put the events in the order they happened.", "items": ["The bus waited for two late passengers.", "The bus set off from Ulaanbaatar.", "The driver changed a flat tyre.", "The bus reached Mörön.", "The writer took a minivan to the lake."] },
+          { "type": "short", "tag": "detail", "prompt": "What three things does the writer tell bus travellers to bring?", "answers": ["snacks jacket patience"], "match": "keywords", "explanation": "'Bring snacks, a warm jacket and a lot of patience.'" }
+        ]
+      },
+      "quiz": [
+        { "type": "gap", "skill": "vocabulary", "prompt": "How much is the bus ___ to Darkhan?", "answers": ["fare"], "options": ["fee", "fare", "fair", "pay"] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "Which sentence is correct?", "options": ["I want to go to abroad next year.", "I want to go in abroad next year.", "I want to go abroad next year."], "answer": 2 },
+        { "type": "match", "skill": "vocabulary", "tag": "collocation", "prompt": "Match the verbs with the words they go with.", "pairs": [["reach", "your destination"], ["set off", "early in the morning"], ["go", "sightseeing"], ["use", "public transport"]] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "The train was so ___ that people were standing in every carriage.", "options": ["delayed", "empty", "crowded", "memorable"], "answer": 2 },
+        { "type": "gap", "skill": "vocabulary", "prompt": "Our flight was ___ by two hours because of the fog.", "answers": ["delayed"] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "'The scenery was stunning' is about…", "options": ["the people you met", "the natural views", "the food", "the price of the trip"], "answer": 1 }
+      ]
+    },
+    {
+      "id": "b1-05-l2",
+      "title": "Have you ever…?",
+      "focus": "grammar",
+      "difficulty": 3,
+      "minutes": 25,
+      "objectives": [
+        "Talk about life experiences with the present perfect, ever and never",
+        "Choose correctly between 'been' and 'gone'",
+        "Describe your own travel experiences in a short talk"
+      ],
+      "warmup": {
+        "intro": "Quick check — which answer sounds right to you?",
+        "questions": [
+          { "type": "mcq", "prompt": "'Have you ever been to Japan?' Choose the natural short answer.", "options": ["Yes, I did.", "Yes, I have.", "Yes, I was."], "answer": 1, "skill": "grammar", "explanation": "Answer a have-question with 'have' or 'haven't'." },
+          { "type": "mcq", "prompt": "A small thing you buy on holiday to remember a place is a…", "options": ["receipt", "passport", "souvenir", "ticket"], "answer": 2, "skill": "vocabulary" }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "explore", "pos": "verb", "ipa": "/ɪkˈsplɔː(r)/",
+          "definition": "to travel around a place to learn about it",
+          "mn": "(шинэ газар) тойрч үзэх, танилцах, судлах",
+          "examples": ["We spent the whole day exploring the old part of the city.", "I'd love to explore the Gobi Desert one day."],
+          "collocations": ["explore a city", "explore the area", "explore on foot"],
+          "synonyms": ["discover", "look around"], "antonyms": [],
+          "mistake": "No preposition after 'explore': 'explore the city', not 'explore in the city'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "local", "pos": "adjective / noun", "ipa": "/ˈləʊkl/",
+          "definition": "from or in the area you are talking about; a person who lives in that area",
+          "mn": "нутгийн, орон нутгийн; нутгийн хүн",
+          "examples": ["Have you tried the local food?", "We asked a local for directions to the monastery."],
+          "collocations": ["local food", "local people", "the locals", "local customs"],
+          "synonyms": ["native", "resident"], "antonyms": ["foreign", "tourist"],
+          "note": "As a noun, 'a local' / 'the locals' is informal and common in travel talk: 'Ask the locals.'",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "souvenir", "pos": "noun", "ipa": "/ˌsuːvəˈnɪə(r)/",
+          "definition": "something you buy to help you remember a place you visited",
+          "mn": "дурсгалын зүйл",
+          "examples": ["I bought a small felt camel as a souvenir.", "The souvenir shops near the square are very expensive."],
+          "collocations": ["buy a souvenir", "a souvenir shop", "as a souvenir"],
+          "synonyms": ["keepsake", "memento"], "antonyms": [],
+          "mistake": "The stress is at the end: soo-vuh-NEER, not SOO-ve-nir.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "backpacking", "pos": "noun", "ipa": "/ˈbækpækɪŋ/",
+          "definition": "travelling cheaply with your things in a bag on your back, usually staying in cheap places",
+          "mn": "үүргэвчтэй хямд аялал",
+          "examples": ["She went backpacking around South-East Asia after university.", "Backpacking is a cheap way to see the world."],
+          "collocations": ["go backpacking", "a backpacking trip", "backpacking around Europe"],
+          "synonyms": [], "antonyms": ["luxury travel"],
+          "note": "A person who does this is a 'backpacker'.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "memorable", "pos": "adjective", "ipa": "/ˈmemərəbl/",
+          "definition": "special or unusual and easy to remember",
+          "mn": "мартагдашгүй, дурсамжтай",
+          "examples": ["Our trip to the Gobi was the most memorable holiday I've ever had.", "The eagle festival was a memorable day for everyone."],
+          "collocations": ["a memorable experience", "a memorable trip", "truly memorable"],
+          "synonyms": ["unforgettable"], "antonyms": ["forgettable", "ordinary"],
+          "mistake": "Don't confuse 'memorable' (easy to remember) with 'memory' (the noun): 'a memorable trip', not 'a memory trip'.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "once-in-a-lifetime", "pos": "adjective", "ipa": "/ˌwʌns ɪn ə ˈlaɪftaɪm/",
+          "definition": "very special because it will probably happen only once",
+          "mn": "амьдралд ганц л тохиох",
+          "examples": ["Seeing the eagle festival was a once-in-a-lifetime experience.", "This is a once-in-a-lifetime chance, so don't miss it."],
+          "collocations": ["a once-in-a-lifetime experience", "a once-in-a-lifetime opportunity", "a once-in-a-lifetime trip"],
+          "synonyms": ["unique"], "antonyms": ["everyday"],
+          "note": "Use hyphens when it comes before a noun: 'a once-in-a-lifetime trip'.",
+          "level": "B2", "difficulty": 4
+        },
+        {
+          "word": "jet lag", "pos": "noun", "ipa": "/ˈdʒet læɡ/",
+          "definition": "the tired feeling you have after a long flight to a place where the time is very different",
+          "mn": "цагийн бүсийн зөрүүнээс болсон ядаргаа",
+          "examples": ["I've never had such bad jet lag as after my flight to New York.", "It took me three days to get over the jet lag."],
+          "collocations": ["bad jet lag", "suffer from jet lag", "get over jet lag"],
+          "synonyms": [], "antonyms": [],
+          "mistake": "It is uncountable: 'I had terrible jet lag', not 'I had a terrible jet lag'.",
+          "note": "Adjective: 'I'm still jet-lagged.'",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "homesick", "pos": "adjective", "ipa": "/ˈhəʊmsɪk/",
+          "definition": "sad because you are far from home and miss your family and friends",
+          "mn": "гэр орноо санасан, нутгаа санасан",
+          "examples": ["I felt homesick during my first month in Seoul.", "Have you ever been homesick?"],
+          "collocations": ["feel homesick", "get homesick", "homesick for (a place)"],
+          "synonyms": [], "antonyms": [],
+          "mistake": "'Homesick' is not an illness. 'I'm homesick' means 'I miss home', not 'I'm sick at home'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "culture shock", "pos": "noun", "ipa": "/ˈkʌltʃə ʃɒk/",
+          "definition": "a feeling of confusion when you visit or live in a very different culture",
+          "mn": "соёлын цочрол",
+          "examples": ["Many students experience culture shock when they first move abroad.", "The biggest culture shock for me was how quiet people were on the trains."],
+          "collocations": ["experience culture shock", "suffer from culture shock", "reverse culture shock"],
+          "synonyms": [], "antonyms": [],
+          "note": "'Reverse culture shock' is the strange feeling when you come back home after a long time abroad.",
+          "level": "B1+", "difficulty": 3
+        }
+      ],
+      "grammar": "present-perfect-experience",
+      "speaking": {
+        "id": "s-travel-experiences",
+        "type": "discussion",
+        "prompt": "A new English-speaking colleague asks you: 'Do you travel much? Where have you been?' Talk about your travel experiences — places you've been to, things you've never done, and your most memorable trip.",
+        "promptMn": "Англиар ярьдаг шинэ хамт ажиллагч тань: 'Та их аялдаг уу? Хаагуур явсан бэ?' гэж асуужээ. Очиж байсан газрууд, хэзээ ч хийж байгаагүй зүйлс, хамгийн мартагдашгүй аяллынхаа тухай ярь.",
+        "points": ["Places you've been to (and how many times)", "Something you've never done but would like to do", "Your most memorable travel experience", "Whether you've ever felt homesick or had culture shock"],
+        "phrases": ["I've been to… twice.", "I've never…, but I'd love to.", "The most memorable place I've ever been to is…", "It was a once-in-a-lifetime experience.", "Have you ever…?"],
+        "targetWords": ["abroad", "explore", "local", "memorable", "homesick"],
+        "prepSeconds": 45,
+        "speakSeconds": 90,
+        "sample": "I haven't travelled abroad very often, but I've been to China twice and to South Korea once, both times for work. I've never been to Europe, but I'd love to explore Italy one day and try the local food. The most memorable place I've ever been to is actually here in Mongolia — the Gobi Desert. I've been there twice, and both times I've slept in a ger and ridden a camel. Seeing the stars at night was a once-in-a-lifetime experience. Have I ever felt homesick? Not really — my trips have always been quite short!"
+      },
+      "quiz": [
+        { "type": "mcq", "skill": "grammar", "prompt": "My sister ___ to Australia. She's coming back in July.", "options": ["has been", "has gone", "went"], "answer": 1, "explanation": "She is in Australia now → has gone." },
+        { "type": "gap", "skill": "grammar", "prompt": "I've ___ seen the sea. I really want to go to the coast one day.", "answers": ["never"], "options": ["ever", "never", "not", "no"] },
+        { "type": "correct", "skill": "grammar", "prompt": "Correct the sentence.", "sentence": "Have you ever saw a solar eclipse?", "answers": ["Have you ever seen a solar eclipse?"], "explanation": "see – saw – seen. Use the past participle after have." },
+        { "type": "words", "skill": "grammar", "prompt": "Put the words in order.", "answer": "My parents have never travelled abroad." },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "'Culture shock' is…", "options": ["a traditional dance", "a problem with your passport", "a feeling of confusion in a very different culture", "a museum about history"], "answer": 2 },
+        { "type": "gap", "skill": "vocabulary", "prompt": "I always buy a small ___ in every city I visit — usually a fridge magnet.", "answers": ["souvenir"], "options": ["souvenir", "scenery", "journey", "jet lag"] }
+      ]
+    },
+    {
+      "id": "b1-05-l3",
+      "title": "First time flying",
+      "focus": "listening",
+      "difficulty": 3,
+      "minutes": 25,
+      "objectives": [
+        "Understand a conversation about getting through an airport",
+        "Use airport words and collocations: check in, go through security, board the plane",
+        "Use weak forms of have, been and to in present perfect questions",
+        "Deal with a delayed flight at the check-in desk"
+      ],
+      "warmup": {
+        "intro": "Have you ever flown? What happens at the airport before you get on the plane?",
+        "questions": [
+          { "type": "mcq", "prompt": "What do you usually do FIRST when you arrive at the airport?", "options": ["Board the plane", "Go to the gate", "Check in and drop off your bags", "Collect your luggage"], "answer": 2, "skill": "vocabulary" }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "check in", "pos": "phrasal verb", "ipa": "/ˌtʃek ˈɪn/",
+          "definition": "to show your ticket and leave your bags at the airport; to arrive and say who you are at a hotel",
+          "mn": "бүртгүүлэх (нисэх буудал, зочид буудалд)",
+          "examples": ["You can check in online 24 hours before your flight.", "We checked in at the hotel at about three o'clock."],
+          "collocations": ["check in online", "check in for a flight", "check in at a hotel", "the check-in desk"],
+          "synonyms": ["register"], "antonyms": ["check out"],
+          "note": "The noun and adjective have a hyphen: 'check-in', 'the check-in desk'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "board", "pos": "verb", "ipa": "/bɔːd/",
+          "definition": "to get on a plane, train, bus or ship",
+          "mn": "(онгоц, галт тэрэг, автобусанд) суух",
+          "examples": ["Passengers can now board the plane at gate five.", "We boarded the train just before it left."],
+          "collocations": ["board a plane", "a boarding pass", "now boarding", "start boarding"],
+          "synonyms": ["get on"], "antonyms": ["get off"],
+          "mistake": "No preposition after 'board': 'board the plane', not 'board on the plane'.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "luggage", "pos": "noun", "ipa": "/ˈlʌɡɪdʒ/",
+          "definition": "the bags and suitcases you take with you when you travel",
+          "mn": "ачаа тээш",
+          "examples": ["How much luggage are you taking?", "My luggage didn't arrive in London."],
+          "collocations": ["hand luggage", "lost luggage", "a piece of luggage", "collect your luggage"],
+          "synonyms": ["baggage", "bags"], "antonyms": [],
+          "mistake": "'Luggage' is uncountable: say 'two pieces of luggage' or 'two bags', not 'two luggages'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "security", "pos": "noun", "ipa": "/sɪˈkjʊərəti/",
+          "definition": "the area at an airport where people check your bags and your body before you fly",
+          "mn": "аюулгүй байдлын шалгалт",
+          "examples": ["It took us forty minutes to get through security.", "You can't take bottles of water through security."],
+          "collocations": ["go through security", "a security check", "airport security"],
+          "synonyms": [], "antonyms": [],
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "customs", "pos": "noun", "ipa": "/ˈkʌstəmz/",
+          "definition": "the place at an airport or border where officers check what you are bringing into a country",
+          "mn": "гааль, гаалийн шалгалт",
+          "examples": ["We went through customs and collected our bags.", "Customs officers opened my suitcase and looked inside."],
+          "collocations": ["go through customs", "customs officers", "a customs form"],
+          "synonyms": [], "antonyms": [],
+          "mistake": "'Customs' (with -s) = гааль. 'A custom' (without -s) = a tradition, заншил.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "departure", "pos": "noun", "ipa": "/dɪˈpɑːtʃə(r)/",
+          "definition": "the act of leaving a place, especially at the start of a journey",
+          "mn": "хөөрөх, хөдлөх (цаг); явах",
+          "examples": ["Please arrive at the airport two hours before departure.", "Check the departures board to find your gate."],
+          "collocations": ["departure time", "the departure lounge", "the departures board"],
+          "synonyms": [], "antonyms": ["arrival"],
+          "note": "At airports the signs say 'Departures' (leaving) and 'Arrivals' (coming in).",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "cancel", "pos": "verb", "ipa": "/ˈkænsl/",
+          "definition": "to say that something that was planned will not happen",
+          "mn": "цуцлах",
+          "examples": ["If the weather is bad, the airline may cancel the flight.", "I had to cancel my hotel booking."],
+          "collocations": ["cancel a flight", "cancel a booking", "cancel a trip"],
+          "synonyms": ["call off"], "antonyms": ["confirm"],
+          "mistake": "Don't mix up 'cancel' (it will not happen) and 'delay' (it will happen later).",
+          "note": "British spelling: cancelled, cancelling. American: canceled, canceling.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "stopover", "pos": "noun", "ipa": "/ˈstɒpəʊvə(r)/",
+          "definition": "a short stay in a place between two parts of a journey, especially a long flight",
+          "mn": "дамжин буух зогсолт",
+          "examples": ["We had a three-hour stopover in Seoul.", "Tickets are often cheaper if there's a stopover."],
+          "collocations": ["a short stopover", "a long stopover", "a stopover in (a city)"],
+          "synonyms": ["layover"], "antonyms": ["direct flight"],
+          "note": "American English usually says 'layover'.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "aisle", "pos": "noun", "ipa": "/aɪl/",
+          "definition": "the passage between rows of seats on a plane, bus or train",
+          "mn": "суудал хоорондын гарц (коридор)",
+          "examples": ["Would you like a window seat or an aisle seat?", "Please keep your bags out of the aisle."],
+          "collocations": ["an aisle seat", "in the aisle", "walk down the aisle"],
+          "synonyms": ["gangway"], "antonyms": [],
+          "mistake": "The 's' is silent: say /aɪl/, exactly like 'I'll'.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "announcement", "pos": "noun", "ipa": "/əˈnaʊnsmənt/",
+          "definition": "a public statement that gives people information, for example at an airport",
+          "mn": "мэдэгдэл, зар",
+          "examples": ["Listen carefully to the announcements for your gate number.", "The captain made an announcement about the weather in Beijing."],
+          "collocations": ["make an announcement", "an important announcement", "hear an announcement"],
+          "synonyms": ["notice"], "antonyms": [],
+          "mistake": "We 'make' an announcement, not 'do' or 'say' an announcement.",
+          "level": "B1", "difficulty": 3
+        }
+      ],
+      "listening": {
+        "id": "l-first-flight",
+        "title": "Is this a window seat?",
+        "kind": "conversation",
+        "context": "Nomin is flying abroad for the first time. Her friend Dave, who travels a lot for work, meets her at the airport in Ulaanbaatar.",
+        "speakers": [
+          { "name": "Dave", "voice": "male", "accent": "en-GB" },
+          { "name": "Nomin", "voice": "female", "accent": "en-GB" }
+        ],
+        "lines": [
+          { "speaker": "Dave", "text": "Nomin! Over here! So, are you nervous? It's your first time flying, isn't it?" },
+          { "speaker": "Nomin", "text": "Yes, I've never been on a plane before. I've checked in online, but I'm not sure what to do next." },
+          { "speaker": "Dave", "text": "OK, first we need to drop off your luggage. Have you got your boarding pass on your phone?" },
+          { "speaker": "Nomin", "text": "Yes, it's here. Seat twenty-three C. Is that a window seat?" },
+          { "speaker": "Dave", "text": "No, C is an aisle seat. That's actually good on a long flight. You can get up without climbing over people." },
+          { "speaker": "Nomin", "text": "Right. My flight goes to London, but there's a stopover in Istanbul. Do I need to collect my suitcase there?" },
+          { "speaker": "Dave", "text": "No, your bag goes all the way to London. You only go through customs when you arrive in the UK." },
+          { "speaker": "Nomin", "text": "That's a relief. What about security? I've heard it takes ages." },
+          { "speaker": "Dave", "text": "It's usually quite quick here. Just take your laptop out of your bag, and don't take any water through." },
+          { "speaker": "Nomin", "text": "Oh no, I've got a big bottle of water in my backpack!" },
+          { "speaker": "Dave", "text": "Well, drink it now or leave it here! Your departure time is ten fifteen, so you've got plenty of time." },
+          { "speaker": "Nomin", "text": "And what happens if the first flight is delayed or cancelled, and I miss my connection?" },
+          { "speaker": "Dave", "text": "Don't worry, the airline will put you on the next flight. Just listen to the announcements and check the screens for your gate. They usually start boarding about forty minutes before departure." },
+          { "speaker": "Nomin", "text": "OK. Thanks, Dave. I feel much better now." }
+        ],
+        "gist": [
+          { "type": "mcq", "tag": "main_idea", "prompt": "Why is Dave explaining things to Nomin?", "options": ["She has lost her passport.", "Her flight has been cancelled.", "She has never flown before.", "She is late for her flight."], "answer": 2 }
+        ],
+        "detail": [
+          { "type": "mcq", "tag": "detail", "prompt": "What kind of seat does Nomin have?", "options": ["a window seat", "an aisle seat", "a middle seat", "a business-class seat"], "answer": 1 },
+          { "type": "tfng", "tag": "detail", "prompt": "Nomin needs to collect her suitcase in Istanbul.", "answer": "false", "explanation": "Dave says her bag goes all the way to London." },
+          { "type": "mcq", "tag": "detail", "prompt": "What should Nomin do at security?", "options": ["Show her boarding pass to Dave", "Open her suitcase", "Pay for her water", "Take her laptop out of her bag"], "answer": 3 },
+          { "type": "gap", "tag": "detail", "prompt": "Nomin's flight leaves at ___.", "answers": ["10:15", "ten fifteen", "10.15", "quarter past ten"] },
+          { "type": "tfng", "tag": "detail", "prompt": "If Nomin misses her connection, she will have to buy a new ticket.", "answer": "false", "explanation": "Dave says the airline will put her on the next flight." }
+        ],
+        "expressions": [
+          { "phrase": "Over here!", "meaning": "a friendly way to call someone to the place where you are", "mn": "Наашаа! Энд байна!" },
+          { "phrase": "That's a relief.", "meaning": "I'm happy that I don't need to worry about it", "mn": "Санаа амарлаа." },
+          { "phrase": "It takes ages.", "meaning": "it takes a very long time (informal)", "mn": "Их удаан үргэлжилдэг." },
+          { "phrase": "You've got plenty of time.", "meaning": "you have more than enough time", "mn": "Чамд хангалттай их цаг байна." }
+        ]
+      },
+      "pronunciation": "have-been-weak-forms",
+      "speaking": {
+        "id": "s-check-in-desk",
+        "type": "roleplay",
+        "prompt": "Role-play: You are at the check-in desk. You're flying to Sydney with a stopover in Seoul, and the screen says your first flight is delayed by two hours. Talk to the check-in agent: check in, ask about your luggage and your seat, and ask what will happen if you miss your connection.",
+        "promptMn": "Дүрд тоглох: Та бүртгэлийн ширээний өмнө байна. Сөүлд дамжин буугаад Сидней рүү нисэх гэж байгаа ч эхний нислэг тань хоёр цагаар хойшилсон гэж дэлгэц дээр гарчээ. Бүртгэлийн ажилтантай ярь: бүртгүүлэх, ачаа болон суудлынхаа талаар асуух, холболтын нислэгээ алдвал юу болохыг асуу.",
+        "points": ["Greet the agent and say where you're flying", "Ask if your suitcase goes all the way to Sydney", "Ask for the seat you want", "Explain your worry about the delay and ask what happens if you miss your connection"],
+        "phrases": ["I'd like to check in for the flight to…", "Will my luggage go all the way to…?", "Could I have an aisle seat, please?", "What happens if I miss my connection?", "What time do we start boarding?"],
+        "targetWords": ["check in", "luggage", "aisle", "stopover", "board"],
+        "prepSeconds": 45,
+        "speakSeconds": 90,
+        "sample": "Good morning. I'd like to check in for the flight to Sydney, please. Here's my passport. I've got one suitcase and a small bag as hand luggage. Will my suitcase go all the way to Sydney, or do I need to collect it in Seoul? … Great. Could I have an aisle seat, please? It's a very long flight. … Thanks. Oh, and I've just seen on the screen that the flight to Seoul is delayed by two hours. My stopover is only three hours, so I'm a bit worried. What happens if I miss my connection? … OK, that's a relief. And what time do we start boarding?"
+      },
+      "quiz": [
+        { "type": "match", "skill": "vocabulary", "tag": "collocation", "prompt": "Match to make airport collocations.", "pairs": [["go through", "customs"], ["board", "the plane"], ["check in", "online"], ["make", "an announcement"]] },
+        { "type": "gap", "skill": "vocabulary", "prompt": "We have a four-hour ___ in Beijing before our flight to Paris.", "answers": ["stopover"], "options": ["departure", "stopover", "aisle", "security"] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "Which word is uncountable?", "options": ["suitcase", "bag", "luggage", "ticket"], "answer": 2 },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "Where do officers check what you are bringing into a country?", "options": ["at custom", "at customs", "at costume"], "answer": 1, "explanation": "'Customs' with -s is the place at the border. 'A custom' is a tradition." },
+        { "type": "mcq", "skill": "pronunciation", "prompt": "In 'Have you ever been to Rome?', how is 'been' usually pronounced?", "options": ["/biːn/ — like 'bean'", "/bɪn/ — like 'bin'", "/ben/ — like 'Ben'"], "answer": 1 },
+        { "type": "tfng", "skill": "listening", "prompt": "In the conversation, Dave thinks an aisle seat is a bad choice for a long flight.", "answer": "false", "explanation": "He says it's good because you can get up easily." }
+      ]
+    },
+    {
+      "id": "b1-05-l4",
+      "title": "Where did you stay?",
+      "focus": "writing",
+      "difficulty": 4,
+      "minutes": 30,
+      "objectives": [
+        "Choose correctly between the present perfect and the past simple",
+        "Use polite phrases at a hotel reception",
+        "Write a short online review of a place you stayed (90–130 words)"
+      ],
+      "warmup": {
+        "intro": "Do you read online reviews before you book a hotel? What do you look for?",
+        "questions": [
+          { "type": "mcq", "prompt": "Which sentence probably comes from an online hotel review?", "options": ["Dear Sir or Madam, I am writing to apply for the job.", "The room was spotless and the staff were really helpful.", "Hi Mum, I'm fine, don't worry!", "Chapter one: the journey begins."], "answer": 1, "skill": "writing", "tag": "genre" }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "accommodation", "pos": "noun", "ipa": "/əˌkɒməˈdeɪʃn/",
+          "definition": "a place to live or stay, such as a hotel room or a flat",
+          "mn": "байр, буудал (хонох, амьдрах газар)",
+          "examples": ["The price includes flights and accommodation.", "It's hard to find cheap accommodation near Lake Khövsgöl in July."],
+          "collocations": ["cheap accommodation", "find accommodation", "book accommodation", "student accommodation"],
+          "synonyms": ["a place to stay", "lodging"], "antonyms": [],
+          "mistake": "In British English it's uncountable: 'accommodation', not 'accommodations'. Spelling: two c's and two m's.",
+          "note": "American English often uses the plural 'accommodations'.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "reservation", "pos": "noun", "ipa": "/ˌrezəˈveɪʃn/",
+          "definition": "an arrangement to keep a room, table or seat for you",
+          "mn": "урьдчилсан захиалга",
+          "examples": ["I have a reservation for two nights under the name Bold.", "Did you make a reservation at the restaurant?"],
+          "collocations": ["make a reservation", "have a reservation", "cancel a reservation", "confirm a reservation"],
+          "synonyms": ["booking"], "antonyms": [],
+          "mistake": "Mongolian 'захиалга' can mean 'order' or 'booking'. For hotels and restaurants say 'reservation' or 'booking', not 'order'.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "hostel", "pos": "noun", "ipa": "/ˈhɒstl/",
+          "definition": "a cheap place to stay, often with shared rooms, popular with young travellers",
+          "mn": "хостел, хямд буудал",
+          "examples": ["We stayed in a hostel near the station for ten dollars a night.", "The hostel has a shared kitchen and free Wi-Fi."],
+          "collocations": ["a youth hostel", "stay in a hostel", "a hostel dorm"],
+          "synonyms": [], "antonyms": ["luxury hotel"],
+          "mistake": "Don't confuse 'hostel' /ˈhɒstl/ with 'hotel' /həʊˈtel/: the stress is on different syllables.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "reception", "pos": "noun", "ipa": "/rɪˈsepʃn/",
+          "definition": "the desk in a hotel or office where people arrive and ask for information",
+          "mn": "хүлээн авах хэсэг (ресепшн)",
+          "examples": ["Please leave your key at reception when you go out.", "I called reception to ask for another towel."],
+          "collocations": ["at reception", "the reception desk", "call reception"],
+          "synonyms": ["front desk"], "antonyms": [],
+          "mistake": "Say 'at reception' (usually without 'the'), not 'in the reception'.",
+          "note": "American English often says 'the front desk'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "check out", "pos": "phrasal verb", "ipa": "/ˌtʃek ˈaʊt/",
+          "definition": "to pay your bill and leave a hotel",
+          "mn": "(зочид буудлаас) тооцоо хийж гарах",
+          "examples": ["We have to check out by eleven.", "She checked out early to catch her flight."],
+          "collocations": ["check out of a hotel", "check-out time", "a late check-out"],
+          "synonyms": ["leave"], "antonyms": ["check in"],
+          "note": "Informally, 'check out' also means 'look at something interesting': 'Check out this photo!'",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "recommend", "pos": "verb", "ipa": "/ˌrekəˈmend/",
+          "definition": "to say that something is good and that someone should try it",
+          "mn": "санал болгох, зөвлөх",
+          "examples": ["I'd recommend this guesthouse to anyone visiting Kharkhorin.", "Can you recommend a good restaurant near here?"],
+          "collocations": ["highly recommend", "recommend something to someone", "I'd recommend"],
+          "synonyms": ["suggest"], "antonyms": ["warn against"],
+          "mistake": "Say 'recommend a hotel to me' or 'Can you recommend a hotel?', not 'recommend me a hotel'. Spelling: one c, two m's.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "worth", "pos": "adjective", "ipa": "/wɜːθ/",
+          "definition": "good or useful enough to spend time or money on",
+          "mn": "үнэ цэнэтэй, (хийх нь) зүйтэй",
+          "examples": ["The hotel was expensive, but it was worth the money.", "The old monastery is definitely worth visiting."],
+          "collocations": ["worth the money", "worth visiting", "well worth it", "worth a visit"],
+          "synonyms": ["good value"], "antonyms": ["a waste of money"],
+          "mistake": "Use -ing after 'worth': 'worth visiting', not 'worth to visit'.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "cosy", "pos": "adjective", "ipa": "/ˈkəʊzi/",
+          "definition": "warm, comfortable and pleasant, often in a small space",
+          "mn": "тухтай, дулаахан",
+          "examples": ["The ger was small but warm and cosy.", "We found a cosy little café next to the hotel."],
+          "collocations": ["a cosy room", "warm and cosy", "a cosy café"],
+          "synonyms": ["comfortable", "snug"], "antonyms": ["cold", "uncomfortable"],
+          "note": "American spelling: cozy.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "spotless", "pos": "adjective", "ipa": "/ˈspɒtləs/",
+          "definition": "completely clean",
+          "mn": "толбогүй цэвэрхэн, тав цэвэрхэн",
+          "examples": ["Our room was spotless and the bed was very comfortable.", "The bathrooms were spotless."],
+          "collocations": ["a spotless room", "absolutely spotless", "keep something spotless"],
+          "synonyms": ["spotlessly clean", "very clean"], "antonyms": ["dirty", "filthy"],
+          "note": "Very common in hotel reviews. Don't say 'very spotless' — use 'absolutely spotless'.",
+          "level": "B2", "difficulty": 3
+        },
+        {
+          "word": "overpriced", "pos": "adjective", "ipa": "/ˌəʊvəˈpraɪst/",
+          "definition": "costing more than it is really worth",
+          "mn": "үнэ нь хэт өндөр, дэмий үнэтэй",
+          "examples": ["The food at the airport is always overpriced.", "The rooms were nice but a bit overpriced."],
+          "collocations": ["a bit overpriced", "completely overpriced", "overpriced food"],
+          "synonyms": ["too expensive"], "antonyms": ["good value", "reasonably priced"],
+          "note": "More negative than 'expensive': it means the price is not fair.",
+          "level": "B2", "difficulty": 3
+        }
+      ],
+      "phrases": [
+        { "phrase": "I have a reservation under the name…", "meaning": "used when you arrive at a hotel or restaurant to say who the booking is for", "mn": "…гэсэн нэр дээр захиалгатай.", "register": "neutral", "whenToUse": "At a hotel reception or restaurant when you arrive. Polite and natural in any situation.", "example": "Hi, I have a reservation under the name Bat-Erdene, for three nights." },
+        { "phrase": "Is breakfast included?", "meaning": "Is breakfast part of the price?", "mn": "Өглөөний цай үнэд багтсан уу?", "register": "neutral", "whenToUse": "When you book or check in. You can use it for anything: 'Is Wi-Fi included?', 'Is parking included?'", "example": "Is breakfast included, or do we pay extra?" },
+        { "phrase": "Would it be possible to…?", "meaning": "a very polite way to ask for something", "mn": "…боломжтой юу?", "register": "formal", "whenToUse": "For requests that are a little special, such as a late check-out or a quieter room. More polite than 'Can I…?' and good in formal emails too.", "example": "Would it be possible to check out a bit later, at about one o'clock?" },
+        { "phrase": "It was worth every penny.", "meaning": "it was expensive, but so good that the money was well spent", "mn": "Төлсөн мөнгө бүрэн хөлсөө авсан.", "register": "informal", "whenToUse": "In reviews and conversations about something you paid for. Avoid it in formal complaints.", "example": "The hotel wasn't cheap, but it was worth every penny." },
+        { "phrase": "On the downside, …", "meaning": "used to introduce a negative point after positive ones", "mn": "Сул тал гэвэл, …", "register": "neutral", "whenToUse": "In reviews and opinions, to give a balanced view. In speech people often say 'The only problem was…'.", "example": "On the downside, the walls were thin and the street was noisy at night." },
+        { "phrase": "All in all, …", "meaning": "used to give a final opinion after thinking about everything", "mn": "Ерөнхийдөө, нийтдээ …", "register": "neutral", "whenToUse": "At the end of a review, story or conversation. In formal writing 'Overall, …' is also good.", "example": "All in all, it was a great place to stay." }
+      ],
+      "grammar": "present-perfect-past-simple",
+      "writing": {
+        "id": "w-accommodation-review",
+        "type": "review",
+        "prompt": "Write a short online review of a hotel, hostel, guesthouse or ger camp where you have stayed. Say where it is and when you stayed there, describe the room and the staff, give one positive and one negative point, and say whether you would recommend it.",
+        "promptMn": "Өөрийн байрлаж байсан зочид буудал, хостел, эсвэл жуулчны баазын тухай онлайн богино сэтгэгдэл бичээрэй: хаана байдаг, хэзээ байрласан, өрөө болон ажилчдын тухай, нэг давуу, нэг сул талыг бичээд бусдад санал болгох эсэхээ хэлээрэй.",
+        "register": "neutral",
+        "minWords": 90,
+        "maxWords": 130,
+        "points": ["Where the place is and when you stayed (past simple)", "Your experience of this kind of place (present perfect)", "The room, the staff and the food", "One negative point", "Your final opinion and recommendation"],
+        "phrases": ["I stayed here for… nights last…", "I've stayed in a lot of…, but this one…", "The room was spotless and cosy.", "On the downside, …", "It was worth every penny.", "All in all, I'd recommend it to…"],
+        "targetWords": ["accommodation", "reception", "spotless", "cosy", "worth", "recommend", "overpriced"],
+        "sample": "Great ger camp near Kharkhorin ★★★★☆\n\nI've stayed in a lot of ger camps, but this one is special. My husband and I stayed here for two nights last August. Our ger was cosy and spotless, and the beds were really comfortable. The staff at reception were friendly and helped us book a horse-riding trip. Breakfast was included, and the local yoghurt was delicious.\n\nOn the downside, the showers were quite far from the gers, and dinner was a bit overpriced. All in all, it was worth every penny — the views of the Orkhon Valley at sunset were amazing. I'd recommend this accommodation to anyone who wants peace and quiet."
+      },
+      "quiz": [
+        { "type": "mcq", "skill": "grammar", "prompt": "We ___ at a lovely guesthouse when we were in Kharkhorin.", "options": ["have stayed", "stayed", "stay"], "answer": 1, "explanation": "'When we were in Kharkhorin' is a finished time → past simple." },
+        { "type": "mcq", "skill": "grammar", "prompt": "I ___ five hotel reviews this month, and it's only the tenth!", "options": ["write", "wrote", "have written"], "answer": 2, "explanation": "'This month' is not finished → present perfect." },
+        { "type": "gap", "skill": "vocabulary", "prompt": "The museum is definitely worth ___.", "answers": ["visiting"], "options": ["visit", "to visit", "visiting", "visited"] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "Which sentence is correct?", "options": ["Can you recommend me a hotel?", "Can you recommend to me a hotel?", "Can you recommend a good hotel?"], "answer": 2 },
+        { "type": "mcq", "skill": "writing", "tag": "register", "prompt": "Which is the most polite way to ask for a late check-out?", "options": ["I want to check out late.", "Check-out later, OK?", "Give me a late check-out.", "Would it be possible to check out a bit later?"], "answer": 3 },
+        { "type": "error", "skill": "grammar", "prompt": "Tap the part with the mistake.", "segments": ["I have stayed", "in this hostel", "two years ago."], "wrongIndex": 0, "correction": "I stayed", "explanation": "'Two years ago' → past simple." }
+      ]
+    }
+  ],
+  "test": {
+    "reading": {
+      "id": "t-night-trains",
+      "title": "The Return of the Night Train",
+      "genre": "article",
+      "text": [
+        "Twenty years ago, many people thought night trains in Europe were finished. Cheap airlines were growing fast, and a flight from Paris to Rome often cost less than a train ticket. One by one, railway companies stopped their sleeper services. Today, however, night trains are coming back.",
+        "The main reason is simple: more and more passengers want to travel without flying. A night train from Vienna to Hamburg produces much less CO2 than a plane. But the environment is not the only reason. 'On a plane you lose a whole day,' says Lena Hoffmann, a teacher from Berlin who has taken the night train to Vienna four times. 'On a night train, you have dinner, go to sleep and wake up at your destination. It feels like you've travelled for free.'",
+        "Of course, night trains are not perfect. A bed in a private compartment can be more expensive than a flight, and delays are common because the trains often travel through several countries. Some passengers also complain that they can't sleep because of the noise and the movement.",
+        "Still, railway companies are optimistic. Austria's national railway has bought dozens of new sleeper carriages, and new routes have opened between cities like Brussels, Berlin and Prague. For many travellers, the slow journey has become part of the holiday."
+      ],
+      "glossary": [
+        { "term": "sleeper", "meaning": "a train or carriage with beds", "mn": "унтлагын вагон" },
+        { "term": "compartment", "meaning": "a small separate room in a train carriage", "mn": "купе" }
+      ],
+      "questions": [
+        { "type": "mcq", "tag": "main_idea", "prompt": "What is the article mainly about?", "options": ["How to sleep well on a train", "Why night trains are becoming popular again in Europe", "Why flights in Europe are cheaper than trains", "The history of Austria's railway"], "answer": 1 },
+        { "type": "tfng", "tag": "detail", "prompt": "Twenty years ago, many railway companies stopped their night train services.", "answer": "true" },
+        { "type": "tfng", "tag": "detail", "prompt": "Lena Hoffmann has never taken a night train.", "answer": "false", "explanation": "She has taken the night train to Vienna four times." },
+        { "type": "tfng", "tag": "detail", "prompt": "Lena Hoffmann usually travels with her children.", "answer": "not_given" },
+        { "type": "mcq", "tag": "detail", "prompt": "Why are night trains often delayed?", "options": ["They are very old.", "They stop at every small station.", "They travel through several countries.", "The drivers work too many hours."], "answer": 2 },
+        { "type": "mcq", "tag": "vocab_context", "prompt": "In paragraph 4, 'optimistic' means…", "options": ["worried", "angry", "tired", "hopeful about the future"], "answer": 3 },
+        { "type": "short", "tag": "inference", "prompt": "According to Lena, what is the biggest advantage of a night train over a plane?", "answers": ["lose day", "save time", "sleep", "save day"], "explanation": "You don't lose a whole day — you travel while you sleep." }
+      ]
+    },
+    "listening": {
+      "id": "t-guesthouse-checkin",
+      "title": "Checking in at a guesthouse",
+      "kind": "conversation",
+      "context": "Sarah, a tourist from England, arrives late in the evening at a small guesthouse in Kharkhorin.",
+      "speakers": [
+        { "name": "Temuujin", "voice": "male", "accent": "en-GB" },
+        { "name": "Sarah", "voice": "female", "accent": "en-GB" }
+      ],
+      "lines": [
+        { "speaker": "Temuujin", "text": "Good evening, welcome to Orkhon Guesthouse. How can I help you?" },
+        { "speaker": "Sarah", "text": "Hi. I have a reservation under the name Sarah Miller, for two nights." },
+        { "speaker": "Temuujin", "text": "Let me check. Yes, a single room for two nights. Could I see your passport, please?" },
+        { "speaker": "Sarah", "text": "Sure, here you are. Sorry I'm so late. My bus from Ulaanbaatar was delayed by three hours." },
+        { "speaker": "Temuujin", "text": "Oh, that's no problem. Have you been to Kharkhorin before?" },
+        { "speaker": "Sarah", "text": "No, I haven't. It's my first time in Mongolia, actually. I arrived in Ulaanbaatar on Monday." },
+        { "speaker": "Temuujin", "text": "Well, you've chosen a good time. The weather's lovely at the moment. Breakfast is from seven to ten in the dining room, and it's included in the price." },
+        { "speaker": "Sarah", "text": "Great. And is there Wi-Fi in the room?" },
+        { "speaker": "Temuujin", "text": "Yes, the password is on your key card. Your room is on the second floor, number twenty-four." },
+        { "speaker": "Sarah", "text": "Thanks. One more thing. I'd like to visit Erdene Zuu Monastery tomorrow. Is it far?" },
+        { "speaker": "Temuujin", "text": "Not at all. It's about fifteen minutes on foot. It opens at nine, so I'd recommend going early, before the tour groups arrive." },
+        { "speaker": "Sarah", "text": "Perfect. And what time is check-out on Thursday?" },
+        { "speaker": "Temuujin", "text": "Eleven o'clock. But if you need a late check-out, just ask at reception." }
+      ],
+      "gist": [
+        { "type": "mcq", "tag": "main_idea", "prompt": "What is happening in the conversation?", "options": ["A tourist is booking a bus ticket.", "A guest is checking in at a guesthouse.", "A guest is complaining about her room.", "A tourist is asking for directions at the airport."], "answer": 1 }
+      ],
+      "detail": [
+        { "type": "mcq", "tag": "detail", "prompt": "Why is Sarah late?", "options": ["She got lost.", "Her flight was cancelled.", "She missed the bus.", "Her bus was delayed."], "answer": 3 },
+        { "type": "tfng", "tag": "detail", "prompt": "Sarah has visited Kharkhorin before.", "answer": "false" },
+        { "type": "tfng", "tag": "detail", "prompt": "Sarah has to pay extra for breakfast.", "answer": "false", "explanation": "Breakfast is included in the price." },
+        { "type": "gap", "tag": "detail", "prompt": "Sarah's room number is ___.", "answers": ["24", "twenty-four", "twenty four"] },
+        { "type": "mcq", "tag": "detail", "prompt": "Why does Temuujin recommend visiting the monastery early?", "options": ["To avoid the tour groups", "Because it closes at noon", "Because it is very far away", "Because tickets are cheaper in the morning"], "answer": 0 }
+      ],
+      "expressions": [
+        { "phrase": "Let me check.", "meaning": "I'll look for the information now", "mn": "Шалгаад үзье." },
+        { "phrase": "Here you are.", "meaning": "said when you give something to someone", "mn": "Май, аваарай." },
+        { "phrase": "One more thing…", "meaning": "used before a last question or request", "mn": "Бас нэг зүйл…" },
+        { "phrase": "Not at all.", "meaning": "a strong 'no' (here: it isn't far)", "mn": "Огт үгүй." }
+      ]
+    },
+    "writing": {
+      "id": "t-visit-email",
+      "type": "email_informal",
+      "prompt": "An English-speaking friend is coming to Mongolia for the first time next summer. They write: 'Have you been anywhere interesting in Mongolia? Where should I go?' Write an email (90–120 words). Tell your friend about a place you have been to, what you did there, and give advice about transport and accommodation.",
+      "promptMn": "Англиар ярьдаг найз тань ирэх зун анх удаа Монголд ирэх гэж байна. Тэр: 'Монголд сонирхолтой газар очиж байсан уу? Би хаашаа явбал дээр вэ?' гэж бичжээ. Имэйл бичээрэй (90–120 үг): очиж байсан газар, тэнд юу хийснээ ярьж, тээвэр болон байрны талаар зөвлөгөө өгөөрэй.",
+      "register": "informal",
+      "minWords": 90,
+      "maxWords": 120,
+      "points": ["A place you have been to (present perfect)", "When you went and what you did there (past simple)", "How to get there", "Where to stay"],
+      "phrases": ["Great news that you're coming!", "I've been to… a few times.", "I went there last…", "I'd recommend…", "It's definitely worth…", "Let me know if…"],
+      "targetWords": ["journey", "destination", "accommodation", "worth", "recommend"],
+      "sample": "Hi Jake,\n\nGreat news that you're coming to Mongolia! I've been to a lot of places here, but my favourite destination is Lake Khövsgöl in the north. I went there last July with my cousins. We rode horses, went kayaking and slept in a ger camp next to the water. The scenery was amazing.\n\nThe journey by bus is very long, so I'd recommend flying to Mörön and then taking a minivan to the lake. It's more expensive, but it's worth it. For accommodation, book a ger camp early because they're often full in summer.\n\nLet me know if you need any help!\nBayaraa"
+    },
+    "speaking": {
+      "id": "t-plane-or-train",
+      "type": "compare",
+      "prompt": "Compare two ways of travelling from Ulaanbaatar to another city — for example, by plane and by train (or bus). Talk about speed, price and comfort, say which ones you have tried, and which you prefer.",
+      "promptMn": "Улаанбаатараас өөр хот руу аялах хоёр аргыг (жишээ нь онгоц, галт тэрэг эсвэл автобус) харьцуул: хурд, үнэ, тав тух, аль алийг нь туршиж үзсэн эсэх, алийг нь илүүд үздэгээ ярь.",
+      "points": ["Speed and price", "Comfort and what you can see on the way", "Your own experience (present perfect + past simple)", "Which you prefer and why"],
+      "phrases": ["…is much faster than…", "On the other hand, …", "I've taken the train to… a few times.", "The last time I went, …", "Personally, I'd choose…"],
+      "targetWords": ["journey", "fare", "scenery", "delay", "passenger"],
+      "prepSeconds": 45,
+      "speakSeconds": 90,
+      "sample": "If you want to travel from Ulaanbaatar to Beijing, you can fly or take the train. The plane is much faster — the flight only takes about two hours, and sometimes the fare isn't much higher. On the other hand, the train takes about thirty hours, but in some ways it's more comfortable: you can walk around, sleep in a proper bed and enjoy the scenery of the Gobi. I've taken the train to Beijing once, when I was a student, and it was a really memorable journey. I've flown there three times for work. Personally, I prefer the plane when I'm busy, but for a holiday I'd choose the train, because the journey is part of the experience."
+    },
+    "questions": [
+      { "type": "mcq", "skill": "grammar", "prompt": "I ___ to Seoul three times, and I'm going again next month.", "options": ["went", "have been", "have gone"], "answer": 1 },
+      { "type": "mcq", "skill": "grammar", "prompt": "What time ___ your plane land yesterday?", "options": ["has", "does", "did"], "answer": 2 },
+      { "type": "gap", "skill": "grammar", "prompt": "___ you ever tried reindeer milk?", "answers": ["Have"] },
+      { "type": "correct", "skill": "grammar", "prompt": "Correct the sentence.", "sentence": "I've been to Beijing in 2020.", "answers": ["I went to Beijing in 2020.", "I was in Beijing in 2020."] },
+      { "type": "mcq", "skill": "grammar", "prompt": "Is Oyun at home? — No, she's ___ to the market.", "options": ["gone", "been", "went"], "answer": 0 },
+      { "type": "gap", "skill": "grammar", "prompt": "It's the best hotel I've ___ stayed in.", "answers": ["ever"] },
+      { "type": "gap", "skill": "vocabulary", "prompt": "You can't take liquids through airport ___.", "answers": ["security"], "options": ["reception", "security", "departure", "stopover"] },
+      { "type": "mcq", "skill": "vocabulary", "prompt": "Which word means 'completely clean'?", "options": ["cosy", "crowded", "spotless", "overpriced"], "answer": 2 },
+      { "type": "gap", "skill": "vocabulary", "tag": "collocation", "prompt": "We ___ off at 5 a.m. to reach the lake before dark.", "answers": ["set"], "options": ["got", "set", "took", "put"] },
+      { "type": "mcq", "skill": "vocabulary", "prompt": "Which sentence is correct?", "options": ["I need to buy a new luggage.", "How many luggages do you have?", "I've only got one piece of luggage.", "My luggages are very heavy."], "answer": 2 },
+      { "type": "mcq", "skill": "vocabulary", "prompt": "'The drinks at the hotel bar were overpriced' means they…", "options": ["were free", "were very cold", "were delicious", "cost more than they were worth"], "answer": 3 },
+      { "type": "mcq", "skill": "vocabulary", "prompt": "Where do you usually leave your key when you check out of a hotel?", "options": ["at reception", "at customs", "at the gate", "on the platform"], "answer": 0 }
+    ]
+  }
+}

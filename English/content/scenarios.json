@@ -1,0 +1,622 @@
+{
+  "scenarios": [
+    {
+      "id": "job-interview",
+      "title": "Job interview",
+      "minLevel": "B1+",
+      "category": "Work",
+      "description": "You are in a first-round interview for an office job at an international company. Answer questions about your experience, strengths and plans, and ask a question of your own at the end.",
+      "partnerRole": "Sarah Mitchell, the HR manager at Northbridge, an international logistics company. She is warm but professional, keeps the interview moving, and asks for a concrete example whenever an answer sounds too general.",
+      "learnerGoal": "Introduce yourself clearly, describe your experience with at least one concrete example, talk honestly about a strength and a weakness, and ask the interviewer at least one question.",
+      "opening": "Good morning, and thanks for coming in today. Please, take a seat. To start with, could you tell me a little about yourself?",
+      "guidedTurns": [
+        {
+          "prompt": "Thank you. And why are you interested in this position with us?",
+          "hint": "Mention something specific about the company or the job, then connect it to your own skills.",
+          "sample": "I've been working in customer service for three years, and now I'd like a role with more planning and organisation. Your company works with clients all over the world, so I think I could use my English and my experience with customers here."
+        },
+        {
+          "prompt": "Can you tell me about a difficult situation at work and how you dealt with it?",
+          "hint": "Tell a short story in the past simple: the situation, what you did, and the result.",
+          "sample": "Last year a big order for one of our clients arrived a week late, and the client was very angry. I called him, apologised and explained the problem. Then I found another supplier who could deliver the next day. In the end the client was happy, and he still works with us."
+        },
+        {
+          "prompt": "What would you say is your greatest strength?",
+          "hint": "Name one strength and give a quick example that proves it.",
+          "sample": "I think my greatest strength is that I'm very organised. For example, in my current job I created a simple spreadsheet to track all our deliveries, and now the whole team uses it."
+        },
+        {
+          "prompt": "And what about a weakness? What are you working on at the moment?",
+          "hint": "Choose a real but small weakness, and say what you are doing to improve it.",
+          "sample": "Sometimes I find it hard to say no when colleagues ask for help, so I take on too much work. At the moment I'm learning to plan my week more carefully and to say honestly when I'm too busy."
+        },
+        {
+          "prompt": "Where do you see yourself in five years?",
+          "hint": "Use 'I'd like to…' or 'I hope to…', and keep your answer connected to this job.",
+          "sample": "In five years I'd like to be a team leader. I hope to learn a lot about international logistics here and, one day, manage a small team of my own."
+        },
+        {
+          "prompt": "Great. That's all from me. Do you have any questions for us?",
+          "hint": "Always ask at least one question — about the team, training or the next steps.",
+          "sample": "Yes, thank you. Could you tell me a bit more about the team I'd be working with? And what are the next steps in the process?"
+        }
+      ],
+      "phrases": [
+        "I've been working as … for …",
+        "One of my strengths is…",
+        "For example,…",
+        "At the moment I'm working on…",
+        "I'd like to develop my skills in…",
+        "Could you tell me a bit more about…",
+        "What are the next steps?"
+      ]
+    },
+    {
+      "id": "hotel-check-in-problem",
+      "title": "Hotel check-in problem",
+      "minLevel": "B1",
+      "category": "Travel",
+      "description": "You arrive at your hotel late in the evening, but there is a problem with your booking. Explain the situation politely and find a solution with the receptionist.",
+      "partnerRole": "Tom, the night receptionist at the Harbour View Hotel. He is polite and wants to help, but the hotel is almost full tonight, so he needs clear information before he can offer anything.",
+      "learnerGoal": "Explain the booking problem clearly, give your details, make polite requests, and agree on a solution you are happy with.",
+      "opening": "Good evening, and welcome to the Harbour View Hotel. Do you have a reservation with us?",
+      "guidedTurns": [
+        {
+          "prompt": "Let me have a look… Hmm, I'm sorry, I can't find a booking under that name. Did you book directly with us or through a website?",
+          "hint": "Say how and when you booked, and offer to show your confirmation email.",
+          "sample": "I booked through a travel website about two weeks ago. I've got the confirmation email on my phone. Would you like to see it?"
+        },
+        {
+          "prompt": "Ah, I see it now. It's for a double room for three nights, but it starts tomorrow, not tonight.",
+          "hint": "Stay calm and polite. Say what you expected, then ask if they can do anything.",
+          "sample": "Oh no, that's strange. I'm sure I chose today's date. I've had a very long journey and I'm really tired. Is there any chance you have a room for tonight?"
+        },
+        {
+          "prompt": "We're almost full tonight. I only have a small single room at the back. It's a bit noisy because it's next to the kitchen.",
+          "hint": "Ask a question before you decide: the price, breakfast, or how noisy it is.",
+          "sample": "That's fine for one night. How much is it? And does the price include breakfast?"
+        },
+        {
+          "prompt": "It's eighty pounds, and breakfast is included. Tomorrow you can move to the double room you booked.",
+          "hint": "Accept the offer and make one more polite request, for example about your luggage or checkout time.",
+          "sample": "Great, I'll take it. Could I leave my big suitcase here at reception tomorrow morning while I'm out? Then I can move it to the double room later."
+        },
+        {
+          "prompt": "Of course, no problem. Could I see your passport, please? And I'll need a card for any extras.",
+          "hint": "Hand over your documents and check an important detail, like the Wi-Fi or breakfast times.",
+          "sample": "Here you are. By the way, what's the Wi-Fi password? And what time is breakfast served?"
+        },
+        {
+          "prompt": "The password is on your key card, and breakfast is from seven to ten. Is there anything else I can help you with?",
+          "hint": "Thank the receptionist and finish the conversation politely.",
+          "sample": "No, that's everything. Thank you so much for your help — you've been really kind. Good night!"
+        }
+      ],
+      "phrases": [
+        "I have a reservation under the name…",
+        "I booked it through…",
+        "There seems to be a problem with…",
+        "Is there any chance you could…",
+        "Could I possibly…",
+        "Does the price include…",
+        "I'll take it.",
+        "Thank you for your help."
+      ]
+    },
+    {
+      "id": "restaurant",
+      "title": "At a restaurant",
+      "minLevel": "B1",
+      "category": "Food & drink",
+      "description": "You are having dinner at a busy restaurant. Order your food, ask about the menu, deal politely with a problem with your meal, and pay the bill.",
+      "partnerRole": "Lucia, a cheerful, chatty waiter at Olive & Thyme, a Mediterranean restaurant. She loves recommending dishes and is quick to fix any problem.",
+      "learnerGoal": "Ask about the menu, order a meal with a special request, politely point out a problem with your food, and ask for the bill.",
+      "opening": "Hi there, welcome to Olive & Thyme! Here are your menus. Can I get you something to drink while you decide?",
+      "guidedTurns": [
+        {
+          "prompt": "Lovely, I'll bring that right over. Are you ready to order, or do you need a few more minutes?",
+          "hint": "Ask about a dish or ask for a recommendation before you order.",
+          "sample": "I think I'm nearly ready. What's the chef's special today? And is it very spicy?"
+        },
+        {
+          "prompt": "Today's special is grilled lamb with roasted vegetables. It's not spicy at all. Would you like to try it?",
+          "hint": "Order clearly with 'I'll have…' or 'I'd like…', and add a special request if you have one.",
+          "sample": "Yes, I'll have the lamb, please. Could I have it without onions? I'm not a big fan of them. And a green salad on the side, please."
+        },
+        {
+          "prompt": "No problem at all. And how would you like the lamb cooked?",
+          "hint": "Common answers are rare, medium or well done.",
+          "sample": "Medium, please — not too pink in the middle."
+        },
+        {
+          "prompt": "So, how is everything? Are you enjoying your meal?",
+          "hint": "Your lamb is cold. Point out the problem politely with 'I'm sorry, but…' or 'Actually,…'.",
+          "sample": "Actually, the salad is lovely, but I'm afraid the lamb is quite cold. And there are some onions in the sauce. Could you take it back, please?"
+        },
+        {
+          "prompt": "Oh, I'm so sorry about that! I'll ask the kitchen to make you a fresh one right away. Can I bring you anything while you wait?",
+          "hint": "Accept the apology in a friendly way, then answer her question.",
+          "sample": "That's all right, these things happen. Could I have some more bread and another glass of water, please?"
+        },
+        {
+          "prompt": "Of course. And after that, would you like to see the dessert menu, or shall I bring you the bill?",
+          "hint": "Decide, ask for the bill, and check how you can pay.",
+          "sample": "I'm quite full, thanks, so just the bill, please. Can I pay by card? And is service included?"
+        }
+      ],
+      "phrases": [
+        "Could I see the menu, please?",
+        "What do you recommend?",
+        "I'll have the…",
+        "Could I have it without…",
+        "I'm afraid there's a problem with…",
+        "Could we have the bill, please?",
+        "Can I pay by card?"
+      ]
+    },
+    {
+      "id": "deadline-extension",
+      "title": "Asking a professor for an extension",
+      "minLevel": "B1+",
+      "category": "Education",
+      "description": "You need more time for an important essay. Visit your professor during her office hours, explain why, and politely ask for a deadline extension.",
+      "partnerRole": "Professor Helen Carter, who teaches your Environmental Economics course. She is fair and kind but quite strict about deadlines, and she wants to hear a genuine reason and a realistic plan.",
+      "learnerGoal": "Explain your situation honestly, make a polite, formal request, suggest a realistic new deadline, and thank the professor at the end.",
+      "opening": "Come in, come in. You're in my Tuesday seminar, aren't you? What can I do for you?",
+      "guidedTurns": [
+        {
+          "prompt": "I see. And what exactly is the problem with the essay?",
+          "hint": "Explain briefly and honestly. Use the past simple and past continuous for what happened.",
+          "sample": "Last week I was ill with flu, and I couldn't work for five days. I've finished my research, but I haven't started writing the main part yet."
+        },
+        {
+          "prompt": "I'm sorry to hear that. Did you see a doctor? We usually need some evidence for an extension.",
+          "hint": "Answer the question directly and offer to send documents.",
+          "sample": "Yes, I did. I went to the university health centre on Monday, and I have a note from the doctor. I can email it to you today, if that's OK."
+        },
+        {
+          "prompt": "Good. So how much extra time do you think you need?",
+          "hint": "Suggest a specific, realistic date and explain why it is enough.",
+          "sample": "Would it be possible to hand it in next Friday instead of this Friday? One more week would give me enough time to write it properly and check it carefully."
+        },
+        {
+          "prompt": "Let me check the calendar… The latest I can accept it is next Wednesday, because I have to send the marks to the department on Thursday. Would that work for you?",
+          "hint": "Accept or politely negotiate, and show that you understand her position.",
+          "sample": "I understand. Wednesday should be fine if I work on it over the weekend. Thank you — that's very fair."
+        },
+        {
+          "prompt": "Fine. Is there anything about the essay you're unsure about? I'm happy to help while you're here.",
+          "hint": "Ask one clear question about the task, for example the structure, sources or word count.",
+          "sample": "Actually, yes. I'm not sure what kind of sources I should use. Is it better to use academic articles, or can I also use news reports?"
+        },
+        {
+          "prompt": "Mostly academic articles, please — at least five. Right, is there anything else?",
+          "hint": "Sum up what you agreed and thank the professor politely.",
+          "sample": "No, that's all. So I'll send you the doctor's note today and submit the essay by next Wednesday. Thank you very much for your time and understanding."
+        }
+      ],
+      "phrases": [
+        "I'm sorry to bother you, but…",
+        "I was wondering if…",
+        "Would it be possible to…",
+        "The reason is that…",
+        "I'd really appreciate it if…",
+        "I understand if that's not possible.",
+        "Thank you for your understanding."
+      ]
+    },
+    {
+      "id": "work-meeting",
+      "title": "Team meeting",
+      "minLevel": "B1+",
+      "category": "Work",
+      "description": "Your team is planning a one-day training event for new employees. In the weekly meeting, give an update on your tasks, share ideas, disagree politely and agree on your next action.",
+      "partnerRole": "Daniel, your team leader. He runs efficient, friendly meetings, likes to hear everyone's ideas, and always finishes by checking who is doing what and by when.",
+      "learnerGoal": "Give a clear progress update, suggest an idea with a reason, politely disagree with one point, and agree on a task with a deadline.",
+      "opening": "Morning, everyone. Let's get started. The training day for new staff is in three weeks. Could you give us a quick update on the venue first?",
+      "guidedTurns": [
+        {
+          "prompt": "Thanks. And what about the budget? Have we spent much so far?",
+          "hint": "Use the present perfect for progress: 'We've already…', 'We haven't… yet'.",
+          "sample": "Not much. We've already paid the deposit for the room, which was three hundred euros. We haven't booked the catering yet because I'm still waiting for two quotes."
+        },
+        {
+          "prompt": "OK. Now, for the programme, I was thinking we could have presentations all morning. What do you think?",
+          "hint": "Disagree politely: accept part of the idea, then give your view with a reason.",
+          "sample": "I see what you mean, but I'm not sure four hours of presentations is a good idea. People might get bored. How about mixing short talks with some group activities?"
+        },
+        {
+          "prompt": "That's a fair point. What kind of group activities did you have in mind?",
+          "hint": "Give one or two concrete ideas and say how they would help.",
+          "sample": "For example, we could put new staff in small teams and give them a real problem to solve. That way they'd meet people from different departments and learn how we work."
+        },
+        {
+          "prompt": "I like that. Would you be happy to plan the activities, then?",
+          "hint": "Accept the task, but be realistic about your time. Ask for help if you need it.",
+          "sample": "Sure, I can do that. But I'm quite busy with the client report this week, so could someone from HR help me with it?"
+        },
+        {
+          "prompt": "Good idea — I'll ask Priya from HR to join you. When do you think you can send us a first plan?",
+          "hint": "Give a clear deadline with 'by' + a day or date.",
+          "sample": "I think I can send a first draft by Thursday afternoon. Then we can discuss it at next week's meeting."
+        },
+        {
+          "prompt": "Perfect. Before we finish, is there anything else anyone wants to add?",
+          "hint": "Add one final point, or say you have nothing to add, and close politely.",
+          "sample": "Just one thing: should we ask the new staff what they want to learn? We could send them a short survey before the event. Otherwise, that's all from me."
+        }
+      ],
+      "phrases": [
+        "Just a quick update on…",
+        "So far we've…",
+        "I see what you mean, but…",
+        "How about…",
+        "That's a fair point.",
+        "I'll take care of…",
+        "I can have it ready by…",
+        "Could we come back to that later?"
+      ]
+    },
+    {
+      "id": "networking-event",
+      "title": "Networking event",
+      "minLevel": "B1+",
+      "category": "Work",
+      "description": "You are at an industry networking event where you don't know anyone. Start a conversation with a stranger, talk about your work, find something in common and exchange contact details.",
+      "partnerRole": "James Okafor, a friendly project manager at a solar energy company. He is relaxed and curious, enjoys meeting new people, and likes telling stories about his projects abroad.",
+      "learnerGoal": "Start a conversation naturally, introduce yourself and your work, ask follow-up questions, find something in common, and end the conversation politely with a plan to stay in touch.",
+      "opening": "Hi, mind if I join you? It's getting a bit crowded over by the drinks. I'm James, by the way.",
+      "guidedTurns": [
+        {
+          "prompt": "Nice to meet you. So, what brings you here tonight?",
+          "hint": "Give a reason for coming and say a little about what you do.",
+          "sample": "Nice to meet you too. I work in marketing for a small travel company, and my manager suggested I come. I'm hoping to meet people from other industries and learn something new."
+        },
+        {
+          "prompt": "Oh, travel — that sounds fun. How long have you been doing that?",
+          "hint": "Use the present perfect with 'for' or 'since', then turn the question back to him.",
+          "sample": "I've been there for about two years. Before that I worked in a hotel, so I've always been in the travel industry in some way. What about you? What do you do?"
+        },
+        {
+          "prompt": "I'm a project manager at a solar energy company. We build solar farms, mostly in Asia. Right now we're working on a project in Mongolia, actually.",
+          "hint": "Show interest: react first, then ask a follow-up question.",
+          "sample": "Really? That's interesting — I'm from Mongolia! Which part of the country is the project in? And how are you finding it so far?"
+        },
+        {
+          "prompt": "It's in the Gobi, near Dalanzadgad. There's so much sunshine there. Have you ever been to that area?",
+          "hint": "Answer, then share a short personal story or opinion to build a connection.",
+          "sample": "Yes, I went there with my family a few years ago. It's beautiful, but it gets really hot in summer and very cold in winter. I think it's a perfect place for solar energy."
+        },
+        {
+          "prompt": "That's great to hear. You know, we sometimes need help with communication and local events. Do you ever do projects like that?",
+          "hint": "Describe your relevant skills briefly and show interest without being pushy.",
+          "sample": "Sometimes, yes. Last year I organised a few events for local tourism businesses. I'd be happy to hear more about what you need."
+        },
+        {
+          "prompt": "Brilliant. Well, I should go and say hello to a few people. It's been really nice talking to you.",
+          "hint": "Close politely and suggest a way to stay in touch.",
+          "sample": "You too, James. Shall we connect on LinkedIn? Here's my card. Maybe we could have a coffee next week and talk about the project."
+        }
+      ],
+      "phrases": [
+        "Mind if I join you?",
+        "What brings you here?",
+        "So what do you do?",
+        "How long have you been…",
+        "That sounds really interesting.",
+        "Here's my card.",
+        "Let's keep in touch.",
+        "It was great talking to you."
+      ]
+    },
+    {
+      "id": "making-friends",
+      "title": "Making new friends",
+      "minLevel": "B1",
+      "category": "Social",
+      "description": "You have just joined a weekend hiking club in a new city. During a break, chat with another member, get to know each other and make a plan to meet again.",
+      "partnerRole": "Emma, a friendly, talkative member of the hiking club who moved to the city two years ago. She remembers how hard it was to make friends, so she is very welcoming and asks lots of questions.",
+      "learnerGoal": "Introduce yourself, ask and answer personal questions, talk about your hobbies, find something in common and arrange to meet again.",
+      "opening": "Hi! You're new, aren't you? I'm Emma. Is this your first hike with the club?",
+      "guidedTurns": [
+        {
+          "prompt": "Welcome! So, are you from around here?",
+          "hint": "Say where you are from and why you are in this city.",
+          "sample": "No, I'm from Ulaanbaatar, in Mongolia. I moved here three months ago for work, so I don't know many people yet."
+        },
+        {
+          "prompt": "Oh wow, that's a big move! How are you finding life here?",
+          "hint": "Give an honest opinion: one good thing and one difficult thing.",
+          "sample": "I really like it. The city is beautiful and people are friendly. But the weather is much warmer than at home, and I sometimes miss my family."
+        },
+        {
+          "prompt": "I know that feeling — I moved here two years ago. So what do you like doing in your free time, apart from hiking?",
+          "hint": "Use 'I love / I enjoy / I'm into + -ing' and add a detail.",
+          "sample": "I love cooking, especially dishes from home. I also enjoy going to concerts, and I'm trying to learn the guitar at the moment."
+        },
+        {
+          "prompt": "Oh, nice. I'm really into photography — I take my camera on every hike. Do you like taking photos?",
+          "hint": "Answer, then ask Emma a question back to keep the conversation going.",
+          "sample": "I do, but I just use my phone at the moment. I'd like to buy a proper camera one day. How long have you been doing photography?"
+        },
+        {
+          "prompt": "About five years. There's a photography walk in the old town next Saturday. Would you like to come along?",
+          "hint": "Accept (or politely say no), and ask about the details: time and place.",
+          "sample": "I'd love to! What time does it start, and where should we meet?"
+        },
+        {
+          "prompt": "It starts at ten, outside the central library. Shall we swap numbers so I can send you the details?",
+          "hint": "Agree and end the chat in a friendly way.",
+          "sample": "Yes, good idea. Here's my number. Thanks so much, Emma — it's really nice to meet someone here. See you on Saturday!"
+        }
+      ],
+      "phrases": [
+        "Nice to meet you.",
+        "Where are you from originally?",
+        "How long have you lived here?",
+        "What do you do for fun?",
+        "I'm really into…",
+        "Me too!",
+        "Would you like to…",
+        "Shall we swap numbers?"
+      ]
+    },
+    {
+      "id": "debate-remote-work",
+      "title": "Friendly debate: remote work",
+      "minLevel": "B2",
+      "category": "Discussion",
+      "description": "Over coffee, a friend argues that everyone should go back to the office, but you think working from home has real benefits. Defend your view with reasons and examples, and respond to their arguments.",
+      "partnerRole": "Alex, a friend and marketing manager who strongly believes offices are better for teamwork and creativity. He enjoys a good argument and pushes back with counter-arguments, but he is open-minded and respectful.",
+      "learnerGoal": "State your opinion clearly, support it with reasons and examples, respond to counter-arguments, concede at least one point, and reach a balanced conclusion.",
+      "opening": "Honestly, I think remote work has gone too far. Companies should bring everyone back to the office at least four days a week. Don't you agree?",
+      "guidedTurns": [
+        {
+          "prompt": "But how can people be creative on video calls? The best ideas come from chatting by the coffee machine.",
+          "hint": "Partly agree, then challenge the idea with a counter-example.",
+          "sample": "I take your point about informal chats — they can be really useful. But I'm not convinced that creativity only happens in the office. Plenty of people come up with their best ideas when they have quiet time to think, and that's much easier at home."
+        },
+        {
+          "prompt": "Maybe, but what about new employees? How are they supposed to learn if nobody is around?",
+          "hint": "This is a strong argument. Concede it, then suggest a solution.",
+          "sample": "That's a fair point. New staff probably do need more time in the office, at least for the first few months. But that doesn't mean everyone has to be there four days a week. Companies could organise regular team days when new people can learn from others."
+        },
+        {
+          "prompt": "Hmm. And don't you think people just work less at home? There are so many distractions.",
+          "hint": "Support your view with evidence or personal experience.",
+          "sample": "Actually, a lot of research suggests the opposite: many people get more done at home because they don't waste time commuting. In my experience, it depends on the person. Some people need structure, while others work better on their own."
+        },
+        {
+          "prompt": "OK, but think about the cost for companies. They're paying for huge offices that are half empty.",
+          "hint": "Use this point to strengthen your argument, or suggest a compromise.",
+          "sample": "Exactly, and that's another reason why flexible working makes sense. If companies had smaller offices with shared desks, they could save money and still give people a place to meet when they need one."
+        },
+        {
+          "prompt": "So what would your ideal arrangement be, then?",
+          "hint": "Give a specific, balanced proposal with reasons.",
+          "sample": "Personally, I'd go for a hybrid model: two or three days in the office for meetings and teamwork, and the rest at home for focused work. It seems like the best of both worlds, as long as the team agrees on clear rules."
+        },
+        {
+          "prompt": "Well, I still think the office matters more than you do, but I can see your point. Shall we call it a draw?",
+          "hint": "Sum up where you agree and disagree, and finish on a friendly note.",
+          "sample": "Fair enough! I think we both agree that face-to-face contact matters, especially for new people. We just disagree about how often. Let's call it a draw — and the next coffee's on me."
+        }
+      ],
+      "phrases": [
+        "As far as I'm concerned,…",
+        "I take your point, but…",
+        "That's a fair point.",
+        "I'm not convinced that…",
+        "On the other hand,…",
+        "In my experience,…",
+        "It depends on…",
+        "Let's agree to disagree."
+      ]
+    },
+    {
+      "id": "presentation-qa",
+      "title": "Presentation Q&A",
+      "minLevel": "B2+",
+      "category": "Work",
+      "description": "You have just presented a proposal for a new customer feedback system at your company. Now answer challenging questions from a senior manager clearly and confidently.",
+      "partnerRole": "Richard Hale, the operations director. He is sharp, direct and a little sceptical of new ideas; he asks detailed questions about costs, risks and evidence, but he respects honest, well-reasoned answers.",
+      "learnerGoal": "Answer challenging questions clearly, support your answers with data, handle a question you can't fully answer honestly, and keep a confident, professional tone throughout.",
+      "opening": "Thank you, that was a very clear presentation. I do have a few questions, though. First of all, why do we need a new system at all? The current one seems to work reasonably well.",
+      "guidedTurns": [
+        {
+          "prompt": "Right, but you mentioned a cost of forty thousand dollars. How confident are you that we'll get that money back?",
+          "hint": "Refer back to your data and give a realistic, not exaggerated, estimate.",
+          "sample": "That's a very reasonable question. Based on the pilot we ran in the Singapore office, we expect to recover the cost within about eighteen months, mainly through fewer repeat complaints. Of course, that's an estimate, but it's a fairly conservative one."
+        },
+        {
+          "prompt": "Eighteen months is quite a long time. What are the main risks, in your view?",
+          "hint": "Name one or two risks honestly and explain how you would reduce them.",
+          "sample": "I'd say there are two main risks. The first is that staff might not use the system properly, which is why we've included a two-week training programme. The second is data security, so we'd work closely with the IT team before launching anything."
+        },
+        {
+          "prompt": "Could you say a bit more about the pilot? How many customers were involved, and what did it actually show?",
+          "hint": "Give precise figures and explain what the results mean.",
+          "sample": "Certainly. The pilot ran for three months and involved about two thousand customers. Repeat complaints fell by around twenty percent, and customer satisfaction rose from seventy-two to eighty-one percent."
+        },
+        {
+          "prompt": "And would this work in our smaller regional offices, where the teams have only three or four people?",
+          "hint": "If you are not sure, say so honestly and offer to find out.",
+          "sample": "That's a good question, and to be honest, I don't have the full data on that yet. The pilot was in a large office, so I'd rather not guess. I'll check with the regional managers and get back to you by the end of the week."
+        },
+        {
+          "prompt": "Fine. Let's say we approve it. What's the timeline?",
+          "hint": "Describe the stages clearly with sequencing language.",
+          "sample": "If we get approval this month, we'd spend the first six weeks on technical set-up and training. After that, we'd launch in two offices, review the results after three months, and then roll it out across the company in the second half of the year."
+        },
+        {
+          "prompt": "Alright. I'm not fully convinced yet, but I'm open to it. Is there anything you'd like to add?",
+          "hint": "Sum up your key message briefly and offer a next step.",
+          "sample": "Just to sum up: the system should reduce complaints, improve customer loyalty and pay for itself within two years. I'd be happy to send you the full pilot report and arrange a short demo for your team."
+        }
+      ],
+      "phrases": [
+        "That's a good question.",
+        "Could I just clarify what you mean by…",
+        "Based on our data,…",
+        "To be honest, I don't have that information right now, but…",
+        "I'll look into it and get back to you.",
+        "What I meant was…",
+        "Just to sum up,…"
+      ]
+    },
+    {
+      "id": "customer-service-complaint",
+      "title": "Customer service complaint",
+      "minLevel": "B1+",
+      "category": "Services",
+      "description": "You ordered a laptop online, but it arrived late and with a cracked screen. Call the shop's customer service line, explain the problem and ask for a solution.",
+      "partnerRole": "Nina, a customer service agent at TechHub, an online electronics shop. She is polite and patient but has to follow company procedures, so she asks for order details and first offers the cheapest solution.",
+      "learnerGoal": "Explain the problem clearly with details, stay polite but firm, say exactly what you want (a replacement or a refund), and confirm what will happen next.",
+      "opening": "Thank you for calling TechHub customer service. My name's Nina. How can I help you today?",
+      "guidedTurns": [
+        {
+          "prompt": "I'm sorry to hear that. Could I have your order number, please?",
+          "hint": "Give the number clearly, then describe the problem: what happened and when.",
+          "sample": "Yes, it's TH-4827. I ordered a laptop two weeks ago. It was supposed to arrive last Monday, but it came on Friday, and the screen was cracked when I opened the box."
+        },
+        {
+          "prompt": "Thank you. Did you notice any damage to the box when it was delivered?",
+          "hint": "Answer honestly and mention any evidence you have, such as photos.",
+          "sample": "The box was a bit damaged on one corner, but the driver left it outside my door, so I didn't see the delivery. I took photos of the box and the screen straight away."
+        },
+        {
+          "prompt": "OK. What I can offer you is a free repair. It usually takes about two weeks.",
+          "hint": "Be polite but firm. Explain why the offer isn't acceptable and say what you want.",
+          "sample": "I'm afraid that's not really acceptable. I paid for a new laptop, and it arrived broken. I need it for work, so I can't wait another two weeks. I'd like a replacement or a full refund, please."
+        },
+        {
+          "prompt": "I understand. Let me check with my manager… OK, we can send you a replacement. Or would you prefer a refund?",
+          "hint": "Choose one option and give a short reason.",
+          "sample": "A replacement, please. I still like the model, and I need it as soon as possible. When can you send it?"
+        },
+        {
+          "prompt": "We can deliver it by Wednesday, and our courier will collect the damaged laptop at the same time. Is that OK?",
+          "hint": "Check the details and ask what you need to do.",
+          "sample": "Yes, Wednesday is fine. Do I need to put the old laptop back in the original box? And will I get an email to confirm all this?"
+        },
+        {
+          "prompt": "Yes, please use the original box if you can, and you'll get a confirmation email within the next hour. Is there anything else I can do for you?",
+          "hint": "Confirm, thank the agent and end the call politely.",
+          "sample": "No, that's everything. Thank you for sorting this out so quickly, Nina. Have a good day."
+        }
+      ],
+      "phrases": [
+        "I'm calling about…",
+        "The problem is that…",
+        "It was supposed to arrive…",
+        "I'm afraid that's not acceptable.",
+        "I'd like a full refund.",
+        "Could you confirm that by email?",
+        "Thank you for sorting this out."
+      ]
+    },
+    {
+      "id": "doctor-visit",
+      "title": "Visiting a doctor",
+      "minLevel": "B1",
+      "category": "Health",
+      "description": "You have had a sore throat, a cough and a temperature for a few days, so you have an appointment with a family doctor. Describe your symptoms, answer her questions and make sure you understand her advice.",
+      "partnerRole": "Dr Anna Kowalski, a calm, patient family doctor. She speaks clearly, asks careful questions about symptoms, and always checks that her patients understand the treatment.",
+      "learnerGoal": "Describe your symptoms and how long you have had them, answer questions about your health, ask about the medicine, and check that you understand the advice.",
+      "opening": "Hello, come in and have a seat. What seems to be the problem today?",
+      "guidedTurns": [
+        {
+          "prompt": "I see. How long have you been feeling like this?",
+          "hint": "Use 'for' + a period of time, or 'since' + a starting point.",
+          "sample": "Since Sunday, so for about four days. It started with a sore throat, and now I've got a bad cough and a headache too."
+        },
+        {
+          "prompt": "Have you had a temperature?",
+          "hint": "Give details: when, how high, and what you took for it.",
+          "sample": "Yes, I had a temperature of thirty-eight on Monday night. I took some paracetamol and it went down a bit, but I still feel very tired."
+        },
+        {
+          "prompt": "Are you taking any other medicine at the moment? And do you have any allergies?",
+          "hint": "Answer both questions clearly. It's important to mention any allergies.",
+          "sample": "No, I'm not taking anything else. But I'm allergic to penicillin, so I can't take some antibiotics."
+        },
+        {
+          "prompt": "Thank you. Let me listen to your chest… OK, you have a chest infection, but it isn't serious. I'm going to give you some antibiotics.",
+          "hint": "Ask practical questions about the medicine: how often, for how long, with food?",
+          "sample": "Thank you. How often should I take them? And should I take them with food?"
+        },
+        {
+          "prompt": "Take one tablet three times a day with meals, for seven days. You should also rest and drink plenty of water.",
+          "hint": "Check you understood by repeating the instructions in your own words, and ask about work.",
+          "sample": "So, one tablet three times a day with food, for a week. Should I stay at home, or can I go back to work?"
+        },
+        {
+          "prompt": "Stay at home for the next two or three days. If you don't feel better by the end of the week, come back and see me.",
+          "hint": "Thank the doctor and say what you will do.",
+          "sample": "OK, I'll rest at home until Friday and come back if I don't feel better. Thank you very much, doctor."
+        }
+      ],
+      "phrases": [
+        "I've been feeling unwell since…",
+        "I've got a sore throat.",
+        "It started on…",
+        "I'm allergic to…",
+        "How often should I take it?",
+        "Should I stay at home?",
+        "So, just to check,…"
+      ]
+    },
+    {
+      "id": "dinner-at-colleagues-home",
+      "title": "Dinner at a colleague's home",
+      "minLevel": "B1",
+      "category": "Social",
+      "description": "A colleague has invited you to dinner at her home for the first time. Give your host a small gift, make small talk, compliment the food and leave politely at the end of the evening.",
+      "partnerRole": "Claire, a colleague from the finance department who loves cooking and having guests. She is a warm, relaxed host who likes talking about food, travel and her family, and she is curious about your culture.",
+      "learnerGoal": "Greet your host and give a gift, make small talk, compliment the food, answer questions about your culture, and thank your host when you leave.",
+      "opening": "Hi! Come in, come in. I'm so glad you could make it. Did you find the place all right?",
+      "guidedTurns": [
+        {
+          "prompt": "Let me take your coat. Dinner's almost ready. Can I get you something to drink first?",
+          "hint": "Answer politely. This is a good moment to give your gift: 'I brought you a little something.'",
+          "sample": "Just some water for now, thanks. Oh, and I brought you a little something — it's some tea from Mongolia. I hope you like it."
+        },
+        {
+          "prompt": "Here you are. Your English is really good, by the way. How long have you been learning?",
+          "hint": "Accept the compliment modestly and answer with the present perfect.",
+          "sample": "Thank you, that's kind of you to say. I've been learning for about six years, but I still make a lot of mistakes, especially when I'm nervous!"
+        },
+        {
+          "prompt": "Right, let's eat! I've made roast chicken with potatoes. Please help yourself to anything you like.",
+          "hint": "Compliment the food with a specific detail and ask a question about it.",
+          "sample": "Wow, this looks amazing. The chicken is delicious — really tender. How did you make it? Is it a family recipe?"
+        },
+        {
+          "prompt": "Thank you! It's my mum's recipe, actually. So tell me, what's a typical family dinner like in Mongolia?",
+          "hint": "Describe a typical meal or dish from your culture, with a few details.",
+          "sample": "It's usually quite simple. We eat a lot of meat, especially mutton, with noodles or rice. One of my favourite dishes is buuz — steamed dumplings filled with meat. We make hundreds of them for Lunar New Year."
+        },
+        {
+          "prompt": "That sounds wonderful. Would you like some more chicken? There's plenty left.",
+          "hint": "Accept or say no politely. 'I couldn't eat another thing' is a friendly way to refuse.",
+          "sample": "It's really delicious, but I couldn't eat another thing, thank you. I'm completely full."
+        },
+        {
+          "prompt": "Oh, look at the time — it's nearly eleven! It's been such a lovely evening.",
+          "hint": "Thank your host, say something nice about the evening, and suggest meeting again.",
+          "sample": "It really has. Thank you so much for having me, Claire — the food was fantastic. Next time you must come to my place, and I'll make buuz for you!"
+        }
+      ],
+      "phrases": [
+        "Thanks for inviting me.",
+        "I brought you a little something.",
+        "This looks amazing!",
+        "This is delicious.",
+        "Could you pass the…",
+        "I couldn't eat another thing.",
+        "Thank you for having me.",
+        "Next time you must come to my place."
+      ]
+    }
+  ]
+}

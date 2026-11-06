@@ -1,0 +1,638 @@
+{
+  "level": "B1",
+  "title": "B1 level exam",
+  "reading": [
+    {
+      "id": "b1x-repair-cafes",
+      "title": "Don't throw it away — fix it!",
+      "genre": "article",
+      "text": [
+        "What do you do when your toaster stops working or your favourite jeans get a hole? Most people simply throw them away and buy new ones. But in towns around the world, more and more people are taking their broken things to a repair café instead.",
+        "The first repair café opened in Amsterdam in 2009. The idea came from Martine Postma, a journalist who was worried about how much people were throwing away. Today there are more than 2,500 repair cafés in over 40 countries. Most of them meet once a month in a library, a church hall or a community centre.",
+        "It works like this. Visitors bring a broken item, and volunteers with useful skills, such as electricians, tailors and bike mechanics, help them to repair it. The repairs are free, although most cafés ask for a small donation. While they wait, visitors can have a cup of tea and chat with their neighbours.",
+        "The volunteers don't just fix things for people — they fix things with them. 'I want visitors to watch and learn,' says Peter Hollis, a retired engineer who helps at a café in Bristol. 'Next time, they might be able to do it themselves.' About 60% of the items are repaired successfully. The most common ones are lamps, coffee machines, clothes and bicycles.",
+        "Supporters say repair cafés are good for the environment because fewer things end up in rubbish dumps. But for many visitors, the social side is just as important. As one regular visitor says, 'I came to fix a radio, but I stayed because of the people.'"
+      ],
+      "glossary": [
+        { "term": "volunteer", "meaning": "a person who works without being paid", "mn": "сайн дурын ажилтан" },
+        { "term": "tailor", "meaning": "a person whose job is making or repairing clothes", "mn": "оёдолчин" },
+        { "term": "rubbish dump", "meaning": "a place where rubbish is left", "mn": "хогийн цэг" }
+      ],
+      "questions": [
+        {
+          "type": "mcq",
+          "tag": "main_idea",
+          "prompt": "What is the article mainly about?",
+          "options": [
+            "Why modern products break so easily",
+            "Places where people repair broken things together",
+            "How to start a bike repair business",
+            "A popular café chain from Amsterdam"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "tfng",
+          "tag": "detail",
+          "prompt": "Martine Postma was an engineer.",
+          "answer": "false",
+          "explanation": "She was a journalist. The engineer in the article is Peter Hollis."
+        },
+        {
+          "type": "tfng",
+          "tag": "detail",
+          "prompt": "Visitors usually wait more than an hour for their repair.",
+          "answer": "not_given",
+          "explanation": "The article says visitors have tea while they wait, but it doesn't say how long they wait."
+        },
+        {
+          "type": "mcq",
+          "tag": "inference",
+          "prompt": "Why does Peter Hollis want visitors to watch the repairs?",
+          "options": [
+            "Because he needs help with difficult repairs",
+            "So that they can't complain about the result",
+            "So that they can fix things on their own in the future",
+            "Because there aren't enough volunteers"
+          ],
+          "answer": 2,
+          "explanation": "He says, 'Next time, they might be able to do it themselves.'"
+        },
+        {
+          "type": "short",
+          "tag": "vocab_context",
+          "prompt": "Find a word in paragraph 3 that means 'money you give to help an organisation'.",
+          "answers": ["donation"]
+        },
+        {
+          "type": "summary",
+          "tag": "summary",
+          "prompt": "Complete the summary with words from the box.",
+          "text": "The first repair café opened in {1} in 2009. At repair cafés, volunteers help visitors to fix their broken things for {2}. Around {3} of the items are repaired successfully. For many visitors, meeting people is just as {4} as getting things fixed.",
+          "bank": ["Amsterdam", "Bristol", "free", "money", "60%", "40%", "important", "expensive"],
+          "answers": ["Amsterdam", "free", "60%", "important"]
+        }
+      ]
+    },
+    {
+      "id": "b1x-no-shopping-month",
+      "title": "One month, no shopping: what I learned",
+      "genre": "blog",
+      "text": [
+        "I used to be the kind of person who bought something almost every day. Nothing expensive — a coffee, a phone case, a T-shirt on offer. But in January, when I checked my bank statement, I was shocked. I had spent nearly £400 on things I didn't really need. So I decided to try a challenge: for the whole of February, I would buy nothing except food, medicine and bus tickets.",
+        "The first week was the hardest. I get lots of emails from online shops, and every time I saw 'Everything half price — today only!', I wanted to click. So I unsubscribed from almost all of them. I also stopped going to the shops at lunchtime and took a packed lunch to work, which I usually ate in the park with a colleague.",
+        "By the second week, I noticed some changes. I was spending more time with things I already had. I finally read three books that I had bought the year before, and I cooked meals with whatever was in the cupboard. When my headphones broke, I didn't buy new ones. My brother lent me his old pair instead.",
+        "Not everything was easy. It was my friend Leo's birthday, and I couldn't buy him a present. I felt a bit embarrassed, so I made him a card and baked his favourite chocolate cake. He said it was the best present he got that year, which was really kind of him.",
+        "At the end of the month, I had saved £320. I've put most of it into a savings account for a trip to Portugal this summer. Will I do it again? Probably not for a whole month, but I've changed some of my habits. Now I wait 48 hours before I buy anything that isn't essential. If I still want it after two days, I buy it. Most of the time, I don't."
+      ],
+      "glossary": [
+        { "term": "bank statement", "meaning": "a document that shows the money going into and out of your bank account", "mn": "дансны хуулга" },
+        { "term": "unsubscribe", "meaning": "to stop receiving emails or messages from a company", "mn": "(имэйл, мэдээллийн) захиалгаа цуцлах" },
+        { "term": "packed lunch", "meaning": "food you prepare at home and take with you to eat later", "mn": "гэрээсээ бэлдэж авч явсан өдрийн хоол" },
+        { "term": "savings account", "meaning": "a bank account for keeping money that you want to save", "mn": "хадгаламжийн данс" }
+      ],
+      "questions": [
+        {
+          "type": "mcq",
+          "tag": "purpose",
+          "prompt": "Why did the writer write this blog post?",
+          "options": [
+            "To advertise a new savings account",
+            "To complain about emails from online shops",
+            "To share tips for cooking cheap meals",
+            "To describe a month without shopping"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "tfng",
+          "tag": "detail",
+          "prompt": "During the challenge, the writer was allowed to buy bus tickets.",
+          "answer": "true",
+          "explanation": "The writer decided to buy nothing except food, medicine and bus tickets."
+        },
+        {
+          "type": "tfng",
+          "tag": "detail",
+          "prompt": "The writer's colleague also stopped shopping for a month.",
+          "answer": "not_given",
+          "explanation": "The colleague only ate lunch with the writer. We don't know about the colleague's shopping."
+        },
+        {
+          "type": "order",
+          "tag": "detail",
+          "prompt": "Put these events in the order they happened.",
+          "items": [
+            "The writer was shocked by a bank statement.",
+            "The writer unsubscribed from online shop emails.",
+            "The writer's brother lent the writer his old headphones.",
+            "The writer put money into a savings account."
+          ]
+        },
+        {
+          "type": "mcq",
+          "tag": "inference",
+          "prompt": "How did Leo feel about the writer's present?",
+          "options": ["He was pleased.", "He was disappointed.", "He was embarrassed.", "He was confused."],
+          "answer": 0,
+          "explanation": "Leo said it was the best present he got that year. It was the writer who felt embarrassed."
+        },
+        {
+          "type": "short",
+          "tag": "detail",
+          "prompt": "What does the writer do now before buying something that isn't essential?",
+          "answers": [
+            "wait 48 hours",
+            "wait for 48 hours",
+            "wait two days",
+            "wait for two days",
+            "wait 2 days",
+            "wait forty-eight hours"
+          ]
+        }
+      ]
+    }
+  ],
+  "listening": [
+    {
+      "id": "b1x-getting-fit",
+      "title": "Getting fit",
+      "kind": "conversation",
+      "context": "Maria asks her friend Ben for advice because she wants to join a gym.",
+      "speakers": [
+        { "name": "Maria", "voice": "female", "accent": "en-GB" },
+        { "name": "Ben", "voice": "male", "accent": "en-GB" }
+      ],
+      "lines": [
+        { "speaker": "Maria", "text": "Ben, can I ask you something? I'm thinking of joining a gym. You go to one, don't you?" },
+        { "speaker": "Ben", "text": "I used to, but I stopped last year. It was too expensive, and I got bored of the machines." },
+        { "speaker": "Maria", "text": "Oh, really? How much was it?" },
+        { "speaker": "Ben", "text": "Thirty-five pounds a month. And I only went about twice a week, so it wasn't worth it." },
+        { "speaker": "Maria", "text": "Hmm. The one near my office is forty pounds, but it opens at six in the morning, so I could go before work." },
+        { "speaker": "Ben", "text": "Are you really going to get up at half past five? You hate mornings!" },
+        { "speaker": "Maria", "text": "Well, that's true. I'm not very good at getting up early. So what do you do now?" },
+        { "speaker": "Ben", "text": "I've joined a running club. It's free, and we meet in Riverside Park on Tuesday and Thursday evenings at seven." },
+        { "speaker": "Maria", "text": "Free? That's amazing. But I'm not fit enough. I can't run for more than ten minutes." },
+        { "speaker": "Ben", "text": "Don't worry, there's a beginners' group. They run and walk for the first few weeks. Lots of people start that way." },
+        { "speaker": "Maria", "text": "OK, that sounds less scary. Is there a session this Thursday?" },
+        { "speaker": "Ben", "text": "Yes. If you like, I'll meet you at the park gate at quarter to seven and introduce you to the coach." },
+        { "speaker": "Maria", "text": "Great, let's do that. And if I don't like it, I can still join the gym." }
+      ],
+      "gist": [
+        {
+          "type": "mcq",
+          "tag": "main_idea",
+          "prompt": "What are Maria and Ben mainly talking about?",
+          "options": [
+            "Ben's new job at a gym",
+            "A running race in Riverside Park",
+            "How Maria can get more exercise",
+            "Why gyms are getting more expensive"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "tag": "main_idea",
+          "prompt": "What does Maria decide to do?",
+          "options": [
+            "Join the gym near her office",
+            "Run on her own every morning",
+            "Go to Ben's old gym",
+            "Try the running club on Thursday"
+          ],
+          "answer": 3
+        }
+      ],
+      "detail": [
+        {
+          "type": "mcq",
+          "tag": "detail",
+          "prompt": "Why did Ben stop going to the gym?",
+          "options": [
+            "It was expensive and he got bored.",
+            "He hurt his knee.",
+            "He moved to a new area.",
+            "It closed down last year."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "gap",
+          "tag": "detail",
+          "prompt": "The gym near Maria's office costs £___ a month.",
+          "answers": ["40", "forty", "£40"]
+        },
+        {
+          "type": "tfng",
+          "tag": "detail",
+          "prompt": "Maria likes getting up early.",
+          "answer": "false",
+          "explanation": "She says she isn't very good at getting up early, and Ben says she hates mornings."
+        },
+        {
+          "type": "short",
+          "tag": "detail",
+          "prompt": "Where will Ben meet Maria on Thursday?",
+          "answers": ["at the park gate", "park gate"]
+        }
+      ],
+      "expressions": [
+        { "phrase": "it wasn't worth it", "meaning": "it didn't give enough value for the money or effort", "mn": "төлсөн мөнгөндөө хүрэхгүй, ашиггүй байсан" },
+        { "phrase": "I'm not fit enough", "meaning": "my body isn't strong or healthy enough for this activity", "mn": "миний бие бялдар хангалттай сайн биш" },
+        { "phrase": "that sounds less scary", "meaning": "that seems easier and less frightening than I thought", "mn": "тийм ч айхтар биш юм шиг санагдаж байна" }
+      ]
+    },
+    {
+      "id": "b1x-car-free-day",
+      "title": "Car-Free Day",
+      "kind": "announcement",
+      "context": "A presenter on a local radio station gives information about an event this weekend.",
+      "speakers": [{ "name": "Chris", "voice": "male", "accent": "en-US" }],
+      "lines": [
+        { "speaker": "Chris", "text": "Good morning, everyone, and here's some news for people in Westfield. This Sunday is our town's third Car-Free Day." },
+        { "speaker": "Chris", "text": "From nine in the morning until six in the evening, the town centre will be closed to cars, so please don't try to drive into town." },
+        { "speaker": "Chris", "text": "Getting there is easy, though. All buses are free on Sunday, and they'll run every ten minutes instead of every twenty." },
+        { "speaker": "Chris", "text": "There's lots to do. The main street is turned into a big market, with food stalls, live music and games for children." },
+        { "speaker": "Chris", "text": "There's also a free cycling lesson for adults who never learned to ride a bike. It starts at eleven outside the library, and you don't need to book. Just turn up." },
+        { "speaker": "Chris", "text": "The event is organised by the town council, and last year it was visited by more than twenty thousand people." },
+        { "speaker": "Chris", "text": "The forecast looks good: sunny, but a bit windy in the afternoon, so you might want to bring a jacket." },
+        { "speaker": "Chris", "text": "For a map of the closed roads, have a look at the council's website. Enjoy your Sunday!" }
+      ],
+      "gist": [
+        {
+          "type": "mcq",
+          "tag": "purpose",
+          "prompt": "What is the main purpose of the announcement?",
+          "options": [
+            "To warn people about bad weather on Sunday",
+            "To give information about a town event on Sunday",
+            "To ask people to join a cycling club",
+            "To advertise a new bus route"
+          ],
+          "answer": 1
+        }
+      ],
+      "detail": [
+        {
+          "type": "mcq",
+          "tag": "detail",
+          "prompt": "How often will the buses run on Sunday?",
+          "options": ["Every twenty minutes", "Every five minutes", "Every ten minutes", "Every thirty minutes"],
+          "answer": 2
+        },
+        {
+          "type": "tfng",
+          "tag": "detail",
+          "prompt": "Adults have to book the cycling lesson in advance.",
+          "answer": "false",
+          "explanation": "The presenter says you don't need to book — just turn up."
+        },
+        {
+          "type": "short",
+          "tag": "detail",
+          "prompt": "Who organises Car-Free Day?",
+          "answers": ["the town council", "the council"]
+        },
+        {
+          "type": "gap",
+          "tag": "detail",
+          "prompt": "Last year, more than ___ people came to Car-Free Day.",
+          "answers": ["20,000", "20000", "20 000", "twenty thousand"]
+        }
+      ],
+      "expressions": [
+        { "phrase": "closed to cars", "meaning": "cars are not allowed to go there", "mn": "машин нэвтрэхийг хаасан" },
+        { "phrase": "is turned into", "meaning": "is changed into something different", "mn": "…болгон хувиргагдана" },
+        { "phrase": "just turn up", "meaning": "just come, without booking or planning", "mn": "урьдчилан бүртгүүлэлгүй шууд ирэх" }
+      ]
+    }
+  ],
+  "writing": {
+    "id": "b1x-visitor-email",
+    "type": "email_informal",
+    "prompt": "Your English-speaking friend Sam is visiting your city for a weekend next month and has asked for your advice. Write an email to Sam (120–160 words). Suggest places to visit, food Sam should try, the best way to get around, and what to bring.",
+    "promptMn": "Англиар ярьдаг найз Сэм тань ирэх сард таны хотод амралтын өдрүүдээр зочлохоор ирэх гэж байгаа бөгөөд танаас зөвлөгөө хүссэн байна. Сэмд имэйл бичээрэй (120–160 үг): үзэх газрууд, заавал амсаж үзэх хоол, хотоор зорчих хамгийн тохиромжтой арга, юу авч ирэх талаар зөвлөөрэй.",
+    "register": "informal",
+    "minWords": 120,
+    "maxWords": 160,
+    "points": [
+      "A friendly opening that reacts to Sam's news",
+      "Two places to visit and why (comparatives and superlatives)",
+      "Food Sam should try (should / have to)",
+      "The best way to get around",
+      "What to bring (first conditional: If it's cold, …)",
+      "A friendly ending with a plan (future forms)"
+    ],
+    "phrases": [
+      "It's great to hear that…",
+      "You should definitely…",
+      "It's one of the best…",
+      "If you like…, you'll love…",
+      "Don't forget to…",
+      "Let me know…",
+      "See you soon,"
+    ],
+    "targetWords": ["recommend", "sightseeing", "crowded", "public transport", "worth"],
+    "sample": "Hi Sam,\n\nIt's great to hear that you're coming to Ulaanbaatar next month! I can't wait to see you.\n\nOn Saturday morning you should definitely visit Gandan Monastery. It's one of the most beautiful places in the city, and it's much quieter before lunch. After that, we could go to the National Museum, which is the best place to learn about Mongolian history.\n\nYou have to try buuz and khuushuur while you're here. If you like meat, you'll love them! I know a small restaurant near my flat that isn't too expensive.\n\nGetting around is easy. Buses are cheap, but taxis are more comfortable, especially late in the evening.\n\nOne more thing: October can be really cold here, so bring a warm coat and a hat.\n\nLet me know when your flight arrives, and I'll meet you at the airport.\n\nSee you soon,\nBat"
+  },
+  "speaking": {
+    "id": "b1x-city-or-town",
+    "type": "opinion",
+    "prompt": "Would you prefer to live in a big city or in a small town? Give your opinion with reasons and examples from your own life, and say what you would change about the place where you live now if you could.",
+    "promptMn": "Та том хотод эсвэл жижиг хотод амьдрахыг илүүд үзэх үү? Өөрийн амьдралаас жишээ татаж, шалтгаанаа тайлбарлан санал бодлоо хэлээрэй. Мөн боломж байсан бол одоо амьдарч буй газартаа юуг өөрчлөхийг хүсэхээ хэлээрэй.",
+    "points": [
+      "Your preference and the main reason",
+      "Advantages and disadvantages of each (comparatives)",
+      "An example from your own experience (past simple)",
+      "What you would change if you could (second conditional)"
+    ],
+    "phrases": [
+      "To be honest, I'd prefer…",
+      "The main reason is that…",
+      "On the other hand,…",
+      "For example, last…",
+      "If I could change one thing, I'd…"
+    ],
+    "targetWords": ["crowded", "traffic", "pollution", "public transport", "peaceful"],
+    "prepSeconds": 45,
+    "speakSeconds": 120,
+    "sample": "I live in Ulaanbaatar, the biggest city in Mongolia, but to be honest, I'd prefer to live in a smaller town. The main reason is the traffic. The city is much more crowded than it used to be, and it sometimes takes me an hour to get to work. Air pollution is also a big problem in winter. On the other hand, big cities have a lot of advantages. There are more jobs, better hospitals and more things to do in your free time. For example, last weekend I went to a concert and then tried a new restaurant — you can't do that in a small village. So for me, the best choice is a peaceful town that isn't too far from a big city. If I could change one thing about Ulaanbaatar, I'd improve public transport. If there were more buses and a metro, fewer people would drive, and the air would be much cleaner."
+  },
+  "questions": [
+    {
+      "type": "mcq",
+      "skill": "grammar",
+      "tag": "state_verbs",
+      "prompt": "Mmm, this soup ___ delicious! What's in it?",
+      "options": ["is tasting", "tastes", "taste", "tasting"],
+      "answer": 1,
+      "explanation": "Here 'taste' describes the soup, so it is a state verb: use the present simple, not the present continuous.",
+      "explanationMn": "Энд 'taste' нь шөлний амтыг тодорхойлж буй төлөвийн үйл үг тул энгийн одоо цаг (tastes) хэрэглэнэ, үргэлжилсэн цаг хэрэглэхгүй."
+    },
+    {
+      "type": "gap",
+      "skill": "grammar",
+      "tag": "past_continuous",
+      "prompt": "Someone knocked at the door while I ___ (watch) TV.",
+      "answers": ["was watching"],
+      "explanation": "Use the past continuous for a longer action in progress (watching TV) that a shorter action (knocked) interrupted.",
+      "explanationMn": "Богино үйлдлээр (knocked) тасалдсан, тухайн үед үргэлжилж байсан урт үйлдлийг өнгөрсөн үргэлжилсэн цагаар (was watching) илэрхийлнэ."
+    },
+    {
+      "type": "transform",
+      "skill": "grammar",
+      "tag": "used_to",
+      "prompt": "Rewrite the sentence so that it means the same. Use the word given.",
+      "sentence": "As a child, I played football every weekend, but I don't play now.",
+      "keyword": "used",
+      "answers": [
+        "I used to play football every weekend.",
+        "As a child, I used to play football every weekend.",
+        "I used to play football every weekend as a child.",
+        "When I was a child, I used to play football every weekend.",
+        "I used to play football every weekend when I was a child.",
+        "As a child, I used to play football every weekend, but I don't play now.",
+        "As a child, I used to play football every weekend, but I don't now."
+      ],
+      "explanation": "'Used to + infinitive' describes a past habit that is not true any more.",
+      "explanationMn": "'Used to + үйл үг' нь одоо байхгүй болсон, өнгөрсөн үеийн зуршлыг илэрхийлнэ."
+    },
+    {
+      "type": "error",
+      "skill": "grammar",
+      "tag": "comparatives",
+      "prompt": "Tap the part of the sentence with the mistake.",
+      "segments": ["Travelling by train", "is more cheaper", "than flying,", "but it takes longer."],
+      "wrongIndex": 1,
+      "correction": "is cheaper",
+      "explanation": "Don't use 'more' with a one-syllable adjective: cheap → cheaper.",
+      "explanationMn": "Нэг үетэй тэмдэг нэрийн өмнө 'more' хэрэглэхгүй: cheap → cheaper."
+    },
+    {
+      "type": "gap",
+      "skill": "grammar",
+      "tag": "too_enough",
+      "prompt": "There ___ chairs for everyone — we need five more.",
+      "answers": ["aren't enough"],
+      "options": ["aren't enough", "isn't enough", "are too many", "aren't too"],
+      "explanation": "'Chairs' is a plural countable noun, so use 'aren't enough' (not enough = fewer than we need).",
+      "explanationMn": "'Chairs' тоологдох, олон тоотой нэр үг тул 'aren't enough' (хангалттай биш) гэнэ."
+    },
+    {
+      "type": "transform",
+      "skill": "grammar",
+      "tag": "present_perfect",
+      "prompt": "Rewrite the sentence so that it means the same. Use the word given.",
+      "sentence": "I started working at this company three years ago, and I still work here.",
+      "keyword": "for",
+      "answers": [
+        "I have worked at this company for three years.",
+        "I have been working at this company for three years.",
+        "I have worked here for three years.",
+        "I have been working here for three years.",
+        "I have been at this company for three years."
+      ],
+      "explanation": "Use the present perfect with 'for' + a period of time for something that started in the past and continues now.",
+      "explanationMn": "Өнгөрсөнд эхлээд одоо ч үргэлжилж байгаа зүйлд одоо төгссөн цаг + 'for' + хугацаа хэрэглэнэ."
+    },
+    {
+      "type": "correct",
+      "skill": "grammar",
+      "tag": "just_already_yet",
+      "prompt": "Correct the mistake in the sentence.",
+      "sentence": "I haven't finished my homework already.",
+      "answers": ["I haven't finished my homework yet.", "I have not finished my homework yet."],
+      "explanation": "Use 'yet' in negative sentences and questions. 'Already' is for things that happened sooner than expected.",
+      "explanationMn": "Үгүйсгэх болон асуух өгүүлбэрт 'yet' хэрэглэнэ. 'Already' нь хүлээж байснаас эрт болсон зүйлд хэрэглэгдэнэ."
+    },
+    {
+      "type": "gap",
+      "skill": "grammar",
+      "tag": "first_conditional",
+      "prompt": "If you practise every day, you ___ speak much more fluently by the summer.",
+      "answers": ["will be able to"],
+      "options": ["will can", "are able", "can to", "will be able to"],
+      "explanation": "First conditional: if + present simple, will + infinitive. 'Can' has no future form, so use 'will be able to'.",
+      "explanationMn": "Нэгдүгээр нөхцөлт өгүүлбэр: if + энгийн одоо цаг, will + үйл үг. 'Can' ирээдүй цагийн хэлбэргүй тул 'will be able to' хэрэглэнэ."
+    },
+    {
+      "type": "mcq",
+      "skill": "grammar",
+      "tag": "polite_requests",
+      "prompt": "Would you mind ___ the window? It's a bit cold in here.",
+      "options": ["close", "to close", "closing", "closed"],
+      "answer": 2,
+      "explanation": "'Would you mind' is a polite request and is followed by the -ing form.",
+      "explanationMn": "'Would you mind' нь эелдэг хүсэлт бөгөөд араасаа үйл үгийн -ing хэлбэр авна."
+    },
+    {
+      "type": "mcq",
+      "skill": "grammar",
+      "tag": "so_such",
+      "prompt": "I was ___ that I fell asleep in the middle of the film.",
+      "options": ["so boring", "such bored", "such boring", "so bored"],
+      "answer": 3,
+      "explanation": "'Bored' describes how a person feels ('boring' describes the film). Use 'so' + adjective; 'such' needs a noun (such a boring film).",
+      "explanationMn": "'Bored' нь хүний мэдрэмжийг, 'boring' нь тухайн зүйлийг тодорхойлно. Дан тэмдэг нэрийн өмнө 'so', нэр үгтэй бол 'such' хэрэглэнэ (such a boring film)."
+    },
+    {
+      "type": "transform",
+      "skill": "grammar",
+      "tag": "second_conditional",
+      "prompt": "Rewrite the sentence so that it means the same. Use the word given.",
+      "sentence": "I don't have enough money, so I can't buy a new car.",
+      "keyword": "would",
+      "answers": [
+        "If I had enough money, I would buy a new car.",
+        "I would buy a new car if I had enough money.",
+        "If I had enough money, I would be able to buy a new car.",
+        "I would be able to buy a new car if I had enough money."
+      ],
+      "explanation": "Second conditional for an unreal present situation: if + past simple, would + infinitive.",
+      "explanationMn": "Одоогийн бодит бус нөхцөлийг хоёрдугаар нөхцөлт өгүүлбэрээр илэрхийлнэ: if + өнгөрсөн энгийн цаг, would + үйл үг."
+    },
+    {
+      "type": "words",
+      "skill": "grammar",
+      "tag": "passive_relative",
+      "prompt": "Put the words in the correct order to make a sentence.",
+      "answer": "The bridge which was built in 1890 is still used today.",
+      "alternatives": ["The bridge which is still used today was built in 1890."],
+      "distractors": ["who", "building"],
+      "explanation": "Use 'which' (or 'that') for things, not 'who'. Use the passive ('was built', 'is used') because we don't say who built or uses it.",
+      "explanationMn": "Юмсын хувьд 'who' биш 'which' (эсвэл 'that') хэрэглэнэ. Хэн барьсан, хэн ашигладаг нь чухал биш тул идэвхгүй хэв (was built, is used) хэрэглэнэ."
+    },
+    {
+      "type": "mcq",
+      "skill": "vocabulary",
+      "tag": "personality",
+      "prompt": "My grandfather never gets angry, even when he has to wait for a long time. He's very ___.",
+      "options": ["patient", "generous", "ambitious", "reliable"],
+      "answer": 0,
+      "explanation": "A patient person can wait calmly without getting angry.",
+      "explanationMn": "Patient — тэвчээртэй; уурлалгүй, тайван хүлээж чаддаг хүн."
+    },
+    {
+      "type": "gap",
+      "skill": "vocabulary",
+      "tag": "home_city",
+      "prompt": "I live in a quiet ___ about twenty minutes from the city centre.",
+      "answers": ["neighbourhood", "neighborhood"],
+      "options": ["countryside", "neighbourhood", "landscape", "capital"],
+      "explanation": "A neighbourhood is an area of a town or city where people live.",
+      "explanationMn": "Neighbourhood — хотын нэг хэсэг, хүмүүсийн амьдардаг хороолол."
+    },
+    {
+      "type": "gap",
+      "skill": "vocabulary",
+      "tag": "collocation",
+      "prompt": "The doctor told me to ___ more exercise and eat less sugar.",
+      "answers": ["do"],
+      "options": ["do", "make", "play", "go"],
+      "explanation": "We say 'do exercise', not 'make exercise'.",
+      "explanationMn": "'Do exercise' гэж хэлнэ, 'make exercise' гэж хэлэхгүй."
+    },
+    {
+      "type": "gap",
+      "skill": "vocabulary",
+      "tag": "travel",
+      "prompt": "Our flight was ___ by three hours because of heavy snow, so we had a long wait at the airport.",
+      "answers": ["delayed", "held up", "postponed"],
+      "explanation": "A delayed flight leaves later than planned.",
+      "explanationMn": "Delayed — хойшилсон, төлөвлөснөөс хожуу хөдөлсөн."
+    },
+    {
+      "type": "mcq",
+      "skill": "vocabulary",
+      "tag": "work",
+      "prompt": "If you get promoted, you…",
+      "options": [
+        "lose your job",
+        "move to a more important position",
+        "start working part-time",
+        "stop working because of your age"
+      ],
+      "answer": 1,
+      "explanation": "If you are promoted, you get a higher, more important position at work.",
+      "explanationMn": "Promoted — ажил дээрээ албан тушаал нь дэвшсэн."
+    },
+    {
+      "type": "gap",
+      "skill": "vocabulary",
+      "tag": "education",
+      "prompt": "I have to hand in my history essay tomorrow — the ___ is 9 a.m.",
+      "answers": ["deadline"],
+      "explanation": "A deadline is the time by which you must finish something.",
+      "explanationMn": "Deadline — ажлыг дуусгаж өгөх ёстой эцсийн хугацаа."
+    },
+    {
+      "type": "gap",
+      "skill": "vocabulary",
+      "tag": "technology",
+      "prompt": "Don't forget to ___ your files before you update the software, in case something goes wrong.",
+      "answers": ["back up"],
+      "options": ["log in", "turn down", "back up", "set off"],
+      "explanation": "To back up files means to make a copy of them so that you don't lose them.",
+      "explanationMn": "Back up — файлаа алдахгүйн тулд нөөц хуулбар хийх."
+    },
+    {
+      "type": "mcq",
+      "skill": "vocabulary",
+      "tag": "free_time",
+      "prompt": "I've just ___ yoga — I go to a class twice a week now, and I love it.",
+      "options": ["given up", "looked up", "put off", "taken up"],
+      "answer": 3,
+      "explanation": "To take up a hobby means to start doing it. 'Give up' means to stop.",
+      "explanationMn": "Take up — шинэ хобби эхлэх; give up — болих, орхих."
+    },
+    {
+      "type": "error",
+      "skill": "vocabulary",
+      "tag": "shopping",
+      "prompt": "Tap the part of the sentence with the mistake.",
+      "segments": ["I bought", "these trainers", "in the sell", "at half price."],
+      "wrongIndex": 2,
+      "correction": "in the sale",
+      "explanation": "'Sale' is a noun (a time when shops sell things cheaply). 'Sell' is a verb.",
+      "explanationMn": "'Sale' — хямдрал (нэр үг); 'sell' — зарах (үйл үг)."
+    },
+    {
+      "type": "gap",
+      "skill": "vocabulary",
+      "tag": "environment",
+      "prompt": "Please don't throw those glass jars away. We can ___ them.",
+      "answers": ["recycle", "reuse", "re-use"],
+      "explanation": "To recycle means to use materials again to make new things; to reuse means to use something again.",
+      "explanationMn": "Recycle — дахин боловсруулах; reuse — дахин ашиглах."
+    },
+    {
+      "type": "words",
+      "skill": "vocabulary",
+      "tag": "collocation",
+      "prompt": "Put the words in the correct order to make a sentence.",
+      "answer": "I usually do the housework on Saturday morning.",
+      "alternatives": ["On Saturday morning I usually do the housework."],
+      "distractors": ["make"],
+      "explanation": "We say 'do the housework', not 'make the housework'. 'Usually' goes before the main verb.",
+      "explanationMn": "'Do the housework' гэж хэлнэ, 'make' биш. 'Usually' гол үйл үгийн өмнө байрлана."
+    },
+    {
+      "type": "correct",
+      "skill": "vocabulary",
+      "tag": "money",
+      "prompt": "Correct the mistake in the sentence.",
+      "sentence": "Can you borrow me ten pounds until Friday?",
+      "answers": [
+        "Can you lend me ten pounds until Friday?",
+        "Could you lend me ten pounds until Friday?",
+        "Can I borrow ten pounds until Friday?",
+        "Could I borrow ten pounds until Friday?",
+        "Can I borrow ten pounds from you until Friday?",
+        "Could I borrow ten pounds from you until Friday?"
+      ],
+      "explanation": "You lend something to someone; you borrow something from someone.",
+      "explanationMn": "Lend — бусдад зээлдүүлэх; borrow — бусдаас зээлж авах."
+    }
+  ]
+}

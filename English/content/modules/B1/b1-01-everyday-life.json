@@ -1,0 +1,813 @@
+{
+  "id": "b1-01",
+  "level": "B1",
+  "order": 1,
+  "title": "Everyday Life & Routines",
+  "topic": "Daily Life",
+  "description": "Talk about your routines and habits, what is happening in your life right now, and how you share everyday tasks with other people.",
+  "descriptionMn": "Өдөр тутмын дэглэм, зуршил, одоо таны амьдралд юу болж байгаа, гэрийн ажлыг бусадтай хэрхэн хуваадаг тухайгаа ярих.",
+  "objectives": [
+    { "text": "Describe your daily routine and habits with the present simple and adverbs of frequency", "skills": ["grammar", "speaking"] },
+    { "text": "Talk about actions happening now and temporary situations with the present continuous", "skills": ["grammar", "speaking"] },
+    { "text": "Use state verbs like know, want and prefer correctly", "skills": ["grammar"] },
+    { "text": "Use natural collocations for routines and housework (do the laundry, run errands, stick to a schedule)", "skills": ["vocabulary"] },
+    { "text": "Understand a short article and a conversation about everyday life", "skills": ["reading", "listening"] },
+    { "text": "Write an informal email about your week", "skills": ["writing"] }
+  ],
+  "targets": {
+    "grammar": ["Present simple vs present continuous", "Adverbs of frequency", "State verbs"],
+    "vocabulary": ["daily routines", "household chores", "time expressions"],
+    "reading": "A short magazine article about morning people and night people",
+    "listening": "Two flatmates organise their household chores",
+    "speaking": "Describe your typical day and what is different in your life these days",
+    "writing": "An informal email to a friend about your week",
+    "pronunciation": "Third-person -s endings: /s/, /z/ and /ɪz/"
+  },
+  "grammar": [
+    {
+      "id": "present-simple-continuous",
+      "title": "Present simple vs present continuous",
+      "level": "B1",
+      "summary": "Use the present simple for habits, routines and things that are always or generally true. Use the present continuous for actions happening now and for temporary situations around now.",
+      "summaryMn": "Present simple-ийг дадал, давтагддаг үйл, байнга үнэн зүйлд хэрэглэнэ. Present continuous-ийг яг одоо болж буй үйл болон түр зуурын нөхцөл байдалд хэрэглэнэ.",
+      "structure": [
+        "Present simple: I/you/we/they work · he/she/it works · Do you work? · She doesn't work.",
+        "Present continuous: am/is/are + verb-ing · I'm working · Are you working? · He isn't working."
+      ],
+      "usage": [
+        { "use": "Habits and routines", "example": "I usually get up at seven.", "useMn": "Дадал, тогтмол үйлдэл" },
+        { "use": "Permanent situations and facts", "example": "My sister lives in Darkhan.", "useMn": "Байнгын нөхцөл, баримт" },
+        { "use": "Actions happening at the moment of speaking", "example": "Sorry, I can't talk — I'm cooking.", "useMn": "Яг одоо болж буй үйл" },
+        { "use": "Temporary situations around now", "example": "I'm staying with my aunt this month.", "useMn": "Түр зуурын нөхцөл байдал" },
+        { "use": "Changing situations and trends", "example": "More and more people are working from home.", "useMn": "Өөрчлөгдөж буй байдал, хандлага" }
+      ],
+      "examples": [
+        { "en": "I work in a bank, but this week I'm working from home.", "note": "Permanent job (present simple) vs temporary arrangement (present continuous)." },
+        { "en": "She doesn't usually drink coffee, but she's drinking one now because she's tired.", "note": "General habit vs this particular moment." },
+        { "en": "How often do you go to the gym?", "note": "Questions about frequency use the present simple." },
+        { "en": "Prices are going up every month.", "note": "A changing situation uses the present continuous." }
+      ],
+      "contrast": {
+        "with": "Present continuous",
+        "pairs": [
+          { "a": "I live in Ulaanbaatar.", "b": "I'm living with friends until I find my own flat.", "why": "The first sentence is permanent. The second is temporary — it will end soon.", "whyMn": "Эхнийх нь байнгын, хоёр дахь нь түр зуурын нөхцөл." },
+          { "a": "He plays tennis on Saturdays.", "b": "He's playing tennis right now.", "why": "A regular habit vs an action in progress at this moment.", "whyMn": "Тогтмол дадал ба яг одоо болж буй үйл." },
+          { "a": "What do you do?", "b": "What are you doing?", "why": "'What do you do?' asks about someone's job. 'What are you doing?' asks about this moment.", "whyMn": "'What do you do?' нь ажил мэргэжлийг, 'What are you doing?' нь яг одоогийн үйлийг асууна." }
+        ]
+      },
+      "mistakes": [
+        { "wrong": "Every day I am getting up at six.", "right": "Every day I get up at six.", "why": "'Every day' shows a routine, so use the present simple.", "whyMn": "'Every day' нь давтагддаг үйлийг заадаг тул present simple хэрэглэнэ." },
+        { "wrong": "She go to work by bus.", "right": "She goes to work by bus.", "why": "With he/she/it, the present simple verb takes -s or -es.", "whyMn": "he/she/it-тэй үйл үг -s/-es авна." },
+        { "wrong": "Listen! The baby cries.", "right": "Listen! The baby is crying.", "why": "'Listen!' shows the action is happening now.", "whyMn": "'Listen!' нь үйл яг одоо болж байгааг илтгэнэ." },
+        { "wrong": "Do you working today?", "right": "Are you working today?", "why": "The present continuous question uses am/is/are, not do.", "whyMn": "Present continuous-ийн асуултад do биш am/is/are хэрэглэнэ." }
+      ],
+      "guided": [
+        { "type": "mcq", "prompt": "Look! It ___ outside.", "options": ["snows", "is snowing", "snow"], "answer": 1, "explanation": "'Look!' means it is happening now → present continuous." },
+        { "type": "mcq", "prompt": "My brother ___ in a hospital. He's a nurse.", "options": ["works", "is working", "work"], "answer": 0, "explanation": "His job is a permanent situation → present simple." },
+        { "type": "mcq", "prompt": "I ___ at my cousin's flat this week because mine is being repaired.", "options": ["stay", "am staying", "stays"], "answer": 1, "explanation": "'This week' + a temporary situation → present continuous." },
+        { "type": "gap", "prompt": "How often ___ you check your phone in the morning?", "answers": ["do"], "options": ["do", "are", "does"], "explanation": "A question about habits uses do + base verb." },
+        { "type": "mcq", "prompt": "Which sentence describes a trend?", "options": ["More young people are learning Korean.", "Young people learn Korean at school.", "She learns Korean on Mondays."], "answer": 0, "explanation": "Changing situations and trends use the present continuous." }
+      ],
+      "free": [
+        { "type": "gap", "prompt": "Shh! The children ___ (sleep).", "answers": ["are sleeping", "'re sleeping"], "explanation": "Happening now → are + sleeping." },
+        { "type": "gap", "prompt": "My father ___ (not / drink) coffee. He prefers tea.", "answers": ["doesn't drink", "does not drink"], "explanation": "A general fact about his habits → doesn't + base verb." },
+        { "type": "correct", "prompt": "Correct the sentence.", "sentence": "I am usually walking to work.", "answers": ["I usually walk to work."], "explanation": "'Usually' describes a routine → present simple." },
+        { "type": "transform", "prompt": "Rewrite the sentence to show that the situation is temporary. Use the word given.", "sentence": "I work from home.", "keyword": "this month", "answers": ["I'm working from home this month.", "I am working from home this month.", "This month I'm working from home.", "This month I am working from home."], "explanation": "A temporary situation → present continuous + a time phrase like 'this month'." }
+      ],
+      "prerequisites": []
+    },
+    {
+      "id": "state-verbs",
+      "title": "State verbs",
+      "level": "B1",
+      "summary": "Some verbs describe states — thoughts, feelings, possession and the senses — not actions. We don't normally use them in the continuous form, even when we talk about now.",
+      "summaryMn": "Зарим үйл үг үйлдэл биш, байдал (бодол, мэдрэмж, эзэмшил) илэрхийлдэг. Эдгээрийг одоо тухай ярьж байсан ч ихэвчлэн үргэлжилсэн (-ing) хэлбэрээр хэрэглэдэггүй.",
+      "structure": [
+        "Thinking: know, believe, understand, remember, mean",
+        "Feelings: like, love, hate, want, need, prefer",
+        "Possession: have (= own), own, belong",
+        "Other states: seem, look like, cost, contain, depend"
+      ],
+      "usage": [
+        { "use": "Knowledge and opinions", "example": "I know what you mean.", "useMn": "Мэдлэг, санал бодол" },
+        { "use": "Likes, wants and needs", "example": "She needs a break right now.", "useMn": "Дуртай, хүсэх, хэрэгцээ" },
+        { "use": "Possession", "example": "This bag belongs to Tom.", "useMn": "Эзэмшил" },
+        { "use": "Some verbs have an action meaning too", "example": "I think it's a good idea (opinion) vs I'm thinking about my plans (action).", "useMn": "Зарим үйл үг үйлдлийн утгатай ч байж болно" }
+      ],
+      "examples": [
+        { "en": "I don't understand this question.", "note": "Not 'I'm not understanding'." },
+        { "en": "We have two cats. / We're having dinner now.", "note": "'Have' = own is a state; 'have dinner' is an action." },
+        { "en": "This coffee tastes great.", "note": "Senses (taste, smell, sound) are usually states." }
+      ],
+      "contrast": {
+        "with": "Action meaning of the same verb",
+        "pairs": [
+          { "a": "I think online classes are useful.", "b": "I'm thinking about taking an online class.", "why": "'Think' = have an opinion (state) vs 'think about' = consider (action).", "whyMn": "'Think' — санал бодол (байдал), 'thinking about' — эргэцүүлэх (үйлдэл)." },
+          { "a": "He has a car.", "b": "He's having a shower.", "why": "Possession (state) vs doing something (action).", "whyMn": "Эзэмшил ба үйлдэл." }
+        ]
+      },
+      "mistakes": [
+        { "wrong": "I'm knowing the answer.", "right": "I know the answer.", "why": "'Know' is a state verb.", "whyMn": "'Know' бол байдал илэрхийлэх үйл үг." },
+        { "wrong": "She is wanting a new phone.", "right": "She wants a new phone.", "why": "'Want' is a state verb.", "whyMn": "'Want' бол байдал илэрхийлэх үйл үг." },
+        { "wrong": "This book is belonging to me.", "right": "This book belongs to me.", "why": "'Belong' is a state verb.", "whyMn": "'Belong' бол байдал илэрхийлэх үйл үг." }
+      ],
+      "guided": [
+        { "type": "mcq", "prompt": "I ___ your idea. Let's do it.", "options": ["like", "am liking"], "answer": 0, "explanation": "'Like' is a state verb." },
+        { "type": "mcq", "prompt": "Sorry, what ___ this word ___?", "options": ["does / mean", "is / meaning"], "answer": 0, "explanation": "'Mean' is a state verb." },
+        { "type": "mcq", "prompt": "We ___ lunch at the moment. Can I call you back?", "options": ["have", "are having"], "answer": 1, "explanation": "'Have lunch' is an action, so the continuous is correct here." },
+        { "type": "mcq", "prompt": "Which sentence is correct?", "options": ["I'm needing more time.", "I need more time.", "I needing more time."], "answer": 1, "explanation": "'Need' is a state verb." }
+      ],
+      "free": [
+        { "type": "gap", "prompt": "Who ___ (this jacket / belong) to?", "answers": ["does this jacket belong"], "explanation": "Question with a state verb in the present simple: does + subject + belong." },
+        { "type": "correct", "prompt": "Correct the sentence.", "sentence": "I'm not believing his story.", "answers": ["I don't believe his story.", "I do not believe his story."], "explanation": "'Believe' is a state verb → present simple." },
+        { "type": "gap", "prompt": "I ___ (think) about changing my job, but I haven't decided yet.", "answers": ["am thinking", "'m thinking"], "explanation": "'Think about' = consider → action meaning → continuous is correct." }
+      ],
+      "prerequisites": ["present-simple-continuous"]
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "third-person-s",
+      "title": "Third-person -s: /s/, /z/ and /ɪz/",
+      "category": "sounds",
+      "explanation": "The -s ending of verbs (works, plays, watches) has three different sounds. After voiceless sounds like /p/, /t/, /k/, /f/ it sounds like /s/. After voiced sounds and vowels it sounds like /z/. After s, z, sh, ch and j sounds it becomes /ɪz/ — an extra syllable.",
+      "explanationMn": "Үйл үгийн -s төгсгөл гурван янзаар дуудагдана: хүнгэн гийгүүлэгчийн (/p/, /t/, /k/, /f/) дараа /s/; хөндий гийгүүлэгч, эгшгийн дараа /z/; s, z, sh, ch, j авианы дараа /ɪz/ буюу нэмэлт үе болно.",
+      "items": [
+        { "display": "works — /s/", "say": "works", "tip": "Short and quiet: work-s." },
+        { "display": "stops — /s/", "say": "stops" },
+        { "display": "plays — /z/", "say": "plays", "tip": "A buzzing sound at the end." },
+        { "display": "lives — /z/", "say": "lives" },
+        { "display": "watches — /ɪz/ (2 syllables)", "say": "watches", "tip": "WATCH-iz: one extra syllable." },
+        { "display": "finishes — /ɪz/ (3 syllables)", "say": "finishes" },
+        { "display": "uses — /ɪz/ (2 syllables)", "say": "uses" }
+      ],
+      "shadowing": [
+        { "text": "She usually catches the bus at half past seven.", "stress": "She USually CATCHes the BUS at half past SEVen.", "tip": "'Catches' has two syllables: CATCH-iz.", "difficult": ["catches", "usually"] },
+        { "text": "He washes the dishes and tidies the kitchen every evening.", "stress": "He WASHes the DISHes and TIdies the KITCHen every EVEning.", "tip": "Three /ɪz/ endings: washes, dishes — and /z/ in tidies.", "difficult": ["washes", "dishes", "tidies"] },
+        { "text": "My brother works from home and rarely goes out.", "stress": "My BROTHer WORKS from HOME and RAREly goes OUT.", "tip": "'Works' ends in /s/, 'goes' ends in /z/.", "difficult": ["works", "rarely"] }
+      ],
+      "spokenForms": []
+    }
+  ],
+  "lessons": [
+    {
+      "id": "b1-01-l1",
+      "title": "Are you a morning person?",
+      "focus": "vocabulary",
+      "difficulty": 3,
+      "minutes": 25,
+      "objectives": [
+        "Use 12 words and collocations for daily routines",
+        "Understand the main idea and details of a short magazine article",
+        "Describe your own routine with the right collocations"
+      ],
+      "warmup": {
+        "intro": "Before we start: think about your own mornings. Are they calm or rushed?",
+        "questions": [
+          { "type": "mcq", "prompt": "Which word describes the things you do every day, usually in the same order?", "options": ["routine", "accident", "holiday", "surprise"], "answer": 0, "skill": "vocabulary" },
+          { "type": "mcq", "prompt": "What do you think the article in this lesson is about?", "options": ["Why some people feel better in the morning and others at night", "How to cook a quick breakfast", "The history of alarm clocks"], "answer": 0, "explanation": "The title 'Are you a lark or an owl?' is about morning people and night people.", "skill": "reading", "tag": "prediction" }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "routine", "pos": "noun", "ipa": "/ruːˈtiːn/",
+          "definition": "the things you usually do every day, in the same order",
+          "mn": "өдөр тутмын хэвшил, дэглэм",
+          "examples": ["My morning routine starts with a glass of water and a short walk.", "It's hard to keep a healthy routine when you travel a lot."],
+          "collocations": ["daily routine", "morning routine", "stick to a routine", "break your routine"],
+          "synonyms": ["schedule", "habit"], "antonyms": [],
+          "mistake": "Say 'my daily routine', not 'my daily routines' when you mean your usual day.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "commute", "pos": "verb / noun", "ipa": "/kəˈmjuːt/",
+          "definition": "to travel regularly between your home and your place of work or study; the journey itself",
+          "mn": "ажил, сургууль руугаа тогтмол явах; тэр зам",
+          "examples": ["I commute to the city centre by bus every day.", "My commute takes about forty minutes."],
+          "collocations": ["a long commute", "commute to work", "a daily commute"],
+          "synonyms": ["travel to work"], "antonyms": [],
+          "note": "Used for regular trips to work or school, not for holidays.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "schedule", "pos": "noun", "ipa": "/ˈʃedjuːl/ (UK), /ˈskedʒuːl/ (US)",
+          "definition": "a plan that lists the times when things will happen",
+          "mn": "хуваарь",
+          "examples": ["My schedule is very busy this week.", "She tries to stick to a schedule, even at weekends."],
+          "collocations": ["a busy schedule", "stick to a schedule", "on schedule", "a flexible schedule"],
+          "synonyms": ["timetable", "plan"], "antonyms": [],
+          "note": "British and American pronunciations are both correct.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "habit", "pos": "noun", "ipa": "/ˈhæbɪt/",
+          "definition": "something that you do often and regularly, sometimes without thinking about it",
+          "mn": "зуршил",
+          "examples": ["Checking my phone in bed is a bad habit.", "Reading before sleep is a good habit to develop."],
+          "collocations": ["a bad habit", "a good habit", "break a habit", "get into the habit of"],
+          "synonyms": ["practice", "custom"], "antonyms": [],
+          "mistake": "We 'break' a bad habit — not 'stop a habit' or 'lose a habit'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "oversleep", "pos": "verb", "ipa": "/ˌəʊvəˈsliːp/",
+          "definition": "to sleep longer than you planned and wake up late",
+          "mn": "унтаж хоцрох",
+          "examples": ["I overslept and missed my first class.", "If you often oversleep, try putting your alarm across the room."],
+          "collocations": ["oversleep and miss something"],
+          "synonyms": ["sleep in"], "antonyms": [],
+          "note": "Irregular: oversleep – overslept – overslept.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "rush", "pos": "verb", "ipa": "/rʌʃ/",
+          "definition": "to hurry or do something very quickly because you don't have much time",
+          "mn": "яарах, түргэлэх",
+          "examples": ["I always rush in the morning because I get up too late.", "Don't rush your breakfast — it's the most important meal."],
+          "collocations": ["rush to work", "be in a rush", "rush hour"],
+          "synonyms": ["hurry"], "antonyms": ["take your time"],
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "chore", "pos": "noun", "ipa": "/tʃɔː(r)/",
+          "definition": "a job you have to do regularly at home, often a boring one",
+          "mn": "гэрийн ажил (давтагддаг, уйтгартай)",
+          "examples": ["Washing the dishes is my least favourite chore.", "The children help with the chores at weekends."],
+          "collocations": ["do the chores", "household chores", "share the chores"],
+          "synonyms": ["task", "housework"], "antonyms": [],
+          "mistake": "We 'do' chores — not 'make chores'.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "errand", "pos": "noun", "ipa": "/ˈerənd/",
+          "definition": "a short trip to do something, such as buying food or going to the post office",
+          "mn": "гадуур хийх жижиг ажил (дэлгүүр, шуудан орох гэх мэт)",
+          "examples": ["I have to run a few errands after work.", "On Saturday mornings I usually run errands in town."],
+          "collocations": ["run errands", "run an errand for someone"],
+          "synonyms": ["task"], "antonyms": [],
+          "mistake": "The collocation is 'run errands', not 'do errands' (though 'do errands' is sometimes heard in American English).",
+          "level": "B1", "difficulty": 4
+        },
+        {
+          "word": "spare time", "pos": "noun phrase", "ipa": "/ˌspeə ˈtaɪm/",
+          "definition": "time when you are not working and can do what you like",
+          "mn": "чөлөөт цаг",
+          "examples": ["What do you do in your spare time?", "I don't have much spare time during the week."],
+          "collocations": ["in my spare time", "have a lot of spare time"],
+          "synonyms": ["free time", "leisure time"], "antonyms": [],
+          "level": "B1", "difficulty": 1
+        },
+        {
+          "word": "tidy", "pos": "verb / adjective", "ipa": "/ˈtaɪdi/",
+          "definition": "to make a place neat by putting things where they belong; neat and in order",
+          "mn": "цэгцлэх, эмхлэх; цэвэрхэн, эмх цэгцтэй",
+          "examples": ["I tidy my desk every Friday afternoon.", "Her room is always tidy."],
+          "collocations": ["tidy (up) your room", "keep something tidy", "a tidy desk"],
+          "synonyms": ["clean up", "neat"], "antonyms": ["messy", "untidy"],
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "exhausted", "pos": "adjective", "ipa": "/ɪɡˈzɔːstɪd/",
+          "definition": "extremely tired",
+          "mn": "туйлдсан, маш их ядарсан",
+          "examples": ["After a twelve-hour shift, she was completely exhausted.", "I'm exhausted — I think I'll go to bed early."],
+          "collocations": ["completely exhausted", "feel exhausted", "absolutely exhausted"],
+          "synonyms": ["worn out", "very tired"], "antonyms": ["energetic", "full of energy"],
+          "mistake": "Don't say 'very exhausted' — use 'completely' or 'absolutely' exhausted.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "punctual", "pos": "adjective", "ipa": "/ˈpʌŋktʃuəl/",
+          "definition": "arriving or doing something at the expected time, not late",
+          "mn": "цаг баримталдаг, цагтаа ирдэг",
+          "examples": ["Our teacher is very punctual — the class always starts exactly at nine.", "Being punctual is important in a job interview."],
+          "collocations": ["be punctual for something", "always punctual"],
+          "synonyms": ["on time"], "antonyms": ["late"],
+          "level": "B1", "difficulty": 4
+        }
+      ],
+      "reading": {
+        "id": "r-larks-owls",
+        "title": "Are You a Lark or an Owl?",
+        "genre": "article",
+        "text": [
+          "Some people jump out of bed at six o'clock, full of energy. Others press the snooze button three times and still arrive at work half asleep. Scientists call these two groups 'larks' and 'owls', and they say the difference is not just about willpower.",
+          "Our body has an internal clock that controls when we feel sleepy and when we feel alert. In larks, this clock runs a little early, so they usually feel their best in the morning. In owls, it runs later, so they often feel most productive in the evening. Most people, in fact, are somewhere in the middle.",
+          "The problem is that school and office schedules are usually designed for larks. An owl who has to start work at eight often feels exhausted and may make more mistakes in the morning. Some companies are now changing their routines: they let employees choose their own working hours, as long as they finish their tasks on time.",
+          "Can an owl become a lark? Experts say you can move your body clock a little. Getting bright light early in the day, keeping a regular schedule at weekends and avoiding screens late at night all help. But you probably can't change your nature completely — so if you are an owl, it might be better to plan your most difficult tasks for the afternoon."
+        ],
+        "glossary": [
+          { "term": "snooze button", "meaning": "the button on an alarm that lets you sleep a few more minutes", "mn": "сэрүүлгийг түр хойшлуулах товч" },
+          { "term": "willpower", "meaning": "the ability to control yourself and do difficult things", "mn": "хүсэл зориг" },
+          { "term": "alert", "meaning": "awake and able to think quickly", "mn": "сэргэг" }
+        ],
+        "questions": [
+          { "type": "mcq", "tag": "main_idea", "prompt": "What is the main idea of the article?", "options": ["People who get up early are more successful.", "People have different natural sleep patterns, and this affects how they work.", "All companies should start work later.", "Owls can easily become larks."], "answer": 1, "explanation": "The article explains larks and owls and how schedules affect them." },
+          { "type": "tfng", "tag": "detail", "prompt": "Larks usually feel most energetic in the morning.", "answer": "true", "explanation": "Paragraph 2: larks 'usually feel their best in the morning'." },
+          { "type": "tfng", "tag": "detail", "prompt": "Most people are either strong larks or strong owls.", "answer": "false", "explanation": "Paragraph 2: 'Most people are somewhere in the middle.'" },
+          { "type": "tfng", "tag": "detail", "prompt": "Owls earn less money than larks.", "answer": "not_given", "explanation": "The article doesn't mention money." },
+          { "type": "mcq", "tag": "vocab_context", "prompt": "In paragraph 3, 'exhausted' means…", "options": ["extremely tired", "very angry", "very bored", "extremely busy"], "answer": 0 },
+          { "type": "mcq", "tag": "inference", "prompt": "What does the writer suggest owls should do?", "options": ["Force themselves to get up at six.", "Do their hardest work later in the day.", "Find a job that starts at noon.", "Stop using alarm clocks."], "answer": 1, "explanation": "Last sentence: plan difficult tasks for the afternoon." },
+          { "type": "short", "tag": "detail", "prompt": "Name one thing that can help move your body clock earlier.", "answers": ["bright light", "regular schedule", "avoid screens", "screens at night"], "explanation": "Bright light early in the day, a regular weekend schedule, or avoiding screens late at night." }
+        ]
+      },
+      "quiz": [
+        { "type": "gap", "skill": "vocabulary", "prompt": "I ___ to work by train — it takes about an hour.", "answers": ["commute"], "options": ["commute", "rush", "tidy", "oversleep"] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "If you oversleep, you…", "options": ["wake up later than you planned", "can't fall asleep", "sleep on the sofa", "go to bed very early"], "answer": 0 },
+        { "type": "match", "skill": "vocabulary", "tag": "collocation", "prompt": "Match the verbs with the words they go with.", "pairs": [["run", "errands"], ["do", "the chores"], ["break", "a bad habit"], ["stick to", "a schedule"]] },
+        { "type": "gap", "skill": "vocabulary", "tag": "collocation", "prompt": "After the marathon, he was completely ___.", "answers": ["exhausted"], "options": ["exhausted", "punctual", "tidy", "busy"] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "Anna is never late. She is very…", "options": ["punctual", "exhausted", "tidy", "rushed"], "answer": 0 },
+        { "type": "gap", "skill": "vocabulary", "prompt": "What do you like doing in your ___ time?", "answers": ["spare", "free"] }
+      ]
+    },
+    {
+      "id": "b1-01-l2",
+      "title": "What are you doing these days?",
+      "focus": "grammar",
+      "difficulty": 3,
+      "minutes": 25,
+      "objectives": [
+        "Choose correctly between the present simple and the present continuous",
+        "Talk about temporary situations and changes in your life",
+        "Describe your typical day and what is different at the moment"
+      ],
+      "warmup": {
+        "intro": "Quick grammar check — trust your first feeling.",
+        "questions": [
+          { "type": "mcq", "prompt": "Listen! Somebody ___ at the door.", "options": ["knocks", "is knocking", "knock"], "answer": 1, "skill": "grammar", "explanation": "'Listen!' shows it is happening now." },
+          { "type": "mcq", "prompt": "She ___ to the gym three times a week.", "options": ["goes", "is going", "go"], "answer": 0, "skill": "grammar", "explanation": "'Three times a week' is a routine." }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "temporary", "pos": "adjective", "ipa": "/ˈtemprəri/",
+          "definition": "lasting for only a short time",
+          "mn": "түр зуурын",
+          "examples": ["This is only a temporary job until I finish university.", "The road is closed, but it's only temporary."],
+          "collocations": ["a temporary job", "a temporary solution", "only temporary"],
+          "synonyms": ["short-term"], "antonyms": ["permanent"],
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "permanent", "pos": "adjective", "ipa": "/ˈpɜːmənənt/",
+          "definition": "lasting for a long time or for ever",
+          "mn": "байнгын",
+          "examples": ["She finally got a permanent contract at the hospital.", "Is this your permanent address?"],
+          "collocations": ["a permanent job", "a permanent address", "permanent contract"],
+          "synonyms": ["long-term", "lasting"], "antonyms": ["temporary"],
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "currently", "pos": "adverb", "ipa": "/ˈkʌrəntli/",
+          "definition": "at the present time",
+          "mn": "одоогоор",
+          "examples": ["I'm currently looking for a new flat.", "The museum is currently closed for repairs."],
+          "collocations": ["currently working on", "currently available"],
+          "synonyms": ["at the moment", "now"], "antonyms": [],
+          "mistake": "'Currently' means 'now', not 'actually'. Don't confuse it with the Mongolian idea of 'really'.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "nowadays", "pos": "adverb", "ipa": "/ˈnaʊədeɪz/",
+          "definition": "at the present time, compared with the past",
+          "mn": "өнөө үед",
+          "examples": ["Nowadays, most people pay by card.", "Children spend more time online nowadays."],
+          "collocations": [],
+          "synonyms": ["these days", "today"], "antonyms": ["in the past"],
+          "mistake": "Don't say 'in nowadays' — just 'nowadays'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "flatmate", "pos": "noun", "ipa": "/ˈflætmeɪt/",
+          "definition": "a person you share a flat with (American English: roommate)",
+          "mn": "хамт байр хуваалцан амьдардаг хүн",
+          "examples": ["My flatmate is from Erdenet and studies medicine.", "I'm looking for a new flatmate."],
+          "collocations": ["share a flat with a flatmate", "a new flatmate"],
+          "synonyms": ["roommate"], "antonyms": [],
+          "note": "British English. In American English people say 'roommate'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "rent", "pos": "verb / noun", "ipa": "/rent/",
+          "definition": "to pay money to live in a place that belongs to someone else; the money you pay",
+          "mn": "түрээслэх; түрээсийн төлбөр",
+          "examples": ["We rent a small flat near the university.", "The rent is due on the first day of the month."],
+          "collocations": ["pay the rent", "rent a flat", "high rent"],
+          "synonyms": ["lease"], "antonyms": ["own", "buy"],
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "share", "pos": "verb", "ipa": "/ʃeə(r)/",
+          "definition": "to have or use something together with other people",
+          "mn": "хуваалцах",
+          "examples": ["I share a flat with two other students.", "We share the cooking and the cleaning."],
+          "collocations": ["share a flat", "share the costs", "share the chores"],
+          "synonyms": ["split"], "antonyms": [],
+          "level": "B1", "difficulty": 1
+        },
+        {
+          "word": "get along", "pos": "phrasal verb", "ipa": "/ɡet əˈlɒŋ/",
+          "definition": "to have a friendly relationship with someone",
+          "mn": "эвтэй найртай байх, таарамжтай харилцах",
+          "examples": ["I get along really well with my flatmates.", "Do you get along with your boss?"],
+          "collocations": ["get along well with", "get along with each other"],
+          "synonyms": ["get on (with)"], "antonyms": ["argue"],
+          "note": "British English also uses 'get on with' with the same meaning.",
+          "level": "B1", "difficulty": 3
+        }
+      ],
+      "grammar": "present-simple-continuous",
+      "speaking": {
+        "id": "s-typical-day",
+        "type": "describe",
+        "prompt": "Describe your typical weekday. Then say what is different in your life at the moment.",
+        "promptMn": "Ердийн ажлын өдрөө тайлбарлаад, одоогоор амьдралд тань юу өөрчлөгдөж байгааг хэлээрэй.",
+        "points": ["What time you usually get up and how you get to work or school", "One habit you have in the evening", "Something temporary you are doing these days"],
+        "phrases": ["I usually…", "On weekdays, I…", "These days I'm…", "At the moment I'm…", "It's only temporary because…"],
+        "targetWords": ["routine", "commute", "currently", "temporary"],
+        "prepSeconds": 45,
+        "speakSeconds": 90,
+        "sample": "On weekdays I usually get up at half past six. I have a quick breakfast and then I commute to work by bus, which takes about forty minutes. In the evening I often cook dinner and watch a series. At the moment my routine is a bit different, though. I'm currently staying with my sister because my flat is being repaired, so I'm getting up even earlier. It's only temporary — I'm going back home next month."
+      },
+      "quiz": [
+        { "type": "mcq", "skill": "grammar", "prompt": "I ___ my grandmother every Sunday.", "options": ["visit", "am visiting", "visits"], "answer": 0 },
+        { "type": "mcq", "skill": "grammar", "prompt": "Can you call later? I ___ a meeting right now.", "options": ["have", "am having", "has"], "answer": 1 },
+        { "type": "gap", "skill": "grammar", "prompt": "She ___ (currently / look) for a permanent job.", "answers": ["is currently looking", "'s currently looking"] },
+        { "type": "correct", "skill": "grammar", "prompt": "Correct the sentence.", "sentence": "My flatmate don't like cooking.", "answers": ["My flatmate doesn't like cooking.", "My flatmate does not like cooking."], "explanation": "He/she → doesn't." },
+        { "type": "words", "skill": "grammar", "prompt": "Put the words in order.", "answer": "Are you working from home this week?" },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "The opposite of 'temporary' is…", "options": ["permanent", "current", "shared", "rented"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "b1-01-l3",
+      "title": "Life in a shared flat",
+      "focus": "listening",
+      "difficulty": 3,
+      "minutes": 25,
+      "objectives": [
+        "Understand a conversation about sharing household chores",
+        "Use collocations for housework",
+        "Pronounce -s endings (works, plays, watches) correctly",
+        "Negotiate a fair plan with a flatmate"
+      ],
+      "warmup": {
+        "intro": "Who does the housework where you live?",
+        "questions": [
+          { "type": "mcq", "prompt": "What do you call regular jobs at home, like washing up and cleaning?", "options": ["chores", "errands", "hobbies", "careers"], "answer": 0, "skill": "vocabulary" }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "laundry", "pos": "noun", "ipa": "/ˈlɔːndri/",
+          "definition": "clothes and sheets that need to be washed, or that have just been washed",
+          "mn": "угаах хувцас; угаалга",
+          "examples": ["I do the laundry every Sunday.", "There's a pile of laundry on my bed."],
+          "collocations": ["do the laundry", "hang out the laundry", "a pile of laundry"],
+          "synonyms": ["washing"], "antonyms": [],
+          "mistake": "Say 'do the laundry', not 'make the laundry'.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "washing-up", "pos": "noun", "ipa": "/ˌwɒʃɪŋ ˈʌp/",
+          "definition": "the job of washing plates, cups, pans and cutlery after a meal (British English)",
+          "mn": "аяга таваг угаах ажил",
+          "examples": ["It's your turn to do the washing-up tonight.", "The washing-up can wait until the morning."],
+          "collocations": ["do the washing-up"],
+          "synonyms": ["the dishes"], "antonyms": [],
+          "note": "American English: 'do the dishes'.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "vacuum", "pos": "verb", "ipa": "/ˈvækjuːm/",
+          "definition": "to clean a floor or carpet with a machine that sucks up dirt",
+          "mn": "тоос сорогчоор цэвэрлэх",
+          "examples": ["I vacuum the living room on Saturday mornings.", "Could you vacuum under the sofa?"],
+          "collocations": ["vacuum the floor", "vacuum the carpet"],
+          "synonyms": ["hoover"], "antonyms": [],
+          "note": "In British English, people also say 'hoover'.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "rubbish", "pos": "noun", "ipa": "/ˈrʌbɪʃ/",
+          "definition": "things you throw away because you don't want them (American English: trash, garbage)",
+          "mn": "хог",
+          "examples": ["Can you take out the rubbish? The bin is full.", "Please don't leave rubbish in the park."],
+          "collocations": ["take out the rubbish", "a rubbish bin"],
+          "synonyms": ["trash", "garbage"], "antonyms": [],
+          "note": "Informally, 'rubbish' can also mean 'very bad': 'The film was rubbish.'",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "mess", "pos": "noun", "ipa": "/mes/",
+          "definition": "a dirty or untidy state",
+          "mn": "замбараагүй, эмх замбараагүй байдал",
+          "examples": ["The kitchen is a mess after the party.", "Sorry about the mess — I'm moving house."],
+          "collocations": ["make a mess", "clean up the mess", "in a mess"],
+          "synonyms": ["disorder"], "antonyms": ["order"],
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "take turns", "pos": "phrase", "ipa": "/teɪk tɜːnz/",
+          "definition": "to do something one after another, so that each person has a chance or does a fair part",
+          "mn": "ээлжлэх, ээлжээр хийх",
+          "examples": ["We take turns cooking dinner.", "The children took turns on the swing."],
+          "collocations": ["take turns doing something", "take turns with something"],
+          "synonyms": ["alternate"], "antonyms": [],
+          "note": "British English also says 'take it in turns'.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "fair", "pos": "adjective", "ipa": "/feə(r)/",
+          "definition": "treating everyone equally and in a reasonable way",
+          "mn": "шударга, тэгш",
+          "examples": ["It isn't fair that I do all the cleaning.", "That sounds like a fair plan."],
+          "collocations": ["a fair share", "that's fair", "it's not fair"],
+          "synonyms": ["reasonable", "equal"], "antonyms": ["unfair"],
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "remind", "pos": "verb", "ipa": "/rɪˈmaɪnd/",
+          "definition": "to make someone remember something they must do",
+          "mn": "сануулах",
+          "examples": ["Can you remind me to pay the rent?", "My phone reminds me when I have a meeting."],
+          "collocations": ["remind someone to do something", "remind someone about something"],
+          "synonyms": ["prompt"], "antonyms": ["forget"],
+          "mistake": "Say 'remind me to call', not 'remember me to call'.",
+          "level": "B1", "difficulty": 3
+        }
+      ],
+      "listening": {
+        "id": "l-flat-chores",
+        "title": "Who does the washing-up?",
+        "kind": "conversation",
+        "context": "Anna and Tom share a flat with a third student, Mia. Anna wants to talk about the housework.",
+        "speakers": [
+          { "name": "Anna", "voice": "female", "accent": "en-GB" },
+          { "name": "Tom", "voice": "male", "accent": "en-GB" }
+        ],
+        "lines": [
+          { "speaker": "Anna", "text": "Tom, have you got a minute? I think we need to talk about the flat." },
+          { "speaker": "Tom", "text": "Sure. Is something wrong?" },
+          { "speaker": "Anna", "text": "Well, the kitchen is a mess again. I did the washing-up on Monday and on Wednesday, and nobody else did it this week." },
+          { "speaker": "Tom", "text": "Oh, sorry. I'm working late every day this month, so I usually get home after ten." },
+          { "speaker": "Anna", "text": "I know you're busy. But maybe we can make a schedule and take turns?" },
+          { "speaker": "Tom", "text": "That's fair. What about the laundry and the rubbish?" },
+          { "speaker": "Anna", "text": "How about this: I do the washing-up on weekdays, you vacuum the living room on Saturdays, and we take turns with the rubbish." },
+          { "speaker": "Tom", "text": "Sounds good. And what about Mia? She hardly ever does anything." },
+          { "speaker": "Anna", "text": "She's staying with her parents at the moment, so she isn't here. When she comes back, we can add her to the schedule." },
+          { "speaker": "Tom", "text": "OK. Can you remind me on Saturday morning? I sometimes forget." },
+          { "speaker": "Anna", "text": "Of course. I'll put the schedule on the fridge." },
+          { "speaker": "Tom", "text": "Great. Thanks, Anna — and sorry about the mess." }
+        ],
+        "gist": [
+          { "type": "mcq", "tag": "main_idea", "prompt": "What is the main purpose of the conversation?", "options": ["To organise the housework", "To plan a party", "To find a new flatmate", "To complain about the rent"], "answer": 0 }
+        ],
+        "detail": [
+          { "type": "mcq", "tag": "detail", "prompt": "Why hasn't Tom done the washing-up?", "options": ["He is working late this month.", "He doesn't like cooking.", "He was on holiday.", "He forgot about it."], "answer": 0 },
+          { "type": "tfng", "tag": "detail", "prompt": "Tom will vacuum the living room on Saturdays.", "answer": "true" },
+          { "type": "tfng", "tag": "detail", "prompt": "Mia usually does a lot of housework.", "answer": "false", "explanation": "Tom says she 'hardly ever does anything'." },
+          { "type": "mcq", "tag": "detail", "prompt": "Where is Mia at the moment?", "options": ["At her parents' house", "At work", "At university", "On holiday abroad"], "answer": 0 },
+          { "type": "gap", "tag": "detail", "prompt": "Anna will put the schedule on the ___.", "answers": ["fridge"] }
+        ],
+        "expressions": [
+          { "phrase": "Have you got a minute?", "meaning": "a polite way to start a conversation about something important", "mn": "Надад хэдэн минут гаргаж болох уу?" },
+          { "phrase": "That's fair.", "meaning": "I agree that this is reasonable", "mn": "Шударга байна, зөв байна." },
+          { "phrase": "How about this: …", "meaning": "a friendly way to suggest a plan", "mn": "Ингэвэл ямар вэ: …" },
+          { "phrase": "Sounds good.", "meaning": "informal way to agree", "mn": "Сайн байна, болно." }
+        ]
+      },
+      "pronunciation": "third-person-s",
+      "speaking": {
+        "id": "s-chore-plan",
+        "type": "roleplay",
+        "prompt": "Role-play: You share a flat with a friend who never does the washing-up. Explain the problem politely and suggest a fair plan for the chores.",
+        "promptMn": "Дүрд тоглох: Та аяга таваг огт угаадаггүй найзтайгаа нэг байранд амьдардаг. Асуудлыг эелдгээр тайлбарлаж, гэрийн ажлыг шударгаар хуваах санал гарга.",
+        "points": ["Start politely", "Explain what the problem is", "Suggest who does which chore and when", "Agree on how to remind each other"],
+        "phrases": ["Have you got a minute?", "I know you're busy, but…", "How about this: …", "That's fair.", "Can you remind me…?"],
+        "targetWords": ["take turns", "fair", "mess", "remind"],
+        "prepSeconds": 45,
+        "speakSeconds": 90,
+        "sample": "Hi Ben, have you got a minute? I know you're really busy at the moment, but the kitchen is a mess again and I'm doing the washing-up every day. It isn't really fair. How about this: I do the washing-up on Mondays, Wednesdays and Fridays, and you do it on the other days. We can take turns with the rubbish too. I'll write a schedule and put it on the fridge, and we can remind each other if someone forgets. Is that OK with you?"
+      },
+      "quiz": [
+        { "type": "match", "skill": "vocabulary", "tag": "collocation", "prompt": "Match to make chores.", "pairs": [["do", "the laundry"], ["take out", "the rubbish"], ["vacuum", "the carpet"], ["do", "the washing-up"]] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "'We take turns cooking' means…", "options": ["one person cooks, then the other, and so on", "we cook together at the same time", "nobody cooks", "we cook very quickly"], "answer": 0 },
+        { "type": "gap", "skill": "vocabulary", "prompt": "Can you ___ me to buy milk on the way home?", "answers": ["remind"], "options": ["remind", "remember", "repeat", "return"] },
+        { "type": "mcq", "skill": "pronunciation", "prompt": "Which verb ends with an extra syllable /ɪz/?", "options": ["watches", "works", "plays", "lives"], "answer": 0 },
+        { "type": "tfng", "skill": "listening", "prompt": "In the conversation, Anna gets angry and shouts at Tom.", "answer": "false", "explanation": "Anna is polite and suggests a plan." }
+      ]
+    },
+    {
+      "id": "b1-01-l4",
+      "title": "An email about my week",
+      "focus": "writing",
+      "difficulty": 4,
+      "minutes": 30,
+      "objectives": [
+        "Use state verbs (know, want, prefer, belong) correctly",
+        "Use informal phrases to open, link and close an email",
+        "Write an informal email about your week (80–120 words)"
+      ],
+      "warmup": {
+        "intro": "Emails to friends sound very different from emails to a manager.",
+        "questions": [
+          { "type": "mcq", "prompt": "Which is the most natural way to start an email to a close friend?", "options": ["Dear Sir or Madam,", "Hi Sam, how are things?", "To whom it may concern,", "Good morning, Mr Smith."], "answer": 1, "skill": "writing", "tag": "register" }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "hectic", "pos": "adjective", "ipa": "/ˈhektɪk/",
+          "definition": "very busy and full of activity",
+          "mn": "хэт завгүй, бужигнасан",
+          "examples": ["It's been a hectic week at work.", "My schedule is hectic until the end of the month."],
+          "collocations": ["a hectic week", "a hectic schedule", "hectic day"],
+          "synonyms": ["busy", "frantic"], "antonyms": ["quiet", "relaxing"],
+          "level": "B1", "difficulty": 4
+        },
+        {
+          "word": "catch up", "pos": "phrasal verb", "ipa": "/kætʃ ˈʌp/",
+          "definition": "to talk to someone you haven't seen for a while and find out their news",
+          "mn": "удаан уулзаагүй хүнтэйгээ уулзаж сонин хачнаа солилцох",
+          "examples": ["Let's meet for coffee and catch up.", "We caught up over dinner last night."],
+          "collocations": ["catch up with someone", "catch up over coffee"],
+          "synonyms": [], "antonyms": [],
+          "note": "It can also mean 'to reach the same level': 'I need to catch up on my homework.'",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "look forward to", "pos": "phrase", "ipa": "/lʊk ˈfɔːwəd tuː/",
+          "definition": "to feel happy and excited about something that is going to happen",
+          "mn": "тэсэн ядан хүлээх",
+          "examples": ["I'm looking forward to the weekend.", "I look forward to hearing from you."],
+          "collocations": ["look forward to seeing you", "really look forward to"],
+          "synonyms": ["can't wait for"], "antonyms": ["dread"],
+          "mistake": "'To' is a preposition here, so use -ing: 'look forward to seeing you', not 'to see you'.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "get together", "pos": "phrasal verb", "ipa": "/ɡet təˈɡeðə(r)/",
+          "definition": "to meet socially",
+          "mn": "уулзах, цуглах",
+          "examples": ["Let's get together next weekend.", "We usually get together on Friday evenings."],
+          "collocations": ["get together for dinner", "get together with friends"],
+          "synonyms": ["meet up"], "antonyms": [],
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "stay in", "pos": "phrasal verb", "ipa": "/steɪ ˈɪn/",
+          "definition": "to stay at home and not go out",
+          "mn": "гэртээ байх (гадуур гарахгүй)",
+          "examples": ["I'm tired, so I'm staying in tonight.", "We often stay in and watch films on Fridays."],
+          "collocations": ["stay in tonight", "stay in and relax"],
+          "synonyms": [], "antonyms": ["go out"],
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "take up", "pos": "phrasal verb", "ipa": "/teɪk ˈʌp/",
+          "definition": "to start doing a new activity or hobby",
+          "mn": "(шинэ хобби) эхлэх",
+          "examples": ["I've decided to take up yoga.", "She took up the guitar last year."],
+          "collocations": ["take up a hobby", "take up running"],
+          "synonyms": ["start"], "antonyms": ["give up"],
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "keep in touch", "pos": "phrase", "ipa": "/kiːp ɪn ˈtʌtʃ/",
+          "definition": "to continue to communicate with someone",
+          "mn": "холбоотой байх",
+          "examples": ["We keep in touch through social media.", "Let's keep in touch after you move."],
+          "collocations": ["keep in touch with someone", "stay in touch"],
+          "synonyms": ["stay in contact"], "antonyms": ["lose touch"],
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "prefer", "pos": "verb", "ipa": "/prɪˈfɜː(r)/",
+          "definition": "to like one thing more than another",
+          "mn": "илүүд үзэх",
+          "examples": ["I prefer tea to coffee.", "Do you prefer staying in or going out?"],
+          "collocations": ["prefer A to B", "prefer to do", "prefer doing"],
+          "synonyms": ["would rather"], "antonyms": [],
+          "mistake": "Say 'prefer tea to coffee', not 'prefer tea than coffee'.",
+          "level": "B1", "difficulty": 2
+        }
+      ],
+      "phrases": [
+        { "phrase": "How are things?", "meaning": "an informal way to ask how someone is", "mn": "Юу байна, сонин юу байна?", "register": "informal", "whenToUse": "At the start of an email or message to a friend. Too informal for a manager or a customer.", "example": "Hi Sam, how are things?" },
+        { "phrase": "What have you been up to?", "meaning": "What have you been doing recently?", "mn": "Сүүлийн үед юу хийж байна?", "register": "informal", "whenToUse": "With friends, when you haven't talked for a while.", "example": "It's been ages! What have you been up to?" },
+        { "phrase": "Anyway, …", "meaning": "used to change the topic or return to the main point", "mn": "Ямар ч байсан, …", "register": "informal", "whenToUse": "In conversation and informal emails. Avoid it in formal writing — use 'In any case' or start a new paragraph.", "example": "Anyway, that's enough about me. How's your new job?" },
+        { "phrase": "Guess what?", "meaning": "used before telling surprising news", "mn": "Мэдэх үү юу болсныг?", "register": "spoken", "whenToUse": "With friends, to make your news sound exciting.", "example": "Guess what? I've taken up yoga!" },
+        { "phrase": "Speak soon,", "meaning": "an informal way to end an email or message", "mn": "Удахгүй ярилцъя,", "register": "informal", "whenToUse": "Closing emails to friends and close colleagues. In formal emails use 'Kind regards,'.", "example": "Speak soon, Ganaa" }
+      ],
+      "grammar": "state-verbs",
+      "writing": {
+        "id": "w-week-email",
+        "type": "email_informal",
+        "prompt": "Your English-speaking friend Sam wrote to you: 'How are things? What have you been up to?' Write a reply. Tell Sam about your usual week, one thing that is different at the moment, and suggest getting together.",
+        "promptMn": "Англиар ярьдаг найз Сэм тань: 'Юу байна? Сүүлийн үед юу хийж байна?' гэж бичжээ. Хариу бичээрэй: ердийн долоо хоногийнхоо тухай, одоогоор юу өөр байгаа, уулзах санал гаргаарай.",
+        "register": "informal",
+        "minWords": 80,
+        "maxWords": 120,
+        "points": ["Greet Sam and thank them for the email", "Describe your usual week (present simple)", "Describe something different these days (present continuous)", "Suggest meeting and close the email"],
+        "phrases": ["Thanks for your email!", "Things are a bit hectic at the moment.", "These days I'm…", "Guess what?", "Anyway, …", "Let's get together soon.", "Speak soon,"],
+        "targetWords": ["hectic", "take up", "get together", "look forward to"],
+        "sample": "Hi Sam,\n\nThanks for your email! Things are a bit hectic at the moment. On weekdays I usually work until six, and in the evenings I cook and study English. I normally stay in on Fridays because I'm exhausted after the week.\n\nGuess what? I'm doing something new these days — I've taken up swimming, so I'm going to the pool twice a week before work. I really like it, even at 7 a.m.!\n\nAnyway, what about you? Are you still working at the café? Let's get together when you're back in town. I'm really looking forward to catching up.\n\nSpeak soon,\nGanaa"
+      },
+      "quiz": [
+        { "type": "mcq", "skill": "grammar", "prompt": "I ___ what you mean.", "options": ["know", "am knowing"], "answer": 0 },
+        { "type": "mcq", "skill": "grammar", "prompt": "This bike ___ to my brother.", "options": ["belongs", "is belonging"], "answer": 0 },
+        { "type": "gap", "skill": "vocabulary", "prompt": "I'm really looking forward to ___ you next week.", "answers": ["seeing"], "options": ["see", "seeing", "saw"] },
+        { "type": "mcq", "skill": "writing", "tag": "register", "prompt": "Which closing is best for an email to a friend?", "options": ["Speak soon,", "Yours faithfully,", "I remain, sir,", "Respectfully submitted,"], "answer": 0 },
+        { "type": "error", "skill": "grammar", "prompt": "Tap the part with the mistake.", "segments": ["I am preferring", "to stay in", "on Friday evenings."], "wrongIndex": 0, "correction": "I prefer", "explanation": "'Prefer' is a state verb." }
+      ]
+    }
+  ],
+  "test": {
+    "reading": {
+      "id": "t-night-nurse",
+      "title": "My Upside-Down Day",
+      "genre": "blog",
+      "text": [
+        "Most people start their day with breakfast. I start mine with dinner. I'm a nurse, and for the last two years I've worked night shifts at a children's hospital. My shift starts at eight in the evening and finishes at eight in the morning.",
+        "When I get home, the rest of my family is leaving for work and school. I have a light meal, put on an eye mask and try to sleep until about three in the afternoon. My flatmate is very kind — she never vacuums or plays music while I'm asleep.",
+        "The hardest part is my days off. My body doesn't know if it's day or night, and I often feel exhausted. Some nurses keep a night schedule on their days off too, but I prefer to see my friends during normal hours, so I try to change my routine quickly.",
+        "At the moment I'm taking an online course in child nutrition, so my spare time is even shorter than usual. But I really love my job. The hospital is quiet at night, and I have time to talk to the children when they can't sleep."
+      ],
+      "glossary": [
+        { "term": "night shift", "meaning": "a period of work during the night", "mn": "шөнийн ээлж" }
+      ],
+      "questions": [
+        { "type": "mcq", "tag": "main_idea", "prompt": "What is the blog mainly about?", "options": ["How a night-shift nurse organises her life", "Why nurses need better pay", "How to sleep well", "A children's hospital's new rules"], "answer": 0 },
+        { "type": "tfng", "tag": "detail", "prompt": "The writer's shift is twelve hours long.", "answer": "true" },
+        { "type": "tfng", "tag": "detail", "prompt": "The writer's flatmate is also a nurse.", "answer": "not_given" },
+        { "type": "mcq", "tag": "detail", "prompt": "What does the writer do on her days off?", "options": ["She tries to live during normal hours.", "She keeps her night schedule.", "She works extra shifts.", "She sleeps all day."], "answer": 0 },
+        { "type": "mcq", "tag": "inference", "prompt": "Why is her spare time shorter than usual at the moment?", "options": ["She is doing an online course.", "She is working more shifts.", "Her flatmate is ill.", "She is moving house."], "answer": 0 },
+        { "type": "tfng", "tag": "attitude", "prompt": "The writer wants to leave her job.", "answer": "false", "explanation": "She says she really loves her job." }
+      ]
+    },
+    "listening": {
+      "id": "t-freelancer",
+      "title": "Working from my kitchen table",
+      "kind": "monologue",
+      "context": "Maya, a freelance graphic designer, talks about her daily routine on a podcast.",
+      "speakers": [{ "name": "Maya", "voice": "female", "accent": "en-US" }],
+      "lines": [
+        { "speaker": "Maya", "text": "People think freelancers stay in bed until noon, but my routine is actually quite strict." },
+        { "speaker": "Maya", "text": "I get up at seven, go for a short run and start work at half past eight." },
+        { "speaker": "Maya", "text": "I don't have a commute, so I use that time to plan my day." },
+        { "speaker": "Maya", "text": "I usually answer emails first and then design until lunch." },
+        { "speaker": "Maya", "text": "This month is different, though. I'm working on a big project for a travel company, so I'm staying at my desk until late most evenings." },
+        { "speaker": "Maya", "text": "It's only temporary — the deadline is in two weeks." },
+        { "speaker": "Maya", "text": "My biggest bad habit? Checking social media when I'm bored. I'm trying to break it by leaving my phone in another room." }
+      ],
+      "gist": [
+        { "type": "mcq", "tag": "main_idea", "prompt": "What is Maya mainly talking about?", "options": ["Her daily routine as a freelancer", "How to find freelance clients", "A holiday she took", "Why she hates social media"], "answer": 0 }
+      ],
+      "detail": [
+        { "type": "mcq", "tag": "detail", "prompt": "What time does Maya start work?", "options": ["8:30", "7:00", "9:30", "12:00"], "answer": 0 },
+        { "type": "tfng", "tag": "detail", "prompt": "Maya commutes to an office every day.", "answer": "false" },
+        { "type": "mcq", "tag": "detail", "prompt": "Why is Maya working late this month?", "options": ["She has a big project with a deadline.", "She started work late.", "Her computer is broken.", "She is learning a new program."], "answer": 0 },
+        { "type": "gap", "tag": "detail", "prompt": "To break her bad habit, she leaves her ___ in another room.", "answers": ["phone"] }
+      ],
+      "expressions": [
+        { "phrase": "quite strict", "meaning": "following rules closely", "mn": "нэлээд чанд" }
+      ]
+    },
+    "writing": {
+      "id": "t-routine-blog",
+      "type": "paragraph",
+      "prompt": "Write a short blog post (100–130 words) called 'My weekdays and my weekends'. Describe your usual weekday routine, how your weekends are different, and one thing you are doing differently these days.",
+      "promptMn": "'Миний ажлын өдрүүд ба амралтын өдрүүд' нэртэй богино блог бичээрэй (100–130 үг).",
+      "register": "neutral",
+      "minWords": 100,
+      "maxWords": 130,
+      "points": ["Weekday routine (present simple, adverbs of frequency)", "Weekends", "Something temporary or changing (present continuous)"],
+      "phrases": ["On weekdays…", "At weekends, however,…", "These days…"],
+      "targetWords": ["routine", "commute", "chore", "spare time"],
+      "sample": "On weekdays my routine is simple. I get up at half past six, have a quick breakfast and commute to work by bus. I usually work until six, and in the evening I often cook dinner and do a few chores. I rarely go out because I'm tired. At weekends, however, everything is slower. I sleep in on Saturdays, run errands in the afternoon and meet friends in the evening. On Sundays I tidy the flat and plan the next week. These days my routine is a little different: I'm learning to drive, so I'm spending most of my spare time on driving lessons. It's hard work, but I'm enjoying it."
+    },
+    "speaking": {
+      "id": "t-habit-change",
+      "type": "describe",
+      "prompt": "Talk about a habit you would like to change. Say what you do now, why you want to change it, and what you are doing to change it.",
+      "promptMn": "Өөрчлөхийг хүсч буй зуршлынхаа тухай ярь: одоо юу хийдэг, яагаад өөрчлөхийг хүсэж байгаа, үүний тулд юу хийж байгаа вэ.",
+      "points": ["The habit now (present simple)", "Why it is a problem", "What you are doing about it (present continuous)"],
+      "phrases": ["I have a bad habit of…", "The problem is that…", "At the moment I'm trying to…"],
+      "targetWords": ["habit", "break", "routine"],
+      "prepSeconds": 30,
+      "speakSeconds": 75,
+      "sample": "I have a bad habit of checking my phone in bed. I usually read the news or watch videos for about an hour, so I go to sleep very late and feel exhausted in the morning. I want to break this habit because my sleep is really important for my work. At the moment I'm trying to leave my phone in the kitchen at night, and I'm reading a book instead. It's not easy, but I'm sleeping much better."
+    },
+    "questions": [
+      { "type": "mcq", "skill": "grammar", "prompt": "My cousin ___ in Canada. She moved there in 2019.", "options": ["lives", "is living", "live"], "answer": 0 },
+      { "type": "mcq", "skill": "grammar", "prompt": "Turn the music down! I ___ to concentrate.", "options": ["try", "am trying", "tries"], "answer": 1 },
+      { "type": "gap", "skill": "grammar", "prompt": "What ___ you usually do on Sunday mornings?", "answers": ["do"], "options": ["do", "are", "does"] },
+      { "type": "mcq", "skill": "grammar", "prompt": "I ___ you're right.", "options": ["think", "am thinking"], "answer": 0 },
+      { "type": "correct", "skill": "grammar", "prompt": "Correct the sentence.", "sentence": "He is having two brothers.", "answers": ["He has two brothers.", "He has got two brothers.", "He's got two brothers."] },
+      { "type": "gap", "skill": "vocabulary", "tag": "collocation", "prompt": "I need to ___ a few errands before the shops close.", "answers": ["run"], "options": ["run", "make", "take", "go"] },
+      { "type": "gap", "skill": "vocabulary", "tag": "collocation", "prompt": "It's hard to ___ a bad habit.", "answers": ["break"], "options": ["break", "stop", "lose", "cut"] },
+      { "type": "mcq", "skill": "vocabulary", "prompt": "'Things are hectic at work' means work is…", "options": ["very busy", "very boring", "very quiet", "very far away"], "answer": 0 },
+      { "type": "mcq", "skill": "vocabulary", "prompt": "Which word means 'lasting only a short time'?", "options": ["temporary", "permanent", "punctual", "tidy"], "answer": 0 },
+      { "type": "gap", "skill": "vocabulary", "prompt": "Let's keep in ___ after the course ends.", "answers": ["touch"] }
+    ]
+  }
+}

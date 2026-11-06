@@ -1,0 +1,901 @@
+{
+  "id": "b1-06",
+  "level": "B1",
+  "order": 6,
+  "title": "Work & Career",
+  "topic": "Work",
+  "description": "Talk about your job and career, say how long you have done things, answer job interview questions and write a short professional email.",
+  "descriptionMn": "Ажил, карьерынхаа тухай ярих, ямар нэг зүйлийг хэр удаан хийж байгаагаа хэлэх, ажлын ярилцлагын асуултад хариулах, богино албан имэйл бичих.",
+  "objectives": [
+    { "text": "Say how long you have done things with the present perfect, for, since and How long…?", "skills": ["grammar", "speaking"] },
+    { "text": "Give updates about your work with just, already and yet", "skills": ["grammar", "writing"] },
+    { "text": "Use career collocations naturally (meet a deadline, gain experience, take responsibility, apply for a position)", "skills": ["vocabulary"] },
+    { "text": "Understand an article about changing careers and a job interview", "skills": ["reading", "listening"] },
+    { "text": "Answer common job interview questions about your experience, strengths and weaknesses", "skills": ["speaking", "listening"] },
+    { "text": "Write a short professional email with a project update", "skills": ["writing"] }
+  ],
+  "targets": {
+    "grammar": ["Present perfect with for and since", "How long…?", "just / already / yet"],
+    "vocabulary": ["jobs and careers", "the workplace", "job interviews", "work emails"],
+    "reading": "A magazine article about a woman who changed careers in her thirties",
+    "listening": "A job interview for a team leader position at a travel company",
+    "speaking": "Describe your working life and answer job interview questions",
+    "writing": "A professional email to a manager with a project update",
+    "pronunciation": "Word stress in long job words (-tion, -ity, -ence, -ment)"
+  },
+  "grammar": [
+    {
+      "id": "present-perfect-for-since",
+      "title": "Present perfect with for and since; How long…?",
+      "level": "B1",
+      "summary": "Use the present perfect with 'for' and 'since' for situations that started in the past and are still true now. 'For' + a period of time (for three years); 'since' + the starting point (since 2021). Ask with 'How long have you…?'",
+      "summaryMn": "Өнгөрсөнд эхэлсэн, одоо ч үргэлжилж байгаа байдлын тухай ярихад present perfect-ийг 'for', 'since'-тэй хэрэглэнэ. 'For' + хугацааны урт (for three years — гурван жил), 'since' + эхэлсэн цэг (since 2021 — 2021 оноос хойш). 'How long have you…?' гэж асууна.",
+      "structure": [
+        "have/has + past participle + for + a period of time → I've worked here for five years.",
+        "have/has + past participle + since + a starting point → She's been a manager since March.",
+        "Question: How long + have/has + subject + past participle? → How long have you known Bat?",
+        "for: two weeks, six months, ten years, ages, a long time · since: Monday, 2019, last summer, I was a child, I left school",
+        "Finished situations use the past simple, even with for → I worked in a bank for two years (I don't work there now)."
+      ],
+      "usage": [
+        { "use": "A situation that started in the past and continues now", "example": "I've lived in Ulaanbaatar for ten years.", "useMn": "Өнгөрсөнд эхэлж, одоо ч үргэлжилж буй байдал" },
+        { "use": "'For' + the length of time", "example": "He's been unemployed for six months.", "useMn": "'For' + хугацааны урт" },
+        { "use": "'Since' + the moment it started", "example": "We've known each other since university.", "useMn": "'Since' + эхэлсэн мөч" },
+        { "use": "Asking about the length of time: How long…?", "example": "How long have you had this job?", "useMn": "Хэр удаж байгааг асуух: How long…?" },
+        { "use": "Finished situations use the past simple, even with 'for'", "example": "My father worked as a driver for thirty years. He retired in 2020.", "useMn": "Дууссан байдалд 'for'-той байсан ч past simple хэрэглэнэ" }
+      ],
+      "examples": [
+        { "en": "I've worked at this company since March, so I've been here for about six months.", "note": "'Since' + the start; 'for' + the length." },
+        { "en": "How long have you been a teacher? — For twelve years.", "note": "The short answer can be just 'For…' or 'Since…'." },
+        { "en": "She hasn't seen her family since the New Year holiday.", "note": "Negative sentences work in the same way." },
+        { "en": "My grandmother worked in a factory for twenty years.", "note": "She doesn't work there now → past simple." }
+      ],
+      "contrast": {
+        "with": "Present simple and past simple",
+        "pairs": [
+          { "a": "I've lived here for five years.", "b": "I live here.", "why": "The present perfect + for/since says how long, from the past until now. The present simple only describes now.", "whyMn": "Present perfect + for/since нь өнгөрсөнөөс одоог хүртэл хэр удсаныг хэлнэ. Present simple зөвхөн одоогийн байдлыг хэлнэ." },
+          { "a": "I've worked there for two years.", "b": "I worked there for two years.", "why": "The first person still works there. The second person doesn't work there any more.", "whyMn": "Эхнийх нь одоо ч тэнд ажиллаж байгаа. Хоёр дахь нь одоо тэнд ажиллахаа больсон." }
+        ]
+      },
+      "mistakes": [
+        { "wrong": "I work here since 2020.", "right": "I've worked here since 2020.", "why": "For a situation from the past until now, use the present perfect, not the present simple.", "whyMn": "Өнгөрсөнөөс одоог хүртэлх байдалд present simple биш present perfect хэрэглэнэ." },
+        { "wrong": "I've known him since five years.", "right": "I've known him for five years.", "why": "'Five years' is a period of time, so use 'for'.", "whyMn": "'Five years' бол хугацааны урт тул 'for' хэрэглэнэ." },
+        { "wrong": "How long do you work here?", "right": "How long have you worked here?", "why": "'How long' + from the past until now → present perfect.", "whyMn": "Өнгөрсөнөөс одоог хүртэлх хугацааг асуухад present perfect хэрэглэнэ." },
+        { "wrong": "I'm married for ten years.", "right": "I've been married for ten years.", "why": "Use have/has + been, not am/is/are, with 'for' and 'since'.", "whyMn": "'For', 'since'-тэй am/is/are биш have/has + been хэрэглэнэ." }
+      ],
+      "guided": [
+        { "type": "mcq", "prompt": "I've had this laptop ___ three years.", "options": ["since", "for", "ago"], "answer": 1, "explanation": "'Three years' is a period → for." },
+        { "type": "mcq", "prompt": "She's worked in the sales department ___ last October.", "options": ["since", "for", "from"], "answer": 0, "explanation": "'Last October' is the starting point → since." },
+        { "type": "mcq", "prompt": "___ have you been a nurse?", "options": ["How much", "When", "How long"], "answer": 2, "explanation": "'How long' asks about the length of time." },
+        { "type": "mcq", "prompt": "Which time expression goes with 'since'?", "options": ["a long time", "three weeks", "I left university", "ages"], "answer": 2, "explanation": "'I left university' is a starting point. The others are periods of time." },
+        { "type": "mcq", "prompt": "Which sentence means that he doesn't work at the bank now?", "options": ["He's worked at the bank for ten years.", "He worked at the bank for ten years.", "He works at the bank."], "answer": 1, "explanation": "The past simple shows the situation is finished." }
+      ],
+      "free": [
+        { "type": "gap", "prompt": "We ___ (know) each other since primary school.", "answers": ["have known"], "explanation": "From the past until now → have + known." },
+        { "type": "gap", "prompt": "Tuya ___ (be) unemployed for three months.", "answers": ["has been"], "explanation": "Tuya = she → has been." },
+        { "type": "correct", "prompt": "Correct the sentence.", "sentence": "I am working here since January.", "answers": ["I have worked here since January.", "I've worked here since January.", "I have been working here since January.", "I've been working here since January."], "explanation": "'Since January' + still true now → present perfect." },
+        { "type": "transform", "prompt": "Rewrite the sentence with the present perfect. Use the word given.", "sentence": "I started this job two years ago.", "keyword": "for", "answers": ["I've had this job for two years.", "I have had this job for two years.", "I've worked here for two years.", "I have worked here for two years.", "I've been in this job for two years.", "I have been in this job for two years.", "I've done this job for two years.", "I have done this job for two years."], "explanation": "Started two years ago and still true → present perfect + for two years." },
+        { "type": "transform", "prompt": "Rewrite the sentence with the present perfect. Use the word given.", "sentence": "I moved to Darkhan in 2018, and I still live there.", "keyword": "since", "answers": ["I've lived in Darkhan since 2018.", "I have lived in Darkhan since 2018.", "I've been in Darkhan since 2018.", "I have been in Darkhan since 2018.", "I've been living in Darkhan since 2018.", "I have been living in Darkhan since 2018."], "explanation": "2018 is the starting point → since 2018." }
+      ],
+      "prerequisites": []
+    },
+    {
+      "id": "just-already-yet",
+      "title": "Present perfect with just, already and yet",
+      "level": "B1",
+      "summary": "Use 'just' for something that happened a very short time ago, 'already' for something that happened before now (often sooner than expected), and 'yet' in questions and negatives for something we expect to happen. In British English all three usually go with the present perfect.",
+      "summaryMn": "'Just' — дөнгөж сая болсон үйл, 'already' — аль хэдийн (ихэвчлэн хүлээснээс эрт) болсон үйл, 'yet' — асуулт болон үгүйсгэлд хэрэглэгдэх, болох ёстой ч хараахан болоогүй үйл. Британи англи хэлэнд гурвуулаа ихэвчлэн present perfect-тэй хэрэглэгдэнэ.",
+      "structure": [
+        "just: have/has + just + past participle → I've just sent the email.",
+        "already: have/has + already + past participle → She's already finished the report.",
+        "yet (negative): haven't/hasn't + past participle + … + yet → I haven't replied yet.",
+        "yet (question): Have/Has + subject + past participle + … + yet? → Have you called the client yet?",
+        "Word order: just and already go between have and the past participle; yet goes at the end."
+      ],
+      "usage": [
+        { "use": "just = a very short time ago", "example": "The manager has just arrived.", "useMn": "just — дөнгөж сая" },
+        { "use": "already = before now, maybe earlier than expected", "example": "Don't worry, I've already booked the meeting room.", "useMn": "already — аль хэдийн, хүлээснээс эрт" },
+        { "use": "not … yet = it hasn't happened, but we expect it to happen", "example": "We haven't received the contract yet.", "useMn": "not … yet — хараахан болоогүй (гэхдээ болно гэж хүлээж байгаа)" },
+        { "use": "Questions with yet = asking if something expected has happened", "example": "Have you had any feedback yet?", "useMn": "yet-тэй асуулт — хүлээж буй зүйл болсон эсэхийг асуух" }
+      ],
+      "examples": [
+        { "en": "I've just finished the presentation. Shall I send it to you now?", "note": "It happened a moment ago." },
+        { "en": "Have you signed the contract yet? — Yes, I've already signed it and sent it back.", "note": "yet in the question, already in the answer." },
+        { "en": "The new manager hasn't started yet. She starts on Monday.", "note": "We expect it to happen soon." },
+        { "en": "It's only ten o'clock and I've already had three meetings!", "note": "Sooner than expected." },
+        { "en": "I just sent it. / Did you eat yet?", "note": "American English often uses the past simple with just, already and yet. You will hear it, but this course uses the British form." }
+      ],
+      "contrast": {
+        "with": "Past simple with a finished time",
+        "pairs": [
+          { "a": "I've just seen the email.", "b": "I saw the email ten minutes ago.", "why": "'Just' + present perfect gives no exact time. With an exact finished time ('ten minutes ago'), use the past simple.", "whyMn": "'Just' + present perfect-д тодорхой цаг хэлдэггүй. Дууссан тодорхой цагтай ('ten minutes ago') бол past simple хэрэглэнэ." },
+          { "a": "Have you finished the report yet?", "b": "Did you finish the report yesterday?", "why": "Up to now (no finished time) vs a finished time (yesterday).", "whyMn": "Одоог хүртэл (дууссан цаггүй) ба дууссан тодорхой цаг (yesterday)." }
+        ]
+      },
+      "mistakes": [
+        { "wrong": "I have finished already the report.", "right": "I've already finished the report. / I've finished the report already.", "why": "'Already' goes between have and the past participle, or at the very end — not between the verb and its object.", "whyMn": "'Already' нь have ба V3-ын хооронд, эсвэл өгүүлбэрийн төгсгөлд байрлана; үйл үг ба тусагдахууны хооронд орохгүй." },
+        { "wrong": "I've finished yet.", "right": "I've already finished. / I haven't finished yet.", "why": "'Yet' is for questions and negatives. In positive sentences use 'already'.", "whyMn": "'Yet'-ийг асуулт, үгүйсгэлд хэрэглэнэ. Эерэг өгүүлбэрт 'already' хэрэглэнэ." },
+        { "wrong": "I've just sent it yesterday.", "right": "I sent it yesterday. / I've just sent it.", "why": "Don't use the present perfect with a finished time like 'yesterday'.", "whyMn": "'Yesterday' шиг дууссан цагтай present perfect хэрэглэхгүй." },
+        { "wrong": "She has just went out.", "right": "She has just gone out.", "why": "After has/have, use the past participle (gone), not the past simple (went).", "whyMn": "has/have-ийн дараа V3 (gone) хэрэглэнэ, V2 (went) биш." }
+      ],
+      "guided": [
+        { "type": "mcq", "prompt": "Can you call back later? Tsetseg has ___ left the office.", "options": ["just", "yet", "ever"], "answer": 0, "explanation": "She left a very short time ago → just." },
+        { "type": "mcq", "prompt": "I haven't read the new contract ___.", "options": ["already", "yet", "just"], "answer": 1, "explanation": "Negative sentence + expected action → yet." },
+        { "type": "mcq", "prompt": "No need to book a room — I've ___ done it.", "options": ["yet", "ever", "already"], "answer": 2, "explanation": "It happened before now, sooner than expected → already." },
+        { "type": "mcq", "prompt": "Which sentence is correct?", "options": ["Have you replied to the client yet?", "Have you replied yet to the client already?", "Did you replied to the client yet?"], "answer": 0 },
+        { "type": "mcq", "prompt": "Where does 'yet' usually go?", "options": ["Between have and the past participle", "At the end of the sentence", "At the start of the sentence"], "answer": 1 }
+      ],
+      "free": [
+        { "type": "gap", "prompt": "Have you finished the report ___?", "answers": ["yet"], "explanation": "Question about something expected → yet at the end." },
+        { "type": "gap", "prompt": "The meeting ___ (just / start). Please come in quietly.", "answers": ["has just started"], "explanation": "has + just + past participle." },
+        { "type": "correct", "prompt": "Correct the sentence.", "sentence": "I've sent already the invoice.", "answers": ["I've already sent the invoice.", "I have already sent the invoice.", "I've sent the invoice already.", "I have sent the invoice already."], "explanation": "'Already' goes before the past participle or at the end." },
+        { "type": "transform", "prompt": "Rewrite the sentence with the present perfect. Use the word given.", "sentence": "We are still waiting for the new designer to arrive.", "keyword": "yet", "answers": ["The new designer hasn't arrived yet.", "The new designer has not arrived yet.", "The new designer hasn't come yet.", "The new designer has not come yet."], "explanation": "Expected but not happened → hasn't + past participle + yet." }
+      ],
+      "prerequisites": ["present-perfect-for-since"]
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "job-word-stress",
+      "title": "Word stress in job words: -tion, -ity, -ence, -ment",
+      "category": "word_stress",
+      "explanation": "Long job words are hard to understand if the stress is in the wrong place. Some endings help you. Words ending in -tion are stressed on the syllable just before the ending (qualifiCAtion, proMOtion). Words ending in -ity are stressed on the syllable just before -ity (responsiBILity, opporTUnity). Endings like -ment and -er don't change the stress of the base word (aCHIEVE → aCHIEVEment, emPLOY → emPLOYer). The unstressed syllables are short and weak, often with /ə/.",
+      "explanationMn": "Урт үгийн өргөлт буруу байвал ойлгоход хэцүү. Зарим дагавар тусална: -tion-оор төгссөн үгийн өргөлт дагаврын яг өмнөх үе дээр (qualifiCAtion, proMOtion). -ity-гаар төгссөн үгийн өргөлт -ity-ийн яг өмнөх үе дээр (responsiBILity, opporTUnity). -ment, -er дагавар үндсэн үгийн өргөлтийг өөрчилдөггүй (aCHIEVE → aCHIEVEment). Өргөлтгүй үеүд богино, сул, ихэвчлэн /ə/ болно.",
+      "items": [
+        { "display": "qua-li-fi-CA-tion", "say": "qualification", "tip": "-tion: stress the syllable just before it." },
+        { "display": "pro-MO-tion", "say": "promotion" },
+        { "display": "res-pon-si-BI-li-ty", "say": "responsibility", "tip": "-ity: stress the syllable just before it." },
+        { "display": "op-por-TU-ni-ty", "say": "opportunity" },
+        { "display": "ex-PE-ri-ence (not EX-pe-ri-ence)", "say": "experience", "tip": "The first syllable is weak: /ɪk/." },
+        { "display": "a-CHIEVE-ment", "say": "achievement", "tip": "-ment doesn't change the stress: aCHIEVE → aCHIEVEment." },
+        { "display": "COL-league (not col-LEAGUE)", "say": "colleague", "tip": "Two syllables: KOL-eeg." },
+        { "display": "CAN-di-date", "say": "candidate" }
+      ],
+      "shadowing": [
+        { "text": "I've got the right qualifications and five years of experience.", "stress": "I've got the RIGHT qualifiCAtions and FIVE YEARS of exPErience.", "tip": "Say the weak first syllables quickly: /kwɒl/ and /ɪk/.", "difficult": ["qualifications", "experience"] },
+        { "text": "This job is a great opportunity to take on more responsibility.", "stress": "This JOB is a GREAT opporTUnity to take ON MORE responsiBILity.", "tip": "Both long words have the stress just before -ity.", "difficult": ["opportunity", "responsibility"] },
+        { "text": "Getting a promotion was my biggest achievement last year.", "stress": "GETting a proMOtion was my BIGgest aCHIEVEment last YEAR.", "tip": "Promotion: three syllables, stress in the middle.", "difficult": ["promotion", "achievement"] }
+      ],
+      "spokenForms": []
+    }
+  ],
+  "lessons": [
+    {
+      "id": "b1-06-l1",
+      "title": "A new career at thirty-six",
+      "focus": "vocabulary",
+      "difficulty": 3,
+      "minutes": 25,
+      "objectives": [
+        "Use 11 words and collocations about jobs and careers",
+        "Understand the main idea and details of a magazine article about changing careers",
+        "Talk about career plans with collocations like 'gain experience' and 'get a promotion'"
+      ],
+      "warmup": {
+        "intro": "What did you want to be when you were a child? Is your job (or your plan) the same now?",
+        "questions": [
+          { "type": "mcq", "prompt": "The money you get every month for your job is your…", "options": ["fare", "budget", "salary", "receipt"], "answer": 2, "skill": "vocabulary" },
+          { "type": "mcq", "prompt": "The article in this lesson is called 'A New Career at Thirty-Six'. What do you think happens?", "options": ["Someone leaves one kind of work and starts a very different one.", "Someone retires from work at thirty-six.", "Someone gets their very first job at thirty-six."], "answer": 0, "skill": "reading", "tag": "prediction" }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "career", "pos": "noun", "ipa": "/kəˈrɪə(r)/",
+          "definition": "the series of jobs you do in your working life, usually in one area",
+          "mn": "ажил мэргэжлийн зам, карьер",
+          "examples": ["She has had a long career in banking.", "I'm thinking about a career change."],
+          "collocations": ["a career in (something)", "a career change", "a career path", "build a career"],
+          "synonyms": ["profession", "working life"], "antonyms": [],
+          "mistake": "A career is your whole working life, not one job: 'I'm looking for a job', not 'I'm looking for a career' when you mean one position. Pronounce it ka-REER, not like 'carrier'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "qualification", "pos": "noun", "ipa": "/ˌkwɒlɪfɪˈkeɪʃn/",
+          "definition": "an official certificate or exam result that shows you have the knowledge or skills for a job",
+          "mn": "мэргэшил, мэргэжлийн гэрчилгээ, боловсролын зэрэг",
+          "examples": ["She got her first qualification in web design after a year of study.", "What qualifications do you need to become a pilot?"],
+          "collocations": ["get a qualification", "gain a qualification", "professional qualifications", "the right qualifications"],
+          "synonyms": ["certificate", "degree"], "antonyms": [],
+          "mistake": "Don't confuse 'qualification' (a certificate or degree) with 'quality' (how good something is).",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "experience", "pos": "noun (uncountable)", "ipa": "/ɪkˈspɪəriəns/",
+          "definition": "the knowledge and skills you get from doing a job for some time",
+          "mn": "(ажлын) туршлага",
+          "examples": ["She has ten years of experience in marketing.", "An internship is a good way to gain experience."],
+          "collocations": ["work experience", "gain experience", "years of experience", "experience in sales"],
+          "synonyms": ["know-how"], "antonyms": ["inexperience"],
+          "mistake": "In this meaning it's uncountable: 'three years of experience', not 'three years experiences'.",
+          "note": "Countable 'an experience' is something that happened to you: 'a memorable experience'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "apply", "pos": "verb", "ipa": "/əˈplaɪ/",
+          "definition": "to ask formally, usually in writing, for a job or a place at a university",
+          "mn": "өргөдөл гаргах, (ажилд) горилох",
+          "examples": ["I've applied for three jobs this month.", "Many people never apply for their dream job."],
+          "collocations": ["apply for a job", "apply for a position", "apply to a company", "apply online"],
+          "synonyms": ["put in an application"], "antonyms": [],
+          "mistake": "You apply FOR a job and TO a company: 'I applied for the manager position', not 'I applied to the manager position'.",
+          "note": "Noun: an application.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "position", "pos": "noun", "ipa": "/pəˈzɪʃn/",
+          "definition": "a job in a company or organisation (formal)",
+          "mn": "албан тушаал, ажлын байр",
+          "examples": ["She applied for a junior position at a tech company.", "We are looking for someone to fill the position of sales manager."],
+          "collocations": ["apply for a position", "a senior position", "a junior position", "fill a position"],
+          "synonyms": ["job", "post"], "antonyms": [],
+          "note": "More formal than 'job'. Common in job adverts and formal emails.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "salary", "pos": "noun", "ipa": "/ˈsæləri/",
+          "definition": "the fixed amount of money you get for your job, usually every month",
+          "mn": "цалин",
+          "examples": ["Her new salary was almost half of her old one.", "The job offers a good salary and flexible hours."],
+          "collocations": ["a good salary", "a high salary", "an annual salary", "earn a salary"],
+          "synonyms": ["pay", "income"], "antonyms": [],
+          "mistake": "We 'earn' or 'get' a salary, not 'take' a salary. A 'wage' is usually paid per hour or per week.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "employee", "pos": "noun", "ipa": "/ɪmˈplɔɪiː/",
+          "definition": "a person who is paid to work for a company or another person",
+          "mn": "ажилтан",
+          "examples": ["The company has over two hundred employees.", "As an employee of a large bank, she had a safe job."],
+          "collocations": ["a new employee", "full-time employees", "employees of the company"],
+          "synonyms": ["worker", "member of staff"], "antonyms": ["employer"],
+          "mistake": "An employee works for someone; an employer (the company or boss) pays them. The stress is at the end: em-ploy-EE.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "opportunity", "pos": "noun", "ipa": "/ˌɒpəˈtjuːnəti/",
+          "definition": "a chance to do something good or useful",
+          "mn": "боломж, завшаан",
+          "examples": ["This job is a great opportunity to learn new skills.", "Look for opportunities to practise your English at work."],
+          "collocations": ["a great opportunity", "an opportunity to do something", "career opportunities", "take the opportunity"],
+          "synonyms": ["chance"], "antonyms": [],
+          "mistake": "Mongolian 'боломж' can be 'opportunity' or 'possibility'. For a good chance, say 'an opportunity to work abroad', not 'a possibility to work abroad'.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "promotion", "pos": "noun", "ipa": "/prəˈməʊʃn/",
+          "definition": "a move to a higher and more important job in the same company",
+          "mn": "албан тушаал ахих, дэвших",
+          "examples": ["Eighteen months later, she got a promotion.", "He's hoping for a promotion this year."],
+          "collocations": ["get a promotion", "deserve a promotion", "be up for promotion"],
+          "synonyms": ["advancement"], "antonyms": ["demotion"],
+          "note": "Verb: be promoted — 'She was promoted to manager.'",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "achievement", "pos": "noun", "ipa": "/əˈtʃiːvmənt/",
+          "definition": "something good that you have done successfully, usually with a lot of effort",
+          "mn": "амжилт, ололт",
+          "examples": ["Getting the qualification was a big achievement for her.", "What is your greatest achievement so far?"],
+          "collocations": ["a great achievement", "a sense of achievement", "your greatest achievement"],
+          "synonyms": ["success", "accomplishment"], "antonyms": ["failure"],
+          "mistake": "Don't say 'I achieved a success'. Say 'It was a great achievement' or 'I achieved my goal'.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "ambitious", "pos": "adjective", "ipa": "/æmˈbɪʃəs/",
+          "definition": "wanting very much to be successful",
+          "mn": "амбицтай, хүсэл тэмүүлэл ихтэй",
+          "examples": ["Ambitious people often feel stuck in safe jobs.", "She's very ambitious — she wants to be a director by forty."],
+          "collocations": ["highly ambitious", "an ambitious plan", "ambitious goals"],
+          "synonyms": ["driven"], "antonyms": ["unambitious"],
+          "note": "Usually positive in English, but 'too ambitious' about a plan means 'not realistic'.",
+          "level": "B1", "difficulty": 3
+        }
+      ],
+      "reading": {
+        "id": "r-new-career",
+        "title": "A New Career at Thirty-Six",
+        "genre": "article",
+        "text": [
+          "For twelve years, Enkhjargal Batbold had a safe job and a good salary. She was an employee of one of the biggest banks in Ulaanbaatar, where she worked as an accountant, and her parents were very proud of her. 'Everyone thought I had the perfect career,' she says. 'But every Sunday evening I felt sick when I thought about Monday.'",
+          "At thirty-five, she started an online course in web design. She studied late at night and at weekends, and a year later she got her first qualification. Then she did something that surprised everyone: she left the bank and applied for a junior position at a small tech company. She got the job, but her new salary was almost half of her old one.",
+          "'The first months were really hard,' she remembers. 'The other designers were ten years younger than me, and they knew much more than I did. But I had one big advantage: experience. I understood how companies work, how to talk to clients and how to organise my time.' Her manager noticed. Eighteen months later, Enkhjargal got a promotion, and she has led a small team of designers since then.",
+          "Career coaches say her story is not unusual. Many people in their thirties and forties dream of a new career, but they never apply for a different job because they are afraid of failing. 'Ambitious people often feel stuck in safe jobs,' explains career coach Oyun Dorj. 'My advice is to start small. Take a course, talk to people who do the job you want, and look for opportunities to try it before you leave your old job.'",
+          "Does Enkhjargal have any regrets? 'Only one,' she laughs. 'I didn't do it sooner.' And her biggest achievement? It isn't the promotion, she says. 'It's that I enjoy Mondays now.'"
+        ],
+        "glossary": [
+          { "term": "accountant", "meaning": "a person whose job is to keep or check financial records", "mn": "нягтлан бодогч" },
+          { "term": "junior", "meaning": "at a low level in a company, often new", "mn": "бага түвшний, дадлагажигч" },
+          { "term": "stuck", "meaning": "unable to change or move forward", "mn": "гацсан, урагшлахгүй байгаа" },
+          { "term": "regret", "meaning": "a feeling of being sorry about something you did or didn't do", "mn": "харамсал" }
+        ],
+        "questions": [
+          { "type": "mcq", "tag": "main_idea", "prompt": "What is the article mainly about?", "options": ["How to become an accountant", "A woman who successfully changed careers in her thirties", "Why banks pay good salaries", "How to find a job at a tech company"], "answer": 1 },
+          { "type": "tfng", "tag": "detail", "prompt": "Enkhjargal studied web design while she was still working at the bank.", "answer": "true", "explanation": "Paragraph 2: she studied at night and at weekends, then left the bank." },
+          { "type": "tfng", "tag": "detail", "prompt": "Her salary at the tech company was higher than at the bank.", "answer": "false", "explanation": "It was almost half of her old salary." },
+          { "type": "tfng", "tag": "detail", "prompt": "Enkhjargal's parents were angry when she left the bank.", "answer": "not_given", "explanation": "We only know they were proud of her when she worked at the bank." },
+          { "type": "mcq", "tag": "detail", "prompt": "What helped Enkhjargal most at her new company?", "options": ["Her young colleagues", "Her high salary", "Her experience of how companies work", "Her online friends"], "answer": 2 },
+          { "type": "mcq", "tag": "vocab_context", "prompt": "In paragraph 4, 'Ambitious people often feel stuck' means they feel…", "options": ["very tired after work", "unable to change or move forward", "very rich and safe", "too busy to see friends"], "answer": 1 },
+          { "type": "summary", "tag": "summary", "prompt": "Complete the summary with words from the box.", "text": "Enkhjargal worked at a bank for twelve years. In her free time she did an online course and got her first {1}. After that, she applied for a junior {2} at a tech company, even though the {3} was much lower. Eighteen months later, she got a {4}.", "bank": ["qualification", "position", "salary", "promotion", "deadline", "contract"], "answers": ["qualification", "position", "salary", "promotion"] },
+          { "type": "short", "tag": "detail", "prompt": "What is the career coach's main advice? (two words)", "answers": ["start small"], "explanation": "'My advice is to start small.'" }
+        ]
+      },
+      "quiz": [
+        { "type": "gap", "skill": "vocabulary", "tag": "collocation", "prompt": "I'd like to ___ for the marketing position I saw on your website.", "answers": ["apply"], "options": ["ask", "apply", "request", "take"] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "Which sentence is correct?", "options": ["She has five experiences in sales.", "She has five years of experience in sales.", "She has five years experiences in sales."], "answer": 1 },
+        { "type": "match", "skill": "vocabulary", "tag": "collocation", "prompt": "Match the words to make collocations.", "pairs": [["gain", "experience"], ["apply for", "a position"], ["a sense of", "achievement"], ["a career", "change"]] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "Someone who really wants to be successful and get to the top is…", "options": ["unemployed", "ambitious", "junior", "retired"], "answer": 1 },
+        { "type": "gap", "skill": "vocabulary", "prompt": "Getting my driving licence at forty was a real ___ for me.", "answers": ["achievement"] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "'Opportunity' is closest in meaning to…", "options": ["a problem", "a salary", "a mistake", "a chance"], "answer": 3 }
+      ]
+    },
+    {
+      "id": "b1-06-l2",
+      "title": "How long have you worked there?",
+      "focus": "grammar",
+      "difficulty": 3,
+      "minutes": 25,
+      "objectives": [
+        "Use the present perfect with for and since to say how long",
+        "Ask and answer 'How long have you…?' questions",
+        "Describe your working life, past and present"
+      ],
+      "warmup": {
+        "intro": "Quick check — trust your first feeling.",
+        "questions": [
+          { "type": "mcq", "prompt": "Which question asks about the length of time?", "options": ["When did you start here?", "How long have you worked here?", "Where do you work?"], "answer": 1, "skill": "grammar" },
+          { "type": "mcq", "prompt": "A person you work with is your…", "options": ["colleague", "classmate", "customer", "candidate"], "answer": 0, "skill": "vocabulary" }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "colleague", "pos": "noun", "ipa": "/ˈkɒliːɡ/",
+          "definition": "a person you work with",
+          "mn": "хамт ажиллагч",
+          "examples": ["I've known my colleague Tuvshin since we both started here.", "My colleagues are very helpful."],
+          "collocations": ["a close colleague", "a former colleague", "colleagues at work"],
+          "synonyms": ["co-worker"], "antonyms": [],
+          "mistake": "Stress the first syllable: KOL-eeg. For people you study with, say 'classmate', not 'colleague'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "department", "pos": "noun", "ipa": "/dɪˈpɑːtmənt/",
+          "definition": "one part of a large company or organisation",
+          "mn": "хэлтэс",
+          "examples": ["She works in the sales department.", "I've been in the IT department for two years."],
+          "collocations": ["the sales department", "the marketing department", "the HR department", "head of department"],
+          "synonyms": ["section", "team"], "antonyms": [],
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "staff", "pos": "noun", "ipa": "/stɑːf/",
+          "definition": "all the people who work for an organisation",
+          "mn": "ажилчид, ажилтнууд (нийтээр нь)",
+          "examples": ["All staff must attend the meeting on Friday.", "We have fifty members of staff."],
+          "collocations": ["members of staff", "a staff meeting", "hire staff", "the staff room"],
+          "synonyms": ["employees", "workers"], "antonyms": [],
+          "mistake": "'Staff' is a group noun: 'fifty members of staff' or 'fifty staff', not 'fifty staffs'.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "full-time", "pos": "adjective / adverb", "ipa": "/ˌfʊl ˈtaɪm/",
+          "definition": "for the whole of the normal working week",
+          "mn": "бүтэн цагийн",
+          "examples": ["I've had a full-time job since I graduated.", "She works full-time and studies in the evenings."],
+          "collocations": ["a full-time job", "work full-time", "full-time staff"],
+          "synonyms": [], "antonyms": ["part-time"],
+          "note": "Write it with a hyphen, like 'part-time'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "in charge of", "pos": "phrase", "ipa": "/ɪn ˈtʃɑːdʒ əv/",
+          "definition": "responsible for a group of people or an activity",
+          "mn": "хариуцсан, удирдсан",
+          "examples": ["Who's in charge of the new project?", "She has been in charge of the team since May."],
+          "collocations": ["be in charge of", "put someone in charge of", "the person in charge"],
+          "synonyms": ["responsible for", "head of"], "antonyms": [],
+          "mistake": "Say 'in charge of the team', not 'in charge for the team'.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "responsibility", "pos": "noun", "ipa": "/rɪˌspɒnsəˈbɪləti/",
+          "definition": "a duty to deal with something as part of your job; accepting that something is your fault",
+          "mn": "хариуцлага, үүрэг",
+          "examples": ["My main responsibility is training new staff.", "A good manager takes responsibility for the team's mistakes."],
+          "collocations": ["take responsibility for", "have responsibility for", "main responsibilities", "a lot of responsibility"],
+          "synonyms": ["duty"], "antonyms": [],
+          "mistake": "Say 'take responsibility for', not 'take responsibility of'. Adjective: 'responsible for'.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "contract", "pos": "noun", "ipa": "/ˈkɒntrækt/",
+          "definition": "an official written agreement, for example between a worker and a company",
+          "mn": "гэрээ",
+          "examples": ["I signed a one-year contract in January.", "His contract ends next month."],
+          "collocations": ["sign a contract", "a one-year contract", "renew a contract", "a contract ends"],
+          "synonyms": ["agreement"], "antonyms": [],
+          "note": "The noun is stressed on the first syllable: CON-tract.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "unemployed", "pos": "adjective", "ipa": "/ˌʌnɪmˈplɔɪd/",
+          "definition": "without a paid job",
+          "mn": "ажилгүй",
+          "examples": ["He's been unemployed for six months.", "It's hard to stay positive when you're unemployed."],
+          "collocations": ["be unemployed", "unemployed for (a time)", "long-term unemployed"],
+          "synonyms": ["out of work", "jobless"], "antonyms": ["employed", "in work"],
+          "note": "Noun: unemployment.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "quit", "pos": "verb", "ipa": "/kwɪt/",
+          "definition": "to leave your job (informal)",
+          "mn": "(ажлаасаа) гарах",
+          "examples": ["She quit her job at the bank last year.", "Why did you quit your last job?"],
+          "collocations": ["quit your job", "quit school", "quit smoking"],
+          "synonyms": ["leave", "resign"], "antonyms": ["stay"],
+          "note": "Irregular: quit – quit – quit. Informal; in formal writing use 'resign' or 'leave'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "retire", "pos": "verb", "ipa": "/rɪˈtaɪə(r)/",
+          "definition": "to stop working, usually because of your age",
+          "mn": "тэтгэвэрт гарах",
+          "examples": ["My father retired three years ago.", "My grandmother had to retire at fifty-five."],
+          "collocations": ["retire early", "retire from a job", "retirement age"],
+          "synonyms": ["stop working"], "antonyms": [],
+          "note": "Noun: retirement. 'He's retired' = he doesn't work any more.",
+          "level": "B1", "difficulty": 2
+        }
+      ],
+      "grammar": "present-perfect-for-since",
+      "speaking": {
+        "id": "s-working-life",
+        "type": "describe",
+        "prompt": "Describe your working life (or your studies). Say what you do now, how long you have done it, what your responsibilities are, and what you did before.",
+        "promptMn": "Ажлын (эсвэл сурлагын) амьдралаа тайлбарла: одоо юу хийдэг, хэр удаж байгаа, ямар үүрэг хариуцлагатай, өмнө нь юу хийж байсан бэ.",
+        "points": ["Your job or studies now (present simple)", "How long you have done it (for / since)", "Your main responsibilities and your colleagues", "What you did before (past simple)"],
+        "phrases": ["I've worked as… for…", "I've been in the… department since…", "My main responsibility is…", "Before that, I worked…", "I've known… since…"],
+        "targetWords": ["colleague", "department", "full-time", "in charge of", "responsibility"],
+        "prepSeconds": 45,
+        "speakSeconds": 90,
+        "sample": "I'm an accountant. I've worked for a construction company in Ulaanbaatar for about five years. I started as a junior accountant, but since last year I've been in charge of salaries for the whole company, so I have much more responsibility now. I work full-time, from nine to six, and I share an office with three colleagues from the finance department. They're really friendly — I've known one of them since university. Before this job, I worked in a small shop for two years while I was studying. I enjoy my job, but one day I'd like to work abroad."
+      },
+      "quiz": [
+        { "type": "mcq", "skill": "grammar", "prompt": "My parents have been married ___ thirty years.", "options": ["since", "for", "during"], "answer": 1 },
+        { "type": "mcq", "skill": "grammar", "prompt": "He ___ in the marketing department since he joined the company.", "options": ["has worked", "works", "worked"], "answer": 0 },
+        { "type": "gap", "skill": "grammar", "prompt": "How long ___ you had your current contract?", "answers": ["have"] },
+        { "type": "correct", "skill": "grammar", "prompt": "Correct the sentence.", "sentence": "My grandfather is retired since 2015.", "answers": ["My grandfather has been retired since 2015.", "My grandfather retired in 2015."], "explanation": "With 'since' use has + been, not is." },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "If you are 'in charge of' a team, you…", "options": ["are its newest member", "have just left it", "are responsible for it", "are one of its customers"], "answer": 2 },
+        { "type": "gap", "skill": "vocabulary", "prompt": "She ___ her job because she wanted to travel for a year.", "answers": ["quit"], "options": ["retired", "quit", "took", "applied"] }
+      ]
+    },
+    {
+      "id": "b1-06-l3",
+      "title": "The job interview",
+      "focus": "listening",
+      "difficulty": 4,
+      "minutes": 25,
+      "objectives": [
+        "Understand a job interview and the questions interviewers often ask",
+        "Talk about your strengths and weaknesses with natural phrases",
+        "Stress long job words correctly (qualifiCAtion, responsiBILity)",
+        "Answer interview questions in a role-play"
+      ],
+      "warmup": {
+        "intro": "Have you ever had a job interview? How did you feel?",
+        "questions": [
+          { "type": "mcq", "prompt": "Which question is very common in job interviews?", "options": ["What's your favourite colour?", "What are your strengths and weaknesses?", "How old is your car?", "Do you like cats?"], "answer": 1, "skill": "speaking" }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "candidate", "pos": "noun", "ipa": "/ˈkændɪdət/",
+          "definition": "a person who is trying to get a job, or who is taking an exam",
+          "mn": "ажилд горилогч, нэр дэвшигч",
+          "examples": ["We've interviewed six candidates for the position.", "She was the strongest candidate."],
+          "collocations": ["a strong candidate", "the ideal candidate", "a suitable candidate"],
+          "synonyms": ["applicant"], "antonyms": [],
+          "note": "Stress the first syllable: CAN-di-date.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "strength", "pos": "noun", "ipa": "/streŋθ/",
+          "definition": "a good quality or ability that makes someone effective",
+          "mn": "давуу тал",
+          "examples": ["What would you say are your main strengths?", "Her biggest strength is her patience."],
+          "collocations": ["a key strength", "your main strengths", "strengths and weaknesses"],
+          "synonyms": ["strong point"], "antonyms": ["weakness"],
+          "mistake": "'Strong' is the adjective; 'strength' is the noun. Say 'My main strength is…', not 'My main strong is…'.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "weakness", "pos": "noun", "ipa": "/ˈwiːknəs/",
+          "definition": "a quality or area where someone is not very good",
+          "mn": "сул тал",
+          "examples": ["My biggest weakness is that I find it hard to say no.", "Everyone has strengths and weaknesses."],
+          "collocations": ["a main weakness", "work on a weakness", "strengths and weaknesses"],
+          "synonyms": ["weak point"], "antonyms": ["strength"],
+          "note": "In interviews, talk about a real weakness and say what you are doing to improve it.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "reliable", "pos": "adjective", "ipa": "/rɪˈlaɪəbl/",
+          "definition": "that you can trust to do what they say or what you expect",
+          "mn": "найдвартай, итгэж болохуйц",
+          "examples": ["I'm very reliable — I always do what I promise.", "We need a reliable person to open the office in the morning."],
+          "collocations": ["a reliable person", "completely reliable", "reliable information"],
+          "synonyms": ["dependable", "trustworthy"], "antonyms": ["unreliable"],
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "team player", "pos": "noun phrase", "ipa": "/ˈtiːm ˌpleɪə(r)/",
+          "definition": "someone who works well with other people in a group",
+          "mn": "багаар сайн ажилладаг хүн",
+          "examples": ["I'm a good team player, but I can also work alone.", "The job needs a real team player."],
+          "collocations": ["a good team player", "a real team player"],
+          "synonyms": ["cooperative person"], "antonyms": ["loner"],
+          "note": "Very common in job adverts and interviews.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "deadline", "pos": "noun", "ipa": "/ˈdedlaɪn/",
+          "definition": "the time or day by which you must finish something",
+          "mn": "эцсийн хугацаа",
+          "examples": ["I've never missed a deadline.", "The deadline for the report is Friday at five."],
+          "collocations": ["meet a deadline", "miss a deadline", "a tight deadline", "the deadline for (something)"],
+          "synonyms": ["time limit"], "antonyms": [],
+          "mistake": "We 'meet' a deadline (finish on time), not 'catch' or 'keep' a deadline.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "under pressure", "pos": "phrase", "ipa": "/ˌʌndə ˈpreʃə(r)/",
+          "definition": "in a situation where you have a lot to do or people expect a lot from you",
+          "mn": "дарамт шахалттай нөхцөлд, ачаалал ихтэй үед",
+          "examples": ["I work well under pressure.", "Some people make mistakes when they're under pressure."],
+          "collocations": ["work well under pressure", "be under pressure", "put someone under pressure"],
+          "synonyms": ["stressed"], "antonyms": ["relaxed"],
+          "note": "You can add 'a lot of': 'I'm under a lot of pressure at the moment.'",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "motivated", "pos": "adjective", "ipa": "/ˈməʊtɪveɪtɪd/",
+          "definition": "wanting to do something well and ready to work hard at it",
+          "mn": "урам зоригтой, эрмэлзэлтэй",
+          "examples": ["You're clearly very motivated.", "It's hard to stay motivated in a boring job."],
+          "collocations": ["highly motivated", "stay motivated", "feel motivated"],
+          "synonyms": ["keen", "enthusiastic"], "antonyms": ["unmotivated"],
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "flexible", "pos": "adjective", "ipa": "/ˈfleksəbl/",
+          "definition": "able to change easily to suit new situations; (about hours) that can be changed",
+          "mn": "уян хатан",
+          "examples": ["This job needs someone flexible.", "The company offers flexible working hours."],
+          "collocations": ["flexible hours", "flexible working", "a flexible approach"],
+          "synonyms": ["adaptable"], "antonyms": ["inflexible", "rigid"],
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "take on", "pos": "phrasal verb", "ipa": "/ˌteɪk ˈɒn/",
+          "definition": "to accept some work or responsibility",
+          "mn": "(ажил, хариуцлага) хүлээж авах, үүрэх",
+          "examples": ["I sometimes take on too much work.", "She took on the role of team leader last year."],
+          "collocations": ["take on more work", "take on responsibility", "take on a new role"],
+          "synonyms": ["accept"], "antonyms": ["turn down"],
+          "note": "It can also mean 'employ': 'The company is taking on new staff.'",
+          "level": "B1+", "difficulty": 3
+        }
+      ],
+      "listening": {
+        "id": "l-job-interview",
+        "title": "Why do you want this job?",
+        "kind": "interview",
+        "context": "Batbayar is at a job interview for a team leader position at a travel company. Claire is interviewing him.",
+        "speakers": [
+          { "name": "Claire", "voice": "female", "accent": "en-GB" },
+          { "name": "Batbayar", "voice": "male", "accent": "en-GB" }
+        ],
+        "lines": [
+          { "speaker": "Claire", "text": "Good morning, Batbayar. Thanks for coming in. Please, have a seat." },
+          { "speaker": "Batbayar", "text": "Thank you. It's nice to meet you." },
+          { "speaker": "Claire", "text": "So, tell me a little about your current job. How long have you worked at Blue Sky Tours?" },
+          { "speaker": "Batbayar", "text": "I've been there for three years. I started as a tour guide, and since last year I've been in charge of a small team of guides." },
+          { "speaker": "Claire", "text": "And why do you want to leave?" },
+          { "speaker": "Batbayar", "text": "Well, I enjoy my job, but I'm ready for more responsibility. This position is a great opportunity to work with international clients." },
+          { "speaker": "Claire", "text": "What would you say are your main strengths?" },
+          { "speaker": "Batbayar", "text": "I'm very reliable, and I'm a good team player. I work well under pressure, too. In summer we sometimes have forty groups a week, and I've never missed a deadline." },
+          { "speaker": "Claire", "text": "That's impressive. And what about weaknesses?" },
+          { "speaker": "Batbayar", "text": "Hmm. I sometimes find it hard to say no, so I take on too much work. I've started using a planning app, and it's really helped me." },
+          { "speaker": "Claire", "text": "Good. This job needs someone flexible. Sometimes you'd need to work at weekends. Would that be a problem?" },
+          { "speaker": "Batbayar", "text": "Not at all. I often work at weekends in the summer anyway." },
+          { "speaker": "Claire", "text": "Great. Well, we've seen a lot of strong candidates, but you're clearly very motivated. We'll let you know by Friday." },
+          { "speaker": "Batbayar", "text": "Thank you very much. I look forward to hearing from you." }
+        ],
+        "gist": [
+          { "type": "mcq", "tag": "main_idea", "prompt": "What is the main purpose of the conversation?", "options": ["Claire wants to find out if Batbayar is right for the job.", "Batbayar is booking a tour.", "Claire is offering Batbayar a promotion at Blue Sky Tours.", "Batbayar is complaining about his workload."], "answer": 0 }
+        ],
+        "detail": [
+          { "type": "tfng", "tag": "detail", "prompt": "Batbayar has worked at Blue Sky Tours for three years.", "answer": "true" },
+          { "type": "mcq", "tag": "detail", "prompt": "What does Batbayar do now?", "options": ["He is a tour guide with no team.", "He is in charge of a small team of guides.", "He is the manager of the whole company.", "He is unemployed."], "answer": 1 },
+          { "type": "mcq", "tag": "detail", "prompt": "What is Batbayar's weakness?", "options": ["He is often late.", "He doesn't like working in a team.", "He can't work under pressure.", "He finds it hard to say no."], "answer": 3 },
+          { "type": "gap", "tag": "detail", "prompt": "To deal with his weakness, Batbayar has started using a planning ___.", "answers": ["app", "application"] },
+          { "type": "tfng", "tag": "detail", "prompt": "Batbayar doesn't want to work at weekends.", "answer": "false", "explanation": "He says 'Not at all' — he often works at weekends anyway." }
+        ],
+        "expressions": [
+          { "phrase": "Have a seat.", "meaning": "a polite way to ask someone to sit down", "mn": "Суугаарай." },
+          { "phrase": "What would you say are your main strengths?", "meaning": "a polite, common way to ask about someone's best qualities", "mn": "Таны гол давуу тал юу гэж та бодож байна вэ?" },
+          { "phrase": "That's impressive.", "meaning": "that is very good and makes me admire you", "mn": "Гайхалтай юм." },
+          { "phrase": "I look forward to hearing from you.", "meaning": "a polite way to end an interview or a formal email", "mn": "Хариуг тань хүлээж байна." }
+        ]
+      },
+      "pronunciation": "job-word-stress",
+      "speaking": {
+        "id": "s-job-interview",
+        "type": "roleplay",
+        "prompt": "Role-play: You are at a job interview for a position you would really like. Answer the interviewer's questions: How long have you worked (or studied) where you are now? What are your main strengths and one weakness? Why do you want this job?",
+        "promptMn": "Дүрд тоглох: Та маш их хүсэж буй ажлынхаа ярилцлагад орж байна. Ярилцлага авагчийн асуултад хариул: Одоогийн ажил (эсвэл сургууль)-даа хэр удаж байна вэ? Таны гол давуу тал, нэг сул тал юу вэ? Яагаад энэ ажлыг хүсэж байна вэ?",
+        "points": ["Your current job or studies and how long (for / since)", "Two strengths, with an example", "One weakness and what you are doing about it", "Why you want this position"],
+        "phrases": ["I've worked as… for… / since…", "My main strength is that…", "I work well under pressure.", "One of my weaknesses is…, but I'm working on it.", "This position is a great opportunity to…"],
+        "targetWords": ["strength", "weakness", "reliable", "deadline", "under pressure", "take on"],
+        "prepSeconds": 60,
+        "speakSeconds": 120,
+        "sample": "Well, I've worked as an administrator at a hospital in Ulaanbaatar for four years, and since last spring I've also been in charge of training new staff. My main strength is that I'm very reliable — I always meet deadlines, even when I'm under pressure. I'm also a good team player. One of my weaknesses is public speaking: I get nervous in big meetings. But I've joined a speaking club to practise, and it's getting easier. I'd like this position because it's a great opportunity to take on more responsibility and to work with international partners."
+      },
+      "quiz": [
+        { "type": "match", "skill": "vocabulary", "tag": "collocation", "prompt": "Match to make interview collocations.", "pairs": [["meet", "a deadline"], ["work well", "under pressure"], ["take on", "more responsibility"], ["a good", "team player"]] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "Someone who always does what they promise is…", "options": ["flexible", "reliable", "motivated", "ambitious"], "answer": 1 },
+        { "type": "gap", "skill": "vocabulary", "prompt": "We have a very tight ___ — the report must be ready by tomorrow morning.", "answers": ["deadline"], "options": ["strength", "candidate", "deadline", "weakness"] },
+        { "type": "mcq", "skill": "pronunciation", "prompt": "Where is the main stress in 'responsibility'?", "options": ["RES-pon-si-bil-i-ty", "res-pon-si-BIL-i-ty", "res-PON-si-bil-i-ty"], "answer": 1 },
+        { "type": "mcq", "skill": "pronunciation", "prompt": "Which word is stressed on the FIRST syllable?", "options": ["promotion", "achievement", "colleague", "experience"], "answer": 2 },
+        { "type": "tfng", "skill": "listening", "prompt": "In the interview, Claire says she will tell Batbayar her decision by Friday.", "answer": "true" }
+      ]
+    },
+    {
+      "id": "b1-06-l4",
+      "title": "Just a quick update",
+      "focus": "writing",
+      "difficulty": 4,
+      "minutes": 30,
+      "objectives": [
+        "Use just, already and yet with the present perfect",
+        "Use polite phrases to open, ask and close a work email",
+        "Write a short professional email with a project update (90–130 words)"
+      ],
+      "warmup": {
+        "intro": "How many work emails do you write in a week? Do you ever write them in English?",
+        "questions": [
+          { "type": "mcq", "prompt": "Which is the best first line for an email to your manager, Anna?", "options": ["Hey you!", "Dear Sir or Madam,", "Hi Anna, I hope you're well.", "Yo boss,"], "answer": 2, "skill": "writing", "tag": "register" }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "workload", "pos": "noun", "ipa": "/ˈwɜːkləʊd/",
+          "definition": "the amount of work a person has to do",
+          "mn": "ажлын ачаалал",
+          "examples": ["My workload has been very heavy this month.", "We need another person to help with the workload."],
+          "collocations": ["a heavy workload", "manage your workload", "reduce the workload"],
+          "synonyms": ["amount of work"], "antonyms": [],
+          "mistake": "Say 'a heavy workload' or 'a lot of work', not 'many works' — 'work' is uncountable.",
+          "level": "B2", "difficulty": 3
+        },
+        {
+          "word": "attach", "pos": "verb", "ipa": "/əˈtætʃ/",
+          "definition": "to add a document or file to an email",
+          "mn": "хавсаргах",
+          "examples": ["I've attached the report to this email.", "Please see the attached file."],
+          "collocations": ["attach a file", "attach a document", "the attached report", "please find attached"],
+          "synonyms": ["include"], "antonyms": [],
+          "note": "'Please find attached…' is formal. 'I've attached…' is neutral and sounds more modern.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "CV", "pos": "noun", "ipa": "/ˌsiː ˈviː/",
+          "definition": "a document that lists your education, qualifications and work experience, used when you apply for a job",
+          "mn": "намтар, CV",
+          "examples": ["I've already sent my CV to three companies.", "Keep your CV short — two pages at most."],
+          "collocations": ["send your CV", "update your CV", "attach your CV"],
+          "synonyms": ["résumé"], "antonyms": [],
+          "note": "British English. American English: résumé.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "confirm", "pos": "verb", "ipa": "/kənˈfɜːm/",
+          "definition": "to say or show that something is definitely true or will definitely happen",
+          "mn": "баталгаажуулах",
+          "examples": ["Could you confirm the time of the meeting?", "I'm writing to confirm my interview on Monday."],
+          "collocations": ["confirm a meeting", "confirm a booking", "confirm by email"],
+          "synonyms": ["check", "make sure"], "antonyms": ["cancel"],
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "available", "pos": "adjective", "ipa": "/əˈveɪləbl/",
+          "definition": "free to meet or talk; ready to be used or bought",
+          "mn": "завтай, боломжтой; бэлэн байгаа",
+          "examples": ["Are you available for a call on Thursday afternoon?", "I'm not available next week — I'm on holiday."],
+          "collocations": ["available on (a day)", "available for a meeting", "not available"],
+          "synonyms": ["free"], "antonyms": ["busy", "unavailable"],
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "postpone", "pos": "verb", "ipa": "/pəˈspəʊn/",
+          "definition": "to move an event to a later time",
+          "mn": "хойшлуулах",
+          "examples": ["Could we postpone the meeting until Friday?", "The training has been postponed because the trainer is ill."],
+          "collocations": ["postpone a meeting", "postpone until (a day)", "postpone something for a week"],
+          "synonyms": ["put off", "delay"], "antonyms": ["bring forward"],
+          "mistake": "Don't confuse 'postpone' (move to a later time) with 'cancel' (it won't happen at all).",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "feedback", "pos": "noun", "ipa": "/ˈfiːdbæk/",
+          "definition": "comments about how well or badly someone has done something",
+          "mn": "санал, үнэлгээ, эргэх холбоо",
+          "examples": ["Have you had any feedback from the client yet?", "My manager gave me some useful feedback on my presentation."],
+          "collocations": ["give feedback", "get feedback", "positive feedback", "feedback on (something)"],
+          "synonyms": ["comments"], "antonyms": [],
+          "mistake": "'Feedback' is uncountable: 'some feedback' or 'a piece of feedback', not 'a feedback' or 'feedbacks'.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "update", "pos": "noun / verb", "ipa": "/ˈʌpdeɪt/ (n), /ʌpˈdeɪt/ (v)",
+          "definition": "the newest information about something; to give someone the newest information",
+          "mn": "шинэ мэдээлэл; мэдээллийг шинэчлэх",
+          "examples": ["Here's a quick update on the project.", "I'll keep you updated."],
+          "collocations": ["a quick update", "an update on (something)", "keep someone updated"],
+          "synonyms": ["news"], "antonyms": [],
+          "note": "Noun: UP-date. Verb: up-DATE.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "urgent", "pos": "adjective", "ipa": "/ˈɜːdʒənt/",
+          "definition": "very important and needing attention immediately",
+          "mn": "яаралтай",
+          "examples": ["Sorry to bother you, but it's urgent.", "I have an urgent question about the contract."],
+          "collocations": ["an urgent email", "an urgent question", "it's urgent"],
+          "synonyms": ["pressing"], "antonyms": ["not urgent"],
+          "note": "Write 'URGENT' in a subject line only when it really is urgent.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "overtime", "pos": "noun / adverb", "ipa": "/ˈəʊvətaɪm/",
+          "definition": "time you work after your usual working hours",
+          "mn": "илүү цагийн ажил",
+          "examples": ["I've worked a lot of overtime this month.", "Do you get paid for overtime?"],
+          "collocations": ["work overtime", "do overtime", "paid overtime", "unpaid overtime"],
+          "synonyms": ["extra hours"], "antonyms": [],
+          "level": "B1+", "difficulty": 3
+        }
+      ],
+      "phrases": [
+        { "phrase": "I hope you're well.", "meaning": "a polite, friendly first line in an email", "mn": "Сайн байгаа гэж найдаж байна.", "register": "professional", "whenToUse": "At the start of a work email to someone you know. 'I hope this email finds you well' is more formal and a bit old-fashioned.", "example": "Hi Anna, I hope you're well." },
+        { "phrase": "Just a quick update on…", "meaning": "used to introduce short news about a piece of work", "mn": "…-ын талаар товч мэдээлэл", "register": "professional", "whenToUse": "In the first line or subject of an email to colleagues or your manager. Friendly but professional — too casual for a first email to a new client.", "example": "Just a quick update on the training day." },
+        { "phrase": "Please find attached…", "meaning": "I have added this file to the email", "mn": "…-ыг хавсаргав.", "register": "formal", "whenToUse": "In formal emails, for example job applications. In everyday work emails, 'I've attached…' is also fine and sounds friendlier.", "example": "Please find attached my CV and a copy of my qualifications." },
+        { "phrase": "Could you let me know…?", "meaning": "a polite way to ask for information or a decision", "mn": "…-г надад мэдэгдэж болох уу?", "register": "neutral", "whenToUse": "In emails and messages when you need an answer. Softer than 'Tell me…'.", "example": "Could you let me know if Thursday works for you?" },
+        { "phrase": "Sorry for the late reply.", "meaning": "an apology for answering slowly", "mn": "Хариу хоцорсонд уучлаарай.", "register": "neutral", "whenToUse": "When you reply a day or more after an email. In very formal emails: 'I apologise for the delay in replying.'", "example": "Sorry for the late reply — it's been a busy week." },
+        { "phrase": "Kind regards, / Best regards,", "meaning": "standard ways to end a work email", "mn": "Хүндэтгэсэн, (имэйлийн төгсгөл)", "register": "professional", "whenToUse": "To close work emails, with people you know or don't know. Don't use 'Speak soon' or 'Love' with people you don't know well.", "example": "Kind regards, Oyunaa" }
+      ],
+      "grammar": "just-already-yet",
+      "writing": {
+        "id": "w-project-update",
+        "type": "email_formal",
+        "prompt": "Your manager, Ms Davies, has asked for an update on an event you are organising (for example, a training day for new staff). Write an email. Say what you have already done, what you have just done, and what you haven't done yet. Then explain that your workload is heavy and ask to postpone your meeting with her.",
+        "promptMn": "Таны менежер хатагтай Дэйвис таны зохион байгуулж буй арга хэмжээний (жишээ нь шинэ ажилчдын сургалтын өдөр) талаар мэдээлэл авахыг хүссэн. Имэйл бичээрэй: аль хэдийн юу хийсэн, дөнгөж сая юу хийсэн, юуг хараахан хийгээгүй байгаагаа бич. Дараа нь ажлын ачаалал их байгаа тул уулзалтаа хойшлуулахыг хүс.",
+        "register": "professional",
+        "minWords": 90,
+        "maxWords": 130,
+        "points": ["A polite opening and the reason for the email", "What you have already done", "What you have just done (attach a file)", "What you haven't done yet and why", "Ask to postpone the meeting and suggest a new time", "A polite closing"],
+        "phrases": ["I hope you're well.", "Just a quick update on…", "I've already…", "I've just…", "I haven't… yet, because…", "Could we postpone…?", "Could you let me know…?", "Kind regards,"],
+        "targetWords": ["update", "attach", "confirm", "workload", "postpone", "available"],
+        "sample": "Subject: Update on the staff training day\n\nDear Ms Davies,\n\nI hope you're well. Just a quick update on the training day for new staff.\n\nI've already booked the conference room and sent the invitations to all fifteen new employees. I've also just received the final programme from the trainer — I've attached it to this email. However, I haven't confirmed the lunch order yet, because the café hasn't replied.\n\nMy workload has been very heavy this week, so could we postpone our meeting from Wednesday to Friday morning? I'm available any time after 9:30.\n\nCould you let me know if that works for you?\n\nKind regards,\nOyunaa"
+      },
+      "quiz": [
+        { "type": "mcq", "skill": "grammar", "prompt": "I've ___ sent you the file — can you check your inbox?", "options": ["yet", "ever", "just"], "answer": 2 },
+        { "type": "mcq", "skill": "grammar", "prompt": "Has the client replied ___?", "options": ["already", "yet", "just"], "answer": 1 },
+        { "type": "gap", "skill": "grammar", "prompt": "I ___ (already / book) the meeting room, so we don't need to worry.", "answers": ["have already booked"] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "Which sentence is correct?", "options": ["Could you give me some feedback on my report?", "Could you give me a feedback on my report?", "Could you give me feedbacks on my report?"], "answer": 0 },
+        { "type": "mcq", "skill": "writing", "tag": "register", "prompt": "Which ending is best for an email to a manager you don't know well?", "options": ["Love,", "Speak soon!", "Cheers,", "Kind regards,"], "answer": 3 },
+        { "type": "gap", "skill": "vocabulary", "prompt": "The meeting has been ___ until next Tuesday because the director is ill.", "answers": ["postponed"], "options": ["cancelled", "postponed", "confirmed", "attached"] }
+      ]
+    }
+  ],
+  "test": {
+    "reading": {
+      "id": "t-first-job",
+      "title": "Your First Job: Five Things Nobody Tells You",
+      "genre": "blog",
+      "text": [
+        "Starting your first full-time job is exciting, but it can also be confusing. University teaches you a lot, but it doesn't always prepare you for real office life. Here are five things I learned in my first year at work.",
+        "1. Nobody expects you to know everything. In your first few weeks, ask questions — lots of them. Your colleagues would much rather answer a simple question now than fix a big mistake later.",
+        "2. Write things down. You will get a lot of new information: names, passwords, how the printer works, who to ask about holidays. A small notebook will save you, and everyone around you, a lot of time.",
+        "3. Learn to say no politely. When you are new, it's tempting to say yes to every request because you want people to like you. But if you take on too much, you will start missing deadlines. It's better to say, 'I can do it, but not before Thursday.'",
+        "4. Ask for feedback. Don't wait for your yearly review to find out how you're doing. After a big task, ask your manager, 'Is there anything I could do better next time?' Most managers are happy that you asked.",
+        "5. Remember that your first job is not your whole career. If it isn't perfect, that's OK. Every job teaches you something, even if it only teaches you what you don't want to do."
+      ],
+      "glossary": [
+        { "term": "tempting", "meaning": "making you want to do something, even if it isn't a good idea", "mn": "уруу татсан, хийх хүсэл төрүүлсэн" },
+        { "term": "review", "meaning": "a meeting where your manager talks about how well you have worked", "mn": "ажлын үнэлгээ" }
+      ],
+      "questions": [
+        { "type": "mcq", "tag": "main_idea", "prompt": "What is the main purpose of the blog post?", "options": ["To explain how to write a good CV", "To give advice to people starting their first job", "To complain about bad managers", "To compare university and work"], "answer": 1 },
+        { "type": "match", "tag": "summary", "prompt": "Match each tip with the best heading.", "pairs": [["Tip 1", "Don't be afraid to ask"], ["Tip 2", "Keep notes"], ["Tip 3", "Protect your time"], ["Tip 4", "Find out how you're doing"], ["Tip 5", "See the bigger picture"]] },
+        { "type": "tfng", "tag": "detail", "prompt": "The writer thinks new employees should avoid asking too many questions.", "answer": "false", "explanation": "Tip 1: ask questions — lots of them." },
+        { "type": "tfng", "tag": "detail", "prompt": "The writer's first manager was very strict.", "answer": "not_given" },
+        { "type": "mcq", "tag": "detail", "prompt": "According to Tip 3, what happens if you take on too much?", "options": ["You get a promotion.", "People like you more.", "You start missing deadlines.", "Your manager gives you feedback."], "answer": 2 },
+        { "type": "mcq", "tag": "vocab_context", "prompt": "In Tip 3, 'tempting' means…", "options": ["dangerous", "something you want to do, even if it isn't wise", "boring", "something your manager tells you to do"], "answer": 1 },
+        { "type": "short", "tag": "detail", "prompt": "According to Tip 5, what can a job you don't like teach you?", "answers": ["what you don't want to do", "not want"], "explanation": "'…what you don't want to do.'" }
+      ]
+    },
+    "listening": {
+      "id": "t-second-interview",
+      "title": "A voicemail about a second interview",
+      "kind": "voicemail",
+      "context": "Munkh-Erdene gets a voicemail from a company where he had a job interview last week.",
+      "speakers": [{ "name": "Helen", "voice": "female", "accent": "en-GB" }],
+      "lines": [
+        { "speaker": "Helen", "text": "Hello, this is Helen Carter from Green Steppe Consulting. This message is for Munkh-Erdene." },
+        { "speaker": "Helen", "text": "Thank you for coming to your interview last week. I'm happy to say that we'd like to invite you to a second interview." },
+        { "speaker": "Helen", "text": "It'll be on Tuesday the fourteenth at half past ten, here at our office, and it should take about an hour." },
+        { "speaker": "Helen", "text": "This time you'll meet Mr Ganzorig, the head of our research department." },
+        { "speaker": "Helen", "text": "We'd also like you to give a short presentation, about ten minutes, on a project you've worked on." },
+        { "speaker": "Helen", "text": "Oh, and please bring copies of your qualifications, too." },
+        { "speaker": "Helen", "text": "Could you confirm by email by Friday? If Tuesday isn't possible, we're also available on Wednesday afternoon." },
+        { "speaker": "Helen", "text": "Thanks, and I hope to see you next week. Bye!" }
+      ],
+      "gist": [
+        { "type": "mcq", "tag": "main_idea", "prompt": "Why is Helen calling?", "options": ["To offer him the job", "To invite him to a second interview", "To cancel his interview", "To ask for his CV"], "answer": 1 }
+      ],
+      "detail": [
+        { "type": "mcq", "tag": "detail", "prompt": "When is the second interview?", "options": ["Tuesday at 10:30", "Wednesday at 10:30", "Tuesday at 2:30", "Friday morning"], "answer": 0 },
+        { "type": "tfng", "tag": "detail", "prompt": "Munkh-Erdene will meet the head of the research department.", "answer": "true" },
+        { "type": "gap", "tag": "detail", "prompt": "The presentation should be about ___ minutes long.", "answers": ["10", "ten"] },
+        { "type": "mcq", "tag": "detail", "prompt": "What does Helen ask him to bring?", "options": ["His passport", "A laptop", "Copies of his qualifications", "A letter from his manager"], "answer": 2 },
+        { "type": "tfng", "tag": "detail", "prompt": "He should confirm by phone.", "answer": "false", "explanation": "She asks him to confirm by email." }
+      ],
+      "expressions": [
+        { "phrase": "This message is for…", "meaning": "used at the start of a voicemail to say who it is for", "mn": "Энэ мессеж …-д зориулагдсан." },
+        { "phrase": "I'm happy to say that…", "meaning": "a polite way to give good news", "mn": "…гэдгийг дуулгахад таатай байна." },
+        { "phrase": "Could you confirm by…?", "meaning": "please say yes or no before this time", "mn": "…-аас өмнө баталгаажуулж өгнө үү?" }
+      ]
+    },
+    "writing": {
+      "id": "t-job-application",
+      "type": "email_formal",
+      "prompt": "You have seen an advert for a job you would like (for example, a receptionist at an international hotel). Write an email to apply (90–120 words). Say which position you are applying for, describe your experience (use for / since), give two strengths, and say that your CV is attached.",
+      "promptMn": "Та хүсэж буй ажлынхаа (жишээ нь олон улсын зочид буудлын ресепшн) зарыг харжээ. Өргөдлийн имэйл бичээрэй (90–120 үг): аль албан тушаалд горилж байгаа, туршлагаа (for / since ашиглан), хоёр давуу талаа бичиж, CV-гээ хавсаргасан гэдгээ хэлээрэй.",
+      "register": "formal",
+      "minWords": 90,
+      "maxWords": 120,
+      "points": ["The position and where you saw the advert", "Your experience (for / since)", "Two strengths", "Your CV is attached; when you are available"],
+      "phrases": ["I am writing to apply for the position of…", "I have worked as… for… / since…", "I am reliable and…", "Please find attached my CV.", "I am available for an interview…", "I look forward to hearing from you.", "Kind regards,"],
+      "targetWords": ["position", "experience", "responsibility", "reliable", "CV", "available"],
+      "sample": "Subject: Application for the position of receptionist\n\nDear Ms Collins,\n\nI am writing to apply for the position of receptionist at the Blue Sky Hotel, which I saw on your website.\n\nI have worked at the front desk of a guesthouse in Ulaanbaatar for two years, and since January I have also had responsibility for training new staff. I speak Mongolian, English and some Russian. My colleagues say I am reliable and flexible, and I work well under pressure, especially in the busy summer season.\n\nPlease find attached my CV and copies of my qualifications. I am available for an interview at any time next week.\n\nI look forward to hearing from you.\n\nKind regards,\nTsolmon Bat"
+    },
+    "speaking": {
+      "id": "t-change-jobs",
+      "type": "opinion",
+      "prompt": "Is it better to stay in one job for a long time or to change jobs every few years? Give your opinion with reasons and examples from people you know.",
+      "promptMn": "Нэг ажилдаа удаан ажиллах нь дээр үү, эсвэл хэдэн жил тутамд ажлаа солих нь дээр үү? Шалтгаан болон таньдаг хүмүүсийнхээ жишээгээр санал бодлоо илэрхийл.",
+      "points": ["Your opinion", "Advantages of changing jobs (experience, salary, new skills)", "Advantages of staying (promotion, responsibility, security)", "An example of someone you know (for / since)"],
+      "phrases": ["In my opinion, …", "One advantage is that…", "On the other hand, …", "For example, my brother has… since…", "Personally, I think…"],
+      "targetWords": ["experience", "promotion", "responsibility", "salary", "opportunity"],
+      "prepSeconds": 45,
+      "speakSeconds": 90,
+      "sample": "In my opinion, it depends on the person, but I think changing jobs every few years is usually a good idea, especially when you're young. When you move to a new company, you gain new experience, meet new colleagues and often get a higher salary. For example, my brother has changed jobs three times since he graduated, and each time he's learned something new. On the other hand, if you stay in one company for a long time, you can get a promotion and more responsibility. My mother has worked at the same school for twenty-five years, and now she's the head teacher. So both ways can work. Personally, I think the most important thing is to keep learning."
+    },
+    "questions": [
+      { "type": "mcq", "skill": "grammar", "prompt": "I've known my manager ___ 2019.", "options": ["for", "since", "from"], "answer": 1 },
+      { "type": "mcq", "skill": "grammar", "prompt": "How long ___ your current phone?", "options": ["have you had", "do you have", "are you having"], "answer": 0 },
+      { "type": "gap", "skill": "grammar", "prompt": "She ___ (be) a teacher for fifteen years, and she still loves it.", "answers": ["has been"] },
+      { "type": "correct", "skill": "grammar", "prompt": "Correct the sentence.", "sentence": "I'm living in Erdenet since 2015.", "answers": ["I've lived in Erdenet since 2015.", "I have lived in Erdenet since 2015.", "I've been living in Erdenet since 2015.", "I have been living in Erdenet since 2015."] },
+      { "type": "mcq", "skill": "grammar", "prompt": "Is the new website ready? — No, the designers haven't finished it ___.", "options": ["already", "just", "yet"], "answer": 2 },
+      { "type": "transform", "skill": "grammar", "prompt": "Rewrite the sentence with the present perfect. Use the word given.", "sentence": "I finished the report five minutes ago.", "keyword": "just", "answers": ["I've just finished the report.", "I have just finished the report."] },
+      { "type": "gap", "skill": "vocabulary", "tag": "collocation", "prompt": "In this job it's important to ___ every deadline.", "answers": ["meet"], "options": ["catch", "meet", "win", "pass"] },
+      { "type": "mcq", "skill": "vocabulary", "prompt": "Someone who wants a job but doesn't have one is…", "options": ["retired", "unemployed", "reliable", "full-time"], "answer": 1 },
+      { "type": "gap", "skill": "vocabulary", "prompt": "She has a lot of ___ in marketing — she's worked in it for ten years.", "answers": ["experience"], "options": ["experiences", "opportunity", "experience", "qualification"] },
+      { "type": "mcq", "skill": "vocabulary", "prompt": "Which sentence is correct?", "options": ["I applied to the position of sales manager.", "I applied the position of sales manager.", "I applied for the position of sales manager."], "answer": 2 },
+      { "type": "mcq", "skill": "vocabulary", "prompt": "'My workload is very heavy at the moment' means…", "options": ["my bag is heavy", "I have a lot of work to do", "I'm not very strong", "I've lost my job"], "answer": 1 },
+      { "type": "mcq", "skill": "vocabulary", "prompt": "What is a 'promotion'?", "options": ["A lower salary", "A job interview", "The end of a contract", "A move to a more important job in the same company"], "answer": 3 }
+    ]
+  }
+}

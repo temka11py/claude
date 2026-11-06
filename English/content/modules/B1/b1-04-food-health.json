@@ -1,0 +1,911 @@
+{
+  "id": "b1-04",
+  "level": "B1",
+  "order": 4,
+  "title": "Food & Health",
+  "topic": "Food & Health",
+  "description": "Talk about what you eat and how you cook, describe common health problems and symptoms, and give and ask for advice.",
+  "descriptionMn": "Юу иддэг, хэрхэн хоол хийдгээ ярих, түгээмэл өвчин, шинж тэмдгийг тайлбарлах, зөвлөгөө өгөх ба асуух.",
+  "objectives": [
+    { "text": "Use countable and uncountable nouns with much, many, a few, a little, a lot of, some and any", "skills": ["grammar", "speaking"] },
+    { "text": "Give and ask for advice with should, shouldn't and ought to", "skills": ["grammar", "writing"] },
+    { "text": "Use natural collocations for diet, cooking and health (a balanced diet, cut down on sugar, take a painkiller)", "skills": ["vocabulary"] },
+    { "text": "Understand a blog post and an article about eating habits", "skills": ["reading"] },
+    { "text": "Understand a conversation about health problems and the advice people give", "skills": ["listening"] },
+    { "text": "Explain a simple recipe and describe your symptoms clearly", "skills": ["speaking"] }
+  ],
+  "targets": {
+    "grammar": ["Countable and uncountable nouns", "Quantifiers: much, many, a few, a little, a lot of, some, any", "should / shouldn't / ought to for advice"],
+    "vocabulary": ["food and cooking", "diet", "common health problems"],
+    "reading": "A blog post about giving up sugar for a month",
+    "listening": "A customer asks a pharmacist for advice about a cold",
+    "speaking": "Present a simple recipe and describe your symptoms at a pharmacy",
+    "writing": "A reply to an online forum post, giving health advice",
+    "pronunciation": "Linking consonants and vowels: a lot of, a bit of, a glass of"
+  },
+  "grammar": [
+    {
+      "id": "countable-quantifiers",
+      "title": "Countable and uncountable nouns with quantifiers",
+      "level": "B1",
+      "summary": "Countable nouns (an egg, two eggs) have a plural form. Uncountable nouns (rice, water, advice) have no plural and don't take a/an. The noun type decides the quantifier: many and a few go with countable nouns, much and a little with uncountable nouns, and a lot of, some and any go with both.",
+      "summaryMn": "Тоологдох нэр үг (an egg, two eggs) олон тоотой. Тоологдохгүй нэр үг (rice, water, advice) олон тоо болон a/an авдаггүй. Хэмжээ заах үгийг нэр үгийн төрлөөр сонгоно: many, a few — тоологдох нэртэй; much, a little — тоологдохгүй нэртэй; a lot of, some, any — хоёуланд нь.",
+      "structure": [
+        "Countable: an egg · two eggs · How many eggs? · many / a few / not many eggs",
+        "Uncountable: rice · some rice · How much rice? · much / a little / not much rice",
+        "Both: a lot of / lots of / some / any / no + plural countable or uncountable noun",
+        "some → positive sentences, offers and requests · any → negatives and most questions",
+        "Counting uncountable nouns: a glass of water · a slice of bread · a piece of advice"
+      ],
+      "usage": [
+        { "use": "many and much mostly in questions and negative sentences", "example": "How much coffee do you drink? — Not much. How many eggs are there? — Not many.", "useMn": "many, much-ийг ихэвчлэн асуух болон үгүйсгэх өгүүлбэрт хэрэглэнэ" },
+        { "use": "a lot of / lots of in positive sentences, with both types of noun", "example": "I eat a lot of fruit and lots of vegetables.", "useMn": "Эерэг өгүүлбэрт a lot of / lots of хэрэглэнэ — тоологдох, тоологдохгүй аль алинд нь" },
+        { "use": "a few (countable) and a little (uncountable) = a small amount, but enough", "example": "Add a few tomatoes and a little oil.", "useMn": "a few (тоологдох), a little (тоологдохгүй) — бага зэрэг, гэхдээ хангалттай" },
+        { "use": "some in positive sentences, offers and requests; any in negatives and questions", "example": "Would you like some tea? Sorry, there isn't any sugar.", "useMn": "some — эерэг өгүүлбэр, санал болгох, гуйхад; any — үгүйсгэл, асуултад" },
+        { "use": "Containers and units make uncountable nouns countable", "example": "Can I have two glasses of water and a slice of bread?", "useMn": "Сав, хэмжээ заасан үгээр тоологдохгүй нэрийг тоолно" }
+      ],
+      "examples": [
+        { "en": "There isn't much milk left, but there are a few eggs.", "note": "Milk is uncountable (much); eggs are countable (a few)." },
+        { "en": "We've got a lot of vegetables, so we don't need to buy any.", "note": "'A lot of' in a positive sentence; 'any' in a negative one." },
+        { "en": "How many cups of coffee do you drink a day?", "note": "We count the cups, not the coffee, so 'many'." },
+        { "en": "Could you give me some advice?", "note": "'Advice' is uncountable — never 'an advice' or 'advices'." }
+      ],
+      "contrast": {
+        "with": "much vs many, a little vs a few, a few vs few",
+        "pairs": [
+          { "a": "How much water do you drink a day?", "b": "How many glasses of water do you drink a day?", "why": "Water is uncountable, so 'much'. Glasses are countable, so 'many'.", "whyMn": "Water тоологдохгүй тул much, glasses тоологдох тул many." },
+          { "a": "I've got a little time.", "b": "I've got a few minutes.", "why": "'Time' is uncountable; 'minutes' is a plural countable noun.", "whyMn": "'Time' тоологдохгүй, 'minutes' тоологдох олон тооны нэр." },
+          { "a": "I have a few friends here, so I'm happy.", "b": "I have few friends here, so I feel lonely.", "why": "'A few' = some, enough (positive). 'Few' without 'a' = not many, not enough (negative).", "whyMn": "'A few' — цөөн хэдэн, хангалттай (эерэг утга). 'a'-гүй 'few' — бараг байхгүй, хангалтгүй (сөрөг утга)." }
+        ]
+      },
+      "mistakes": [
+        { "wrong": "Can you give me an advice?", "right": "Can you give me some advice?", "why": "'Advice' is uncountable: no 'an' and no plural. Say 'some advice' or 'a piece of advice'.", "whyMn": "'Advice' тоологдохгүй тул 'an' болон олон тооны -s авахгүй. 'some advice' эсвэл 'a piece of advice' гэнэ." },
+        { "wrong": "How many money do you spend on food?", "right": "How much money do you spend on food?", "why": "'Money' is uncountable, so use 'how much'.", "whyMn": "'Money' тоологдохгүй тул 'how much' хэрэглэнэ." },
+        { "wrong": "I eat much vegetables.", "right": "I eat a lot of vegetables.", "why": "'Vegetables' is countable, and in positive sentences 'a lot of' is the natural choice.", "whyMn": "'Vegetables' тоологдох нэр; эерэг өгүүлбэрт 'a lot of' хамгийн байгалийн сонголт." },
+        { "wrong": "I bought two breads.", "right": "I bought two loaves of bread.", "why": "'Bread' is uncountable in English. Count it with 'a loaf of' or 'a slice of'.", "whyMn": "Англи хэлэнд 'bread' тоологдохгүй. 'a loaf of' (бүтэн талх), 'a slice of' (зүсэм)-ээр тоолно." },
+        { "wrong": "There isn't some milk.", "right": "There isn't any milk.", "why": "Use 'any' in negative sentences.", "whyMn": "Үгүйсгэх өгүүлбэрт 'any' хэрэглэнэ." }
+      ],
+      "guided": [
+        { "type": "mcq", "prompt": "How ___ eggs do we need for the cake?", "options": ["much", "many", "a little"], "answer": 1, "explanation": "'Eggs' is a plural countable noun → many." },
+        { "type": "mcq", "prompt": "There's ___ milk in the fridge, so we don't need to buy any today.", "options": ["a little", "a few", "many"], "answer": 0, "explanation": "'Milk' is uncountable → a little." },
+        { "type": "mcq", "prompt": "Which sentence is correct?", "options": ["Can you give me an advice?", "Can you give me a few advices?", "Can you give me some advice?"], "answer": 2, "explanation": "'Advice' is uncountable: some advice." },
+        { "type": "gap", "prompt": "Are there ___ tomatoes left?", "answers": ["any"], "options": ["much", "a little", "any"], "explanation": "Questions usually take 'any'. 'Much' and 'a little' don't go with countable nouns." },
+        { "type": "mcq", "prompt": "I only have ___ minutes for lunch today, so I'll just get a sandwich.", "options": ["a little", "much", "a few"], "answer": 2, "explanation": "'Minutes' is countable → a few." },
+        { "type": "mcq", "prompt": "Which noun is uncountable?", "options": ["onion", "biscuit", "egg", "rice"], "answer": 3, "explanation": "You can't say 'two rices'. Rice is uncountable." }
+      ],
+      "free": [
+        { "type": "gap", "prompt": "Complete with ONE word: There aren't ___ restaurants near my office, so I bring lunch from home.", "answers": ["many", "any"], "explanation": "Plural countable noun in a negative sentence → many or any." },
+        { "type": "gap", "prompt": "Just add a ___ salt — not too much!", "answers": ["little", "bit of", "pinch of"], "explanation": "'Salt' is uncountable → a little (or a bit of / a pinch of)." },
+        { "type": "correct", "prompt": "Correct the sentence.", "sentence": "How many money do you spend on food every week?", "answers": ["How much money do you spend on food every week?"], "explanation": "'Money' is uncountable → how much." },
+        { "type": "correct", "prompt": "Correct the sentence.", "sentence": "I eat much vegetables every day.", "answers": ["I eat a lot of vegetables every day.", "I eat lots of vegetables every day.", "I eat many vegetables every day."], "explanation": "'Vegetables' is countable; in a positive sentence 'a lot of' is the most natural." },
+        { "type": "transform", "prompt": "Rewrite the sentence with the same meaning. Use the word given.", "sentence": "There isn't much sugar in this cake.", "keyword": "little", "answers": ["There's only a little sugar in this cake.", "There is only a little sugar in this cake.", "There's very little sugar in this cake.", "There is very little sugar in this cake.", "There's little sugar in this cake.", "There is little sugar in this cake."], "explanation": "'Not much' = (only) a little / very little with uncountable nouns." }
+      ],
+      "prerequisites": []
+    },
+    {
+      "id": "should-advice",
+      "title": "should, shouldn't and ought to for advice",
+      "level": "B1",
+      "summary": "Use should + base verb to give advice or say what is the right thing to do. Shouldn't means 'it's a bad idea'. Ought to means the same as should; it is less common and is used mostly in positive sentences.",
+      "summaryMn": "should + үйл үгийн үндсэн хэлбэрээр зөвлөгөө өгч, юу зөв болохыг хэлнэ. Shouldn't — 'хийхгүй байсан нь дээр, муу санаа'. Ought to нь should-тэй ижил утгатай, арай бага хэрэглэгддэг бөгөөд ихэвчлэн эерэг өгүүлбэрт орно.",
+      "structure": [
+        "should / shouldn't + base verb: You should rest. You shouldn't skip meals.",
+        "ought to + base verb: You ought to see a doctor. (For the negative, use shouldn't.)",
+        "Questions: Should I take a painkiller? What should I do? — Yes, you should. / No, you shouldn't.",
+        "Softer advice: I think you should… · I don't think you should… · Maybe you should…"
+      ],
+      "usage": [
+        { "use": "Giving advice", "example": "You should drink more water.", "useMn": "Зөвлөгөө өгөх" },
+        { "use": "Saying that something is a bad idea", "example": "You shouldn't eat so late at night.", "useMn": "Ямар нэг зүйл муу санаа гэдгийг хэлэх" },
+        { "use": "Asking for advice", "example": "What should I eat before a run?", "useMn": "Зөвлөгөө асуух" },
+        { "use": "Saying what is right or expected", "example": "Children should eat plenty of vegetables.", "useMn": "Юу зөв, зүй ёсны болохыг хэлэх" },
+        { "use": "Making advice softer and more polite", "example": "I think you ought to rest. / I don't think you should go to work.", "useMn": "Зөвлөгөөг зөөлөн, эелдэг болгох" }
+      ],
+      "examples": [
+        { "en": "You should drink a lot of water when you have a temperature.", "note": "Friendly advice, e.g. from a pharmacist." },
+        { "en": "You shouldn't take more than eight tablets a day.", "note": "Shouldn't = it's a bad or dangerous idea." },
+        { "en": "We ought to eat more fish — it's really good for us.", "note": "Ought to = should. It's less common in questions and negatives." },
+        { "en": "Should I go to work tomorrow? — No, I don't think you should.", "note": "'I don't think you should' sounds more natural than 'I think you shouldn't'." }
+      ],
+      "contrast": {
+        "with": "must / mustn't",
+        "pairs": [
+          { "a": "You should drink more water.", "b": "You must take this medicine twice a day.", "why": "'Should' is advice — it's your choice. 'Must' is a strong rule or something really necessary, e.g. from a doctor.", "whyMn": "'Should' — зөвлөгөө, сонголт таных. 'Must' — заавал биелүүлэх хатуу шаардлага (жишээ нь эмчийн заавар)." },
+          { "a": "You shouldn't eat so much salt.", "b": "You mustn't drive after taking this medicine.", "why": "'Shouldn't' = it's not a good idea. 'Mustn't' = it's not allowed or it's dangerous.", "whyMn": "'Shouldn't' — тийм ч сайн санаа биш. 'Mustn't' — хориотой эсвэл аюултай." }
+        ]
+      },
+      "mistakes": [
+        { "wrong": "You should to rest.", "right": "You should rest.", "why": "After 'should', use the base verb without 'to'.", "whyMn": "'Should'-ийн дараа 'to'-гүй үндсэн үйл үг орно." },
+        { "wrong": "You ought rest.", "right": "You ought to rest.", "why": "'Ought' always needs 'to'.", "whyMn": "'Ought' үргэлж 'to'-тэй хамт хэрэглэгдэнэ." },
+        { "wrong": "You don't should eat so late.", "right": "You shouldn't eat so late.", "why": "Don't use do/don't with should. Add 'not': should not / shouldn't.", "whyMn": "Should-тэй do/don't хэрэглэхгүй. Үгүйсгэлд shouldn't гэнэ." },
+        { "wrong": "Do I should call a doctor?", "right": "Should I call a doctor?", "why": "In questions, put 'should' before the subject. No 'do'.", "whyMn": "Асуултад 'should'-ийг өгүүлэгдэхүүний өмнө тавина, 'do' хэрэггүй." }
+      ],
+      "guided": [
+        { "type": "mcq", "prompt": "You look really tired. You ___ go to bed early tonight.", "options": ["should", "shouldn't", "ought"], "answer": 0, "explanation": "Advice to do something → should. 'Ought' needs 'to'." },
+        { "type": "mcq", "prompt": "You ___ eat so many sweets — they're bad for your teeth.", "options": ["should", "ought to", "shouldn't"], "answer": 2, "explanation": "Something is a bad idea → shouldn't." },
+        { "type": "mcq", "prompt": "Which sentence is correct?", "options": ["You should to drink more water.", "You ought to drink more water.", "You ought drink more water."], "answer": 1, "explanation": "should + base verb; ought + to + base verb." },
+        { "type": "mcq", "prompt": "I've got a terrible headache. What ___?", "options": ["I should do", "do I should", "should I do"], "answer": 2, "explanation": "Question word + should + subject + verb." },
+        { "type": "mcq", "prompt": "Your friend has a bad cold but wants to go to work. What is the most natural, friendly advice?", "options": ["You must not work tonight!", "I don't think you should go to work.", "You don't should go to work."], "answer": 1, "explanation": "'I don't think you should…' is soft and natural. 'Must not' sounds like an order." },
+        { "type": "match", "prompt": "Match each problem with the best advice.", "pairs": [["I can't sleep at night.", "You shouldn't drink coffee in the evening."], ["I've got a sore throat.", "You should drink hot tea with honey."], ["I've put on weight.", "You ought to cut down on snacks."], ["I feel dizzy.", "You should sit down for a minute."]] }
+      ],
+      "free": [
+        { "type": "gap", "prompt": "My tooth really hurts. — You ___ see a dentist.", "answers": ["should", "ought to"], "explanation": "Advice → should / ought to." },
+        { "type": "gap", "prompt": "You ___ go swimming straight after a big meal.", "answers": ["shouldn't", "should not"], "explanation": "It's a bad idea → shouldn't." },
+        { "type": "correct", "prompt": "Correct the sentence.", "sentence": "You don't should skip breakfast.", "answers": ["You shouldn't skip breakfast.", "You should not skip breakfast."], "explanation": "The negative is shouldn't, without 'do'." },
+        { "type": "transform", "prompt": "Rewrite the advice. Use the word given.", "sentence": "It's a good idea for you to see a doctor.", "keyword": "ought", "answers": ["You ought to see a doctor.", "I think you ought to see a doctor."], "explanation": "ought to + base verb." },
+        { "type": "transform", "prompt": "Rewrite the advice. Use the word given.", "sentence": "Why don't you take a painkiller?", "keyword": "should", "answers": ["You should take a painkiller.", "I think you should take a painkiller.", "Maybe you should take a painkiller.", "Perhaps you should take a painkiller."], "explanation": "should + base verb." }
+      ],
+      "prerequisites": []
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "linking-consonant-vowel",
+      "title": "Linking: a lot of, a bit of, a glass of",
+      "category": "connected_speech",
+      "explanation": "In natural speech, when a word ends in a consonant sound and the next word starts with a vowel sound, we join them together. 'A lot of' sounds like 'a lo-tof', and 'a cup of tea' sounds like 'a cu-pof tea'. The word 'of' is usually weak: /əv/. Linking makes your English sound smoother and easier to follow.",
+      "explanationMn": "Үг гийгүүлэгч авиагаар төгсөж, дараагийн үг эгшиг авиагаар эхэлбэл бид хоёр үгийг холбож, нэг үг мэт дуудна: 'a lot of' → 'a lo-tof', 'a cup of tea' → 'a cu-pof tea'. 'of' ихэвчлэн сул /əv/ гэж дуудагдана. Ингэж холбож хэлбэл яриа тань илүү жигд, ойлгомжтой сонсогдоно.",
+      "items": [
+        { "display": "a lot of → a lo‿tof", "say": "a lot of", "tip": "The t joins the next vowel: /əˈlɒtəv/." },
+        { "display": "a bit of → a bi‿tof", "say": "a bit of" },
+        { "display": "a glass of water → a glas‿sof water", "say": "a glass of water", "tip": "'of' is weak and short: /əv/." },
+        { "display": "a piece of cake → a pie‿sof cake", "say": "a piece of cake" },
+        { "display": "should eat → shoul‿deat", "say": "you should eat", "tip": "The d moves to the start of 'eat'." },
+        { "display": "get over it → ge‿to‿ve‿rit", "say": "get over it", "tip": "Three links in a row — say it like one long word." }
+      ],
+      "shadowing": [
+        { "text": "I drink a lot of water and eat a bit of fruit every day.", "stress": "I DRINK a LOT of WAter and EAT a BIT of FRUIT every DAY.", "tip": "Link 'lot of' and 'bit of': a lo-tof, a bi-tof.", "difficult": ["a lot of", "a bit of"] },
+        { "text": "Would you like a piece of cake and a cup of tea?", "stress": "Would you LIKE a PIECE of CAKE and a CUP of TEA?", "tip": "pie-sof, cu-pof. Don't stress 'of'.", "difficult": ["piece of", "cup of"] },
+        { "text": "I've got a bit of a cough, but I'll get over it.", "stress": "I've got a BIT of a COUGH, but I'll get Over it.", "tip": "'bit of a' → bi-to-va; 'get over it' → ge-to-ve-rit.", "difficult": ["bit of a", "get over it"] },
+        { "text": "You should eat a little less and walk a lot more.", "stress": "You should EAT a little LESS and WALK a lot MORE.", "tip": "shoul-deat — and keep 'a' very short.", "difficult": ["should eat", "a little"] }
+      ],
+      "spokenForms": [
+        { "written": "a lot of", "spoken": "a lotta", "note": "Very informal speech only. Never write 'lotta' in an email or essay." },
+        { "written": "a cup of tea", "spoken": "a cuppa", "note": "Informal British English: 'Fancy a cuppa?'" }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "b1-04-l1",
+      "title": "Thirty days without sugar",
+      "focus": "vocabulary",
+      "difficulty": 3,
+      "minutes": 25,
+      "objectives": [
+        "Use 12 words and collocations for diet and healthy eating",
+        "Understand the main idea and details of a blog post about giving up sugar",
+        "Talk about your own eating habits with the right collocations"
+      ],
+      "warmup": {
+        "intro": "Think about what you ate yesterday. Was it healthy?",
+        "questions": [
+          { "type": "mcq", "prompt": "Which of these is usually the healthiest snack?", "options": ["a chocolate bar", "an apple", "a packet of crisps", "a can of cola"], "answer": 1, "skill": "vocabulary" },
+          { "type": "mcq", "prompt": "The blog in this lesson is called 'Thirty Days Without Sugar'. What do you think the writer did?", "options": ["She stopped eating food with added sugar for a month.", "She ate only sweets for thirty days.", "She opened a cake shop.", "She went on a thirty-day holiday."], "answer": 0, "skill": "reading", "tag": "prediction" }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "diet", "pos": "noun", "ipa": "/ˈdaɪət/",
+          "definition": "the food that you usually eat",
+          "mn": "хооллолт, хоолны дэглэм",
+          "examples": ["My diet is much healthier than it was five years ago.", "A diet with a lot of vegetables is good for your heart."],
+          "collocations": ["a healthy diet", "a balanced diet", "be on a diet", "go on a diet"],
+          "synonyms": ["eating habits"], "antonyms": [],
+          "mistake": "Say 'be on a diet' or 'go on a diet' (to lose weight) — not 'do a diet' or 'make a diet'.",
+          "note": "'Diet' means all the food you eat, not only a plan to lose weight.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "balanced", "pos": "adjective", "ipa": "/ˈbælənst/",
+          "definition": "containing the right amounts of different things",
+          "mn": "тэнцвэртэй",
+          "examples": ["A balanced diet includes fruit, vegetables, protein and a little fat.", "It's hard to eat a balanced meal when you're always in a hurry."],
+          "collocations": ["a balanced diet", "a balanced meal", "well balanced"],
+          "synonyms": ["varied"], "antonyms": ["unbalanced"],
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "nutritious", "pos": "adjective", "ipa": "/njuˈtrɪʃəs/",
+          "definition": "full of the things your body needs to be healthy and strong",
+          "mn": "шим тэжээллэг",
+          "examples": ["Soup is cheap, quick and very nutritious.", "Growing children need nutritious food."],
+          "collocations": ["nutritious food", "a nutritious meal", "highly nutritious"],
+          "synonyms": ["healthy", "nourishing"], "antonyms": [],
+          "mistake": "Don't confuse 'nutritious' (good for your body) with 'delicious' (tasty). A cake can be delicious but not very nutritious.",
+          "level": "B2", "difficulty": 4
+        },
+        {
+          "word": "processed", "pos": "adjective", "ipa": "/ˈprəʊsest/",
+          "definition": "(of food) changed in a factory, often with added salt, sugar or chemicals",
+          "mn": "үйлдвэрт боловсруулсан",
+          "examples": ["Sausages, crisps and instant noodles are all processed foods.", "I try to eat less processed food and cook more at home."],
+          "collocations": ["processed food", "highly processed", "processed meat"],
+          "synonyms": [], "antonyms": ["fresh", "unprocessed"],
+          "level": "B2", "difficulty": 3
+        },
+        {
+          "word": "sugary", "pos": "adjective", "ipa": "/ˈʃʊɡəri/",
+          "definition": "containing a lot of sugar",
+          "mn": "их чихэртэй",
+          "examples": ["Sugary drinks are bad for your teeth.", "The kids ate too many sugary snacks at the party."],
+          "collocations": ["sugary drinks", "sugary snacks", "sugary cereal"],
+          "synonyms": ["sweet"], "antonyms": ["sugar-free"],
+          "note": "Similar words: salty (a lot of salt), fatty (a lot of fat), spicy (hot, with chilli or spices).",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "snack", "pos": "noun / verb", "ipa": "/snæk/",
+          "definition": "a small amount of food that you eat between meals; to eat between meals",
+          "mn": "хөнгөн зууш, хоол хооронд идэх юм",
+          "examples": ["I usually have a small snack, like an apple, at about four o'clock.", "Try not to snack in front of the TV."],
+          "collocations": ["a healthy snack", "have a snack", "snack on nuts", "snack between meals"],
+          "synonyms": [], "antonyms": [],
+          "mistake": "As a verb, use 'snack on': 'I snack on fruit', not 'I snack fruit'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "craving", "pos": "noun", "ipa": "/ˈkreɪvɪŋ/",
+          "definition": "a very strong wish to eat or have something",
+          "mn": "ямар нэг юм тэсэхгүй идмээр санагдах хүсэл",
+          "examples": ["I get a craving for chocolate every afternoon.", "The cravings stopped after about two weeks."],
+          "collocations": ["a craving for something", "sugar cravings", "have a craving", "satisfy a craving"],
+          "synonyms": ["strong desire"], "antonyms": [],
+          "mistake": "Say 'a craving for chocolate' — not 'a craving of' or 'a craving to chocolate'.",
+          "level": "B2", "difficulty": 4
+        },
+        {
+          "word": "give up", "pos": "phrasal verb", "ipa": "/ɡɪv ˈʌp/",
+          "definition": "to stop doing, eating or drinking something that you did regularly",
+          "mn": "(зуршлаа) хаях, болих",
+          "examples": ["I gave up sugar for a whole month.", "My dad gave up smoking ten years ago."],
+          "collocations": ["give up smoking", "give up sugar", "give up meat", "give up alcohol"],
+          "synonyms": ["quit", "stop"], "antonyms": ["take up"],
+          "mistake": "After 'give up' use a noun or -ing: 'give up smoking', not 'give up to smoke'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "cut down on", "pos": "phrasal verb", "ipa": "/kʌt ˈdaʊn ɒn/",
+          "definition": "to eat, drink or use less of something",
+          "mn": "(хэрэглээгээ) багасгах",
+          "examples": ["I'm trying to cut down on coffee.", "The doctor told him to cut down on salt."],
+          "collocations": ["cut down on sugar", "cut down on salt", "try to cut down on"],
+          "synonyms": ["reduce", "eat less"], "antonyms": [],
+          "mistake": "Don't forget 'on': 'I'm cutting down on sugar', not 'I'm cutting down sugar'.",
+          "note": "'Cut down on' = less, not zero. If you stop completely, you 'give up' something.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "skip", "pos": "verb", "ipa": "/skɪp/",
+          "definition": "to not eat a meal, or not do something that you usually do",
+          "mn": "(хоол) алгасах, идэлгүй өнгөрөх",
+          "examples": ["I often skip breakfast because I'm in a hurry.", "Skipping meals can make you very hungry later."],
+          "collocations": ["skip breakfast", "skip a meal", "skip lunch"],
+          "synonyms": ["miss"], "antonyms": [],
+          "note": "Also used for classes and activities: 'skip a lesson', 'skip the gym'.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "portion", "pos": "noun", "ipa": "/ˈpɔːʃn/",
+          "definition": "the amount of food that one person eats at one time",
+          "mn": "нэг хүний хоолны хэмжээ, порц",
+          "examples": ["Restaurant portions are often too big.", "I've started eating smaller portions at dinner."],
+          "collocations": ["a large portion", "a small portion", "portion size", "a portion of chips"],
+          "synonyms": ["serving", "helping"], "antonyms": [],
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "label", "pos": "noun", "ipa": "/ˈleɪbl/",
+          "definition": "a piece of paper on a product that gives information about it",
+          "mn": "шошго",
+          "examples": ["Always read the label before you buy a new food.", "The label says there are 30 grams of sugar in this bottle."],
+          "collocations": ["read the label", "a food label", "a nutrition label"],
+          "synonyms": [], "antonyms": [],
+          "note": "A nutrition label shows the calories, sugar, fat and salt in a product.",
+          "level": "B1", "difficulty": 2
+        }
+      ],
+      "reading": {
+        "id": "r-no-sugar",
+        "title": "Thirty Days Without Sugar",
+        "genre": "blog",
+        "text": [
+          "Last January I made a decision that surprised my friends: I gave up added sugar for a whole month. I wasn't overweight, but I often felt tired after lunch, and every afternoon at about four o'clock I had a terrible craving for something sweet. I usually had a chocolate bar or a few biscuits with my coffee, and I drank a lot of fizzy drinks.",
+          "The first week was the hardest. I started reading the label on everything I bought, and I was shocked. There was sugar in bread, in pasta sauce, in yoghurt and even in some sausages! Most of the processed food in my kitchen contained sugar, so I started cooking more at home.",
+          "My diet changed a lot. Instead of sugary snacks, I ate an apple or a handful of nuts. I stopped skipping breakfast, because on the days when I skipped it, I always ate too much at lunch. I tried to make every meal balanced and nutritious, with plenty of vegetables and some protein, and I made my portions a little smaller.",
+          "By the third week, the cravings were almost gone. I had more energy in the afternoon, and I was sleeping better. Did I lose weight? Yes, about two kilos, but that wasn't the most important thing for me.",
+          "Now the month is over, and I'm not so strict. I still have a piece of cake at a birthday party. But I've cut down on sweets a lot, and I don't drink fizzy drinks any more. My advice? Don't try to change everything in one day. Start with one small thing, like the sugar in your tea."
+        ],
+        "glossary": [
+          { "term": "added sugar", "meaning": "sugar that is put into food when it is made", "mn": "нэмэлт чихэр" },
+          { "term": "fizzy drink", "meaning": "a sweet drink with bubbles, like cola", "mn": "хийжүүлсэн ундаа" },
+          { "term": "a handful of", "meaning": "the amount you can hold in one hand", "mn": "нэг атга" }
+        ],
+        "questions": [
+          { "type": "mcq", "tag": "main_idea", "prompt": "What is the blog mainly about?", "options": ["Why sugar is the most dangerous food", "The writer's experience of giving up sugar for a month", "How to lose weight quickly", "The best recipes without sugar"], "answer": 1, "explanation": "The whole post describes her month without added sugar." },
+          { "type": "tfng", "tag": "detail", "prompt": "The writer gave up sugar because she was overweight.", "answer": "false", "explanation": "Paragraph 1: 'I wasn't overweight'. She felt tired and had cravings." },
+          { "type": "tfng", "tag": "detail", "prompt": "The writer found sugar in some foods that don't taste sweet, like bread and sausages.", "answer": "true", "explanation": "Paragraph 2: sugar in bread, pasta sauce and sausages." },
+          { "type": "tfng", "tag": "detail", "prompt": "The writer's friends gave up sugar too.", "answer": "not_given", "explanation": "Her friends were surprised, but the blog doesn't say what they did." },
+          { "type": "mcq", "tag": "vocab_context", "prompt": "In paragraph 1, 'a craving' is…", "options": ["a kind of chocolate bar", "a feeling of being tired", "a strong wish to eat something", "a small meal"], "answer": 2 },
+          { "type": "short", "tag": "detail", "prompt": "What did the writer eat instead of sugary snacks? Name one thing.", "answers": ["apple", "nuts"], "explanation": "An apple or a handful of nuts." },
+          { "type": "order", "tag": "detail", "prompt": "Put the events in the order they happened.", "items": ["She often felt tired after lunch and wanted something sweet.", "She started reading food labels.", "Her cravings almost disappeared.", "She became less strict about sugar."] },
+          { "type": "mcq", "tag": "attitude", "prompt": "How does the writer feel about the experiment now?", "options": ["She regrets it.", "She wants to do it again every month.", "She thinks it was too easy.", "She thinks it was useful, but she isn't as strict now."], "answer": 3, "explanation": "She has cut down on sweets but still has cake at parties." }
+        ]
+      },
+      "quiz": [
+        { "type": "gap", "skill": "vocabulary", "tag": "collocation", "prompt": "I'm trying to cut down ___ coffee — just one cup a day now.", "answers": ["on"], "options": ["off", "on", "with", "from"] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "If you skip breakfast, you…", "options": ["don't eat it", "eat it very quickly", "eat it in bed", "eat a very big one"], "answer": 0 },
+        { "type": "match", "skill": "vocabulary", "tag": "collocation", "prompt": "Match to make collocations.", "pairs": [["a balanced", "diet"], ["read the", "label"], ["a craving", "for chocolate"], ["give up", "smoking"]] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "Food that is changed in a factory, often with added salt and sugar, is…", "options": ["nutritious", "balanced", "processed", "sugary"], "answer": 2 },
+        { "type": "gap", "skill": "vocabulary", "prompt": "Restaurant ___ are often too big — I can never finish my plate.", "answers": ["portions"] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "Which word means 'full of the things your body needs'?", "options": ["sugary", "nutritious", "processed", "salty"], "answer": 1 }
+      ]
+    },
+    {
+      "id": "b1-04-l2",
+      "title": "How much rice do we need?",
+      "focus": "grammar",
+      "difficulty": 3,
+      "minutes": 25,
+      "objectives": [
+        "Use countable and uncountable nouns correctly",
+        "Choose between much, many, a few, a little, a lot of, some and any",
+        "Present a simple recipe with ingredients and quantities"
+      ],
+      "warmup": {
+        "intro": "Quick check: can you count it?",
+        "questions": [
+          { "type": "mcq", "prompt": "Which noun can you count (one, two, three…)?", "options": ["rice", "flour", "egg", "milk"], "answer": 2, "skill": "grammar" },
+          { "type": "mcq", "prompt": "How ___ sugar do you take in your coffee?", "options": ["much", "many"], "answer": 0, "skill": "grammar", "explanation": "'Sugar' is uncountable → much." }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "recipe", "pos": "noun", "ipa": "/ˈresəpi/",
+          "definition": "a set of instructions that tells you how to cook something",
+          "mn": "хоолны жор",
+          "examples": ["This is my grandmother's recipe for buuz.", "Can you send me the recipe? The soup was delicious."],
+          "collocations": ["follow a recipe", "a recipe for something", "a simple recipe", "a family recipe"],
+          "synonyms": [], "antonyms": [],
+          "mistake": "It has three syllables: RES-uh-pee. And don't confuse it with 'receipt' (the paper you get when you pay).",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "ingredient", "pos": "noun", "ipa": "/ɪnˈɡriːdiənt/",
+          "definition": "one of the foods that you use to make a dish",
+          "mn": "орц, найрлага",
+          "examples": ["You only need four ingredients to make this soup.", "Fresh ingredients make a big difference."],
+          "collocations": ["the main ingredient", "fresh ingredients", "a list of ingredients", "simple ingredients"],
+          "synonyms": [], "antonyms": [],
+          "note": "Also used in a general way: 'Trust is an important ingredient of a good relationship.'",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "chop", "pos": "verb", "ipa": "/tʃɒp/",
+          "definition": "to cut something into pieces with a knife",
+          "mn": "жижиглэн хэрчих",
+          "examples": ["Chop the onions and carrots into small pieces.", "He chopped the meat very finely for the dumplings."],
+          "collocations": ["chop an onion", "finely chopped", "chop into pieces", "chop up"],
+          "synonyms": ["cut"], "antonyms": [],
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "fry", "pos": "verb", "ipa": "/fraɪ/",
+          "definition": "to cook food in hot oil or fat in a pan",
+          "mn": "тосонд шарах",
+          "examples": ["Fry the onions for two minutes.", "I don't fry food very often because it uses a lot of oil."],
+          "collocations": ["fry an egg", "fry in oil", "deep-fry", "stir-fry"],
+          "synonyms": [], "antonyms": [],
+          "mistake": "Mongolian 'шарах' can mean fry, roast or grill. In English 'fry' is only in oil in a pan; in the oven it's 'roast' or 'bake', over a fire it's 'grill'.",
+          "note": "fry – fried – fried: fried eggs, fried rice.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "boil", "pos": "verb", "ipa": "/bɔɪl/",
+          "definition": "to cook food in very hot water; (of water) to become so hot that bubbles appear",
+          "mn": "буцалгах, чанах",
+          "examples": ["Boil the potatoes for twenty minutes.", "Wait until the water boils, then add the noodles."],
+          "collocations": ["boil water", "boil an egg", "a boiled egg", "bring to the boil"],
+          "synonyms": [], "antonyms": [],
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "stir", "pos": "verb", "ipa": "/stɜː(r)/",
+          "definition": "to move a spoon round and round in food or a drink to mix it",
+          "mn": "хутгах, холих",
+          "examples": ["Stir the soup from time to time so it doesn't burn.", "She stirred two spoons of sugar into her tea."],
+          "collocations": ["stir the soup", "stir well", "stir in", "stir-fry"],
+          "synonyms": ["mix"], "antonyms": [],
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "raw", "pos": "adjective", "ipa": "/rɔː/",
+          "definition": "not cooked",
+          "mn": "түүхий (болгоогүй)",
+          "examples": ["Don't eat raw chicken — it can make you ill.", "I like raw carrots as a snack."],
+          "collocations": ["raw meat", "raw vegetables", "eat something raw"],
+          "synonyms": ["uncooked"], "antonyms": ["cooked"],
+          "mistake": "'Raw' is for food that isn't cooked. For fruit that isn't ready to eat, say 'not ripe' or 'unripe', not 'raw'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "flavour", "pos": "noun", "ipa": "/ˈfleɪvə(r)/",
+          "definition": "the taste of a food or drink",
+          "mn": "амт",
+          "examples": ["Add a little garlic for extra flavour.", "What's your favourite ice cream flavour?"],
+          "collocations": ["add flavour", "full of flavour", "a strong flavour", "ice cream flavour"],
+          "synonyms": ["taste"], "antonyms": [],
+          "note": "British 'flavour', American 'flavor'.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "leftovers", "pos": "noun (plural)", "ipa": "/ˈleftəʊvəz/",
+          "definition": "food that is not eaten at a meal and is kept for later",
+          "mn": "идэж үлдсэн хоол",
+          "examples": ["We had the leftovers from Sunday's dinner for lunch on Monday.", "Put the leftovers in the fridge."],
+          "collocations": ["eat the leftovers", "heat up the leftovers", "put the leftovers in the fridge"],
+          "synonyms": [], "antonyms": [],
+          "mistake": "As a noun it's usually plural: 'the leftovers'. As an adjective there's no -s: 'leftover rice'.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "homemade", "pos": "adjective", "ipa": "/ˌhəʊmˈmeɪd/",
+          "definition": "made at home, not bought in a shop",
+          "mn": "гэрийн, гэртээ хийсэн",
+          "examples": ["Homemade bread tastes much better than supermarket bread.", "She brought some homemade cakes to the office."],
+          "collocations": ["homemade bread", "homemade soup", "homemade jam"],
+          "synonyms": [], "antonyms": ["shop-bought", "ready-made"],
+          "level": "B1", "difficulty": 2
+        }
+      ],
+      "grammar": "countable-quantifiers",
+      "speaking": {
+        "id": "s-cooking-video",
+        "type": "presentation",
+        "prompt": "Mini cooking video: present a simple dish from your country. Say what ingredients you need and how much, then explain the main steps.",
+        "promptMn": "Богино хоол хийх видео: өөрийн орны энгийн нэг хоолыг танилцуул. Ямар орц хэр хэмжээгээр хэрэгтэйг хэлээд, хийх үндсэн алхмуудыг тайлбарла.",
+        "points": ["Name the dish and say when people eat it", "List the ingredients with quantities (a few, a little, some, a lot of)", "Explain three or four steps (chop, fry, boil, stir)", "Finish with a tip"],
+        "phrases": ["Today I'm going to show you how to make…", "For four people, you need…", "You don't need much…", "First,… Next,… Finally,…", "My top tip is…"],
+        "targetWords": ["ingredient", "chop", "fry", "stir", "flavour"],
+        "prepSeconds": 60,
+        "speakSeconds": 120,
+        "sample": "Hi everyone! Today I'm going to show you how to make tsuivan, a very popular Mongolian dish of noodles with meat and vegetables. For four people you need about half a kilo of flour, a little water and a pinch of salt for the noodles. You also need some beef or mutton, one or two onions, a few carrots and a little cabbage. You don't need much oil — about two spoons. First, make the dough, roll it very thin and cut it into long noodles. Next, chop the meat and vegetables and fry them for a few minutes. Then add a cup of water, put the noodles on top and cook everything with the lid on for about fifteen minutes. Finally, stir it well and serve it hot. It's simple, but it's full of flavour — and the leftovers are great the next day!"
+      },
+      "quiz": [
+        { "type": "mcq", "skill": "grammar", "prompt": "How ___ time do you spend cooking every day?", "options": ["many", "much", "a few"], "answer": 1 },
+        { "type": "mcq", "skill": "grammar", "prompt": "We need ___ onions for this recipe — two or three.", "options": ["a little", "much", "a few"], "answer": 2 },
+        { "type": "gap", "skill": "grammar", "prompt": "Would you like ___ more soup?", "answers": ["some"], "options": ["any", "some", "many"], "explanation": "Offers use 'some', even in questions." },
+        { "type": "correct", "skill": "grammar", "prompt": "Correct the sentence.", "sentence": "There isn't some flour left.", "answers": ["There isn't any flour left.", "There is not any flour left.", "There's no flour left.", "There is no flour left."], "explanation": "Negative sentence → any (or no)." },
+        { "type": "words", "skill": "grammar", "prompt": "Put the words in order.", "answer": "How many eggs do we need?", "distractors": ["much"] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "Which word means 'not cooked'?", "options": ["fried", "homemade", "raw", "boiled"], "answer": 2 },
+        { "type": "gap", "skill": "vocabulary", "prompt": "___ the onions into small pieces.", "answers": ["Chop"], "options": ["Stir", "Chop", "Boil", "Fry"] }
+      ]
+    },
+    {
+      "id": "b1-04-l3",
+      "title": "At the pharmacy",
+      "focus": "listening",
+      "difficulty": 4,
+      "minutes": 25,
+      "objectives": [
+        "Understand a conversation between a customer and a pharmacist",
+        "Describe common symptoms and health problems",
+        "Link words together in phrases like 'a lot of' and 'a bit of'",
+        "Describe your symptoms and ask a pharmacist for advice"
+      ],
+      "warmup": {
+        "intro": "When did you last feel ill? What did you do?",
+        "questions": [
+          { "type": "mcq", "prompt": "Where do you usually buy medicine?", "options": ["at a bakery", "at a bank", "at a pharmacy", "at a library"], "answer": 2, "skill": "vocabulary" }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "symptom", "pos": "noun", "ipa": "/ˈsɪmptəm/",
+          "definition": "a change in your body that shows you are ill",
+          "mn": "шинж тэмдэг",
+          "examples": ["A high temperature is a common symptom of flu.", "If the symptoms don't go away, see a doctor."],
+          "collocations": ["common symptoms", "have symptoms", "symptoms of flu", "the symptoms get worse"],
+          "synonyms": ["sign"], "antonyms": [],
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "sore throat", "pos": "noun phrase", "ipa": "/ˌsɔː ˈθrəʊt/",
+          "definition": "a pain in your throat, often when you have a cold",
+          "mn": "хоолой өвдөх",
+          "examples": ["I've got a sore throat, so I can't sing today.", "Hot tea with honey is good for a sore throat."],
+          "collocations": ["have a sore throat", "a bad sore throat"],
+          "synonyms": [], "antonyms": [],
+          "mistake": "Don't forget 'a': 'I've got a sore throat', not 'I've got sore throat'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "cough", "pos": "noun / verb", "ipa": "/kɒf/",
+          "definition": "to push air out of your throat suddenly with a loud noise; this illness or sound",
+          "mn": "ханиах; ханиалга",
+          "examples": ["I couldn't sleep because I was coughing all night.", "That's a bad cough — you should see a doctor."],
+          "collocations": ["a bad cough", "a dry cough", "cough medicine", "cough all night"],
+          "synonyms": [], "antonyms": [],
+          "mistake": "Pronounced /kɒf/: the 'gh' sounds like 'f', as in 'enough'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "temperature", "pos": "noun", "ipa": "/ˈtemprətʃə(r)/",
+          "definition": "if you have a temperature, your body is hotter than normal because you are ill",
+          "mn": "халуурах, биеийн халуун",
+          "examples": ["She stayed at home because she had a temperature.", "The nurse took my temperature."],
+          "collocations": ["have a temperature", "a high temperature", "take someone's temperature"],
+          "synonyms": ["fever"], "antonyms": [],
+          "mistake": "To say you are ill, use 'a': 'I have a temperature', not 'I have temperature'.",
+          "note": "British 'have a temperature' = American 'have a fever'.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "allergic", "pos": "adjective", "ipa": "/əˈlɜːdʒɪk/",
+          "definition": "having a bad reaction to something, like a food, an animal or a plant",
+          "mn": "харшилтай",
+          "examples": ["I'm allergic to nuts, so I always check the ingredients.", "Some people are allergic to cats."],
+          "collocations": ["allergic to something", "an allergic reaction", "seriously allergic"],
+          "synonyms": [], "antonyms": [],
+          "mistake": "Say 'allergic to', not 'allergic for' or 'allergic on'.",
+          "note": "The noun is 'allergy': 'I have an allergy to nuts.'",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "painkiller", "pos": "noun", "ipa": "/ˈpeɪnkɪlə(r)/",
+          "definition": "a medicine that reduces pain",
+          "mn": "өвчин намдаах эм",
+          "examples": ["Take a painkiller if your headache gets worse.", "I don't like taking painkillers unless I really need them."],
+          "collocations": ["take a painkiller", "strong painkillers", "a painkiller for a headache"],
+          "synonyms": [], "antonyms": [],
+          "mistake": "In English we 'take' medicine and painkillers — not 'drink' or 'eat' them (Mongolian 'эм уух').",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "prescription", "pos": "noun", "ipa": "/prɪˈskrɪpʃn/",
+          "definition": "a piece of paper from a doctor that says which medicine you need",
+          "mn": "эмийн жор (эмчийн бичсэн)",
+          "examples": ["You can't buy this medicine without a prescription.", "The doctor gave me a prescription for antibiotics."],
+          "collocations": ["a prescription for something", "without a prescription", "get a prescription"],
+          "synonyms": [], "antonyms": [],
+          "mistake": "Mongolian uses 'жор' for both, but in English a 'recipe' is for cooking and a 'prescription' is for medicine.",
+          "level": "B1+", "difficulty": 4
+        },
+        {
+          "word": "dizzy", "pos": "adjective", "ipa": "/ˈdɪzi/",
+          "definition": "feeling that everything is turning round and you might fall",
+          "mn": "толгой эргэх",
+          "examples": ["I felt dizzy when I stood up too quickly.", "The heat made her feel dizzy."],
+          "collocations": ["feel dizzy", "a dizzy spell", "dizzy and sick"],
+          "synonyms": ["light-headed"], "antonyms": [],
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "come down with", "pos": "phrasal verb", "ipa": "/kʌm ˈdaʊn wɪð/",
+          "definition": "to start to have an illness, usually not a serious one",
+          "mn": "(ханиад гэх мэт) хүрэх, өвдөж эхлэх",
+          "examples": ["I think I'm coming down with a cold.", "Half the class came down with flu last week."],
+          "collocations": ["come down with a cold", "come down with flu", "come down with something"],
+          "synonyms": ["catch"], "antonyms": [],
+          "note": "Informal and very common in speech. 'I'm coming down with something' = I'm starting to feel ill.",
+          "level": "B2", "difficulty": 4
+        },
+        {
+          "word": "get over", "pos": "phrasal verb", "ipa": "/ɡet ˈəʊvə(r)/",
+          "definition": "to become healthy again after an illness",
+          "mn": "(өвчнөөс) эдгэх, илаарших",
+          "examples": ["It took me two weeks to get over the flu.", "Are you getting over your cold?"],
+          "collocations": ["get over an illness", "get over a cold", "get over the flu"],
+          "synonyms": ["recover from"], "antonyms": [],
+          "mistake": "No 'from' after 'get over': 'get over a cold', not 'get over from a cold' (but 'recover from a cold').",
+          "note": "Also used for problems and feelings: 'get over a break-up'.",
+          "level": "B1+", "difficulty": 3
+        }
+      ],
+      "listening": {
+        "id": "l-pharmacy",
+        "title": "I think I'm coming down with something",
+        "kind": "conversation",
+        "context": "Daniel isn't feeling well. He goes into a pharmacy and asks the pharmacist, Helen, for advice.",
+        "speakers": [
+          { "name": "Helen", "voice": "female", "accent": "en-GB" },
+          { "name": "Daniel", "voice": "male", "accent": "en-GB" }
+        ],
+        "lines": [
+          { "speaker": "Helen", "text": "Hi there. How can I help?" },
+          { "speaker": "Daniel", "text": "Hi. I think I'm coming down with something. I've had a sore throat since yesterday, and this morning I started coughing." },
+          { "speaker": "Helen", "text": "Oh dear. Have you got a temperature?" },
+          { "speaker": "Daniel", "text": "I'm not sure. I feel quite hot, and I felt a bit dizzy on the bus this morning." },
+          { "speaker": "Helen", "text": "OK. Any other symptoms? A runny nose, or a headache?" },
+          { "speaker": "Daniel", "text": "Just a bit of a headache. Nothing serious." },
+          { "speaker": "Helen", "text": "Well, to be honest, it sounds like a bad cold. You don't need a prescription for that. You can take these painkillers — two tablets every six hours, but no more than eight a day." },
+          { "speaker": "Daniel", "text": "Are they OK for me? I'm allergic to aspirin." },
+          { "speaker": "Helen", "text": "Don't worry, there's no aspirin in these. They're just paracetamol. And you should drink a lot of water and get plenty of rest." },
+          { "speaker": "Daniel", "text": "The thing is, I've got an important meeting at work tomorrow. Should I go in?" },
+          { "speaker": "Helen", "text": "Hmm, I don't think you should. You ought to stay at home for a day or two, so you don't give it to your colleagues." },
+          { "speaker": "Daniel", "text": "Fair enough. How long does it usually take to get over a cold?" },
+          { "speaker": "Helen", "text": "About a week. But if you still have a temperature in three days, or you feel worse, you should see a doctor." },
+          { "speaker": "Daniel", "text": "OK, I will. Thanks very much for your help." }
+        ],
+        "gist": [
+          { "type": "mcq", "tag": "main_idea", "prompt": "Why does Daniel go to the pharmacy?", "options": ["To buy a present for a colleague", "To get advice about a cold", "To pick up a prescription", "To ask about a food allergy"], "answer": 1 }
+        ],
+        "detail": [
+          { "type": "mcq", "tag": "detail", "prompt": "When did Daniel's sore throat start?", "options": ["this morning", "three days ago", "yesterday", "last week"], "answer": 2 },
+          { "type": "tfng", "tag": "detail", "prompt": "Daniel needs a prescription for the painkillers.", "answer": "false", "explanation": "Helen says: 'You don't need a prescription for that.'" },
+          { "type": "mcq", "tag": "detail", "prompt": "What is the maximum number of tablets he can take in a day?", "options": ["two", "four", "six", "eight"], "answer": 3 },
+          { "type": "tfng", "tag": "detail", "prompt": "Daniel is allergic to aspirin.", "answer": "true" },
+          { "type": "gap", "tag": "detail", "prompt": "If he still has a temperature in three ___, he should see a doctor.", "answers": ["days"] }
+        ],
+        "expressions": [
+          { "phrase": "Oh dear.", "meaning": "a gentle way to show you are sorry about someone's problem", "mn": "Өө, хөөрхий минь." },
+          { "phrase": "to be honest", "meaning": "used before saying what you really think", "mn": "үнэнийг хэлэхэд" },
+          { "phrase": "Nothing serious.", "meaning": "it's only a small problem; don't worry", "mn": "Ноцтой юм биш." },
+          { "phrase": "Fair enough.", "meaning": "I accept that; that's reasonable", "mn": "Зөв л дөө, ойлголоо." }
+        ]
+      },
+      "pronunciation": "linking-consonant-vowel",
+      "speaking": {
+        "id": "s-pharmacy",
+        "type": "roleplay",
+        "prompt": "Role-play: You are at a pharmacy. Choose a health problem (a bad cough, a sore throat, a stomach ache or hay fever). Describe your symptoms to the pharmacist and ask for advice.",
+        "promptMn": "Дүрд тоглох: Та эмийн санд байна. Нэг эрүүл мэндийн асуудал сонго (хүчтэй ханиалга, хоолой өвдөх, гэдэс өвдөх эсвэл цэцгийн тоосны харшил). Эм зүйчид шинж тэмдгээ тайлбарлаж, зөвлөгөө асуу.",
+        "points": ["Say what the problem is and when it started", "Describe two or three symptoms", "Mention any allergies", "Ask what you should do and how long it usually takes to get better"],
+        "phrases": ["I think I'm coming down with something.", "I've had… since…", "I feel a bit dizzy / tired.", "I'm allergic to…", "Should I…?", "How long does it usually take to get over…?"],
+        "targetWords": ["symptom", "sore throat", "allergic", "get over"],
+        "prepSeconds": 45,
+        "speakSeconds": 90,
+        "sample": "Hello. I'm not feeling very well and I'd like some advice, please. I think I'm coming down with something. I've had a bad cough for three days, and since yesterday I've also had a sore throat. I don't think I have a temperature, but I feel a bit tired and dizzy. Can I buy something for the cough without a prescription? I'm allergic to aspirin, so I need to be careful. Should I take a painkiller for my throat, too? And how long does it usually take to get over something like this? Should I stay at home tomorrow? Thanks very much for your help."
+      },
+      "quiz": [
+        { "type": "match", "skill": "vocabulary", "prompt": "Match each problem with its description.", "pairs": [["dizzy", "the room seems to be turning round"], ["a temperature", "your body is hotter than normal"], ["a sore throat", "it hurts when you swallow"], ["allergic", "your body reacts badly to something"]] },
+        { "type": "gap", "skill": "vocabulary", "prompt": "You can't get this medicine without a ___ from your doctor.", "answers": ["prescription"], "options": ["recipe", "prescription", "receipt", "symptom"] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "It took me ten days to ___ the flu.", "options": ["come down with", "give up", "get over", "cut down on"], "answer": 2 },
+        { "type": "mcq", "skill": "vocabulary", "tag": "collocation", "prompt": "Which verb is correct? 'I ___ a painkiller before bed.'", "options": ["drank", "took", "ate", "made"], "answer": 1 },
+        { "type": "mcq", "skill": "pronunciation", "prompt": "How does 'a lot of' usually sound in natural speech?", "options": ["'a lot… of', with a pause after 'lot'", "'a lo-tof' — the words join together", "'a lot off', with a strong 'of'"], "answer": 1 },
+        { "type": "tfng", "skill": "listening", "prompt": "In the conversation, the pharmacist thinks Daniel should go to his meeting tomorrow.", "answer": "false", "explanation": "Helen says: 'I don't think you should. You ought to stay at home.'" }
+      ]
+    },
+    {
+      "id": "b1-04-l4",
+      "title": "What should I do?",
+      "focus": "writing",
+      "difficulty": 4,
+      "minutes": 30,
+      "objectives": [
+        "Give and ask for advice with should, shouldn't and ought to",
+        "Use friendly phrases for giving advice",
+        "Write a reply to a forum post giving health advice (80–130 words)"
+      ],
+      "warmup": {
+        "intro": "Everyone gives advice — friends, parents, doctors and the internet!",
+        "questions": [
+          { "type": "mcq", "prompt": "Your friend is always tired. Which sentence is correct?", "options": ["You should to sleep more.", "You should sleep more.", "You sleep should more."], "answer": 1, "skill": "grammar" }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "lifestyle", "pos": "noun", "ipa": "/ˈlaɪfstaɪl/",
+          "definition": "the way you live, including your work, food, exercise and free time",
+          "mn": "амьдралын хэв маяг",
+          "examples": ["Office workers often have a very inactive lifestyle.", "Small changes can make your lifestyle much healthier."],
+          "collocations": ["a healthy lifestyle", "an active lifestyle", "a busy lifestyle", "lifestyle changes"],
+          "synonyms": ["way of life"], "antonyms": [],
+          "mistake": "It's one word: 'lifestyle', not 'life style'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "work out", "pos": "phrasal verb", "ipa": "/wɜːk ˈaʊt/",
+          "definition": "to do exercise to make your body stronger and fitter",
+          "mn": "биеийн тамир, дасгал хийх",
+          "examples": ["I work out at the gym three times a week.", "She works out at home with online videos."],
+          "collocations": ["work out at the gym", "work out regularly", "work out at home"],
+          "synonyms": ["exercise", "train"], "antonyms": [],
+          "note": "The noun is one word: 'a workout'. 'Work out' can also mean 'solve': 'work out the answer'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "in shape", "pos": "phrase", "ipa": "/ɪn ˈʃeɪp/",
+          "definition": "healthy and physically fit",
+          "mn": "чийрэг, бие бялдар сайн",
+          "examples": ["I want to get in shape before the summer.", "Swimming is a great way to stay in shape."],
+          "collocations": ["get in shape", "stay in shape", "keep in shape"],
+          "synonyms": ["fit"], "antonyms": ["out of shape", "unfit"],
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "weight", "pos": "noun", "ipa": "/weɪt/",
+          "definition": "how heavy someone or something is",
+          "mn": "жин",
+          "examples": ["I put on weight when I stopped playing football.", "She lost a lot of weight after her illness."],
+          "collocations": ["put on weight", "lose weight", "gain weight", "a healthy weight"],
+          "synonyms": [], "antonyms": [],
+          "mistake": "Say 'put on weight' or 'gain weight', not 'get weight' or 'take weight'. And 'lose weight', not 'lose my weight'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "avoid", "pos": "verb", "ipa": "/əˈvɔɪd/",
+          "definition": "to stay away from something, or to try not to do something",
+          "mn": "зайлсхийх, цээрлэх",
+          "examples": ["Try to avoid eating late at night.", "My doctor told me to avoid salty food."],
+          "collocations": ["avoid doing something", "try to avoid", "avoid sugar", "avoid junk food"],
+          "synonyms": ["stay away from"], "antonyms": [],
+          "mistake": "After 'avoid' use -ing: 'avoid eating', not 'avoid to eat'.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "treat", "pos": "noun", "ipa": "/triːt/",
+          "definition": "something special and nice that you give yourself or someone else, often food",
+          "mn": "өөртөө эсвэл бусдад зориулсан онцгой зүйл, амттан",
+          "examples": ["Chocolate is a treat for me — I only have it at weekends.", "Let's go out for dinner — my treat!"],
+          "collocations": ["a special treat", "a little treat", "as a treat", "my treat"],
+          "synonyms": [], "antonyms": [],
+          "note": "'My treat!' = I'll pay. As a verb: 'treat yourself to something'.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "in moderation", "pos": "phrase", "ipa": "/ɪn ˌmɒdəˈreɪʃn/",
+          "definition": "in amounts that are not too big",
+          "mn": "хэмжээтэй, хэтрүүлэлгүй",
+          "examples": ["Coffee is fine in moderation.", "You can eat almost anything in moderation."],
+          "collocations": ["eat in moderation", "drink in moderation", "fine in moderation"],
+          "synonyms": ["not too much"], "antonyms": ["too much"],
+          "note": "A little formal. In conversation people often just say 'not too much'.",
+          "level": "B2", "difficulty": 4
+        },
+        {
+          "word": "hydrated", "pos": "adjective", "ipa": "/haɪˈdreɪtɪd/",
+          "definition": "having enough water in your body",
+          "mn": "биедээ хангалттай ус авсан",
+          "examples": ["Drink water regularly to stay hydrated.", "It's important to keep hydrated when it's hot."],
+          "collocations": ["stay hydrated", "keep hydrated", "well hydrated"],
+          "synonyms": [], "antonyms": ["dehydrated"],
+          "level": "B2", "difficulty": 4
+        },
+        {
+          "word": "boost", "pos": "verb", "ipa": "/buːst/",
+          "definition": "to make something stronger or better",
+          "mn": "нэмэгдүүлэх, сайжруулах",
+          "examples": ["A short walk after lunch can boost your energy.", "Fruit and vegetables help to boost your immune system."],
+          "collocations": ["boost your energy", "boost your mood", "boost your immune system"],
+          "synonyms": ["increase", "improve"], "antonyms": ["reduce"],
+          "level": "B2", "difficulty": 4
+        }
+      ],
+      "phrases": [
+        { "phrase": "Why don't you…?", "meaning": "a friendly way to make a suggestion", "mn": "…яагаад болохгүй гэж? / …вэл яасан юм бэ?", "register": "neutral", "whenToUse": "In conversation and informal messages. It's a suggestion, not a real question, so you don't expect a reason.", "example": "Why don't you take a homemade lunch to work?" },
+        { "phrase": "Have you tried…?", "meaning": "used to suggest something the other person may not have done yet", "mn": "…үзсэн үү?", "register": "neutral", "whenToUse": "When someone has a problem and you want to suggest a solution politely. Follow it with -ing or a noun.", "example": "Have you tried drinking herbal tea before bed?" },
+        { "phrase": "If I were you, I'd…", "meaning": "a way to give advice by imagining you are the other person", "mn": "Би чиний оронд байсан бол…", "register": "neutral", "whenToUse": "For personal, fairly strong advice to friends and colleagues. Use 'were', even with 'I'.", "example": "If I were you, I'd see a doctor about that cough." },
+        { "phrase": "Take it easy.", "meaning": "relax; don't work too hard", "mn": "Тайван бай, өөрийгөө бүү ядраа.", "register": "informal", "whenToUse": "With friends and family, especially when someone is ill or stressed. Too informal for a formal email.", "example": "You've had a hard week — take it easy this weekend." },
+        { "phrase": "Look after yourself.", "meaning": "take care of your health", "mn": "Биеэ бодоорой, өөртөө анхаараарай.", "register": "informal", "whenToUse": "At the end of a conversation or message to someone who is ill or busy. Warm and friendly.", "example": "Get some rest, and look after yourself!" }
+      ],
+      "grammar": "should-advice",
+      "writing": {
+        "id": "w-forum-advice",
+        "type": "message",
+        "prompt": "Read this post on a health forum and write a reply (80–130 words) with your advice.\n\n'Hi everyone. Six months ago I started a new office job. I sit at my desk all day, I eat a lot of snacks and I often skip lunch. I've put on five kilos and I'm always tired. What should I do? — Tom'",
+        "promptMn": "Эрүүл мэндийн форумд тавьсан энэ бичлэгийг уншаад, зөвлөгөө өгсөн хариу бичээрэй (80–130 үг): 'Сайн байцгаана уу. Зургаан сарын өмнө оффисын шинэ ажилд орсон. Өдөржин ширээндээ суудаг, их зууш иддэг, өдрийн хоолоо байнга алгасдаг. Таван кг жин нэмээд, үргэлж ядарсан байна. Би яах ёстой вэ? — Том'",
+        "register": "informal",
+        "minWords": 80,
+        "maxWords": 130,
+        "points": ["Show you understand the problem", "Give three or four pieces of advice with should / shouldn't / ought to", "Explain why each idea helps", "Finish in a friendly way"],
+        "phrases": ["I had the same problem when…", "First of all, you should…", "You shouldn't…", "Why don't you…?", "Have you tried…?", "Good luck, and look after yourself!"],
+        "targetWords": ["lifestyle", "work out", "hydrated", "boost", "in moderation"],
+        "sample": "Hi Tom,\n\nI had the same problem when I started working in an office, so I know how you feel! First of all, you shouldn't skip lunch. If you do, you'll eat a lot of snacks in the afternoon. Why don't you take a homemade lunch to work? It's cheaper and more nutritious. You should also keep a bottle of water on your desk to stay hydrated. Have you tried walking to work, or working out after work? Even a few short walks a day can boost your energy. And you don't need to give up treats completely — chocolate is fine in moderation!\n\nGood luck, and look after yourself!\nBat"
+      },
+      "quiz": [
+        { "type": "mcq", "skill": "grammar", "prompt": "You ___ go to work with a high temperature.", "options": ["should", "shouldn't", "ought to"], "answer": 1 },
+        { "type": "gap", "skill": "grammar", "prompt": "You ought ___ drink more water.", "answers": ["to"], "options": ["for", "that", "to"] },
+        { "type": "mcq", "skill": "vocabulary", "tag": "collocation", "prompt": "Which sentence is correct?", "options": ["I got weight last winter.", "I put on weight last winter.", "I took weight last winter."], "answer": 1 },
+        { "type": "gap", "skill": "vocabulary", "prompt": "Drink plenty of water to stay ___.", "answers": ["hydrated"], "options": ["allergic", "balanced", "hydrated", "dizzy"] },
+        { "type": "mcq", "skill": "writing", "tag": "register", "prompt": "Which is the best ending for a friendly message giving advice?", "options": ["Yours faithfully,", "Please find attached.", "I remain, sir,", "Look after yourself!"], "answer": 3 },
+        { "type": "error", "skill": "grammar", "prompt": "Tap the part with the mistake.", "segments": ["If you want to lose weight,", "you should to avoid", "sugary drinks."], "wrongIndex": 1, "correction": "you should avoid", "explanation": "No 'to' after 'should'." }
+      ]
+    }
+  ],
+  "test": {
+    "reading": {
+      "id": "t-steppe-supermarket",
+      "title": "From the Steppe to the Supermarket",
+      "genre": "article",
+      "text": [
+        "For centuries, the traditional Mongolian diet was simple. Herders ate a lot of meat, especially mutton, and they had plenty of dairy products, such as airag, yoghurt and aaruul (dried curds). They didn't eat many vegetables, because it was difficult to grow them on the cold, dry steppe. This diet gave people the energy they needed for long, hard days outside in winter.",
+        "Today, most Mongolians live in towns and cities, and the way they eat is changing fast. Supermarkets in Ulaanbaatar sell food from all over the world, and many young people now choose instant noodles, fast food and fizzy drinks. These meals are quick and cheap, but they often contain a lot of salt, sugar and fat.",
+        "Doctors are worried. City life is much less active than life on the steppe, but many people still eat the same large portions of meat as their grandparents did. As a result, health problems such as high blood pressure and heart disease are becoming more common, even among people in their thirties.",
+        "There is some good news, though. Fresh vegetables are cheaper and easier to find than twenty years ago, and more families are growing their own in greenhouses. Health experts say people don't need to give up traditional food. Instead, they should eat smaller portions of meat, add more vegetables to dishes like tsuivan and buuz, and choose water or tea without sugar instead of sugary drinks."
+      ],
+      "glossary": [
+        { "term": "herder", "meaning": "a person who looks after animals such as sheep, goats and horses", "mn": "малчин" },
+        { "term": "blood pressure", "meaning": "the force of the blood as it moves around your body", "mn": "цусны даралт" },
+        { "term": "greenhouse", "meaning": "a glass building for growing plants", "mn": "хүлэмж" }
+      ],
+      "questions": [
+        { "type": "mcq", "tag": "main_idea", "prompt": "What is the article mainly about?", "options": ["How to cook traditional Mongolian dishes", "Why vegetables are expensive in Mongolia", "How Mongolian eating habits have changed and why it matters", "The history of supermarkets in Ulaanbaatar"], "answer": 2 },
+        { "type": "tfng", "tag": "detail", "prompt": "Traditionally, herders ate a lot of vegetables.", "answer": "false", "explanation": "Paragraph 1: 'They didn't eat many vegetables.'" },
+        { "type": "tfng", "tag": "detail", "prompt": "Many modern city meals contain a lot of salt, sugar and fat.", "answer": "true" },
+        { "type": "tfng", "tag": "detail", "prompt": "Most young Mongolians eat fast food every day.", "answer": "not_given", "explanation": "The article says many young people choose fast food, but not how often." },
+        { "type": "short", "tag": "detail", "prompt": "Name one health problem that is becoming more common.", "answers": ["blood pressure", "heart disease"] },
+        { "type": "mcq", "tag": "inference", "prompt": "What do health experts suggest?", "options": ["Give up meat completely", "Eat traditional food in a healthier way", "Stop eating traditional food", "Only eat vegetables from greenhouses"], "answer": 1 },
+        { "type": "mcq", "tag": "vocab_context", "prompt": "In paragraph 3, 'As a result' introduces…", "options": ["a consequence", "an example", "a contrast", "a question"], "answer": 0 }
+      ]
+    },
+    "listening": {
+      "id": "t-fussy-eater",
+      "title": "Ask the nutritionist",
+      "kind": "conversation",
+      "context": "Nomin calls a radio programme about healthy eating to ask the nutritionist, Dr Evans, a question.",
+      "speakers": [
+        { "name": "Dr Evans", "voice": "male", "accent": "en-GB" },
+        { "name": "Nomin", "voice": "female", "accent": "en-GB" }
+      ],
+      "lines": [
+        { "speaker": "Dr Evans", "text": "Hello, you're on Healthy Living. What's your question?" },
+        { "speaker": "Nomin", "text": "Hi. Well, it's about my son. He's seven, and he refuses to eat vegetables. He only wants pasta and sausages." },
+        { "speaker": "Dr Evans", "text": "Ah, that's very common, so don't worry too much. Does he eat any fruit?" },
+        { "speaker": "Nomin", "text": "Yes, quite a lot, actually. He loves bananas and apples." },
+        { "speaker": "Dr Evans", "text": "Good, that helps. My first piece of advice is: don't force him. If a meal becomes a fight, children usually eat less, not more." },
+        { "speaker": "Nomin", "text": "OK. So what should I do instead?" },
+        { "speaker": "Dr Evans", "text": "Try hiding a few vegetables in the food he likes. You can chop carrots or spinach very finely and put them in a pasta sauce. He probably won't notice." },
+        { "speaker": "Nomin", "text": "That's a good idea. Anything else?" },
+        { "speaker": "Dr Evans", "text": "Yes. Let him help you cook. Children who help to make a meal are much more likely to try it. And you shouldn't give him snacks just before dinner, so he's hungry at the table." },
+        { "speaker": "Nomin", "text": "Right. To be honest, he has a lot of snacks in the afternoon." },
+        { "speaker": "Dr Evans", "text": "Well, maybe cut down on those, and give him some raw vegetables instead — cucumber or carrot sticks with a dip." },
+        { "speaker": "Nomin", "text": "Brilliant. Thanks so much. I'll try that." }
+      ],
+      "gist": [
+        { "type": "mcq", "tag": "main_idea", "prompt": "Why does Nomin call the programme?", "options": ["She wants a recipe for pasta sauce.", "She is worried about her own weight.", "Her son doesn't want to eat vegetables.", "Her son is allergic to fruit."], "answer": 2 }
+      ],
+      "detail": [
+        { "type": "tfng", "tag": "detail", "prompt": "Nomin's son doesn't eat any fruit.", "answer": "false", "explanation": "He eats quite a lot of fruit — bananas and apples." },
+        { "type": "mcq", "tag": "detail", "prompt": "According to Dr Evans, what happens when a meal becomes a fight?", "options": ["Children usually eat less.", "Children eat faster.", "Children get ill.", "Children start cooking."], "answer": 0 },
+        { "type": "mcq", "tag": "detail", "prompt": "Where does Dr Evans suggest hiding vegetables?", "options": ["in sausages", "in a pasta sauce", "in cakes", "in fruit juice"], "answer": 1 },
+        { "type": "tfng", "tag": "detail", "prompt": "Nomin says her son has a lot of snacks in the afternoon.", "answer": "true" },
+        { "type": "gap", "tag": "detail", "prompt": "Instead of snacks, he can have raw vegetables with a ___.", "answers": ["dip"] }
+      ],
+      "expressions": [
+        { "phrase": "Don't worry too much.", "meaning": "a kind way to tell someone a problem is not serious", "mn": "Нэг их санаа зовох хэрэггүй." },
+        { "phrase": "My first piece of advice is…", "meaning": "a clear way to start giving advice", "mn": "Миний эхний зөвлөгөө бол…" },
+        { "phrase": "Brilliant.", "meaning": "(British, informal) great, very good", "mn": "Гоё, маш сайн." }
+      ]
+    },
+    "writing": {
+      "id": "t-family-diet",
+      "type": "paragraph",
+      "prompt": "Write a paragraph (100–130 words) about the eating habits in your family. Say what you eat a lot of, what you don't eat much of, and give two pieces of advice to make your family's diet healthier.",
+      "promptMn": "Гэр бүлийнхээ хооллолтын зуршлын тухай нэг догол мөр бичээрэй (100–130 үг). Юуг их иддэг, юуг бага иддэгээ бичээд, хооллолтоо илүү эрүүл болгох хоёр зөвлөгөө өгөөрэй.",
+      "register": "neutral",
+      "minWords": 100,
+      "maxWords": 130,
+      "points": ["What your family eats a lot of (a lot of, many, much)", "What you don't eat much of", "Two pieces of advice (should / shouldn't / ought to)"],
+      "phrases": ["In my family, we eat a lot of…", "We don't eat much / many…", "I think we should…", "We ought to…"],
+      "targetWords": ["diet", "portion", "processed", "cut down on"],
+      "sample": "In my family, we eat a lot of meat, like most Mongolian families. My mother cooks almost every day, so we don't eat much processed food, but our portions are quite big. We usually have rice or noodles with dinner, and we drink a lot of milk tea. We don't eat many vegetables in winter because they are expensive, but in summer we buy plenty of fresh cucumbers and tomatoes. My father loves sugary drinks, and I think he should cut down on them. I also think we ought to eat more fish and less salt. One easy change for me is breakfast — I often skip it, and I really shouldn't."
+    },
+    "speaking": {
+      "id": "t-healthy-expensive",
+      "type": "opinion",
+      "prompt": "Some people say that eating healthily is too expensive and takes too much time. Do you agree? Give reasons and examples.",
+      "promptMn": "Зарим хүмүүс эрүүл хооллох нь хэтэрхий үнэтэй, их цаг шаарддаг гэж ярьдаг. Та санал нийлэх үү? Шалтгаан, жишээ дурдаарай.",
+      "points": ["Your opinion", "One reason about money", "One reason about time", "A piece of advice"],
+      "phrases": ["I partly agree.", "In my opinion,…", "For example,…", "I think people should…"],
+      "targetWords": ["nutritious", "homemade", "processed"],
+      "prepSeconds": 30,
+      "speakSeconds": 90,
+      "sample": "I partly agree. In Ulaanbaatar, fresh fruit and vegetables can be quite expensive, especially in winter, and fast food is everywhere, so it's easy to eat badly. But I don't think healthy food always costs more. For example, soup with a few vegetables and a little meat is cheap and nutritious. The bigger problem, in my opinion, is time. People work long hours and don't want to cook in the evening. I think we should plan our meals for the week and cook a lot of food on Sunday. Then we can eat homemade food every day without spending much money or time."
+    },
+    "questions": [
+      { "type": "mcq", "skill": "grammar", "prompt": "How ___ cups of coffee do you drink a day?", "options": ["much", "many", "a little"], "answer": 1 },
+      { "type": "mcq", "skill": "grammar", "prompt": "There's only ___ cheese left — not enough for a pizza.", "options": ["a little", "a few", "many"], "answer": 0 },
+      { "type": "gap", "skill": "grammar", "prompt": "Have we got ___ bread for breakfast?", "answers": ["any"], "options": ["many", "any", "a few"] },
+      { "type": "correct", "skill": "grammar", "prompt": "Correct the sentence.", "sentence": "She gave me a very useful advice.", "answers": ["She gave me some very useful advice.", "She gave me a very useful piece of advice.", "She gave me very useful advice."] },
+      { "type": "mcq", "skill": "grammar", "prompt": "You ___ eat that chicken — it's still raw!", "options": ["should", "ought to", "shouldn't"], "answer": 2 },
+      { "type": "transform", "skill": "grammar", "prompt": "Rewrite the advice. Use the word given.", "sentence": "Why don't you see a doctor?", "keyword": "ought", "answers": ["You ought to see a doctor.", "I think you ought to see a doctor.", "Maybe you ought to see a doctor.", "Perhaps you ought to see a doctor."] },
+      { "type": "gap", "skill": "grammar", "prompt": "What ___ I eat before a long run?", "answers": ["should"] },
+      { "type": "gap", "skill": "vocabulary", "prompt": "I think I'm coming ___ with a cold.", "answers": ["down"], "options": ["up", "down", "over", "out"] },
+      { "type": "mcq", "skill": "vocabulary", "prompt": "A balanced diet…", "options": ["has no fat at all", "is only vegetables", "is very expensive", "has the right amounts of different foods"], "answer": 3 },
+      { "type": "gap", "skill": "vocabulary", "prompt": "Before you buy it, read the ___ to see how much sugar it contains.", "answers": ["label"], "options": ["recipe", "label", "portion", "flavour"] },
+      { "type": "match", "skill": "vocabulary", "tag": "collocation", "prompt": "Match the verbs with the words they go with.", "pairs": [["take", "a painkiller"], ["skip", "breakfast"], ["follow", "a recipe"], ["put on", "weight"]] },
+      { "type": "mcq", "skill": "vocabulary", "prompt": "Which sentence is correct?", "options": ["I'm allergic for nuts.", "I'm allergic to nuts.", "I'm allergic of nuts.", "I'm allergic with nuts."], "answer": 1 }
+    ]
+  }
+}

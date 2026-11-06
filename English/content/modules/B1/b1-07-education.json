@@ -1,0 +1,897 @@
+{
+  "id": "b1-07",
+  "level": "B1",
+  "order": 7,
+  "title": "Education & Learning",
+  "topic": "Education",
+  "description": "Talk about studying, courses and exams, make plans and predictions, and talk about possible future results.",
+  "descriptionMn": "Суралцах, сургалт, шалгалтын тухай ярих, төлөвлөгөө, таамаг хэлэх, ирээдүйд гарч болох үр дүнгийн тухай ярих.",
+  "objectives": [
+    { "text": "Talk about plans, arrangements and predictions with will, going to and the present continuous", "skills": ["grammar", "speaking"] },
+    { "text": "Talk about possible future results with if, when, as soon as and unless", "skills": ["grammar", "writing"] },
+    { "text": "Use natural collocations for school, university, studying and exams (sit an exam, hand in an assignment, fall behind)", "skills": ["vocabulary"] },
+    { "text": "Understand a guide to studying and an interview with an adult student", "skills": ["reading"] },
+    { "text": "Understand a conversation and a phone message about exams and courses", "skills": ["listening"] },
+    { "text": "Write a formal email asking about a course and give your opinion about exams", "skills": ["writing", "speaking"] }
+  ],
+  "targets": {
+    "grammar": ["Future forms: will, going to, present continuous for arrangements", "First conditional with if, when, as soon as and unless"],
+    "vocabulary": ["school and university", "studying", "exams"],
+    "reading": "A guide to studying more effectively",
+    "listening": "Two university students talk about their exams next week",
+    "speaking": "Describe your learning plans and give your opinion about exams",
+    "writing": "A formal email asking a language school about a course",
+    "pronunciation": "Contractions: I'll, it'll, won't and gonna"
+  },
+  "grammar": [
+    {
+      "id": "future-forms",
+      "title": "Future forms: will, going to and the present continuous",
+      "level": "B1",
+      "summary": "Use going to for plans you have already decided and for predictions based on what you can see now. Use the present continuous for fixed arrangements with a time or place. Use will for decisions you make while speaking, offers, promises and predictions based on your opinion.",
+      "summaryMn": "'Going to' — өмнө нь шийдсэн төлөвлөгөө, одоо харагдаж буй зүйлд тулгуурласан таамаг. Present continuous — цаг, газар нь тохирсон тодорхой уулзалт, зохион байгуулалт. 'Will' — ярьж байхдаа гаргасан шийдвэр, санал болгох, амлах, өөрийн бодолд тулгуурласан таамаг.",
+      "structure": [
+        "will / won't + base verb: I'll help you. It won't be easy.",
+        "am / is / are going to + base verb: I'm going to study law.",
+        "am / is / are + verb-ing + future time: I'm meeting my tutor on Friday.",
+        "Questions: Will you…? · Are you going to…? · What are you doing tomorrow?"
+      ],
+      "usage": [
+        { "use": "Plans and intentions (already decided)", "example": "I'm going to take the IELTS exam next year.", "useMn": "Өмнө нь шийдсэн төлөвлөгөө, санаа зорилго" },
+        { "use": "Fixed arrangements with a time or place", "example": "I'm meeting my study group at six this evening.", "useMn": "Цаг, газар нь тохирсон уулзалт, зохион байгуулалт" },
+        { "use": "Decisions made at the moment of speaking", "example": "The library's closed? OK, I'll study at home.", "useMn": "Ярьж байх үедээ гаргасан шийдвэр" },
+        { "use": "Offers and promises", "example": "Don't worry, I'll help you with your essay.", "useMn": "Санал болгох, амлах" },
+        { "use": "Predictions: will (opinion) / going to (evidence you can see now)", "example": "I think the exam will be hard. / Look at these questions — this is going to be difficult!", "useMn": "Таамаг: will — өөрийн бодол; going to — одоо харагдаж буй баримт" }
+      ],
+      "examples": [
+        { "en": "I'm going to study harder this term — I've already made a timetable.", "note": "A decision made before now → going to." },
+        { "en": "What are you doing on Saturday? — I'm having a lesson with my tutor at ten.", "note": "An arrangement in the diary → present continuous." },
+        { "en": "I'm really tired. I think I'll go to bed early.", "note": "A decision made now → will." },
+        { "en": "You'll pass — you've worked really hard.", "note": "A prediction based on opinion → will." }
+      ],
+      "contrast": {
+        "with": "will vs going to vs present continuous",
+        "pairs": [
+          { "a": "Oh, the college is open now? I'll call them.", "b": "I'm going to call the college tomorrow.", "why": "'Will' = I decide now, while speaking. 'Going to' = I decided before.", "whyMn": "'Will' — одоо ярьж байхдаа шийдсэн. 'Going to' — өмнө нь шийдсэн." },
+          { "a": "I'm going to learn Spanish one day.", "b": "I'm starting a Spanish course on Monday.", "why": "'Going to' = an intention, maybe no date yet. Present continuous = it's arranged and booked.", "whyMn": "'Going to' — санаа зорилго, огноо тодорхойгүй байж болно. Present continuous — аль хэдийн тохирч, бүртгүүлсэн." },
+          { "a": "I think it will be a difficult exam.", "b": "Look at the first question! It's going to be a difficult exam.", "why": "'Will' = my opinion. 'Going to' = I can see evidence now.", "whyMn": "'Will' — миний бодол. 'Going to' — одоо харж буй баримтад тулгуурласан." }
+        ]
+      },
+      "mistakes": [
+        { "wrong": "I will to call you tonight.", "right": "I'll call you tonight.", "why": "No 'to' after 'will'.", "whyMn": "'Will'-ийн дараа 'to' хэрэглэхгүй." },
+        { "wrong": "I'm going study abroad next year.", "right": "I'm going to study abroad next year.", "why": "Don't forget 'to' in 'going to'.", "whyMn": "'Going to'-ийн 'to'-г орхиж болохгүй." },
+        { "wrong": "I meet my teacher tomorrow at three.", "right": "I'm meeting my teacher tomorrow at three.", "why": "For a fixed arrangement, use the present continuous, not the present simple.", "whyMn": "Тохирсон уулзалтад present simple биш present continuous хэрэглэнэ." },
+        { "wrong": "The phone's ringing. — I'm going to answer it.", "right": "The phone's ringing. — I'll answer it.", "why": "A decision made at the moment of speaking → will.", "whyMn": "Ярьж байх үедээ гаргасан шийдвэрт will хэрэглэнэ." }
+      ],
+      "guided": [
+        { "type": "mcq", "prompt": "A: We haven't got any paper for the printer. B: Oh, I ___ go and buy some.", "options": ["'ll", "'m going", "'m"], "answer": 0, "explanation": "B decides now → will ('ll)." },
+        { "type": "mcq", "prompt": "I ___ my tutor at 3 p.m. tomorrow — we arranged it last week.", "options": ["meet", "will to meet", "'m meeting"], "answer": 2, "explanation": "A fixed arrangement → present continuous." },
+        { "type": "mcq", "prompt": "Which sentence talks about a plan that is already decided?", "options": ["Maybe I'll study law.", "I'm going to study law — I've already chosen the university.", "I think I'll probably study law."], "answer": 1, "explanation": "'Going to' + 'already chosen' = a decided plan." },
+        { "type": "gap", "prompt": "Don't worry about your essay — I ___ help you with it this evening.", "answers": ["will"], "options": ["am", "going to", "will"], "explanation": "An offer → will." },
+        { "type": "mcq", "prompt": "Look at the time! We ___ be late for the lecture.", "options": ["are", "are going to", "will to"], "answer": 1, "explanation": "A prediction from what you can see now → going to." },
+        { "type": "mcq", "prompt": "What ___ this weekend? — I'm visiting my grandparents.", "options": ["are you doing", "do you do", "you are doing"], "answer": 0, "explanation": "Asking about arrangements → present continuous question." }
+      ],
+      "free": [
+        { "type": "gap", "prompt": "A: I can't open this window. B: Wait, I ___ (help) you.", "answers": ["'ll help", "will help"], "explanation": "A decision/offer at the moment of speaking → will." },
+        { "type": "gap", "prompt": "We ___ (have) a class party on Friday — everything's booked.", "answers": ["'re having", "are having", "'re going to have", "are going to have"], "explanation": "A fixed arrangement → present continuous (going to is also possible)." },
+        { "type": "correct", "prompt": "Correct the sentence.", "sentence": "I going to take the exam in June.", "answers": ["I'm going to take the exam in June.", "I am going to take the exam in June."], "explanation": "going to needs am/is/are." },
+        { "type": "transform", "prompt": "Rewrite the sentence. Use the word given.", "sentence": "My plan is to find a private tutor.", "keyword": "going", "answers": ["I'm going to find a private tutor.", "I am going to find a private tutor."], "explanation": "A plan → be going to + base verb." }
+      ],
+      "prerequisites": []
+    },
+    {
+      "id": "first-conditional",
+      "title": "First conditional with if, when, as soon as and unless",
+      "level": "B1",
+      "summary": "Use the first conditional for a real possibility in the future and its result: if + present simple, will + base verb. Use when or as soon as for things you are sure will happen, and unless to mean 'if … not'.",
+      "summaryMn": "First conditional-ийг ирээдүйд бодитоор болж болох нөхцөл ба түүний үр дүнг хэлэхэд хэрэглэнэ: if + present simple, will + үйл үг. Болох нь тодорхой зүйлд 'when', 'as soon as' (…мөчид л), 'if … not' утгаар 'unless' хэрэглэнэ.",
+      "structure": [
+        "If + present simple, will / won't + base verb: If I pass, I'll celebrate.",
+        "will + base verb + if + present simple: I'll celebrate if I pass. (no comma)",
+        "when / as soon as + present simple, will…: I'll call you as soon as I get my results.",
+        "unless = if … not: I won't pass unless I study. (= if I don't study)",
+        "The result can also be an imperative or can: If you feel nervous, take a deep breath."
+      ],
+      "usage": [
+        { "use": "Real possibilities in the future", "example": "If it snows tomorrow, the school will close.", "useMn": "Ирээдүйд болж болох бодит нөхцөл" },
+        { "use": "when: something we are sure will happen", "example": "When I finish university, I'll look for a job.", "useMn": "Болох нь тодорхой үйл — when" },
+        { "use": "as soon as: immediately after something happens", "example": "I'll text you as soon as the exam finishes.", "useMn": "…мөчид, дуусмагц — as soon as" },
+        { "use": "unless: if … not", "example": "You won't understand the lecture unless you read the chapter first.", "useMn": "unless = if … not (…хэхгүй бол)" },
+        { "use": "Warnings, promises and advice", "example": "If you cheat, you'll fail the course.", "useMn": "Анхааруулга, амлалт, зөвлөгөө" }
+      ],
+      "examples": [
+        { "en": "If I get a scholarship, I'll study in Korea.", "note": "A real possibility — maybe I'll get it, maybe not." },
+        { "en": "I'll call you as soon as I get my results.", "note": "Present simple after 'as soon as' — not 'as soon as I will get'." },
+        { "en": "Unless you hand in your essay on time, you'll lose marks.", "note": "Unless = if you don't." },
+        { "en": "When the course finishes, I'll get a certificate.", "note": "I'm sure the course will finish, so 'when', not 'if'." }
+      ],
+      "contrast": {
+        "with": "if vs when, if … not vs unless",
+        "pairs": [
+          { "a": "If I see Tom, I'll tell him.", "b": "When I see Tom tomorrow, I'll tell him.", "why": "'If' = maybe I'll see him. 'When' = I'm sure I'll see him.", "whyMn": "'If' — магадгүй уулзана. 'When' — заавал уулзана гэдэгт итгэлтэй." },
+          { "a": "If you don't study, you'll fail.", "b": "Unless you study, you'll fail.", "why": "Same meaning. 'Unless' already contains 'not', so don't add another negative.", "whyMn": "Утга нь ижил. 'Unless' өөртөө 'not'-ийн утгатай тул дахин үгүйсгэл нэмэхгүй." }
+        ]
+      },
+      "mistakes": [
+        { "wrong": "If I will pass, I'll celebrate.", "right": "If I pass, I'll celebrate.", "why": "Don't use 'will' after 'if'. Use the present simple.", "whyMn": "'If'-ийн дараа 'will' хэрэглэхгүй, present simple хэрэглэнэ." },
+        { "wrong": "I'll call you when I will get home.", "right": "I'll call you when I get home.", "why": "No 'will' after when or as soon as.", "whyMn": "'When', 'as soon as'-ийн дараа 'will' хэрэглэхгүй." },
+        { "wrong": "Unless you don't study, you'll fail.", "right": "Unless you study, you'll fail.", "why": "'Unless' already means 'if not'.", "whyMn": "'Unless' аль хэдийн 'if not' гэсэн утгатай." },
+        { "wrong": "If you'll need help, ask me.", "right": "If you need help, ask me.", "why": "Present simple in the if-clause, even about the future.", "whyMn": "Ирээдүйн тухай ярьж байсан ч if-тэй хэсэгт present simple хэрэглэнэ." }
+      ],
+      "guided": [
+        { "type": "mcq", "prompt": "If you ___ hard, you'll pass.", "options": ["will study", "study", "studied"], "answer": 1, "explanation": "if + present simple." },
+        { "type": "mcq", "prompt": "I'll call you as soon as I ___ the results.", "options": ["get", "will get", "got"], "answer": 0, "explanation": "Present simple after 'as soon as'." },
+        { "type": "mcq", "prompt": "You won't get onto the course ___ you pass the entrance exam.", "options": ["if", "unless", "when"], "answer": 1, "explanation": "= if you don't pass → unless." },
+        { "type": "mcq", "prompt": "Which sentence is correct?", "options": ["When I'll finish school, I'll travel.", "When I finish school, I travel will.", "When I finish school, I'll travel."], "answer": 2, "explanation": "when + present simple, will + verb." },
+        { "type": "match", "prompt": "Match the two halves of the sentences.", "pairs": [["If you miss the lecture,", "you can watch the recording online."], ["As soon as the exam finishes,", "I'll send you a message."], ["Unless you hand it in today,", "you'll lose marks."], ["If I get a scholarship,", "I'll study abroad."]] }
+      ],
+      "free": [
+        { "type": "gap", "prompt": "If it ___ (rain) tomorrow, we'll study in the library.", "answers": ["rains"], "explanation": "if + present simple: it rains." },
+        { "type": "gap", "prompt": "I ___ (text) you as soon as I finish the exam.", "answers": ["'ll text", "will text"], "explanation": "The result clause uses will." },
+        { "type": "transform", "prompt": "Rewrite the sentence. Use the word given.", "sentence": "If you don't practise, you won't improve.", "keyword": "unless", "answers": ["Unless you practise, you won't improve.", "You won't improve unless you practise.", "Unless you practice, you won't improve.", "You won't improve unless you practice."], "explanation": "if you don't = unless." },
+        { "type": "correct", "prompt": "Correct the sentence.", "sentence": "If I will fail, I'll take the exam again in June.", "answers": ["If I fail, I'll take the exam again in June.", "If I fail, I will take the exam again in June."], "explanation": "No 'will' after 'if'." },
+        { "type": "correct", "prompt": "Correct the sentence.", "sentence": "Unless you don't hurry, you'll miss the bus.", "answers": ["Unless you hurry, you'll miss the bus.", "If you don't hurry, you'll miss the bus."], "explanation": "'Unless' already means 'if not'." }
+      ],
+      "prerequisites": ["future-forms"]
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "future-contractions",
+      "title": "Contractions: I'll, it'll, won't and gonna",
+      "category": "contractions",
+      "explanation": "In speech, 'will' is almost always contracted: I'll, you'll, it'll, we'll, they'll. 'Will not' becomes 'won't' /wəʊnt/ — be careful, because it sounds different from 'want' /wɒnt/. In fast, informal speech, 'going to' often sounds like 'gonna'. Using contractions makes you sound natural, and recognising them helps you understand fast speech.",
+      "explanationMn": "Ярианд 'will' бараг үргэлж хураангуй хэлбэртэй байдаг: I'll, you'll, it'll, we'll, they'll. 'Will not' → 'won't' /wəʊnt/ — 'want' /wɒnt/-аас өөрөөр дуудагддаг тул анхаараарай. Хурдан, албан бус ярианд 'going to' ихэвчлэн 'gonna' гэж сонсогдоно. Хураангуй хэлбэр яриаг тань байгалийн болгож, хурдан яриаг ойлгоход тусална.",
+      "items": [
+        { "display": "I'll /aɪl/ — one syllable", "say": "I'll call you later.", "tip": "Not 'I will' — just one quick sound: /aɪl/." },
+        { "display": "you'll /jʊəl/ or /jɔːl/", "say": "You'll be fine." },
+        { "display": "it'll /ˈɪtl/ — two short syllables", "say": "It'll be easy.", "tip": "The t is very light: IT-l." },
+        { "display": "won't /wəʊnt/ vs want /wɒnt/", "say": "I won't. I want.", "tip": "'Won't' rhymes with 'don't'." },
+        { "display": "we'll /wiːl/ vs will /wɪl/", "say": "We'll. Will.", "tip": "'We'll' has a long /iː/; 'will' has a short /ɪ/." },
+        { "display": "going to → gonna /ˈɡənə/", "say": "I'm going to study tonight.", "tip": "Informal speech only — never write 'gonna'." }
+      ],
+      "shadowing": [
+        { "text": "If I pass the exam, I'll celebrate with my friends.", "stress": "If I PASS the eXAM, I'll CELebrate with my FRIENDS.", "tip": "'I'll' is short and unstressed.", "difficult": ["I'll", "celebrate"] },
+        { "text": "Don't worry — it'll be fine. You won't fail.", "stress": "DON'T WORry — it'll be FINE. You WON'T FAIL.", "tip": "'Won't' is stressed here: /wəʊnt/, like 'don't'.", "difficult": ["it'll", "won't"] },
+        { "text": "I'm going to study all weekend, so I won't see you.", "stress": "I'm going to STUDy all WEEKend, so I WON'T SEE you.", "tip": "In fast speech, 'going to' sounds like 'gonna'.", "difficult": ["going to", "won't"] },
+        { "text": "We'll call you as soon as we get the results.", "stress": "We'll CALL you as SOON as we GET the reSULTS.", "tip": "'We'll' — long /iː/, not 'will'.", "difficult": ["we'll", "results"] }
+      ],
+      "spokenForms": [
+        { "written": "I'm going to", "spoken": "I'm gonna", "note": "Informal speech only. Never write 'gonna' in an email, essay or exam." },
+        { "written": "I will not", "spoken": "I won't", "note": "The full form 'will not' sounds very strong or formal in speech." },
+        { "written": "it will", "spoken": "it'll", "note": "Normal in speech and informal writing. In formal writing, use 'it will'." }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "b1-07-l1",
+      "title": "Study smarter, not harder",
+      "focus": "vocabulary",
+      "difficulty": 3,
+      "minutes": 25,
+      "objectives": [
+        "Use 11 words and collocations for studying and learning",
+        "Understand the main ideas and details of a guide to effective studying",
+        "Talk about how you study and what works for you"
+      ],
+      "warmup": {
+        "intro": "How do you usually study for an exam — a little every day, or a lot the night before?",
+        "questions": [
+          { "type": "mcq", "prompt": "The text in this lesson is called 'Study Smarter, Not Harder'. What will it probably give you?", "options": ["advice on better ways to study", "a list of the best universities", "a story about a lazy student", "information about exam fees"], "answer": 0, "skill": "reading", "tag": "prediction" },
+          { "type": "mcq", "prompt": "Studying something again before an exam is called…", "options": ["resting", "revising", "retiring", "returning"], "answer": 1, "skill": "vocabulary" }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "revise", "pos": "verb", "ipa": "/rɪˈvaɪz/",
+          "definition": "(British) to study again something you have learned, before an exam",
+          "mn": "(шалгалтад бэлдэж) давтах",
+          "examples": ["I need to revise for my history exam.", "It's better to revise a little every day than all night before the exam."],
+          "collocations": ["revise for an exam", "revise a topic", "revise hard"],
+          "synonyms": ["review", "study"], "antonyms": [],
+          "note": "In American English, 'review' or 'study for'. 'Revise' also means 'change and improve' a text: 'revise an essay'. The noun is 'revision'.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "cram", "pos": "verb", "ipa": "/kræm/",
+          "definition": "to study a lot of information in a short time just before an exam",
+          "mn": "шалгалтын өмнө яаран чихэж цээжлэх",
+          "examples": ["I crammed all night and felt terrible in the morning.", "If you cram, you'll probably forget everything a week later."],
+          "collocations": ["cram for an exam", "cram all night", "last-minute cramming"],
+          "synonyms": [], "antonyms": [],
+          "note": "Informal. It usually has a slightly negative meaning.",
+          "level": "B2", "difficulty": 4
+        },
+        {
+          "word": "memorise", "pos": "verb", "ipa": "/ˈmeməraɪz/",
+          "definition": "to learn something so well that you can remember it exactly",
+          "mn": "цээжлэх",
+          "examples": ["I memorise ten new words every morning on the bus.", "You don't need to memorise every date in the book."],
+          "collocations": ["memorise words", "memorise a list", "memorise facts"],
+          "synonyms": ["learn by heart"], "antonyms": ["forget"],
+          "note": "British 'memorise', American 'memorize'.",
+          "mistake": "'Memorise' means learning something so you can repeat it. For 'keep in your mind' in general, use 'remember': 'I remember his name', not 'I memorise his name'.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "take notes", "pos": "phrase", "ipa": "/teɪk ˈnəʊts/",
+          "definition": "to write down the important information while you listen or read",
+          "mn": "тэмдэглэл хөтлөх",
+          "examples": ["I always take notes during lectures.", "She took notes on everything the teacher said."],
+          "collocations": ["take notes by hand", "take notes during a lecture", "take detailed notes"],
+          "synonyms": ["make notes", "write down"], "antonyms": [],
+          "mistake": "Say 'take notes' or 'make notes', not 'write notes' or 'do notes'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "concentrate", "pos": "verb", "ipa": "/ˈkɒnsntreɪt/",
+          "definition": "to give all your attention to one thing",
+          "mn": "анхаарлаа төвлөрүүлэх",
+          "examples": ["I can't concentrate with the TV on.", "Try to concentrate on one task at a time."],
+          "collocations": ["concentrate on something", "find it hard to concentrate", "concentrate on your studies"],
+          "synonyms": ["focus"], "antonyms": [],
+          "mistake": "Use 'on': 'concentrate on your work', not 'concentrate to your work'.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "distracted", "pos": "adjective", "ipa": "/dɪˈstræktɪd/",
+          "definition": "not able to pay attention because you are thinking about or looking at something else",
+          "mn": "анхаарал сарнисан",
+          "examples": ["I get distracted by my phone all the time.", "He looked distracted during the lesson."],
+          "collocations": ["get distracted", "easily distracted", "distracted by something"],
+          "synonyms": [], "antonyms": ["focused"],
+          "note": "The thing that takes your attention is 'a distraction': 'My phone is a big distraction.'",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "progress", "pos": "noun", "ipa": "/ˈprəʊɡres/",
+          "definition": "the process of getting better at something",
+          "mn": "ахиц, дэвшил",
+          "examples": ["You're making good progress with your English.", "I've studied for months, but I don't see much progress."],
+          "collocations": ["make progress", "good progress", "slow progress", "make real progress"],
+          "synonyms": ["improvement"], "antonyms": [],
+          "mistake": "'Progress' is uncountable: 'make a lot of progress', not 'make a progress' or 'progresses'.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "effective", "pos": "adjective", "ipa": "/ɪˈfektɪv/",
+          "definition": "working well and giving the result you want",
+          "mn": "үр дүнтэй",
+          "examples": ["Testing yourself is a very effective way to learn.", "Cramming isn't effective in the long term."],
+          "collocations": ["an effective way", "an effective method", "highly effective"],
+          "synonyms": ["useful", "successful"], "antonyms": ["ineffective"],
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "technique", "pos": "noun", "ipa": "/tekˈniːk/",
+          "definition": "a special way of doing something",
+          "mn": "арга, арга барил",
+          "examples": ["This memory technique helps me learn new words.", "Every student needs different study techniques."],
+          "collocations": ["a study technique", "a memory technique", "learn a technique", "a simple technique"],
+          "synonyms": ["method"], "antonyms": [],
+          "mistake": "Stress is on the second syllable: tek-NEEK, not TEK-nik.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "summarise", "pos": "verb", "ipa": "/ˈsʌməraɪz/",
+          "definition": "to give only the main ideas of something, in a short form",
+          "mn": "хураангуйлах, товчлох",
+          "examples": ["Try to summarise each chapter in five sentences.", "Can you summarise the main points of the lecture?"],
+          "collocations": ["summarise the main points", "summarise a text", "briefly summarise"],
+          "synonyms": [], "antonyms": [],
+          "note": "British 'summarise', American 'summarize'. The noun is 'a summary'.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "struggle", "pos": "verb", "ipa": "/ˈstrʌɡl/",
+          "definition": "to find something very difficult and try hard to do it",
+          "mn": "хэцүүдэх, ихэд бэрхшээх",
+          "examples": ["I struggle with English pronunciation.", "Many students struggle to find time to study."],
+          "collocations": ["struggle with something", "struggle to do something", "really struggle"],
+          "synonyms": ["find it hard"], "antonyms": [],
+          "level": "B1+", "difficulty": 3
+        }
+      ],
+      "reading": {
+        "id": "r-study-smarter",
+        "title": "Study Smarter, Not Harder",
+        "genre": "guide",
+        "text": [
+          "It's the night before an important exam. You've got a big cup of coffee, a pile of books and eight hours until the exam starts. Many students cram like this, but research shows that it isn't very effective. You might remember some facts the next morning, but you'll probably forget most of them a week later.",
+          "So what works better? First, spread your studying out. Instead of one long session, revise a little every day, and come back to the same topic after a few days, then again after a week. This technique is called 'spaced repetition', and it helps your brain move information into your long-term memory.",
+          "Second, test yourself. Reading your notes again and again feels useful, but it's quite passive. Close the book and try to write down everything you remember, or ask a friend to ask you questions. It's harder, but that's the point: when you struggle to remember something, you remember it better next time.",
+          "Third, take notes by hand, and don't just copy the teacher's words. Try to summarise the main ideas in your own words. You don't need to memorise everything — it's more important to understand how the ideas connect.",
+          "Finally, protect your attention. It's impossible to concentrate when your phone is buzzing every two minutes. Put it in another room, study for 25 minutes, then take a five-minute break. Many students are surprised how much less distracted they feel. Small changes like these won't make studying easy, but they will help you make real progress."
+        ],
+        "glossary": [
+          { "term": "spread out", "meaning": "to do something over a longer period, not all at once", "mn": "хугацаанд тарааж хуваарилах" },
+          { "term": "long-term memory", "meaning": "the part of your memory that keeps information for a long time", "mn": "урт хугацааны санах ой" },
+          { "term": "passive", "meaning": "not active; you receive but don't do much", "mn": "идэвхгүй" }
+        ],
+        "questions": [
+          { "type": "mcq", "tag": "main_idea", "prompt": "What is the main purpose of the text?", "options": ["To explain how the brain works", "To give advice on better ways to study", "To tell students to drink less coffee", "To compare different schools"], "answer": 1 },
+          { "type": "tfng", "tag": "detail", "prompt": "Cramming helps you remember information for a long time.", "answer": "false", "explanation": "Paragraph 1: you'll probably forget most of it a week later." },
+          { "type": "tfng", "tag": "detail", "prompt": "Spaced repetition means coming back to a topic after some time.", "answer": "true", "explanation": "Paragraph 2: come back after a few days, then after a week." },
+          { "type": "tfng", "tag": "detail", "prompt": "Spaced repetition was invented by a university professor.", "answer": "not_given", "explanation": "The text doesn't say who invented it." },
+          { "type": "match", "tag": "summary", "prompt": "Match the paragraphs with the headings.", "pairs": [["Paragraph 2", "Spread your studying out"], ["Paragraph 3", "Test yourself"], ["Paragraph 4", "Use your own words"], ["Paragraph 5", "Protect your attention"]] },
+          { "type": "mcq", "tag": "vocab_context", "prompt": "In paragraph 1, 'cram' means…", "options": ["study a little every day", "study with a friend", "study a lot in a short time just before an exam", "stop studying completely"], "answer": 2 },
+          { "type": "short", "tag": "detail", "prompt": "How many minutes should you study before a break, according to the writer?", "answers": ["25", "twenty-five"] },
+          { "type": "mcq", "tag": "inference", "prompt": "Why is testing yourself better than reading your notes again?", "options": ["It's faster.", "It's more fun.", "Teachers prefer it.", "The effort of remembering makes the memory stronger."], "answer": 3 }
+        ]
+      },
+      "quiz": [
+        { "type": "gap", "skill": "vocabulary", "prompt": "I can't ___ with all this noise. Can you turn the music down?", "answers": ["concentrate"], "options": ["memorise", "concentrate", "summarise", "cram"] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "If you cram for an exam, you…", "options": ["study a lot just before it", "study a little every day", "don't study at all", "study with a tutor"], "answer": 0 },
+        { "type": "match", "skill": "vocabulary", "tag": "collocation", "prompt": "Match to make collocations.", "pairs": [["take", "notes"], ["make", "progress"], ["struggle", "with grammar"], ["revise", "for an exam"]] },
+        { "type": "gap", "skill": "vocabulary", "prompt": "I know the whole poem by heart — I ___ it last week.", "answers": ["memorised", "memorized"] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "Which word means 'working well and giving the result you want'?", "options": ["distracted", "effective", "passive", "difficult"], "answer": 1 },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "My phone keeps buzzing, so I feel…", "options": ["effective", "summarised", "progressive", "distracted"], "answer": 3 }
+      ]
+    },
+    {
+      "id": "b1-07-l2",
+      "title": "What are you going to study?",
+      "focus": "grammar",
+      "difficulty": 3,
+      "minutes": 25,
+      "objectives": [
+        "Choose between will, going to and the present continuous for the future",
+        "Talk about courses, degrees and university life",
+        "Describe your learning plans for the next year"
+      ],
+      "warmup": {
+        "intro": "What are your plans for this year? Have you already decided anything?",
+        "questions": [
+          { "type": "mcq", "prompt": "I've decided! I ___ learn to drive this summer.", "options": ["'m going to", "going", "will to"], "answer": 0, "skill": "grammar", "explanation": "A decided plan → be going to." }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "enrol", "pos": "verb", "ipa": "/ɪnˈrəʊl/",
+          "definition": "to officially join a course, school or university",
+          "mn": "бүртгүүлэх, элсэх",
+          "examples": ["I've decided to enrol in an evening English course.", "More adults now enrol at university in their thirties and forties."],
+          "collocations": ["enrol in a course", "enrol on a course", "enrol at a university"],
+          "synonyms": ["sign up", "register"], "antonyms": [],
+          "mistake": "Use a preposition: 'enrol in/on a course', not 'enrol a course'.",
+          "note": "British 'enrol' (enrolled, enrolling); American 'enroll'.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "degree", "pos": "noun", "ipa": "/dɪˈɡriː/",
+          "definition": "the qualification you get when you finish a university course",
+          "mn": "эрдмийн зэрэг (бакалавр, магистр)",
+          "examples": ["She has a degree in economics.", "He's doing a master's degree in London."],
+          "collocations": ["a degree in something", "do a degree", "a master's degree", "get a degree"],
+          "synonyms": [], "antonyms": [],
+          "mistake": "Say 'a degree in law', not 'a degree of law'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "graduate", "pos": "verb / noun", "ipa": "/ˈɡrædʒueɪt/ (v), /ˈɡrædʒuət/ (n)",
+          "definition": "to finish your studies at a university successfully; a person who has done this",
+          "mn": "төгсөх; төгсөгч",
+          "examples": ["I graduated from the National University of Mongolia in 2012.", "Many graduates find it hard to get their first job."],
+          "collocations": ["graduate from university", "graduate in law", "a university graduate", "a recent graduate"],
+          "synonyms": [], "antonyms": [],
+          "mistake": "Say 'graduate from university', not 'graduate university'.",
+          "note": "The verb ends in /eɪt/; the noun ends in /ət/.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "scholarship", "pos": "noun", "ipa": "/ˈskɒləʃɪp/",
+          "definition": "money given to a student to pay for their studies, usually because they are very good",
+          "mn": "тэтгэлэг",
+          "examples": ["She got a scholarship to study in Japan.", "If I win a scholarship, I won't have to pay anything."],
+          "collocations": ["get a scholarship", "win a scholarship", "apply for a scholarship", "a full scholarship"],
+          "synonyms": ["grant"], "antonyms": [],
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "tuition fees", "pos": "noun (plural)", "ipa": "/tjuˈɪʃn fiːz/",
+          "definition": "the money you pay to study at a college or university",
+          "mn": "сургалтын төлбөр",
+          "examples": ["Tuition fees have gone up again this year.", "My parents helped me pay my tuition fees."],
+          "collocations": ["pay tuition fees", "high tuition fees", "cover the tuition fees"],
+          "synonyms": [], "antonyms": [],
+          "note": "In British English 'tuition' can also mean teaching: 'private tuition'.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "term", "pos": "noun", "ipa": "/tɜːm/",
+          "definition": "one of the periods that the school or university year is divided into",
+          "mn": "хичээлийн улирал",
+          "examples": ["The autumn term starts in September.", "We have exams at the end of every term."],
+          "collocations": ["the autumn term", "the end of term", "next term", "the first term"],
+          "synonyms": ["semester"], "antonyms": [],
+          "note": "Many universities, especially in the US, say 'semester' (two per year).",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "lecture", "pos": "noun", "ipa": "/ˈlektʃə(r)/",
+          "definition": "a talk about a subject to a large group of students, especially at a university",
+          "mn": "лекц",
+          "examples": ["I've got a lecture on marketing at nine.", "The lecture was so boring that half the students fell asleep."],
+          "collocations": ["give a lecture", "go to a lecture", "a lecture on something", "miss a lecture"],
+          "synonyms": ["talk"], "antonyms": [],
+          "mistake": "Students 'listen to' or 'go to' a lecture — not 'listen a lecture'. The person who gives it is a 'lecturer'.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "attend", "pos": "verb", "ipa": "/əˈtend/",
+          "definition": "to go to an event, a class or a place, especially regularly or officially",
+          "mn": "(хичээл, хуралд) суух, оролцох",
+          "examples": ["You must attend at least 80% of the classes.", "Over 200 students attended the talk."],
+          "collocations": ["attend classes", "attend a lecture", "attend school", "attend a meeting"],
+          "synonyms": ["go to"], "antonyms": ["miss"],
+          "mistake": "No preposition after 'attend': 'attend a class', not 'attend to a class' or 'attend at a class'.",
+          "note": "More formal than 'go to'.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "campus", "pos": "noun", "ipa": "/ˈkæmpəs/",
+          "definition": "the buildings and land of a university or college",
+          "mn": "их сургуулийн хотхон",
+          "examples": ["First-year students usually live on campus.", "There's a great café on the campus."],
+          "collocations": ["on campus", "off campus", "the university campus", "campus life"],
+          "synonyms": [], "antonyms": [],
+          "mistake": "Say 'on campus', not 'in campus'.",
+          "level": "B1+", "difficulty": 3
+        }
+      ],
+      "grammar": "future-forms",
+      "speaking": {
+        "id": "s-learning-plans",
+        "type": "describe",
+        "prompt": "Describe your learning plans for the next year. What are you going to learn or study, what have you already arranged, and how do you think it will go?",
+        "promptMn": "Ирэх жилийн суралцах төлөвлөгөөгөө тайлбарла. Юу сурах гэж байгаа, аль хэдийн юу тохиролцсон, яаж өнгөрнө гэж бодож байгаагаа хэлээрэй.",
+        "points": ["Something you're going to learn or study (going to)", "An arrangement with a date or time (present continuous)", "A prediction about how it will go (will)"],
+        "phrases": ["This year I'm going to…", "I've already…", "I'm starting… on…", "I think it'll be…", "I'm sure I'll…"],
+        "targetWords": ["enrol", "term", "degree", "scholarship"],
+        "prepSeconds": 45,
+        "speakSeconds": 90,
+        "sample": "This year I'm going to improve my English, because I want to do a master's degree abroad. I've already enrolled in an evening course at a language centre near my office. The term starts on the fifteenth of September, and I'm meeting my new teacher next Tuesday for a placement test. I'm also going to look for a scholarship, because tuition fees in Europe are very high. I think the course will be hard, especially the writing, but I'm sure it'll be useful. And I'm going to watch films in English every weekend."
+      },
+      "quiz": [
+        { "type": "mcq", "skill": "grammar", "prompt": "A: This bag is really heavy. B: I ___ carry it for you.", "options": ["carry", "'ll", "'m carrying"], "answer": 1 },
+        { "type": "mcq", "skill": "grammar", "prompt": "I've bought my ticket. I ___ to Seoul on Monday morning.", "options": ["flying", "'m flying", "will flying"], "answer": 1 },
+        { "type": "gap", "skill": "grammar", "prompt": "Look at those dark clouds. It ___ (rain).", "answers": ["'s going to rain", "is going to rain"] },
+        { "type": "correct", "skill": "grammar", "prompt": "Correct the sentence.", "sentence": "I'm going study economics at university.", "answers": ["I'm going to study economics at university.", "I am going to study economics at university."] },
+        { "type": "words", "skill": "grammar", "prompt": "Put the words in order.", "answer": "What are you doing after class?", "distractors": ["will"] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "Students who live ___ campus don't need to take the bus.", "options": ["in", "at", "on"], "answer": 2 },
+        { "type": "gap", "skill": "vocabulary", "prompt": "She got a ___ to study in Germany, so she doesn't pay any tuition fees.", "answers": ["scholarship"], "options": ["degree", "scholarship", "lecture", "term"] }
+      ]
+    },
+    {
+      "id": "b1-07-l3",
+      "title": "Exam week",
+      "focus": "listening",
+      "difficulty": 4,
+      "minutes": 25,
+      "objectives": [
+        "Understand a conversation between two students before their exams",
+        "Use collocations for exams and results",
+        "Pronounce contractions like I'll, it'll and won't naturally",
+        "Give your opinion about exams with reasons"
+      ],
+      "warmup": {
+        "intro": "Exams — do you love them or hate them?",
+        "questions": [
+          { "type": "mcq", "prompt": "You are a student. Which sentence is correct in English?", "options": ["I'm giving an exam tomorrow.", "I'm taking an exam tomorrow."], "answer": 1, "skill": "vocabulary", "explanation": "Students take (or sit) an exam. Teachers give or set exams." }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "sit", "pos": "verb", "ipa": "/sɪt/",
+          "definition": "(British) to take an exam",
+          "mn": "(шалгалт) өгөх",
+          "examples": ["I'm sitting my final exams in June.", "Thousands of students sat the entrance exam last week."],
+          "collocations": ["sit an exam", "sit a test", "sit your finals"],
+          "synonyms": ["take"], "antonyms": [],
+          "mistake": "Students 'take' or 'sit' an exam — not 'give' an exam (Mongolian 'шалгалт өгөх'). Teachers 'give' or 'set' exams.",
+          "note": "'Sit an exam' is British; 'take an exam' is used everywhere.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "resit", "pos": "verb / noun", "ipa": "/ˌriːˈsɪt/ (v), /ˈriːsɪt/ (n)",
+          "definition": "to take an exam again because you failed it; the exam you take again",
+          "mn": "(шалгалтаа) дахин өгөх",
+          "examples": ["If I fail maths, I'll have to resit it in August.", "The resit is on 20 July."],
+          "collocations": ["resit an exam", "a resit exam", "pass the resit"],
+          "synonyms": ["retake"], "antonyms": [],
+          "note": "British English. American English uses 'retake'.",
+          "level": "B2", "difficulty": 4
+        },
+        {
+          "word": "grade", "pos": "noun", "ipa": "/ɡreɪd/",
+          "definition": "a letter or number that shows how good a student's work is",
+          "mn": "дүн, үнэлгээ",
+          "examples": ["She got top grades in all her exams.", "What grade do you need to get into medical school?"],
+          "collocations": ["get a good grade", "top grades", "improve your grades", "a pass grade"],
+          "synonyms": ["mark"], "antonyms": [],
+          "note": "British English also says 'mark' (often a number: 85 marks out of 100). In the US, 'grade' also means a school year: 'She's in fifth grade.'",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "cheat", "pos": "verb", "ipa": "/tʃiːt/",
+          "definition": "to act in a dishonest way, for example by copying someone's answers in an exam",
+          "mn": "(шалгалтад) хуулах, хууран мэхлэх",
+          "examples": ["He was caught cheating in the chemistry exam.", "If you cheat, you won't really learn anything."],
+          "collocations": ["cheat in an exam", "cheat on a test", "get caught cheating"],
+          "synonyms": ["copy"], "antonyms": [],
+          "note": "It's also a noun for the person: 'He's a cheat.'",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "entrance exam", "pos": "noun", "ipa": "/ˈentrəns ɪɡˌzæm/",
+          "definition": "an exam you must pass to get into a school or university",
+          "mn": "элсэлтийн шалгалт",
+          "examples": ["She passed the entrance exam for medical school.", "The university entrance exam is in June."],
+          "collocations": ["pass the entrance exam", "take an entrance exam", "a university entrance exam"],
+          "synonyms": [], "antonyms": ["final exam"],
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "mock exam", "pos": "noun", "ipa": "/ˌmɒk ɪɡˈzæm/",
+          "definition": "a practice exam that you take before the real one",
+          "mn": "туршилтын шалгалт",
+          "examples": ["My mock exam results were terrible, so I'm studying much harder now.", "We have mock exams in March."],
+          "collocations": ["do a mock exam", "mock exam results", "take a mock exam"],
+          "synonyms": ["practice test"], "antonyms": [],
+          "note": "British English. Often just 'mocks': 'How did your mocks go?'",
+          "level": "B2", "difficulty": 4
+        },
+        {
+          "word": "oral", "pos": "adjective", "ipa": "/ˈɔːrəl/",
+          "definition": "spoken, not written",
+          "mn": "аман",
+          "examples": ["The exam has a written part and an oral part.", "I'm more nervous about the oral exam than the written one."],
+          "collocations": ["an oral exam", "an oral presentation", "oral skills"],
+          "synonyms": ["spoken"], "antonyms": ["written"],
+          "level": "B2", "difficulty": 3
+        },
+        {
+          "word": "certificate", "pos": "noun", "ipa": "/səˈtɪfɪkət/",
+          "definition": "an official document that shows you have finished a course or passed an exam",
+          "mn": "гэрчилгээ, сертификат",
+          "examples": ["You'll get a certificate at the end of the course.", "I need a certificate to show my English level."],
+          "collocations": ["get a certificate", "a certificate in something", "receive a certificate"],
+          "synonyms": [], "antonyms": [],
+          "mistake": "Stress: cer-TIF-i-cate, and the end sounds like /kət/, not /keɪt/.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "stressful", "pos": "adjective", "ipa": "/ˈstresfl/",
+          "definition": "making you feel worried and nervous",
+          "mn": "стресстэй, сэтгэл түгшээсэн",
+          "examples": ["Exam week is always stressful.", "It was a stressful year for the whole family."],
+          "collocations": ["a stressful time", "very stressful", "find something stressful"],
+          "synonyms": ["difficult", "tense"], "antonyms": ["relaxing"],
+          "mistake": "'Stressful' describes the situation; 'stressed' describes how you feel: 'Exams are stressful. I'm stressed.'",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "do well", "pos": "phrase", "ipa": "/duː ˈwel/",
+          "definition": "to be successful, for example in an exam",
+          "mn": "амжилт гаргах, сайн хийх",
+          "examples": ["I hope you do well in your exams!", "She did well in the oral test, but not in the written one."],
+          "collocations": ["do well in an exam", "do well at school", "do really well"],
+          "synonyms": ["succeed"], "antonyms": ["do badly"],
+          "mistake": "Say 'do well', not 'do good' or 'make well'.",
+          "level": "B1", "difficulty": 2
+        }
+      ],
+      "listening": {
+        "id": "l-exam-week",
+        "title": "Are you ready for next week?",
+        "kind": "conversation",
+        "context": "Emma and Jack are university students. Their final exams start next week.",
+        "speakers": [
+          { "name": "Emma", "voice": "female", "accent": "en-GB" },
+          { "name": "Jack", "voice": "male", "accent": "en-GB" }
+        ],
+        "lines": [
+          { "speaker": "Jack", "text": "Hey, Emma. You look tired. Are you OK?" },
+          { "speaker": "Emma", "text": "Not really. I was up until two last night, revising for the statistics exam." },
+          { "speaker": "Jack", "text": "When are you sitting it?" },
+          { "speaker": "Emma", "text": "Next Tuesday, at nine. And the oral exam for Spanish is on Thursday. It's going to be a really stressful week." },
+          { "speaker": "Jack", "text": "How did your mock exam go?" },
+          { "speaker": "Emma", "text": "Badly. I got a D in statistics. If I fail again, I'll have to resit it in August, and I really don't want to do that." },
+          { "speaker": "Jack", "text": "You won't fail. You've been working really hard. Listen, I'm meeting a few people from our course in the library tomorrow. We're going to go through some old exam papers together. Why don't you come?" },
+          { "speaker": "Emma", "text": "That's a great idea. What time are you meeting?" },
+          { "speaker": "Jack", "text": "At two. And don't worry about the oral. You'll do well — your Spanish is much better than mine." },
+          { "speaker": "Emma", "text": "Thanks. I'm just worried I'll forget everything as soon as I walk into the room." },
+          { "speaker": "Jack", "text": "Everyone feels like that. But unless you sleep properly, you won't remember anything. So no more studying until two in the morning, OK?" },
+          { "speaker": "Emma", "text": "OK, OK. I'll go to bed early tonight, I promise." },
+          { "speaker": "Jack", "text": "Good. And when we get our grades, let's celebrate." },
+          { "speaker": "Emma", "text": "Deal. See you in the library tomorrow at two." }
+        ],
+        "gist": [
+          { "type": "mcq", "tag": "main_idea", "prompt": "What are Emma and Jack mainly talking about?", "options": ["A trip to Spain", "Jack's new job", "Emma's exams next week", "Their grades from last year"], "answer": 2 }
+        ],
+        "detail": [
+          { "type": "mcq", "tag": "detail", "prompt": "When is Emma's statistics exam?", "options": ["Tuesday at nine", "Thursday at nine", "Tuesday at two", "tomorrow at two"], "answer": 0 },
+          { "type": "mcq", "tag": "detail", "prompt": "What will happen if Emma fails statistics again?", "options": ["She'll leave the university.", "She'll have to resit it in August.", "She'll change courses.", "She'll lose her scholarship."], "answer": 1 },
+          { "type": "mcq", "tag": "detail", "prompt": "Why is Jack meeting people in the library?", "options": ["To borrow some books", "To celebrate the end of term", "To practise Spanish", "To look at old exam papers together"], "answer": 3 },
+          { "type": "tfng", "tag": "detail", "prompt": "Jack thinks Emma's Spanish is better than his.", "answer": "true" },
+          { "type": "gap", "tag": "detail", "prompt": "Emma promises to go to ___ early tonight.", "answers": ["bed"] }
+        ],
+        "expressions": [
+          { "phrase": "Not really.", "meaning": "a soft way to say 'no'", "mn": "Тийм ч биш ээ." },
+          { "phrase": "go through (something)", "meaning": "look at or practise something carefully, part by part", "mn": "нэг бүрчлэн нягтлах, дахин үзэх" },
+          { "phrase": "Everyone feels like that.", "meaning": "a way to comfort someone: their feeling is normal", "mn": "Бүх хүн ингэж мэдэрдэг." },
+          { "phrase": "Deal.", "meaning": "(informal) OK, I agree to that plan", "mn": "Тохиролцлоо." }
+        ]
+      },
+      "pronunciation": "future-contractions",
+      "speaking": {
+        "id": "s-exams-opinion",
+        "type": "opinion",
+        "prompt": "Do you think exams are a good way to show what students know? Give your opinion, with reasons and an example from your own experience.",
+        "promptMn": "Шалгалт бол оюутан, сурагчдын мэдлэгийг харуулах сайн арга гэж бодож байна уу? Өөрийн бодлоо шалтгаан, өөрийн туршлагаас жишээ татан хэлээрэй.",
+        "points": ["Your opinion", "One good thing about exams", "One problem with exams", "An example from your life", "What you would suggest"],
+        "phrases": ["In my opinion,…", "On the one hand,… On the other hand,…", "For example, when I sat…", "I think teachers should…", "If students…, they'll…"],
+        "targetWords": ["stressful", "do well", "grade", "oral"],
+        "prepSeconds": 45,
+        "speakSeconds": 90,
+        "sample": "In my opinion, exams are useful, but they're not perfect. On the one hand, they make students revise, and they're fair, because everyone answers the same questions. On the other hand, exams are very stressful, and some people don't do well because they're nervous, not because they don't know the answers. For example, when I sat my university entrance exam, I was so nervous that I forgot a lot of things. I think teachers should use exams together with projects and oral presentations. If students do different kinds of tasks, teachers will get a better picture of what they really know."
+      },
+      "quiz": [
+        { "type": "mcq", "skill": "vocabulary", "prompt": "In British English, 'I'm sitting an exam tomorrow' means I'm…", "options": ["taking an exam", "marking an exam", "writing an exam for students", "missing an exam"], "answer": 0 },
+        { "type": "match", "skill": "vocabulary", "prompt": "Match the exams with their descriptions.", "pairs": [["a mock exam", "a practice exam before the real one"], ["a resit", "an exam you take again after failing"], ["an entrance exam", "an exam to get into a school or university"], ["an oral exam", "a spoken exam"]] },
+        { "type": "gap", "skill": "vocabulary", "prompt": "Good luck tomorrow! I hope you do ___.", "answers": ["well"], "options": ["good", "well", "strong"] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "Exams make me feel very nervous. I find them…", "options": ["stressed", "relaxing", "stressful", "effective"], "answer": 2 },
+        { "type": "mcq", "skill": "pronunciation", "prompt": "Which word has the same vowel sound as 'won't'?", "options": ["want", "don't", "went"], "answer": 1 },
+        { "type": "tfng", "skill": "listening", "prompt": "In the conversation, Emma did well in her mock statistics exam.", "answer": "false", "explanation": "She got a D." }
+      ]
+    },
+    {
+      "id": "b1-07-l4",
+      "title": "Signing up for a course",
+      "focus": "writing",
+      "difficulty": 4,
+      "minutes": 30,
+      "objectives": [
+        "Use the first conditional with if, when, as soon as and unless",
+        "Use polite phrases for a formal enquiry, and know which study idioms are informal",
+        "Write a formal email asking about a course (100–140 words)"
+      ],
+      "warmup": {
+        "intro": "Have you ever taken a course online? Did you finish it?",
+        "questions": [
+          { "type": "mcq", "prompt": "If it ___ tomorrow, we'll stay at home.", "options": ["will rain", "rains", "rained"], "answer": 1, "skill": "grammar", "explanation": "if + present simple." }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "tutor", "pos": "noun", "ipa": "/ˈtjuːtə(r)/",
+          "definition": "a teacher who teaches one student or a small group, or who helps a student personally",
+          "mn": "хувийн багш, зөвлөх багш",
+          "examples": ["I have an online tutor who helps me with my speaking.", "Talk to your tutor if you're having problems with the course."],
+          "collocations": ["a private tutor", "a personal tutor", "an online tutor", "see your tutor"],
+          "synonyms": ["teacher"], "antonyms": [],
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "assignment", "pos": "noun", "ipa": "/əˈsaɪnmənt/",
+          "definition": "a piece of work that a student is given to do",
+          "mn": "даалгавар, бие даалтын ажил",
+          "examples": ["I have to finish three assignments by Friday.", "The assignment is a 2,000-word essay on climate change."],
+          "collocations": ["do an assignment", "a written assignment", "hand in an assignment", "finish an assignment"],
+          "synonyms": ["task"], "antonyms": [],
+          "mistake": "'Homework' is uncountable, so don't say 'three homeworks' — but you can say 'three assignments'.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "hand in", "pos": "phrasal verb", "ipa": "/hænd ˈɪn/",
+          "definition": "to give a piece of work to a teacher",
+          "mn": "(ажил, даалгавраа) хүлээлгэн өгөх",
+          "examples": ["Please hand in your essays by Friday.", "I handed in my assignment two days late."],
+          "collocations": ["hand in homework", "hand in an essay", "hand something in on time"],
+          "synonyms": ["submit"], "antonyms": [],
+          "mistake": "Students 'hand in' their work; teachers 'give' or 'set' it. Don't say 'I gave my homework' when you mean 'I handed in my homework'.",
+          "note": "'Submit' is more formal and is often used for online work.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "fall behind", "pos": "phrasal verb", "ipa": "/fɔːl bɪˈhaɪnd/",
+          "definition": "to not do as much work as you should, so that you are behind other people",
+          "mn": "(хичээлээс) хоцрох",
+          "examples": ["I was ill for two weeks and fell behind with my studies.", "If you miss classes, you'll fall behind."],
+          "collocations": ["fall behind with something", "fall behind the rest of the class", "fall behind at school"],
+          "synonyms": [], "antonyms": ["catch up"],
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "compulsory", "pos": "adjective", "ipa": "/kəmˈpʌlsəri/",
+          "definition": "that you must do because of a rule",
+          "mn": "заавал байх, албан журмын",
+          "examples": ["English is a compulsory subject in most Mongolian schools.", "Attendance at the first lecture is compulsory."],
+          "collocations": ["a compulsory subject", "compulsory for all students", "compulsory education"],
+          "synonyms": ["required", "obligatory"], "antonyms": ["optional"],
+          "note": "'Optional' means you can choose: 'Music is optional, but maths is compulsory.'",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "drop out", "pos": "phrasal verb", "ipa": "/drɒp ˈaʊt/",
+          "definition": "to leave a school, university or course before you finish it",
+          "mn": "(сургуулиас) завсардах, гарах",
+          "examples": ["He dropped out of university after the first year.", "Many people drop out of online courses because they lose interest."],
+          "collocations": ["drop out of university", "drop out of school", "drop out of a course"],
+          "synonyms": ["quit"], "antonyms": ["graduate"],
+          "note": "The noun is 'a dropout' — a person who dropped out.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "sign up", "pos": "phrasal verb", "ipa": "/saɪn ˈʌp/",
+          "definition": "to agree to join a course or activity by giving your name",
+          "mn": "бүртгүүлэх",
+          "examples": ["I've signed up for an online photography course.", "If you sign up before 1 September, you'll get a 10% discount."],
+          "collocations": ["sign up for a course", "sign up for a class", "sign up online"],
+          "synonyms": ["enrol", "register"], "antonyms": [],
+          "note": "Less formal than 'enrol' or 'register'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "self-discipline", "pos": "noun", "ipa": "/ˌselfˈdɪsəplɪn/",
+          "definition": "the ability to make yourself do what you should do, even when you don't want to",
+          "mn": "өөрийгөө хянах чадвар, бие даасан сахилга бат",
+          "examples": ["Studying online takes a lot of self-discipline.", "I don't have the self-discipline to study at home every evening."],
+          "collocations": ["a lot of self-discipline", "need self-discipline", "lack self-discipline"],
+          "synonyms": ["willpower"], "antonyms": [],
+          "level": "B2", "difficulty": 4
+        },
+        {
+          "word": "extension", "pos": "noun", "ipa": "/ɪkˈstenʃn/",
+          "definition": "extra time that you are allowed to finish something",
+          "mn": "хугацааны сунгалт",
+          "examples": ["I asked my tutor for an extension because I was ill.", "Can I have a one-week extension on my essay?"],
+          "collocations": ["ask for an extension", "get an extension", "a one-week extension"],
+          "synonyms": ["more time"], "antonyms": [],
+          "level": "B2", "difficulty": 4
+        },
+        {
+          "word": "brush up on", "pos": "phrasal verb", "ipa": "/brʌʃ ˈʌp ɒn/",
+          "definition": "to practise and improve a skill that you learned before but have partly forgotten",
+          "mn": "(мартаж эхэлсэн мэдлэгээ) сэргээх",
+          "examples": ["I need to brush up on my French before the trip.", "She's brushing up on her grammar for the exam."],
+          "collocations": ["brush up on your English", "brush up on grammar", "brush up on your skills"],
+          "synonyms": ["refresh", "practise"], "antonyms": [],
+          "note": "Neutral to informal. British English also says 'brush up your English' without 'on'.",
+          "level": "B2", "difficulty": 4
+        }
+      ],
+      "phrases": [
+        { "phrase": "I'm writing to ask about…", "meaning": "a clear way to start an email with a question", "mn": "…талаар асуух гэж бичиж байна", "register": "formal", "whenToUse": "The first line of a formal or semi-formal email to a school, company or office. Too formal for a friend.", "example": "I'm writing to ask about your evening English courses." },
+        { "phrase": "I was wondering if…", "meaning": "a very polite way to ask a question or make a request", "mn": "…болох болов уу гэж бодож байсан юм", "register": "formal", "whenToUse": "In polite emails and when speaking to people you don't know well. The past tense makes it softer, but it's about now.", "example": "I was wondering if I could pay the fees in two parts." },
+        { "phrase": "I'd be grateful if you could…", "meaning": "a polite formal request", "mn": "…өгвөл талархах болно", "register": "formal", "whenToUse": "Near the end of a formal email or letter. Don't use it with friends — it sounds cold.", "example": "I'd be grateful if you could send me more information." },
+        { "phrase": "learn something by heart", "meaning": "memorise something so you can say it exactly", "mn": "цээжлэх", "register": "neutral", "whenToUse": "In speech and writing, for poems, lists, phone numbers, etc.", "example": "We had to learn the whole poem by heart." },
+        { "phrase": "pass with flying colours", "meaning": "pass an exam very easily and with a very good result", "mn": "маш өндөр дүнтэй тэнцэх", "register": "informal", "whenToUse": "In conversation or informal messages. Not in a formal email or essay.", "example": "Don't worry — you'll pass with flying colours!" },
+        { "phrase": "hit the books", "meaning": "start studying hard", "mn": "хичээлдээ шамдан суух", "register": "informal", "whenToUse": "Casual speech with friends, especially American English. Never in formal writing.", "example": "Exams start on Monday, so I really need to hit the books this weekend." }
+      ],
+      "grammar": "first-conditional",
+      "writing": {
+        "id": "w-course-enquiry",
+        "type": "email_formal",
+        "prompt": "You want to join an English course at a language school. Write an email to the school (100–140 words). Say what you are planning and why, mention one arrangement you already have that could be a problem, and ask two or three questions using if, when or unless.",
+        "promptMn": "Та хэлний сургуульд англи хэлний сургалтад суухыг хүсч байна. Сургууль руу имэйл бичээрэй (100–140 үг). Юу төлөвлөж байгаа, яагаад гэдгээ хэлж, асуудал үүсгэж болох аль хэдийн тохирсон нэг ажлаа дурдаад, if, when, unless ашиглан хоёр гурван асуулт асуугаарай.",
+        "register": "formal",
+        "minWords": 100,
+        "maxWords": 140,
+        "points": ["Say why you are writing and what you are planning (going to)", "Mention an arrangement you already have (present continuous)", "Ask two or three questions (If I…, will I…? / When…, will…?)", "Close the email politely"],
+        "phrases": ["Dear Sir or Madam,", "I'm writing to ask about…", "I was wondering if…", "I'd be grateful if you could…", "I look forward to hearing from you.", "Yours faithfully,"],
+        "targetWords": ["sign up", "brush up on", "fall behind", "tutor"],
+        "sample": "Dear Sir or Madam,\n\nI'm writing to ask about your evening course in Business English. I'm starting a new job at an international company in October, so I need to brush up on my speaking and writing.\n\nI have a few questions. I'm travelling to Japan for work from 3 to 10 September. If I miss the first week of classes, will I be able to catch up online, or will I fall behind? Also, will I get a certificate when I finish the course? Finally, I was wondering if I could pay the tuition fees in two parts.\n\nI'd be grateful if you could send me more information. I'll sign up as soon as I hear from you.\n\nI look forward to hearing from you.\n\nYours faithfully,\nBat-Erdene Dorj"
+      },
+      "quiz": [
+        { "type": "mcq", "skill": "grammar", "prompt": "If you ___ your assignment late, you'll lose marks.", "options": ["will hand in", "hand in", "handed in"], "answer": 1 },
+        { "type": "gap", "skill": "grammar", "prompt": "Unless you ___ (hurry), you'll be late for the lecture.", "answers": ["hurry"] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "I was ill for two weeks, so I ___ with my studies.", "options": ["dropped out", "signed up", "fell behind", "handed in"], "answer": 2 },
+        { "type": "gap", "skill": "vocabulary", "prompt": "Could I have a one-week ___ on my essay? I've been ill.", "answers": ["extension"], "options": ["extension", "assignment", "certificate", "tutor"] },
+        { "type": "mcq", "skill": "writing", "tag": "register", "prompt": "Which sentence is best for a formal email to a language school?", "options": ["Hey! Quick question…", "Gonna sign up soon!", "What's up with the fees?", "I was wondering if you offer weekend classes."], "answer": 3 },
+        { "type": "error", "skill": "grammar", "prompt": "Tap the part with the mistake.", "segments": ["I'll send you", "my assignment", "as soon as I will finish it."], "wrongIndex": 2, "correction": "as soon as I finish it", "explanation": "No 'will' after 'as soon as'." }
+      ]
+    }
+  ],
+  "test": {
+    "reading": {
+      "id": "t-mature-student",
+      "title": "Never Too Late: Life as a Mature Student",
+      "genre": "interview",
+      "text": [
+        "Two years ago, Tsetseg Bat was working as an accountant in a bank. Today, at forty-one, she is in the second year of a degree in primary education. We asked her about life as a mature student.",
+        "Why did you decide to go back to university? — I always wanted to be a teacher, but my parents thought accounting was a safer job. When my own children started school, I helped them with their homework every evening and realised how much I enjoyed it. So I left my job and went back to university.",
+        "What's the hardest part? — Time. I have lectures in the morning, I study in the afternoon, and in the evening I'm a mum again. Some of the younger students stay up all night before a deadline, but I can't do that, so I plan every week very carefully. The technology was difficult at first, too. Everything is online now!",
+        "Do you get on with the younger students? — Yes, very well. At first I was worried they'd think I was strange, but now they often ask me for advice, and they help me with all the apps. We're a good team.",
+        "What are your plans? — I'm doing my teaching practice at a school near my home next spring. If everything goes well, I'll graduate in two years. I'm a bit nervous about the final exams, but I'm not going to give up now."
+      ],
+      "glossary": [
+        { "term": "mature student", "meaning": "an adult who starts studying at university later than usual", "mn": "насанд хүрсэн оюутан" },
+        { "term": "accountant", "meaning": "a person whose job is to keep financial records", "mn": "нягтлан бодогч" },
+        { "term": "teaching practice", "meaning": "a period when a student teacher teaches real classes in a school", "mn": "багшлах дадлага" }
+      ],
+      "questions": [
+        { "type": "mcq", "tag": "main_idea", "prompt": "What is the interview mainly about?", "options": ["Why accounting is a good job", "A woman's experience of going back to university as an adult", "How to help children with homework", "Problems with online learning"], "answer": 1 },
+        { "type": "tfng", "tag": "detail", "prompt": "Tsetseg's parents wanted her to become a teacher.", "answer": "false", "explanation": "They thought accounting was safer." },
+        { "type": "tfng", "tag": "detail", "prompt": "Tsetseg found the technology difficult at the beginning.", "answer": "true" },
+        { "type": "tfng", "tag": "detail", "prompt": "Tsetseg's husband does most of the housework.", "answer": "not_given" },
+        { "type": "mcq", "tag": "inference", "prompt": "Why did Tsetseg decide to become a teacher?", "options": ["She enjoyed helping her children with their homework.", "She lost her job at the bank.", "Her friends were teachers.", "Teachers earn more than accountants."], "answer": 0 },
+        { "type": "short", "tag": "detail", "prompt": "When is Tsetseg doing her teaching practice?", "answers": ["spring"] },
+        { "type": "mcq", "tag": "attitude", "prompt": "How does Tsetseg feel about the younger students now?", "options": ["She finds them annoying.", "She doesn't talk to them.", "She thinks they don't understand her.", "She gets on well with them."], "answer": 3 }
+      ]
+    },
+    "listening": {
+      "id": "t-school-voicemail",
+      "title": "A message from the language school",
+      "kind": "voicemail",
+      "context": "Anu asked a language school about an evening English course. She gets a phone message from Mark, who works at the school.",
+      "speakers": [{ "name": "Mark", "voice": "male", "accent": "en-GB" }],
+      "lines": [
+        { "speaker": "Mark", "text": "Hello, this is Mark Collins from Bright Star Language School. This message is for Anu Dorj." },
+        { "speaker": "Mark", "text": "Thanks for your email about our evening English course. Well, I've got some good news: there are still two places left in the intermediate group." },
+        { "speaker": "Mark", "text": "The course starts on Monday the fourteenth of October and finishes in December. Classes are on Mondays and Wednesdays, from half past six to half past eight." },
+        { "speaker": "Mark", "text": "You asked about the placement test. You can do it online, and it takes about forty minutes. As soon as you finish it, we'll email you your level." },
+        { "speaker": "Mark", "text": "If you miss a class, don't worry. Your teacher will put all the materials online, so you won't fall behind." },
+        { "speaker": "Mark", "text": "About the certificate: you'll get one at the end of the course, unless you miss more than four classes." },
+        { "speaker": "Mark", "text": "The course costs three hundred and fifty pounds, and you can pay in two parts if you like." },
+        { "speaker": "Mark", "text": "We're also having a free welcome evening for new students next Friday at seven, so you can meet the teachers." },
+        { "speaker": "Mark", "text": "If you want the place, please call me back before Thursday. Otherwise, I'll offer it to someone on the waiting list. Thanks, and I hope to hear from you soon." }
+      ],
+      "gist": [
+        { "type": "mcq", "tag": "main_idea", "prompt": "Why is Mark calling Anu?", "options": ["To tell her she failed a test", "To invite her to a job interview", "To answer her questions about a course", "To cancel her classes"], "answer": 2 }
+      ],
+      "detail": [
+        { "type": "mcq", "tag": "detail", "prompt": "Which days are the classes?", "options": ["Mondays and Wednesdays", "Mondays and Fridays", "Tuesdays and Thursdays", "Wednesdays and Fridays"], "answer": 0 },
+        { "type": "tfng", "tag": "detail", "prompt": "Anu has to do the placement test at the school.", "answer": "false", "explanation": "She can do it online." },
+        { "type": "mcq", "tag": "detail", "prompt": "When won't Anu get a certificate?", "options": ["if she pays in two parts", "if she doesn't come to the welcome evening", "if she fails the placement test", "if she misses more than four classes"], "answer": 3 },
+        { "type": "tfng", "tag": "detail", "prompt": "Students have to pay for the welcome evening.", "answer": "false", "explanation": "It's free." },
+        { "type": "gap", "tag": "detail", "prompt": "Anu must call Mark back before ___.", "answers": ["Thursday"] }
+      ],
+      "expressions": [
+        { "phrase": "I've got some good news.", "meaning": "used before telling someone something nice", "mn": "Надад сайн мэдээ байна." },
+        { "phrase": "Otherwise, …", "meaning": "if not; if that doesn't happen", "mn": "Тэгэхгүй бол, …" },
+        { "phrase": "the waiting list", "meaning": "a list of people who are waiting for a place", "mn": "хүлээлгийн жагсаалт" }
+      ]
+    },
+    "writing": {
+      "id": "t-plans-email",
+      "type": "email_informal",
+      "prompt": "Your English-speaking friend Jess wrote: 'Your course finishes soon, doesn't it? What are your plans after that?' Write a reply (100–130 words). Tell Jess about one arrangement you have already made, your plans for the next few months, and what you'll do if things go well or badly.",
+      "promptMn": "Англиар ярьдаг найз Жесс тань: 'Чиний сургалт удахгүй дуусах биз дээ? Дараа нь юу хийхээр төлөвлөж байна?' гэж бичжээ. Хариу бичээрэй (100–130 үг): аль хэдийн тохирсон нэг ажлаа, ойрын хэдэн сарын төлөвлөгөөгөө, бүх зүйл сайн эсвэл муу болбол юу хийхээ бичээрэй.",
+      "register": "informal",
+      "minWords": 100,
+      "maxWords": 130,
+      "points": ["An arrangement with a date (present continuous)", "Your plans (going to)", "Possible results (if / unless / when + will)", "A friendly ending"],
+      "phrases": ["Thanks for your message!", "I'm… on the…", "After that, I'm going to…", "If…, I'll…", "Let's meet up when…"],
+      "targetWords": ["sign up", "brush up on", "scholarship", "degree"],
+      "sample": "Hi Jess,\n\nThanks for your message! Yes, my exams finish next Friday, and I can't wait. I'm flying to Ulaanbaatar on the 20th to see my family, and I'm staying there for three weeks.\n\nAfter that, I'm going to look for a job as a translator. I've already signed up for a short online course in business English, because I want to brush up on my writing. If I find a good job, I'll stay in the city. If I don't, I'll probably do a master's degree next year — but only if I get a scholarship, because the fees are so high!\n\nWhat about you? Let's meet up when I get back.\n\nLove,\nSaraa"
+    },
+    "speaking": {
+      "id": "t-online-classroom",
+      "type": "compare",
+      "prompt": "Compare studying in a classroom with studying online. What are the good and bad points of each? Which do you prefer, and why?",
+      "promptMn": "Ангид суралцах болон онлайнаар суралцахыг харьцуулна уу. Тус бүрийн давуу болон сул тал юу вэ? Та алийг нь илүүд үздэг, яагаад?",
+      "points": ["One advantage of classroom learning", "One advantage of online learning", "A problem with each", "Your preference and reason"],
+      "phrases": ["In a classroom, you can…", "Online, on the other hand,…", "The main problem with… is…", "Personally, I prefer…, because…"],
+      "targetWords": ["self-discipline", "concentrate", "fall behind", "tutor"],
+      "prepSeconds": 30,
+      "speakSeconds": 90,
+      "sample": "Studying in a classroom and studying online are both useful, but they're very different. In a classroom, you can ask the teacher questions straight away, and it's easier to concentrate because there are no distractions at home. You also meet other students. The problem is that you have to travel, and classes are at fixed times. Online courses, on the other hand, are flexible and often cheaper — you can study at midnight if you want. But you need a lot of self-discipline, and many people drop out. Personally, I prefer a mix. I'm taking an online course at the moment, but I also see a tutor once a week, so I don't fall behind."
+    },
+    "questions": [
+      { "type": "mcq", "skill": "grammar", "prompt": "A: The printer isn't working. B: Don't worry, I ___ have a look at it.", "options": ["'m having", "'ll", "have"], "answer": 1 },
+      { "type": "mcq", "skill": "grammar", "prompt": "I ___ my old teacher for lunch on Saturday — we arranged it last week.", "options": ["meet", "'ll meet", "'m meeting"], "answer": 2 },
+      { "type": "gap", "skill": "grammar", "prompt": "Be careful with that glass! You ___ drop it!", "answers": ["'re going to", "are going to"], "options": ["will to", "'re going to", "are"] },
+      { "type": "gap", "skill": "grammar", "prompt": "If you ___ (not / hand in) the essay today, you'll lose marks.", "answers": ["don't hand in", "do not hand in"] },
+      { "type": "mcq", "skill": "grammar", "prompt": "I'll text you ___ I arrive.", "options": ["as soon as", "unless", "if not"], "answer": 0 },
+      { "type": "transform", "skill": "grammar", "prompt": "Rewrite the sentence. Use the word given.", "sentence": "If you don't revise, you'll fail.", "keyword": "unless", "answers": ["Unless you revise, you'll fail.", "You'll fail unless you revise.", "Unless you revise, you will fail.", "You will fail unless you revise."] },
+      { "type": "correct", "skill": "grammar", "prompt": "Correct the sentence.", "sentence": "When I will finish my degree, I'll look for a job.", "answers": ["When I finish my degree, I'll look for a job.", "When I finish my degree, I will look for a job."] },
+      { "type": "mcq", "skill": "vocabulary", "prompt": "He left university after one year without finishing. He ___.", "options": ["signed up", "handed in", "dropped out", "fell behind"], "answer": 2 },
+      { "type": "gap", "skill": "vocabulary", "prompt": "I graduated ___ university in 2015.", "answers": ["from"], "options": ["in", "from", "of", "at"] },
+      { "type": "mcq", "skill": "vocabulary", "prompt": "A practice exam that you take before the real one is a…", "options": ["resit", "mock exam", "certificate", "lecture"], "answer": 1 },
+      { "type": "match", "skill": "vocabulary", "tag": "collocation", "prompt": "Match the verbs with the words they go with.", "pairs": [["sit", "an exam"], ["take", "notes"], ["win", "a scholarship"], ["attend", "a lecture"]] },
+      { "type": "mcq", "skill": "vocabulary", "prompt": "Which sentence is correct?", "options": ["I have three assignments tonight.", "I have three homeworks tonight.", "I have three homework tonight."], "answer": 0 }
+    ]
+  }
+}

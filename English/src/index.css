@@ -1,0 +1,197 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme inline {
+  --font-sans: 'Inter Variable', ui-sans-serif, system-ui, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-border: var(--border);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-primary: var(--primary);
+  --color-primary-strong: var(--primary-strong);
+  --color-primary-soft: var(--primary-soft);
+  --color-on-primary: var(--on-primary);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-success: var(--success);
+  --color-success-soft: var(--success-soft);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-warning: var(--warning);
+  --color-warning-soft: var(--warning-soft);
+
+  --color-skill-grammar: var(--skill-grammar);
+  --color-skill-vocabulary: var(--skill-vocabulary);
+  --color-skill-reading: var(--skill-reading);
+  --color-skill-listening: var(--skill-listening);
+  --color-skill-speaking: var(--skill-speaking);
+  --color-skill-writing: var(--skill-writing);
+  --color-skill-pronunciation: var(--skill-pronunciation);
+
+  --animate-pop: pop 0.28s cubic-bezier(0.2, 0.9, 0.3, 1.3);
+  --animate-fade-in: fade-in 0.25s ease-out;
+  --animate-slide-up: slide-up 0.3s ease-out;
+  --animate-shake: shake 0.35s ease-in-out;
+  --animate-flip: flip 0.4s ease-out;
+
+  @keyframes pop {
+    0% { transform: scale(0.92); opacity: 0.4; }
+    100% { transform: scale(1); opacity: 1; }
+  }
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes slide-up {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    75% { transform: translateX(5px); }
+  }
+  @keyframes flip {
+    from { transform: rotateY(90deg); opacity: 0.2; }
+    to { transform: rotateY(0); opacity: 1; }
+  }
+}
+
+:root {
+  color-scheme: light;
+  --bg: #f5f6fb;
+  --surface: #ffffff;
+  --surface-2: #eff1f8;
+  --border: #dfe3ee;
+  --text: #141a2e;
+  --muted: #56607c;
+  --primary: #4f46e5;
+  --primary-strong: #4338ca;
+  --primary-soft: #ecedff;
+  --on-primary: #ffffff;
+  --accent: #b45309;
+  --accent-soft: #fef3c7;
+  --success: #047857;
+  --success-soft: #dcfce7;
+  --danger: #be123c;
+  --danger-soft: #ffe4e6;
+  --warning: #a16207;
+  --warning-soft: #fef9c3;
+
+  /* Skill identity colours: validated categorical order (vocabulary, grammar, reading,
+     listening, speaking, writing, pronunciation) — see docs/ARCHITECTURE.md. */
+  --skill-vocabulary: #2a78d6;
+  --skill-grammar: #eb6834;
+  --skill-reading: #1baf7a;
+  --skill-listening: #eda100;
+  --skill-speaking: #e87ba4;
+  --skill-writing: #008300;
+  --skill-pronunciation: #4a3aa7;
+  --grid: #e7eaf2;
+}
+
+.dark {
+  color-scheme: dark;
+  --bg: #0b1020;
+  --surface: #121a2f;
+  --surface-2: #1a233d;
+  --border: #283253;
+  --text: #e7eaf5;
+  --muted: #9ba4c1;
+  --primary: #8b93ff;
+  --primary-strong: #a5abff;
+  --primary-soft: #1f2452;
+  --on-primary: #0b1020;
+  --accent: #fbbf24;
+  --accent-soft: #3a2c0b;
+  --success: #34d399;
+  --success-soft: #0d2e24;
+  --danger: #fb7185;
+  --danger-soft: #3a1420;
+  --warning: #facc15;
+  --warning-soft: #332c0a;
+
+  --skill-vocabulary: #3987e5;
+  --skill-grammar: #d95926;
+  --skill-reading: #199e70;
+  --skill-listening: #c98500;
+  --skill-speaking: #d55181;
+  --skill-writing: #008300;
+  --skill-pronunciation: #9085e9;
+  --grid: #222b47;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  font-size: 100%;
+}
+html.large-text {
+  font-size: 112.5%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+@layer base {
+  /* Grids without an explicit column template must never grow wider than their
+     container (long words, SVG charts). Column utilities still override this. */
+  .grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* Visible keyboard focus everywhere. */
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+html.reduce-motion *,
+html.reduce-motion *::before,
+html.reduce-motion *::after {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+  scroll-behavior: auto !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* Reading texts and transcripts. */
+.prose-text p {
+  margin: 0 0 0.9em;
+  line-height: 1.75;
+}
+
+mark.word-hl {
+  background: var(--primary-soft);
+  color: inherit;
+  border-radius: 4px;
+  padding: 0 2px;
+}
+
+.perspective {
+  perspective: 1000px;
+}

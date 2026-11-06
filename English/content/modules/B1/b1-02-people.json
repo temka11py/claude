@@ -1,0 +1,883 @@
+{
+  "id": "b1-02",
+  "level": "B1",
+  "order": 2,
+  "title": "People & Relationships",
+  "topic": "Family & Friends",
+  "description": "Describe people's personalities, tell stories about how you met the important people in your life, and talk about how relationships and lives change over time.",
+  "descriptionMn": "Хүмүүсийн зан чанарыг тодорхойлох, амьдралынхаа чухал хүмүүстэй хэрхэн танилцсан түүхээ ярих, харилцаа болон амьдрал цаг хугацааны явцад хэрхэн өөрчлөгддөг тухай ярих.",
+  "objectives": [
+    { "text": "Describe people's personalities with a range of adjectives (reliable, stubborn, easy-going…)", "skills": ["vocabulary", "speaking"] },
+    { "text": "Tell a story about the past with the past simple and the past continuous, pronouncing was and were naturally", "skills": ["grammar", "speaking", "pronunciation"] },
+    { "text": "Talk about past habits and situations that have changed with used to / didn't use to", "skills": ["grammar", "writing"] },
+    { "text": "Use natural collocations for relationships and life events (fall out with, get engaged, bump into)", "skills": ["vocabulary"] },
+    { "text": "Understand an article about personality and a conversation about a problem between friends", "skills": ["reading", "listening"] },
+    { "text": "Write a description of a person who was important in your childhood", "skills": ["writing"] }
+  ],
+  "targets": {
+    "grammar": ["Past simple vs past continuous", "when / while", "used to / didn't use to"],
+    "vocabulary": ["personality adjectives", "relationships", "life events"],
+    "reading": "A magazine article about birth order and personality",
+    "listening": "Two colleagues talk about an argument between friends and how to fix it",
+    "speaking": "Tell the story of how you met someone important, and give your opinion on what makes a good friend",
+    "writing": "A description of a person who was important in your childhood",
+    "pronunciation": "Weak forms of was and were: /wəz/ and /wə/"
+  },
+  "grammar": [
+    {
+      "id": "past-simple-continuous",
+      "title": "Past simple vs past continuous",
+      "level": "B1",
+      "summary": "Use the past simple for finished actions and events in the past, often one after another. Use the past continuous for an action that was in progress at a moment in the past, or for the background of a story. A short action often interrupts a longer one.",
+      "summaryMn": "Past simple-ийг өнгөрсөнд болж дууссан үйл, дараалан болсон үйл явдалд хэрэглэнэ. Past continuous-ийг өнгөрсөн тодорхой мөчид үргэлжилж байсан үйл болон түүхийн арын дэвсгэрт хэрэглэнэ. Богино үйл ихэвчлэн урт, үргэлжилж буй үйлийг тасалдуулдаг.",
+      "structure": [
+        "Past simple: I/you/he/she/we/they worked · went (irregular) · Did you work? · She didn't work.",
+        "Past continuous: was/were + verb-ing · I was working · They were talking · Were you working? · He wasn't listening.",
+        "Interrupted action: past continuous + when + past simple → I was walking home when I saw her.",
+        "Two long actions at the same time: while + past continuous → While I was cooking, he was watching TV."
+      ],
+      "usage": [
+        { "use": "Finished actions and events in the past", "example": "We met in 2015 and got married two years later.", "useMn": "Өнгөрсөнд болж дууссан үйл явдал" },
+        { "use": "A series of actions, one after another", "example": "He stood up, walked to the door and left.", "useMn": "Нэг нэгнийхээ араас болсон үйлдлүүд" },
+        { "use": "An action in progress at a particular time in the past", "example": "At eight o'clock last night I was having dinner with my parents.", "useMn": "Өнгөрсөн тодорхой цагт үргэлжилж байсан үйл" },
+        { "use": "A longer action interrupted by a shorter one", "example": "I was waiting for the bus when I bumped into my old teacher.", "useMn": "Урт үйлийг богино үйл тасалдуулах" },
+        { "use": "Background description at the start of a story", "example": "It was snowing and people were hurrying home.", "useMn": "Түүхийн эхэнд нөхцөл байдлыг дүрслэх" }
+      ],
+      "examples": [
+        { "en": "I was living in Darkhan when I met my wife.", "note": "Background situation (past continuous) + the main event (past simple)." },
+        { "en": "While we were talking, my phone rang three times.", "note": "'While' usually goes with the longer action." },
+        { "en": "When the teacher came in, the students stopped talking.", "note": "Past simple + past simple: first the teacher came in, then they stopped." },
+        { "en": "What were you doing at ten o'clock last night?", "note": "A question about an action in progress at a past time." }
+      ],
+      "contrast": {
+        "with": "Past simple vs past continuous after 'when'",
+        "pairs": [
+          { "a": "When she arrived, we had dinner.", "b": "When she arrived, we were having dinner.", "why": "In the first sentence, dinner started after she arrived. In the second, dinner was already in progress when she arrived.", "whyMn": "Эхнийхэд тэр ирсний дараа бид хоол идэж эхэлсэн. Хоёр дахьд нь түүнийг ирэхэд бид аль хэдийн хоол идэж байсан." },
+          { "a": "I read a book last night.", "b": "I was reading a book at midnight.", "why": "The first is a complete action. The second shows the action was in progress at one moment.", "whyMn": "Эхнийх нь бүрэн дууссан үйл, хоёр дахь нь тодорхой мөчид үргэлжилж байсан үйл." }
+        ]
+      },
+      "mistakes": [
+        { "wrong": "I was meeting my husband in 2010.", "right": "I met my husband in 2010.", "why": "Meeting someone for the first time is a short, complete event, so use the past simple.", "whyMn": "Анх танилцах нь богино, дууссан үйл явдал тул past simple хэрэглэнэ." },
+        { "wrong": "When I was walking home, I was seeing an accident.", "right": "When I was walking home, I saw an accident.", "why": "The short action that interrupts uses the past simple. 'See' is also a state verb and is rarely continuous.", "whyMn": "Тасалдуулж буй богино үйл past simple байна. 'See' нь байдал илэрхийлэх үйл үг тул -ing хэлбэр бараг авдаггүй." },
+        { "wrong": "They was talking about you.", "right": "They were talking about you.", "why": "Use 'were' with you, we and they.", "whyMn": "you, we, they-тэй 'were' хэрэглэнэ." },
+        { "wrong": "Did you sleeping when I called?", "right": "Were you sleeping when I called?", "why": "Past continuous questions use was/were, not did.", "whyMn": "Past continuous-ийн асуултад did биш was/were хэрэглэнэ." }
+      ],
+      "guided": [
+        { "type": "mcq", "prompt": "I ___ TV when the lights went out.", "options": ["watched", "was watching", "were watching"], "answer": 1, "explanation": "A longer action (watching TV) was interrupted by a short one (the lights went out)." },
+        { "type": "mcq", "prompt": "Yesterday I got up, ___ a shower and went to work.", "options": ["was having", "have", "had"], "answer": 2, "explanation": "A series of finished actions, one after another → past simple." },
+        { "type": "mcq", "prompt": "While my parents ___ in the garden, somebody knocked on the door.", "options": ["worked", "was working", "were working"], "answer": 2, "explanation": "'While' + the longer action; 'parents' is plural → were working." },
+        { "type": "gap", "prompt": "___ you driving when the police stopped you?", "answers": ["Were"], "options": ["Did", "Were", "Was"], "explanation": "Past continuous question with 'you' → Were you + -ing." },
+        { "type": "mcq", "prompt": "Which sentence means the phone call interrupted the meal?", "options": ["When he called, we had lunch.", "When he called, we were having lunch."], "answer": 1, "explanation": "The past continuous shows lunch was already in progress." }
+      ],
+      "free": [
+        { "type": "gap", "prompt": "I ___ (walk) through the park when I bumped into my old classmate.", "answers": ["was walking"], "explanation": "The longer, interrupted action → was + walking." },
+        { "type": "gap", "prompt": "What ___ (you / do) at 9 p.m. yesterday?", "answers": ["were you doing"], "explanation": "An action in progress at a past time → were you + doing." },
+        { "type": "gap", "prompt": "They ___ (not / listen) when the teacher explained the homework.", "answers": ["weren't listening", "were not listening"], "explanation": "Negative past continuous → weren't + -ing." },
+        { "type": "correct", "prompt": "Correct the sentence.", "sentence": "When I was a student, I was meeting my best friend at a concert.", "answers": ["When I was a student, I met my best friend at a concert."], "explanation": "Meeting someone for the first time is a single event → past simple." },
+        { "type": "transform", "prompt": "Join the two sentences into one. Use the word given.", "sentence": "She was cooking. Her friend called.", "keyword": "when", "answers": ["She was cooking when her friend called.", "When her friend called, she was cooking."], "explanation": "Longer action (past continuous) + when + shorter action (past simple)." }
+      ],
+      "prerequisites": []
+    },
+    {
+      "id": "used-to",
+      "title": "used to / didn't use to",
+      "level": "B1",
+      "summary": "Use 'used to' + base verb for past habits and past states that are not true now. It shows that something has changed.",
+      "summaryMn": "'Used to' + үйл үгийн анхны хэлбэрийг өнгөрсөнд давтагддаг байсан ч одоо болисон зуршил, одоо үнэн биш болсон байдлыг илэрхийлэхэд хэрэглэнэ. Энэ нь ямар нэг зүйл өөрчлөгдсөнийг харуулна.",
+      "structure": [
+        "Positive: subject + used to + base verb · I used to live in Erdenet.",
+        "Negative: subject + didn't use to + base verb · She didn't use to like coffee.",
+        "Question: Did + subject + use to + base verb? · Did you use to play football?",
+        "Another negative: never used to · He never used to call me."
+      ],
+      "usage": [
+        { "use": "Past habits (repeated actions) that have stopped", "example": "My grandfather used to ride a horse to school.", "useMn": "Өнгөрсөнд давтагддаг байсан, одоо болисон зуршил" },
+        { "use": "Past states that are not true now", "example": "There used to be a cinema on this street.", "useMn": "Өнгөрсөнд байсан, одоо өөрчлөгдсөн байдал" },
+        { "use": "Comparing the past with now", "example": "We used to be close, but now we rarely talk.", "useMn": "Өнгөрсөн ба одоог харьцуулах" },
+        { "use": "Not for single events or an exact number of times: use the past simple", "example": "I went to Japan in 2019. (not 'I used to go')", "useMn": "Нэг удаагийн үйлд used to хэрэглэхгүй, past simple хэрэглэнэ" }
+      ],
+      "examples": [
+        { "en": "I used to be very shy, but now I'm quite confident.", "note": "A past state that has changed." },
+        { "en": "We didn't use to have a car when I was a child.", "note": "Negative: didn't + use to (no -d)." },
+        { "en": "Did you use to fight with your brother?", "note": "Question: Did + subject + use to." },
+        { "en": "My parents used to live in the countryside. They moved to the city in 1998.", "note": "'Used to' for the long situation; past simple for the single event." }
+      ],
+      "contrast": {
+        "with": "Past simple",
+        "pairs": [
+          { "a": "I used to play basketball every weekend.", "b": "I played basketball last Saturday.", "why": "'Used to' describes a repeated past habit. The past simple describes one event.", "whyMn": "'Used to' давтагддаг байсан зуршил, past simple нэг удаагийн үйл явдлыг илэрхийлнэ." },
+          { "a": "She used to live in Khovd.", "b": "She lived in Khovd for three years.", "why": "With an exact length of time ('for three years'), we normally use the past simple.", "whyMn": "Тодорхой хугацаа ('for three years') заасан бол ихэвчлэн past simple хэрэглэнэ." }
+        ]
+      },
+      "mistakes": [
+        { "wrong": "I use to play football when I was a child.", "right": "I used to play football when I was a child.", "why": "In positive sentences, write 'used to' with -d.", "whyMn": "Батлах өгүүлбэрт 'used' гэж -d-тэй бичнэ." },
+        { "wrong": "Did you used to live here?", "right": "Did you use to live here?", "why": "After 'did' or 'didn't', write 'use to' without -d.", "whyMn": "'did/didn't'-ийн дараа -d-гүй 'use to' бичнэ." },
+        { "wrong": "I used to go to Paris last year.", "right": "I went to Paris last year.", "why": "'Used to' is for repeated habits or long states, not for one event.", "whyMn": "Нэг удаагийн үйлд used to хэрэглэхгүй." },
+        { "wrong": "I used to getting up early.", "right": "I used to get up early.", "why": "'Used to' is followed by the base verb. ('I'm used to getting up early' means something different: I am familiar with it.)", "whyMn": "'Used to'-ийн дараа үйл үгийн анхны хэлбэр орно. 'I'm used to getting up early' гэвэл 'эрт босоход дассан' гэсэн өөр утгатай." }
+      ],
+      "guided": [
+        { "type": "mcq", "prompt": "When I was a child, I ___ milk. Now I love it.", "options": ["used to hate", "use to hate", "was hating"], "answer": 0, "explanation": "A past state that has changed → used to + base verb." },
+        { "type": "mcq", "prompt": "Which sentence is correct?", "options": ["There use to be a park here.", "There used to be a park here.", "There was used to be a park here."], "answer": 1, "explanation": "Positive sentence → used to (with -d)." },
+        { "type": "mcq", "prompt": "___ you use to walk to school?", "options": ["Were", "Used", "Did"], "answer": 2, "explanation": "Questions: Did + subject + use to." },
+        { "type": "mcq", "prompt": "Which sentence is WRONG?", "options": ["My dad used to smoke, but he stopped years ago.", "We used to go to the lake every summer.", "I used to lose my phone last Tuesday."], "answer": 2, "explanation": "'Last Tuesday' is one event → I lost my phone last Tuesday." }
+      ],
+      "free": [
+        { "type": "gap", "prompt": "My brother ___ (be) very shy, but now he's a TV presenter.", "answers": ["used to be"], "explanation": "A past state that is not true now." },
+        { "type": "gap", "prompt": "I ___ (not / like) vegetables when I was young.", "answers": ["didn't use to like", "did not use to like", "never used to like"], "explanation": "Negative: didn't + use to + base verb." },
+        { "type": "correct", "prompt": "Correct the sentence.", "sentence": "Did your parents used to be strict?", "answers": ["Did your parents use to be strict?"], "explanation": "After 'did', write 'use to' without -d." },
+        { "type": "transform", "prompt": "Rewrite the sentence with 'used to'. Use the word given.", "sentence": "When I was a student, I often stayed up all night. I don't now.", "keyword": "used", "answers": ["When I was a student, I used to stay up all night.", "I used to stay up all night when I was a student."], "explanation": "A past habit that has stopped → used to + stay." }
+      ],
+      "prerequisites": ["past-simple-continuous"]
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "weak-was-were",
+      "title": "Weak forms: was /wəz/ and were /wə/",
+      "category": "weak_forms",
+      "explanation": "In natural speech, 'was' and 'were' are usually not stressed in the middle of a sentence. 'Was' sounds like /wəz/ and 'were' like /wə/: short and quiet, with the schwa sound /ə/. We use the strong forms /wɒz/ and /wɜː/ only at the end of a sentence, in short answers or for emphasis. Negative forms (wasn't, weren't) are always strong. 'Used to' is also linked in speech: /ˈjuːstə/.",
+      "explanationMn": "Ярианд 'was', 'were' өгүүлбэрийн дунд ихэвчлэн өргөлтгүй, богино дуудагдана: was — /wəz/, were — /wə/ (сул /ə/ эгшигтэй). Өгүүлбэрийн төгсгөлд, богино хариултад эсвэл онцлох үед хүчтэй хэлбэр /wɒz/, /wɜː/ хэрэглэнэ. Үгүйсгэх хэлбэр (wasn't, weren't) үргэлж хүчтэй дуудагдана. 'Used to'-г /ˈjuːstə/ гэж холбож хэлнэ.",
+      "items": [
+        { "display": "I was working — was = /wəz/ (weak)", "say": "I was working late.", "tip": "'was' is short and quiet: I-wuz-WORKing." },
+        { "display": "They were talking — were = /wə/ (weak)", "say": "They were talking about you.", "tip": "'were' sounds like 'wuh'." },
+        { "display": "Yes, I was. — was = /wɒz/ (strong)", "say": "Yes, I was.", "tip": "At the end of a sentence, 'was' is strong." },
+        { "display": "Yes, we were. — were = /wɜː/ (strong)", "say": "Yes, we were.", "tip": "Short answers use the strong form." },
+        { "display": "It wasn't me. — wasn't = /ˈwɒznt/ (always strong)", "say": "It wasn't me.", "tip": "Negatives are never weak." },
+        { "display": "used to — /ˈjuːstə/", "say": "I used to live there.", "tip": "Say 'yoos-tuh', with /s/, not /z/." }
+      ],
+      "shadowing": [
+        { "text": "I was waiting for the bus when I saw her.", "stress": "I was WAITing for the BUS when I SAW her.", "tip": "Keep 'was' short: I-wuz-WAITing.", "difficult": ["was waiting"] },
+        { "text": "What were you doing when he called?", "stress": "WHAT were you DOing when he CALLED?", "tip": "'were you' is quick and light: wuh-yuh.", "difficult": ["were you"] },
+        { "text": "We were talking about it, but she wasn't listening.", "stress": "We were TALKing aBOUT it, but she WASn't LIStening.", "tip": "Weak 'were', strong 'wasn't'.", "difficult": ["were talking", "wasn't"] },
+        { "text": "We used to be really close.", "stress": "We USED to be REALly CLOSE.", "tip": "'used to' = /ˈjuːstə/.", "difficult": ["used to"] }
+      ],
+      "spokenForms": [
+        { "written": "was", "spoken": "/wəz/", "note": "Weak form in the middle of a sentence: I was /wəz/ working." },
+        { "written": "were", "spoken": "/wə/", "note": "Weak form before a verb-ing: they were /wə/ talking." },
+        { "written": "used to", "spoken": "/ˈjuːstə/", "note": "In this meaning it always has /s/, never /z/." }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "b1-02-l1",
+      "title": "Firstborn, middle or youngest?",
+      "focus": "vocabulary",
+      "difficulty": 3,
+      "minutes": 25,
+      "objectives": [
+        "Use 11 adjectives to describe personality",
+        "Understand the main idea and details of a magazine article about birth order",
+        "Describe the personalities of people in your family"
+      ],
+      "warmup": {
+        "intro": "Think about your family. Are you the oldest child, a middle child, the youngest or an only child?",
+        "questions": [
+          { "type": "mcq", "prompt": "Which word describes a person who always does what they promise?", "options": ["reliable", "selfish", "stubborn", "shy"], "answer": 0, "skill": "vocabulary" },
+          { "type": "mcq", "prompt": "The article in this lesson is called 'Does Birth Order Shape Who We Are?' What do you think it is about?", "options": ["How to choose a name for a baby", "Whether your position in the family affects your personality", "Why families are getting smaller", "How to be a good parent"], "answer": 1, "skill": "reading", "tag": "prediction", "explanation": "'Birth order' means whether you were born first, second, last and so on." }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "reliable", "pos": "adjective", "ipa": "/rɪˈlaɪəbl/",
+          "definition": "able to be trusted to do what you promise",
+          "mn": "найдвартай, итгэж болохуйц",
+          "examples": ["Tuya is really reliable — if she says she'll help, she always does.", "I need a reliable person to look after my dog while I'm away."],
+          "collocations": ["a reliable friend", "completely reliable", "reliable information"],
+          "synonyms": ["dependable", "trustworthy"], "antonyms": ["unreliable"],
+          "mistake": "The stress is on the second syllable: re-LI-able, not RE-li-able.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "easy-going", "pos": "adjective", "ipa": "/ˌiːzi ˈɡəʊɪŋ/",
+          "definition": "relaxed and not easily worried or annoyed",
+          "mn": "тайван, уужуу зантай",
+          "examples": ["My dad is very easy-going — nothing makes him angry.", "She's an easy-going person, so she's easy to live with."],
+          "collocations": ["an easy-going person", "easy-going nature", "relaxed and easy-going"],
+          "synonyms": ["relaxed", "laid-back"], "antonyms": ["uptight", "anxious"],
+          "note": "Always positive. 'Laid-back' is an informal synonym.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "generous", "pos": "adjective", "ipa": "/ˈdʒenərəs/",
+          "definition": "happy to give money, time or help to other people",
+          "mn": "өгөөмөр, харамгүй",
+          "examples": ["My grandmother is very generous — she always gives us money on our birthdays.", "It was generous of you to pay for lunch."],
+          "collocations": ["very generous", "generous with money", "it's generous of you"],
+          "synonyms": ["kind", "giving"], "antonyms": ["mean", "selfish"],
+          "mistake": "Say 'It's generous of you', not 'It's generous for you'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "selfish", "pos": "adjective", "ipa": "/ˈselfɪʃ/",
+          "definition": "thinking only about yourself and not about other people",
+          "mn": "хувиа хичээсэн",
+          "examples": ["It was selfish of him to eat all the cake.", "Don't be so selfish — let your sister use the computer too."],
+          "collocations": ["a bit selfish", "selfish behaviour", "it was selfish of someone"],
+          "synonyms": ["self-centred"], "antonyms": ["generous", "unselfish"],
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "stubborn", "pos": "adjective", "ipa": "/ˈstʌbən/",
+          "definition": "not willing to change your ideas or opinions, even when you should",
+          "mn": "зөрүүд, гөжүүд",
+          "examples": ["My brother is so stubborn — he never admits he's wrong.", "She was too stubborn to ask for help."],
+          "collocations": ["incredibly stubborn", "a stubborn child", "as stubborn as a mule"],
+          "synonyms": ["obstinate", "headstrong"], "antonyms": ["flexible"],
+          "note": "Usually negative, but it can sound positive when it means 'determined'.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "outgoing", "pos": "adjective", "ipa": "/ˌaʊtˈɡəʊɪŋ/",
+          "definition": "friendly and happy to meet and talk to new people",
+          "mn": "нийтэч, хүнтэй амархан харьцдаг",
+          "examples": ["Our youngest son is very outgoing and makes friends everywhere.", "You need to be outgoing to work in sales."],
+          "collocations": ["an outgoing personality", "friendly and outgoing"],
+          "synonyms": ["sociable", "extroverted"], "antonyms": ["shy", "reserved"],
+          "note": "For things, 'outgoing' means 'leaving': outgoing calls, the outgoing president.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "sensible", "pos": "adjective", "ipa": "/ˈsensəbl/",
+          "definition": "able to make good, practical decisions",
+          "mn": "ухаалаг, бодлоготой, ухаантай",
+          "examples": ["My older sister was always the sensible one in our family.", "Wearing a warm hat in January is a sensible idea."],
+          "collocations": ["a sensible decision", "sensible advice", "the sensible thing to do"],
+          "synonyms": ["practical", "reasonable"], "antonyms": ["silly", "foolish"],
+          "mistake": "'Sensible' is not 'sensitive'. A sensible person makes good decisions; a sensitive person has strong feelings.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "sensitive", "pos": "adjective", "ipa": "/ˈsensətɪv/",
+          "definition": "easily upset by what people say or do; also good at understanding other people's feelings",
+          "mn": "эмзэг, мэдрэмтгий",
+          "examples": ["Be careful what you say — he's very sensitive about his weight.", "She's a sensitive listener and always knows when something is wrong."],
+          "collocations": ["sensitive about something", "sensitive to other people's feelings", "a sensitive person"],
+          "synonyms": ["emotional", "caring"], "antonyms": ["insensitive"],
+          "mistake": "Use 'sensitive about' a topic: 'sensitive about his age', not 'sensitive for his age'.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "bossy", "pos": "adjective", "ipa": "/ˈbɒsi/",
+          "definition": "always telling other people what to do",
+          "mn": "захирангуй, тушаах дуртай",
+          "examples": ["My big sister was really bossy when we were kids.", "Stop being so bossy — I can decide for myself."],
+          "collocations": ["a bit bossy", "a bossy older sister", "stop being bossy"],
+          "synonyms": ["domineering"], "antonyms": [],
+          "note": "Informal and negative. A person who organises others well at work is 'a good leader', not 'bossy'.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "confident", "pos": "adjective", "ipa": "/ˈkɒnfɪdənt/",
+          "definition": "sure of yourself and your abilities",
+          "mn": "өөртөө итгэлтэй",
+          "examples": ["After a few months in the job, she felt much more confident.", "He's confident about speaking in public."],
+          "collocations": ["feel confident", "confident about something", "self-confident"],
+          "synonyms": ["self-assured", "sure of yourself"], "antonyms": ["shy", "insecure"],
+          "mistake": "Say 'confident about something', not 'confident for something'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "loyal", "pos": "adjective", "ipa": "/ˈlɔɪəl/",
+          "definition": "always supporting a friend, family member or group, even in difficult times",
+          "mn": "үнэнч",
+          "examples": ["Dogs are famous for being loyal to their owners.", "She stayed loyal to her friend when everyone else was criticising him."],
+          "collocations": ["a loyal friend", "loyal to someone", "loyal customers"],
+          "synonyms": ["faithful", "devoted"], "antonyms": ["disloyal"],
+          "level": "B1+", "difficulty": 3
+        }
+      ],
+      "reading": {
+        "id": "r-birth-order",
+        "title": "Does Birth Order Shape Who We Are?",
+        "genre": "article",
+        "text": [
+          "Think about your family. Are you the oldest child, a middle child, the youngest or an only child? For more than a hundred years, psychologists have asked whether our position in the family shapes our personality. Many people are sure that it does.",
+          "According to the popular theory, firstborn children are often sensible and reliable. When they were young, their parents gave them a lot of responsibility, and they often looked after their younger brothers and sisters. The downside is that some of them become a little bossy. Middle children, on the other hand, are said to be easy-going and good at finding solutions, because they grew up between two strong personalities.",
+          "The youngest child is often described as outgoing and confident: the funny one who loves attention. Some people say the youngest can also be a little selfish, because everyone always looked after them. In Mongolia, the youngest son traditionally stays with his parents and takes care of the family home, so he is often expected to be especially loyal to the family.",
+          "Only children have a reputation too. People sometimes think they are stubborn or too sensitive, but many only children say they learned to be independent and generous with their time.",
+          "So is the theory true? Recent large studies suggest that the effect is very small. When researchers compared thousands of brothers and sisters, they found almost no difference in personality. Our character depends much more on our genes, our friends and our experiences. Perhaps we believe in birth order because it is an easy way to explain why our brother is so different from us — and it gives families something to argue about at dinner."
+        ],
+        "glossary": [
+          { "term": "psychologist", "meaning": "a scientist who studies the mind and behaviour", "mn": "сэтгэл зүйч" },
+          { "term": "firstborn", "meaning": "the first child born in a family", "mn": "ууган хүүхэд" },
+          { "term": "responsibility", "meaning": "a duty to take care of something or someone", "mn": "хариуцлага" },
+          { "term": "genes", "meaning": "the parts of your body cells that come from your parents and control how you develop", "mn": "ген" }
+        ],
+        "questions": [
+          { "type": "mcq", "tag": "main_idea", "prompt": "What is the main idea of the article?", "options": ["Firstborn children are more successful than their brothers and sisters.", "There is a popular theory about birth order and personality, but research shows the effect is small.", "Parents should treat all their children in the same way.", "Only children have the most difficult personalities."], "answer": 1, "explanation": "The article describes the popular theory and then says large studies found very little effect." },
+          { "type": "tfng", "tag": "detail", "prompt": "According to the popular theory, firstborn children often looked after their younger brothers and sisters.", "answer": "true", "explanation": "Paragraph 2: 'they often looked after their younger brothers and sisters.'" },
+          { "type": "tfng", "tag": "detail", "prompt": "According to the popular theory, middle children love being the centre of attention.", "answer": "false", "explanation": "Paragraph 3: it is the youngest child who 'loves attention'." },
+          { "type": "tfng", "tag": "detail", "prompt": "Only children usually earn more money than people with brothers and sisters.", "answer": "not_given", "explanation": "The article doesn't mention money." },
+          { "type": "match", "tag": "detail", "prompt": "Match each type of child with the personality the popular theory gives them.", "pairs": [["firstborn", "sensible and reliable, but sometimes bossy"], ["middle child", "easy-going and good at finding solutions"], ["youngest child", "outgoing and confident, but sometimes selfish"], ["only child", "independent, but sometimes seen as stubborn"]] },
+          { "type": "short", "tag": "detail", "prompt": "In Mongolia, who traditionally stays with the parents and takes care of the family home?", "answers": ["youngest son"], "match": "keywords", "explanation": "Paragraph 3: 'the youngest son traditionally stays with his parents'." },
+          { "type": "mcq", "tag": "vocab_context", "prompt": "In paragraph 4, 'reputation' means…", "options": ["a kind of illness", "a family tradition", "what people generally think about someone", "a school report"], "answer": 2 },
+          { "type": "mcq", "tag": "inference", "prompt": "Why does the writer think people still believe in birth order?", "options": ["Because scientists have proved it.", "Because parents want their children to be different.", "Because it is part of Mongolian tradition.", "Because it is a simple way to explain differences between brothers and sisters."], "answer": 3, "explanation": "Last paragraph: 'it is an easy way to explain why our brother is so different from us'." }
+        ]
+      },
+      "quiz": [
+        { "type": "gap", "skill": "vocabulary", "prompt": "My sister never lends anyone anything. She's so ___.", "answers": ["selfish"], "options": ["generous", "selfish", "loyal", "sensible"] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "Which word is the OPPOSITE of 'outgoing'?", "options": ["confident", "sociable", "shy", "easy-going"], "answer": 2 },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "'He's very sensible' means he…", "options": ["cries easily", "makes good, practical decisions", "always tells people what to do", "never changes his mind"], "answer": 1 },
+        { "type": "match", "skill": "vocabulary", "prompt": "Match the adjectives with the descriptions.", "pairs": [["bossy", "always tells others what to do"], ["stubborn", "never changes his or her mind"], ["reliable", "always does what they promise"], ["easy-going", "relaxed and calm"]] },
+        { "type": "gap", "skill": "vocabulary", "prompt": "It was very ___ of you to pay for everyone's dinner.", "answers": ["generous", "kind", "nice"] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "Be careful — Dorj is very ___ about his exam results, so don't mention them.", "options": ["sensitive", "sensible", "confident", "loyal"], "answer": 0 },
+        { "type": "gap", "skill": "vocabulary", "prompt": "A ___ friend supports you even when things are difficult.", "answers": ["loyal"], "options": ["bossy", "stubborn", "loyal", "selfish"] }
+      ]
+    },
+    {
+      "id": "b1-02-l2",
+      "title": "How did you two meet?",
+      "focus": "grammar",
+      "difficulty": 3,
+      "minutes": 25,
+      "objectives": [
+        "Choose correctly between the past simple and the past continuous",
+        "Use when and while to connect the actions in a story",
+        "Tell the story of how you met someone important"
+      ],
+      "warmup": {
+        "intro": "Every couple and every friendship has a 'how we met' story. First, a quick grammar check.",
+        "questions": [
+          { "type": "mcq", "prompt": "I ___ my best friend at university in 2012.", "options": ["met", "was meeting", "meet"], "answer": 0, "skill": "grammar", "explanation": "Meeting someone is a single finished event → past simple." },
+          { "type": "mcq", "prompt": "What ___ you doing at eight o'clock last night?", "options": ["did", "were", "was"], "answer": 1, "skill": "grammar", "explanation": "An action in progress at a past time → were you doing." }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "bump into", "pos": "phrasal verb", "ipa": "/bʌmp ˈɪntuː/",
+          "definition": "to meet someone you know by chance",
+          "mn": "санамсаргүй тааралдах",
+          "examples": ["I bumped into my old English teacher at the supermarket yesterday.", "You'll never guess who I bumped into on the bus!"],
+          "collocations": ["bump into an old friend", "bump into someone in town"],
+          "synonyms": ["run into", "come across"], "antonyms": [],
+          "note": "Informal. It can also mean to hit something by accident: 'I bumped into the door.'",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "first impression", "pos": "noun phrase", "ipa": "/ˌfɜːst ɪmˈpreʃn/",
+          "definition": "the opinion you form when you meet someone or see something for the first time",
+          "mn": "анхны сэтгэгдэл",
+          "examples": ["My first impression of him was that he was a bit arrogant.", "You only get one chance to make a good first impression."],
+          "collocations": ["make a good first impression", "my first impression of someone", "first impressions count"],
+          "synonyms": [], "antonyms": [],
+          "mistake": "We 'make' an impression, not 'do' or 'give' an impression.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "fall in love (with)", "pos": "phrase", "ipa": "/fɔːl ɪn ˈlʌv/",
+          "definition": "to start to love someone romantically",
+          "mn": "дурлах",
+          "examples": ["They fell in love while they were working at the same hotel.", "I fell in love with the city the first time I visited."],
+          "collocations": ["fall in love with someone", "fall in love at first sight", "fall madly in love"],
+          "synonyms": [], "antonyms": ["fall out of love"],
+          "mistake": "Say 'fall in love with someone', not 'fall in love to someone'. Irregular: fall – fell – fallen.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "go out (with)", "pos": "phrasal verb", "ipa": "/ɡəʊ ˈaʊt/",
+          "definition": "to have a romantic relationship with someone",
+          "mn": "үерхэх",
+          "examples": ["They went out for two years before they got engaged.", "Is your brother going out with anyone at the moment?"],
+          "collocations": ["go out with someone", "go out together"],
+          "synonyms": ["date", "see someone"], "antonyms": ["break up"],
+          "note": "Informal. 'Go out' also means leaving home for fun ('Let's go out tonight'); the context shows the meaning.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "propose", "pos": "verb", "ipa": "/prəˈpəʊz/",
+          "definition": "to ask someone to marry you",
+          "mn": "гэрлэх санал тавих, гэрлэхийг гуйх",
+          "examples": ["He proposed to her on Zaisan Hill at sunset.", "She was so surprised when he proposed that she started crying."],
+          "collocations": ["propose to someone", "propose marriage"],
+          "synonyms": ["ask someone to marry you"], "antonyms": [],
+          "mistake": "Say 'He proposed to her', not 'He proposed her'.",
+          "note": "In formal English it also means 'suggest': 'I propose a short break.'",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "engaged", "pos": "adjective", "ipa": "/ɪnˈɡeɪdʒd/",
+          "definition": "having agreed to marry someone",
+          "mn": "сүй тавьсан",
+          "examples": ["We got engaged last summer, and the wedding is in June.", "Did you know that Bold and Saraa are engaged?"],
+          "collocations": ["get engaged", "engaged to someone", "an engaged couple"],
+          "synonyms": [], "antonyms": [],
+          "mistake": "Say 'engaged to someone', not 'engaged with someone'.",
+          "note": "In British English a phone line can also be 'engaged' (busy).",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "get married", "pos": "phrase", "ipa": "/ɡet ˈmærid/",
+          "definition": "to become husband and wife",
+          "mn": "гэрлэх",
+          "examples": ["My parents got married in 1995.", "They're getting married in a traditional ceremony next month."],
+          "collocations": ["get married to someone", "get married in (a place / a year)", "be married for (ten years)"],
+          "synonyms": ["marry"], "antonyms": ["get divorced"],
+          "mistake": "Say 'She got married to a doctor' or 'She married a doctor', not 'She married with a doctor'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "anniversary", "pos": "noun", "ipa": "/ˌænɪˈvɜːsəri/",
+          "definition": "a day when you remember something important that happened on the same date in an earlier year",
+          "mn": "ой, жилийн ой",
+          "examples": ["Tomorrow is my parents' 30th wedding anniversary.", "We went to a nice restaurant to celebrate our first anniversary."],
+          "collocations": ["wedding anniversary", "celebrate an anniversary", "tenth anniversary"],
+          "synonyms": [], "antonyms": [],
+          "mistake": "An anniversary is not a birthday. Use 'birthday' for the day a person was born.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "break up", "pos": "phrasal verb", "ipa": "/breɪk ˈʌp/",
+          "definition": "to end a romantic relationship",
+          "mn": "(хосууд) салах, харилцаагаа дуусгах",
+          "examples": ["They broke up after five years together.", "She broke up with her boyfriend because he was always late."],
+          "collocations": ["break up with someone", "break up after (five years)"],
+          "synonyms": ["split up"], "antonyms": [],
+          "note": "The noun is 'a break-up'. For married couples, people usually say 'separate' or 'get divorced'.",
+          "level": "B1", "difficulty": 3
+        }
+      ],
+      "grammar": "past-simple-continuous",
+      "speaking": {
+        "id": "s-how-we-met",
+        "type": "story",
+        "prompt": "Tell the story of how you met someone important in your life — a partner, a best friend or a colleague. Where were you? What were you doing? What happened next?",
+        "promptMn": "Амьдралд тань чухал нэгэн хүн — хань, дотны найз эсвэл хамт ажилладаг хүнтэйгээ хэрхэн танилцсан түүхээ ярь. Та хаана байсан бэ? Юу хийж байсан бэ? Дараа нь юу болсон бэ?",
+        "points": ["Set the scene: when and where it was and what was happening (past continuous)", "The moment you met (past simple)", "Your first impression of the person", "What happened after that"],
+        "phrases": ["It was about … years ago.", "I was …-ing when …", "While we were …, …", "My first impression was that…", "After that, …", "In the end, …"],
+        "targetWords": ["bump into", "first impression", "fall in love", "get married"],
+        "prepSeconds": 60,
+        "speakSeconds": 90,
+        "sample": "I met my wife about ten years ago. I was working in a small bookshop in the centre of Ulaanbaatar, and she was looking for a present for her father. It was snowing outside and the shop was very quiet. She asked me to recommend a history book, and we started talking. My first impression was that she was a bit serious, but then she laughed at one of my jokes. A week later, I bumped into her again at a café near the shop. We went out for two years, and then I proposed on her birthday. We got married in 2017."
+      },
+      "quiz": [
+        { "type": "mcq", "skill": "grammar", "prompt": "I ___ a shower when the doorbell rang.", "options": ["had", "was having", "have"], "answer": 1 },
+        { "type": "gap", "skill": "grammar", "prompt": "While we ___ (walk) along the river, he proposed.", "answers": ["were walking"] },
+        { "type": "mcq", "skill": "grammar", "prompt": "They met in 2010, ___ in 2012 and got married in 2014.", "options": ["got engaged", "were getting engaged", "get engaged"], "answer": 0, "explanation": "A series of single events → past simple." },
+        { "type": "error", "skill": "grammar", "prompt": "Tap the part with the mistake.", "segments": ["When I arrived,", "everybody were dancing", "and the music", "was very loud."], "wrongIndex": 1, "correction": "everybody was dancing", "explanation": "'Everybody' takes a singular verb → was dancing." },
+        { "type": "gap", "skill": "vocabulary", "prompt": "My parents got married on 12 May 1998, so every 12 May they celebrate their wedding ___.", "answers": ["anniversary"], "options": ["birthday", "engagement", "anniversary", "proposal"] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "'I bumped into Enkhee yesterday' means I…", "options": ["had an argument with Enkhee", "planned a meeting with Enkhee", "met Enkhee by chance", "visited Enkhee at home"], "answer": 2 },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "Choose the correct preposition: 'She's engaged ___ a doctor from Darkhan.'", "options": ["with", "for", "at", "to"], "answer": 3 }
+      ]
+    },
+    {
+      "id": "b1-02-l3",
+      "title": "Falling out and making up",
+      "focus": "listening",
+      "difficulty": 3,
+      "minutes": 25,
+      "objectives": [
+        "Understand a conversation about a problem between two friends",
+        "Use words and phrases for arguments and making up",
+        "Pronounce the weak forms of was and were",
+        "Give your opinion on what makes a good friend"
+      ],
+      "warmup": {
+        "intro": "Have you ever had an argument with a good friend? How did it end?",
+        "questions": [
+          { "type": "mcq", "prompt": "If two friends 'fall out', they…", "options": ["meet again after a long time", "have an argument and stop being friendly", "go on holiday together", "become closer"], "answer": 1, "skill": "vocabulary" }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "close", "pos": "adjective", "ipa": "/kləʊs/",
+          "definition": "having a strong friendship or relationship",
+          "mn": "дотно, ойр дотно",
+          "examples": ["Nara and I have been close since primary school.", "I'm very close to my grandmother."],
+          "collocations": ["a close friend", "close to someone", "close family"],
+          "synonyms": ["intimate"], "antonyms": ["distant"],
+          "mistake": "The adjective ends in /s/: /kləʊs/. The verb 'close the door' ends in /z/: /kləʊz/.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "fall out (with)", "pos": "phrasal verb", "ipa": "/fɔːl ˈaʊt/",
+          "definition": "to argue with someone and stop being friendly",
+          "mn": "муудалцах, хэрэлдэж харилцаагаа таслах",
+          "examples": ["I fell out with my cousin over some money.", "They fell out years ago and still don't speak to each other."],
+          "collocations": ["fall out with someone", "fall out over something"],
+          "synonyms": ["argue", "quarrel"], "antonyms": ["make up"],
+          "note": "British English, informal. The noun is 'a falling-out'.",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "make up", "pos": "phrasal verb", "ipa": "/meɪk ˈʌp/",
+          "definition": "to become friends again after an argument",
+          "mn": "эвлэрэх",
+          "examples": ["They had a big argument but made up the next day.", "Have you made up with your sister yet?"],
+          "collocations": ["make up with someone", "kiss and make up"],
+          "synonyms": ["make peace"], "antonyms": ["fall out"],
+          "note": "'Make up' has other meanings too: to invent (make up a story) and the noun 'make-up' (cosmetics).",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "argument", "pos": "noun", "ipa": "/ˈɑːɡjumənt/",
+          "definition": "an angry disagreement between people",
+          "mn": "маргаан, хэрүүл",
+          "examples": ["We had an argument about who should pay for the tickets.", "I hate arguments, so I usually stay quiet."],
+          "collocations": ["have an argument", "a big argument", "an argument about something"],
+          "synonyms": ["row", "quarrel"], "antonyms": ["agreement"],
+          "mistake": "Spelling: 'argument', not 'arguement'. We 'have' an argument, not 'do' or 'make' one.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "apologise", "pos": "verb", "ipa": "/əˈpɒlədʒaɪz/",
+          "definition": "to say that you are sorry for something you did",
+          "mn": "уучлалт гуйх",
+          "examples": ["I apologised to her for forgetting her birthday.", "He never apologises, even when he's wrong."],
+          "collocations": ["apologise to someone", "apologise for something", "apologise sincerely"],
+          "synonyms": ["say sorry"], "antonyms": [],
+          "mistake": "Say 'apologise to someone for something', not 'apologise someone'.",
+          "note": "American spelling: apologize.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "trust", "pos": "verb / noun", "ipa": "/trʌst/",
+          "definition": "to believe that someone is honest and will not hurt you; the feeling that you can believe someone",
+          "mn": "итгэх; итгэл",
+          "examples": ["I trust her completely — she would never lie to me.", "After he read my messages, I lost my trust in him."],
+          "collocations": ["trust someone completely", "lose someone's trust", "build trust"],
+          "synonyms": ["believe in", "rely on"], "antonyms": ["distrust"],
+          "mistake": "Say 'I trust you', not 'I trust to you'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "jealous", "pos": "adjective", "ipa": "/ˈdʒeləs/",
+          "definition": "unhappy because someone has something you want, or because you think someone you love likes another person",
+          "mn": "атаархсан, хардсан",
+          "examples": ["He gets jealous when his girlfriend talks to other men.", "I was a bit jealous of my sister's new job."],
+          "collocations": ["jealous of someone", "get jealous", "feel jealous"],
+          "synonyms": ["envious"], "antonyms": [],
+          "mistake": "Say 'jealous of someone', not 'jealous on' or 'jealous to someone'.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "in common", "pos": "phrase", "ipa": "/ɪn ˈkɒmən/",
+          "definition": "shared by two or more people (interests, opinions or experiences)",
+          "mn": "нийтлэг, ижил төстэй",
+          "examples": ["We have a lot in common — we both love hiking and old films.", "My brother and I have nothing in common."],
+          "collocations": ["have a lot in common", "have nothing in common", "have something in common with someone"],
+          "synonyms": ["shared"], "antonyms": [],
+          "mistake": "Say 'We have a lot in common', not 'We have a lot of common'.",
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "upset", "pos": "adjective", "ipa": "/ʌpˈset/",
+          "definition": "unhappy or worried because something bad has happened",
+          "mn": "сэтгэл нь гонсойсон, гомдсон, бухимдсан",
+          "examples": ["She was really upset when she heard the news.", "Don't get upset — I was only joking."],
+          "collocations": ["get upset", "upset about something", "deeply upset"],
+          "synonyms": ["hurt", "sad"], "antonyms": ["calm", "happy"],
+          "mistake": "The stress is on the second syllable: up-SET. Say 'upset about something', not 'upset for something'.",
+          "level": "B1", "difficulty": 2
+        }
+      ],
+      "listening": {
+        "id": "l-friends-fall-out",
+        "title": "I think I've lost my best friend",
+        "kind": "conversation",
+        "context": "Emma tells her colleague Dan about an argument with her best friend, Lucy.",
+        "speakers": [
+          { "name": "Emma", "voice": "female", "accent": "en-GB" },
+          { "name": "Dan", "voice": "male", "accent": "en-GB" }
+        ],
+        "lines": [
+          { "speaker": "Dan", "text": "You look a bit down, Emma. Is everything OK?" },
+          { "speaker": "Emma", "text": "Not really. I had a big argument with Lucy on Saturday, and we haven't spoken since." },
+          { "speaker": "Dan", "text": "Lucy? But you two are so close. What happened?" },
+          { "speaker": "Emma", "text": "Well, we were having lunch in town, and I was telling her about my new job. While I was talking, she was looking at her phone the whole time." },
+          { "speaker": "Dan", "text": "Oh, that's annoying." },
+          { "speaker": "Emma", "text": "I know! So I said, 'You never listen to me.' And she got really upset and left." },
+          { "speaker": "Dan", "text": "Hmm. Maybe she was worried about something?" },
+          { "speaker": "Emma", "text": "That's the thing. Her sister sent me a message last night. Lucy's mum was in hospital on Saturday, and Lucy was waiting for news from the doctors." },
+          { "speaker": "Dan", "text": "Oh no. So it was just a misunderstanding." },
+          { "speaker": "Emma", "text": "Exactly. And now I feel terrible. I used to think I was a good friend." },
+          { "speaker": "Dan", "text": "You are a good friend. You just didn't know. Why don't you call her and apologise?" },
+          { "speaker": "Emma", "text": "I'm worried she won't answer. She can be a bit stubborn." },
+          { "speaker": "Dan", "text": "Then send her a message first. Say you're sorry and ask about her mum. Friends fall out all the time. The important thing is that you make up." },
+          { "speaker": "Emma", "text": "You're right. I'll text her now. Thanks, Dan." }
+        ],
+        "gist": [
+          { "type": "mcq", "tag": "main_idea", "prompt": "What is the conversation mainly about?", "options": ["Emma's new job", "A misunderstanding between Emma and her best friend", "Lucy's problems at work", "Where to have lunch in town"], "answer": 1 },
+          { "type": "mcq", "tag": "attitude", "prompt": "How does Emma feel at the end of the conversation?", "options": ["Sorry, and ready to fix the problem", "Still angry with Lucy", "Excited about her new job", "Bored with the conversation"], "answer": 0 }
+        ],
+        "detail": [
+          { "type": "tfng", "tag": "detail", "prompt": "Emma and Lucy argued on Saturday.", "answer": "true" },
+          { "type": "mcq", "tag": "detail", "prompt": "What was Lucy doing while Emma was talking?", "options": ["Eating her lunch", "Talking to the waiter", "Looking at her phone", "Reading the menu"], "answer": 2 },
+          { "type": "mcq", "tag": "detail", "prompt": "Why wasn't Lucy listening?", "options": ["She was bored by Emma's story.", "Her mother was in hospital.", "She was jealous of Emma's new job.", "She was late for work."], "answer": 1 },
+          { "type": "tfng", "tag": "detail", "prompt": "Lucy told Emma about her mother during lunch.", "answer": "false", "explanation": "Emma found out from Lucy's sister the night before this conversation." },
+          { "type": "gap", "tag": "detail", "prompt": "Dan suggests that Emma should send Lucy a ___ first.", "answers": ["message", "text", "text message"] }
+        ],
+        "expressions": [
+          { "phrase": "You look a bit down.", "meaning": "You seem sad.", "mn": "Чи жаахан гунигтай харагдаж байна." },
+          { "phrase": "That's the thing.", "meaning": "used to introduce the important point or problem", "mn": "Гол нь тэр л байгаа юм." },
+          { "phrase": "the whole time", "meaning": "during all of a period, without stopping", "mn": "турш нь, бүх л хугацаанд" },
+          { "phrase": "Why don't you…?", "meaning": "a friendly way to make a suggestion", "mn": "…-вал ямар вэ? (найрсаг санал)" }
+        ]
+      },
+      "pronunciation": "weak-was-were",
+      "speaking": {
+        "id": "s-good-friend",
+        "type": "opinion",
+        "prompt": "What makes a good friend? Give your opinion and an example from your own life — for example, a time when you fell out with a friend and made up.",
+        "promptMn": "Сайн найз гэж ямар хүн бэ? Санал бодлоо хэлж, өөрийн амьдралаас жишээ татаарай — жишээ нь найзтайгаа муудалцаад дараа нь эвлэрсэн тухай.",
+        "points": ["Two or three qualities of a good friend", "Why these qualities are important", "A short example from your life (past simple and past continuous)", "Your conclusion"],
+        "phrases": ["In my opinion, a good friend is someone who…", "The most important thing is…", "For example, once…", "That's why I think…"],
+        "targetWords": ["trust", "close", "fall out", "make up", "apologise"],
+        "prepSeconds": 45,
+        "speakSeconds": 90,
+        "sample": "In my opinion, a good friend is someone you can trust completely. The most important thing is honesty, but a good friend also needs to be loyal and patient. For example, a few years ago I fell out with my closest friend, Anu. We were planning a trip together, and I forgot to book the train tickets. She was really upset, and we didn't speak for a month. In the end I apologised, and we made up. Now we're even closer than before. That's why I think real friends can have arguments — the important thing is that they talk about the problem."
+      },
+      "quiz": [
+        { "type": "mcq", "skill": "vocabulary", "prompt": "They had an argument last week, but they ___ yesterday. Now they're friends again.", "options": ["fell out", "broke up", "bumped into", "made up"], "answer": 3 },
+        { "type": "gap", "skill": "vocabulary", "prompt": "I'm not ___ of her new car — I just think it was too expensive.", "answers": ["jealous"], "options": ["jealous", "close", "upset", "confident"] },
+        { "type": "gap", "skill": "vocabulary", "prompt": "My friend got very ___ when I forgot her birthday.", "answers": ["upset", "angry", "sad", "hurt"] },
+        { "type": "match", "skill": "vocabulary", "tag": "collocation", "prompt": "Match to make phrases.", "pairs": [["fall out", "with a friend"], ["apologise", "for being late"], ["have a lot", "in common"], ["lose", "someone's trust"]] },
+        { "type": "mcq", "skill": "pronunciation", "prompt": "In 'They were talking about you', how is 'were' usually pronounced?", "options": ["/wɜː/ — long and stressed", "/wə/ — short and weak", "/weə/ — like 'where'", "/wiː/ — like 'we'"], "answer": 1 },
+        { "type": "tfng", "skill": "listening", "prompt": "In the conversation, Dan thinks Emma is a bad friend.", "answer": "false", "explanation": "Dan says, 'You are a good friend. You just didn't know.'" }
+      ]
+    },
+    {
+      "id": "b1-02-l4",
+      "title": "Someone I looked up to",
+      "focus": "writing",
+      "difficulty": 4,
+      "minutes": 30,
+      "objectives": [
+        "Talk about past habits and states with used to / didn't use to",
+        "Use natural phrases to describe people and memories",
+        "Write a description of a person who was important in your childhood (90–130 words)"
+      ],
+      "warmup": {
+        "intro": "Think about an older person you admired when you were a child — a parent, a grandparent, a teacher or a coach.",
+        "questions": [
+          { "type": "mcq", "prompt": "Which sentence talks about a past habit that has stopped?", "options": ["I play chess every Sunday.", "I'm playing chess this Sunday.", "I used to play chess every Sunday."], "answer": 2, "skill": "grammar" }
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "grow up", "pos": "phrasal verb", "ipa": "/ɡrəʊ ˈʌp/",
+          "definition": "to change from a child into an adult; to spend your childhood somewhere",
+          "mn": "өсөж том болох",
+          "examples": ["I grew up in a small town in Arkhangai.", "What did you want to be when you grew up?"],
+          "collocations": ["grow up in (a place)", "grow up together", "when I grow up"],
+          "synonyms": [], "antonyms": [],
+          "mistake": "Don't say 'I was grown up in Darkhan'. Say 'I grew up in Darkhan'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "bring up", "pos": "phrasal verb", "ipa": "/brɪŋ ˈʌp/",
+          "definition": "to look after a child until he or she is an adult",
+          "mn": "өсгөж хүмүүжүүлэх",
+          "examples": ["My grandparents brought me up because my parents worked in another city.", "It isn't easy to bring up three children alone."],
+          "collocations": ["bring up children", "be brought up by someone", "well brought up"],
+          "synonyms": ["raise"], "antonyms": [],
+          "mistake": "Parents bring up children; children grow up. Don't say 'My parents grew me up'.",
+          "note": "It can also mean 'start talking about a subject': 'Don't bring up politics at dinner.'",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "take after", "pos": "phrasal verb", "ipa": "/teɪk ˈɑːftə(r)/",
+          "definition": "to look or behave like an older member of your family",
+          "mn": "(эцэг эх, өвөг дээдэстээ) адилхан байх, төстэй байх",
+          "examples": ["I take after my father — we're both stubborn.", "She really takes after her grandmother: she's calm and generous."],
+          "collocations": ["take after your mother", "really take after someone"],
+          "synonyms": ["look like", "resemble"], "antonyms": [],
+          "mistake": "Use it only for family members, and not in the continuous: 'She takes after her mum', not 'She is taking after her mum'.",
+          "level": "B1+", "difficulty": 4
+        },
+        {
+          "word": "look up to", "pos": "phrasal verb", "ipa": "/lʊk ˈʌp tə/",
+          "definition": "to admire and respect someone",
+          "mn": "хүндэлж, үлгэр дууриал болгох",
+          "examples": ["I always looked up to my older cousin — he was clever and kind.", "Young players look up to him because he works so hard."],
+          "collocations": ["look up to someone", "really look up to someone"],
+          "synonyms": ["admire", "respect"], "antonyms": ["look down on"],
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "relative", "pos": "noun", "ipa": "/ˈrelətɪv/",
+          "definition": "a member of your family",
+          "mn": "хамаатан садан",
+          "examples": ["During Tsagaan Sar we visit all our relatives.", "Most of my relatives live in the countryside."],
+          "collocations": ["a close relative", "a distant relative", "visit relatives"],
+          "synonyms": ["relation", "family member"], "antonyms": [],
+          "note": "A 'close relative' is a parent, child, brother or sister; a 'distant relative' is, for example, a second cousin.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "sibling", "pos": "noun", "ipa": "/ˈsɪblɪŋ/",
+          "definition": "a brother or sister",
+          "mn": "төрсөн ах эгч дүү",
+          "examples": ["Do you have any siblings?", "I'm the oldest of four siblings."],
+          "collocations": ["an older sibling", "a younger sibling", "have siblings"],
+          "synonyms": ["brother or sister"], "antonyms": [],
+          "note": "A little formal. In conversation people often ask, 'Have you got any brothers or sisters?'",
+          "level": "B1+", "difficulty": 3
+        },
+        {
+          "word": "strict", "pos": "adjective", "ipa": "/strɪkt/",
+          "definition": "expecting people to obey rules completely",
+          "mn": "хатуу, хатуу чанд",
+          "examples": ["My father used to be very strict about homework.", "Our teacher was strict, but she was fair."],
+          "collocations": ["strict parents", "strict with someone", "strict rules"],
+          "synonyms": ["firm", "tough"], "antonyms": ["relaxed", "easy-going"],
+          "mistake": "Say 'strict with children' and 'strict about homework', not 'strict to children'.",
+          "level": "B1", "difficulty": 2
+        },
+        {
+          "word": "generation", "pos": "noun", "ipa": "/ˌdʒenəˈreɪʃn/",
+          "definition": "all the people of about the same age; one level of a family (grandparents, parents, children)",
+          "mn": "үе, үе удам",
+          "examples": ["Three generations of my family live in the same house.", "My parents' generation didn't use to have mobile phones."],
+          "collocations": ["the younger generation", "three generations", "the next generation", "generation gap"],
+          "synonyms": [], "antonyms": [],
+          "level": "B1", "difficulty": 3
+        },
+        {
+          "word": "retire", "pos": "verb", "ipa": "/rɪˈtaɪə(r)/",
+          "definition": "to stop working, usually because you have reached a certain age",
+          "mn": "тэтгэвэрт гарах",
+          "examples": ["My grandfather retired when he was sixty and started keeping bees.", "She wants to retire early and travel."],
+          "collocations": ["retire early", "retire from work", "take early retirement"],
+          "synonyms": ["stop working"], "antonyms": [],
+          "mistake": "Say 'He retired' or 'He is retired', not 'He went to pension' (a direct translation).",
+          "level": "B1", "difficulty": 2
+        }
+      ],
+      "phrases": [
+        { "phrase": "We hit it off (straight away).", "meaning": "We liked each other immediately.", "mn": "Бид шууд л таарсан, ойлголцсон.", "register": "informal", "whenToUse": "Telling a story about meeting a friend or partner. Natural in speech and informal writing, not in formal reports.", "example": "We met at a friend's party and hit it off straight away." },
+        { "phrase": "She's the kind of person who…", "meaning": "used to describe someone's typical behaviour", "mn": "Тэр бол … хийдэг тийм хүн.", "register": "neutral", "whenToUse": "Describing someone's personality, in speech or writing. Very useful in descriptions and emails.", "example": "My aunt is the kind of person who always remembers your birthday." },
+        { "phrase": "a bit of a …", "meaning": "quite a … (used before a noun, often to make a criticism softer)", "mn": "жаахан …, нилээн …", "register": "informal", "whenToUse": "In conversation, to soften a negative description. Avoid it in formal writing.", "example": "My brother is a bit of a perfectionist." },
+        { "phrase": "I'll never forget the time…", "meaning": "used to introduce a strong memory", "mn": "…байсныг би хэзээ ч мартахгүй.", "register": "neutral", "whenToUse": "Starting a story about a memory, in speech or informal writing.", "example": "I'll never forget the time my grandfather taught me to ride a horse." },
+        { "phrase": "Looking back, …", "meaning": "when I think about it now", "mn": "Эргээд бодоход, …", "register": "neutral", "whenToUse": "Giving your opinion now about something in the past. Works in speech, emails and descriptions.", "example": "Looking back, I think my parents were right to be strict." },
+        { "phrase": "We go back a long way.", "meaning": "We have known each other for many years.", "mn": "Бид олон жилийн танил.", "register": "informal", "whenToUse": "Talking about old friends in conversation.", "example": "Bat and I go back a long way — we were at school together." }
+      ],
+      "grammar": "used-to",
+      "writing": {
+        "id": "w-person-admire",
+        "type": "description",
+        "prompt": "Write a description of a person who was important to you when you were a child (for example, a grandparent, a teacher or an older cousin). Say who they were, what they were like, what you used to do together and why they were important to you.",
+        "promptMn": "Бага байхад тань чухал байсан хүний (жишээ нь өвөө эмээ, багш, ах эгч) тухай тайлбар бичээрэй. Тэр хэн байсан, ямар зантай байсан, та хоёр хамт юу хийдэг байсан, яагаад танд чухал байсныг бичээрэй.",
+        "register": "neutral",
+        "minWords": 90,
+        "maxWords": 130,
+        "points": ["Who the person was and how you knew them", "Their personality (at least three adjectives)", "What you used to do together (used to)", "One special memory (past simple and past continuous)", "Why they were important — looking back"],
+        "phrases": ["When I was a child, …", "He/She was the kind of person who…", "We used to…", "I'll never forget the time…", "Looking back, …"],
+        "targetWords": ["look up to", "bring up", "take after", "strict", "retire"],
+        "sample": "When I was a child, the person I looked up to most was my grandfather. He brought me up for a few years because my parents were working in Erdenet. He was a retired teacher, and he was strict but very generous. He was the kind of person who never shouted, even when I broke things.\n\nEvery summer we used to stay in the countryside. We used to get up early, milk the cows and ride horses together. I'll never forget the time he taught me to play chess. It was raining, and we were sitting in the ger and drinking milk tea.\n\nLooking back, I think I take after him — I'm patient, and I love chess too."
+      },
+      "quiz": [
+        { "type": "mcq", "skill": "grammar", "prompt": "My grandmother ___ for a walk every morning, but now her legs hurt.", "options": ["use to go", "used to go", "was going to"], "answer": 1 },
+        { "type": "gap", "skill": "grammar", "prompt": "There ___ (be) a small shop on the corner, but it closed last year.", "answers": ["used to be", "was"] },
+        { "type": "correct", "skill": "grammar", "prompt": "Correct the sentence.", "sentence": "I didn't used to like my brother's friends.", "answers": ["I didn't use to like my brother's friends.", "I never used to like my brother's friends."], "explanation": "After 'didn't', write 'use to' without -d." },
+        { "type": "gap", "skill": "vocabulary", "prompt": "My parents both worked, so my grandparents ___ me up.", "answers": ["brought"], "options": ["grew", "brought", "took", "looked"] },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "'I take after my mother' means…", "options": ["I look after my mother", "I follow my mother everywhere", "I admire my mother", "I am similar to my mother"], "answer": 3 },
+        { "type": "mcq", "skill": "vocabulary", "prompt": "My grandfather ___ at sixty, and now he spends his time fishing.", "options": ["went to pension", "finished his work", "retired", "stopped from age"], "answer": 2 },
+        { "type": "mcq", "skill": "writing", "tag": "register", "prompt": "Which sentence is the most natural way to say, informally, that you liked someone immediately?", "options": ["We hit it off straight away.", "We collided at once.", "We were agreeable instantly.", "We hit each other immediately."], "answer": 0 }
+      ]
+    }
+  ],
+  "test": {
+    "reading": {
+      "id": "t-found-friend",
+      "title": "The Friend I Found Again",
+      "genre": "blog",
+      "text": [
+        "When I was ten, my best friend was a girl called Sara. We lived on the same street in Zuunkharaa, and we used to do everything together. We walked to school together, did our homework at her kitchen table and spent every summer by the river. People used to call us 'the twins', although we didn't look alike at all.",
+        "Then, when we were thirteen, Sara's father got a job in Ulaanbaatar and the family moved away. We promised to write to each other every week. For a few months we did, but then the letters stopped. I was busy with my new school, and I suppose she was too. Slowly, we lost contact.",
+        "Twenty years later, I was scrolling through social media one evening when I saw a familiar face. It was a photo of a woman at a school reunion, and she was smiling exactly like Sara used to. I sent her a message, and she replied within minutes: 'I was thinking about you last week!'",
+        "We met for coffee a month later. I was nervous. What if we had nothing in common any more? But after five minutes, we were laughing like ten-year-olds. She is a nurse now and has two children; I'm an engineer with none. Our lives are very different, but she is still the same generous, funny person.",
+        "Now we talk every Sunday. I've learned that real friendship doesn't disappear. Sometimes it's just waiting for someone to send a message."
+      ],
+      "glossary": [
+        { "term": "scroll", "meaning": "to move up or down on a screen to see more", "mn": "дэлгэц гүйлгэх" },
+        { "term": "reunion", "meaning": "a meeting of people who have not seen each other for a long time", "mn": "олон жилийн дараах уулзалт" }
+      ],
+      "questions": [
+        { "type": "mcq", "tag": "main_idea", "prompt": "What is the blog mainly about?", "options": ["How the writer became an engineer", "Two childhood friends who lost contact and met again", "Why social media is bad for friendships", "A school reunion in Ulaanbaatar"], "answer": 1 },
+        { "type": "tfng", "tag": "detail", "prompt": "The writer and Sara looked very similar as children.", "answer": "false", "explanation": "'We didn't look alike at all.'" },
+        { "type": "mcq", "tag": "detail", "prompt": "Why did Sara move away?", "options": ["Her father got a job in Ulaanbaatar.", "Her parents got divorced.", "She went to a school in the city.", "Her family bought a house by the river."], "answer": 0 },
+        { "type": "tfng", "tag": "detail", "prompt": "The writer went to a school reunion and met Sara there.", "answer": "false", "explanation": "The writer saw a photo of the reunion on social media." },
+        { "type": "tfng", "tag": "detail", "prompt": "Sara had thought about the writer shortly before she got the message.", "answer": "true", "explanation": "'I was thinking about you last week!'" },
+        { "type": "mcq", "tag": "inference", "prompt": "Why was the writer nervous before the meeting?", "options": ["She was late for the meeting.", "She thought Sara was angry with her.", "She was worried they would have nothing to talk about.", "She didn't want to meet Sara's children."], "answer": 2 },
+        { "type": "order", "tag": "summary", "prompt": "Put the events in the correct order.", "items": ["The two girls lived on the same street.", "Sara's family moved to Ulaanbaatar.", "The girls stopped writing letters.", "The writer saw Sara's photo online.", "They met for coffee."] },
+        { "type": "short", "tag": "detail", "prompt": "What is Sara's job now?", "answers": ["nurse"], "match": "keywords" }
+      ]
+    },
+    "listening": {
+      "id": "t-grandad-story",
+      "title": "How Grandad met Grandma",
+      "kind": "interview",
+      "context": "Saraa is interviewing her grandfather for a school project about family history.",
+      "speakers": [
+        { "name": "Saraa", "voice": "female", "accent": "en-GB" },
+        { "name": "Grandad", "voice": "male", "accent": "en-GB" }
+      ],
+      "lines": [
+        { "speaker": "Saraa", "text": "Grandad, can you tell me how you met Grandma?" },
+        { "speaker": "Grandad", "text": "Of course. It was 1975. I was working as a bus driver in Ulaanbaatar." },
+        { "speaker": "Saraa", "text": "And was Grandma one of your passengers?" },
+        { "speaker": "Grandad", "text": "Yes! She used to take my bus to the university every morning. She was studying medicine." },
+        { "speaker": "Saraa", "text": "So did you talk to her on the bus?" },
+        { "speaker": "Grandad", "text": "Not at first. I was too shy. But one day, while she was getting off, she dropped her notebook. I ran after her with it." },
+        { "speaker": "Saraa", "text": "That's so romantic! What did she say?" },
+        { "speaker": "Grandad", "text": "She said, 'Thank you. Now you have to buy me a cup of tea.' So I did. We got married a year later." },
+        { "speaker": "Saraa", "text": "Did you use to argue a lot?" },
+        { "speaker": "Grandad", "text": "Hardly ever. She was always the sensible one, and I was the easy-going one. And this year is our fiftieth wedding anniversary." }
+      ],
+      "gist": [
+        { "type": "mcq", "tag": "main_idea", "prompt": "What is the interview about?", "options": ["Grandad's job as a bus driver", "How Saraa's grandparents met", "Grandma's career as a doctor", "A school project about transport"], "answer": 1 }
+      ],
+      "detail": [
+        { "type": "mcq", "tag": "detail", "prompt": "What was Grandma doing in 1975?", "options": ["Working as a driver", "Teaching at a university", "Studying medicine", "Working in a café"], "answer": 2 },
+        { "type": "tfng", "tag": "detail", "prompt": "Grandad spoke to Grandma the first time he saw her.", "answer": "false", "explanation": "'Not at first. I was too shy.'" },
+        { "type": "mcq", "tag": "detail", "prompt": "What happened while Grandma was getting off the bus?", "options": ["She dropped her notebook.", "She fell over.", "She forgot to pay.", "She asked for Grandad's name."], "answer": 0 },
+        { "type": "gap", "tag": "detail", "prompt": "Grandma asked Grandad to buy her a cup of ___.", "answers": ["tea"] },
+        { "type": "tfng", "tag": "detail", "prompt": "Grandad describes himself as the easy-going one.", "answer": "true" }
+      ],
+      "expressions": [
+        { "phrase": "Not at first.", "meaning": "not at the beginning (but later, yes)", "mn": "Эхэндээ үгүй." },
+        { "phrase": "Hardly ever.", "meaning": "almost never", "mn": "Бараг хэзээ ч үгүй." }
+      ]
+    },
+    "writing": {
+      "id": "t-changed-friendship",
+      "type": "paragraph",
+      "prompt": "Write a paragraph (100–130 words) about a friendship that has changed. Say how you met, what you used to do together, what happened, and how things are now.",
+      "promptMn": "Өөрчлөгдсөн нэгэн нөхөрлөлийн тухай догол мөр (100–130 үг) бичээрэй: хэрхэн танилцсан, хамт юу хийдэг байсан, юу болсон, одоо ямар байгааг бичээрэй.",
+      "register": "neutral",
+      "minWords": 100,
+      "maxWords": 130,
+      "points": ["How you met and what the person was like", "What you used to do together (used to)", "What happened: a short story with the past simple and the past continuous", "How things are now"],
+      "phrases": ["We met when…", "We used to…", "One day, while we were…", "These days…"],
+      "targetWords": ["close", "fall out", "apologise", "bump into"],
+      "sample": "I met my friend Ganbold when we were both working at a summer camp. We were very close, and we used to spend every weekend together: we used to go hiking, cook big dinners and talk until late. Then, three years ago, he got a job in Seoul. For a while we kept talking online, but one day, while we were planning his visit home, we had a silly argument about money and fell out. We didn't speak for a year. Last winter I bumped into his mother, and she told me that he missed me. I sent him a message and apologised. Now we video-call every month, and it feels like we never stopped being friends."
+    },
+    "speaking": {
+      "id": "t-family-member",
+      "type": "describe",
+      "prompt": "Describe a member of your family. Say what he or she is like, what you used to do together when you were younger, and how your relationship has changed.",
+      "promptMn": "Гэр бүлийнхээ нэг гишүүнийг тайлбарлаарай: ямар зантай, бага байхдаа хамт юу хийдэг байсан, та хоёрын харилцаа хэрхэн өөрчлөгдсөн тухай ярь.",
+      "points": ["Who the person is", "Their personality, with examples", "What you used to do together", "How your relationship is different now"],
+      "phrases": ["He's / She's the kind of person who…", "When we were younger, we used to…", "Now, …", "People say I take after…"],
+      "targetWords": ["reliable", "stubborn", "bossy", "take after", "close"],
+      "prepSeconds": 30,
+      "speakSeconds": 75,
+      "sample": "I'd like to talk about my older brother, Bat. He's very reliable and generous, but he can be a bit stubborn — once he decides something, nobody can change his mind. When we were children, he used to be quite bossy. He used to tell me what to do all the time, and we often argued. Now our relationship is completely different. We're very close, and I phone him whenever I have a problem. People say I take after him because we're both hard-working and we both love football. Looking back, I think he was bossy because he wanted to protect me."
+    },
+    "questions": [
+      { "type": "mcq", "skill": "grammar", "prompt": "I ___ along the street when I heard someone call my name.", "options": ["walked", "was walking", "am walking"], "answer": 1 },
+      { "type": "mcq", "skill": "grammar", "prompt": "She ___ her leg while she was skiing in the mountains.", "options": ["was breaking", "breaks", "broke"], "answer": 2 },
+      { "type": "gap", "skill": "grammar", "prompt": "While I ___ (sleep), somebody stole my bike from the yard.", "answers": ["was sleeping"] },
+      { "type": "correct", "skill": "grammar", "prompt": "Correct the sentence.", "sentence": "My father use to work in a factory.", "answers": ["My father used to work in a factory."] },
+      { "type": "transform", "skill": "grammar", "prompt": "Rewrite the sentence with 'used to'. Use the word given.", "sentence": "I played the piano as a child, but I don't now.", "keyword": "used", "answers": ["I used to play the piano as a child.", "As a child, I used to play the piano.", "I used to play the piano as a child, but I don't now.", "I used to play the piano."] },
+      { "type": "mcq", "skill": "grammar", "prompt": "Which sentence is correct?", "options": ["We went to Japan in 2019.", "We used to go to Japan in 2019.", "We use to go to Japan in 2019."], "answer": 0 },
+      { "type": "gap", "skill": "vocabulary", "prompt": "I'm very ___ to my cousin — we talk almost every day.", "answers": ["close"], "options": ["near", "close", "next", "common"] },
+      { "type": "mcq", "skill": "vocabulary", "prompt": "Someone who always tells other people what to do is…", "options": ["sensitive", "generous", "reliable", "bossy"], "answer": 3 },
+      { "type": "gap", "skill": "vocabulary", "prompt": "He ___ to her in a restaurant, and she said yes!", "answers": ["proposed"], "options": ["engaged", "married", "proposed", "apologised"] },
+      { "type": "mcq", "skill": "vocabulary", "prompt": "'We have nothing in common' means…", "options": ["we don't share any interests", "we never argue", "we don't have any money", "we live far apart"], "answer": 0 },
+      { "type": "gap", "skill": "vocabulary", "prompt": "My sister and I had a big argument, but we ___ up the next day.", "answers": ["made"] },
+      { "type": "match", "skill": "vocabulary", "prompt": "Match the phrasal verbs with their meanings.", "pairs": [["grow up", "become an adult"], ["bring up", "raise a child"], ["look up to", "admire someone"], ["break up", "end a romantic relationship"]] }
+    ]
+  }
+}

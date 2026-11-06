@@ -1,0 +1,326 @@
+{
+  "grammar": [
+    { "id": "pg-01", "skill": "grammar", "level": "A2", "tag": "present_simple", "type": "mcq", "prompt": "She ___ to work by bus every day.", "options": ["go", "goes", "is going", "going"], "answer": 1, "explanation": "'Every day' shows a routine → present simple. With he/she/it, add -es: goes." },
+    { "id": "pg-02", "skill": "grammar", "level": "A2", "tag": "past_simple", "type": "mcq", "prompt": "I ___ my keys yesterday, so I couldn't get into my flat.", "options": ["lose", "have lost", "lost", "was losing"], "answer": 2, "explanation": "'Yesterday' is a finished time in the past → past simple (lost). The present perfect is not used with 'yesterday'." },
+    { "id": "pg-03", "skill": "grammar", "level": "A2", "tag": "comparatives", "type": "mcq", "prompt": "This flat is ___ than the one we saw last week.", "options": ["more big", "bigger", "biggest", "the biggest"], "answer": 1, "explanation": "Short adjectives form the comparative with -er + than: big → bigger." },
+    { "id": "pg-04", "skill": "grammar", "level": "A2", "tag": "quantifiers", "type": "gap", "prompt": "There isn't ___ milk in the fridge. Can you buy some?", "answers": ["any"], "options": ["some", "any", "many", "a"], "explanation": "Use 'any' in negative sentences. 'Milk' is uncountable, so not 'many' or 'a'." },
+
+    { "id": "pg-05", "skill": "grammar", "level": "A2+", "tag": "present_perfect", "type": "mcq", "prompt": "We ___ in this city since 2019, so we know it very well.", "options": ["live", "are living", "have lived", "lived"], "answer": 2, "explanation": "An action that started in the past and continues now, with 'since' → present perfect." },
+    { "id": "pg-06", "skill": "grammar", "level": "A2+", "tag": "past_continuous", "type": "mcq", "prompt": "I ___ a shower when the lights suddenly went out, so I had to finish in the dark.", "options": ["had", "was having", "have had", "am having"], "answer": 1, "explanation": "A longer action in progress (was having) is interrupted by a short action (went out) → past continuous." },
+    { "id": "pg-07", "skill": "grammar", "level": "A2+", "tag": "first_conditional", "type": "gap", "prompt": "If it ___ tomorrow, we'll stay at home and watch a film.", "answers": ["rains"], "options": ["rains", "will rain", "rained", "would rain"], "explanation": "First conditional: if + present simple, will + verb. Don't use 'will' after 'if'." },
+
+    { "id": "pg-08", "skill": "grammar", "level": "B1", "tag": "second_conditional", "type": "mcq", "prompt": "If I ___ more free time, I would learn to play the guitar.", "options": ["have", "had", "would have", "will have"], "answer": 1, "explanation": "Second conditional (an imaginary present situation): if + past simple, would + verb." },
+    { "id": "pg-09", "skill": "grammar", "level": "B1", "tag": "passive", "type": "mcq", "prompt": "Most of the vegetables in this shop ___ by local farmers.", "options": ["grow", "are grown", "are growing", "have grown"], "answer": 1, "explanation": "The vegetables don't grow themselves here — farmers grow them. Present simple passive: are + past participle." },
+    { "id": "pg-10", "skill": "grammar", "level": "B1", "tag": "used_to", "type": "mcq", "prompt": "When I was a child, I ___ play football every weekend, but now I never have time.", "options": ["used to", "use to", "was used to", "am used to"], "answer": 0, "explanation": "'Used to + verb' describes a past habit that is no longer true. 'Be used to' means 'be familiar with'." },
+    { "id": "pg-11", "skill": "grammar", "level": "B1", "tag": "gerund_infinitive", "type": "gap", "prompt": "I'm really looking forward to ___ (see) you next week.", "answers": ["seeing"], "explanation": "In 'look forward to', 'to' is a preposition, so it is followed by the -ing form." },
+    { "id": "pg-12", "skill": "grammar", "level": "B1", "tag": "present_perfect_continuous", "type": "mcq", "prompt": "I'm exhausted. I ___ on this report since eight o'clock this morning.", "options": ["have been working", "am working", "work", "was working"], "answer": 0, "explanation": "An activity that started in the past and is still continuing, with 'since' → present perfect continuous." },
+
+    { "id": "pg-13", "skill": "grammar", "level": "B1+", "tag": "reported_speech", "type": "mcq", "prompt": "'Where do you live?' he asked. → He asked me where ___.", "options": ["did I live", "I lived", "do I live", "lived I"], "answer": 1, "explanation": "Reported questions use normal statement word order (subject + verb), without do/did, and the tense usually moves back." },
+    { "id": "pg-14", "skill": "grammar", "level": "B1+", "tag": "third_conditional", "type": "mcq", "prompt": "If we ___ earlier, we wouldn't have missed the train.", "options": ["left", "had left", "would leave", "have left"], "answer": 1, "explanation": "Third conditional (an imaginary past): if + past perfect, would have + past participle." },
+    { "id": "pg-15", "skill": "grammar", "level": "B1+", "tag": "modals_deduction", "type": "mcq", "prompt": "Jake has been driving for ten hours without a break. He ___ be exhausted.", "options": ["must", "can't", "mustn't", "needn't"], "answer": 0, "explanation": "'Must' expresses a logical conclusion: we are almost sure it is true." },
+    { "id": "pg-16", "skill": "grammar", "level": "B1+", "tag": "wish", "type": "gap", "prompt": "I wish I ___ how to swim. Everyone else is having fun in the pool.", "answers": ["knew"], "options": ["knew", "know", "will know", "have known"], "explanation": "'Wish' + past simple describes a present situation we would like to be different." },
+
+    { "id": "pg-17", "skill": "grammar", "level": "B2", "tag": "modals_past_deduction", "type": "mcq", "prompt": "The streets are all wet. It ___ during the night.", "options": ["must have rained", "must rain", "should rain", "can have rained"], "answer": 0, "explanation": "For a logical conclusion about the past, use must have + past participle." },
+    { "id": "pg-18", "skill": "grammar", "level": "B2", "tag": "mixed_conditional", "type": "mcq", "prompt": "If I had accepted that job in London, I ___ in a much bigger city now.", "options": ["would live", "will live", "would have lived", "had lived"], "answer": 0, "explanation": "Mixed conditional: an imaginary past condition (had accepted) with a present result (would live … now)." },
+    { "id": "pg-19", "skill": "grammar", "level": "B2", "tag": "passive_reporting", "type": "gap", "prompt": "The painting ___ to be worth more than a million dollars.", "answers": ["is believed"], "options": ["is believed", "believes", "is believing", "has believed"], "explanation": "Impersonal passive: subject + is believed/said/thought + to-infinitive. It means 'people believe that…'." },
+    { "id": "pg-20", "skill": "grammar", "level": "B2", "tag": "relative_clauses", "type": "mcq", "prompt": "She passed all her exams with top marks, ___ surprised everyone.", "options": ["which", "what", "that", "who"], "answer": 0, "explanation": "A non-defining relative clause that refers to the whole previous idea uses ', which'. 'That' is not used after a comma." },
+
+    { "id": "pg-21", "skill": "grammar", "level": "B2+", "tag": "would_rather", "type": "gap", "prompt": "I'd rather you ___ (not / smoke) in the house, if you don't mind.", "answers": ["didn't smoke", "did not smoke"], "explanation": "'Would rather' + another person + past simple expresses a preference about the present or future." },
+    { "id": "pg-22", "skill": "grammar", "level": "B2+", "tag": "participle_clauses", "type": "mcq", "prompt": "___ all the documents twice, she finally sent off her application.", "options": ["Having checked", "Checked", "Having been checked", "To have checked"], "answer": 0, "explanation": "A perfect participle clause (having + past participle) shows that one action was completed before another by the same subject." },
+    { "id": "pg-23", "skill": "grammar", "level": "B2+", "tag": "inverted_conditional", "type": "mcq", "prompt": "___ I known about the traffic, I would have taken the train.", "options": ["Had", "If", "Should", "Were"], "answer": 0, "explanation": "In a formal third conditional, 'if' can be dropped and the auxiliary moved forward: Had I known = If I had known." },
+
+    { "id": "pg-24", "skill": "grammar", "level": "C1", "tag": "inversion", "type": "mcq", "prompt": "Not until the results were published ___ how serious the problem was.", "options": ["did we realise", "we realised", "we had realised", "we did realise"], "answer": 0, "explanation": "After a fronted negative expression such as 'Not until…', the main clause uses question-style inversion: did we realise." },
+    { "id": "pg-25", "skill": "grammar", "level": "C1", "tag": "subjunctive", "type": "mcq", "prompt": "The lawyer requested that the documents ___ to her office by Friday.", "options": ["be sent", "are sending", "sent", "will send"], "answer": 0, "explanation": "After verbs like request, insist and recommend, formal English uses the subjunctive (base form): that the documents be sent." },
+    { "id": "pg-26", "skill": "grammar", "level": "C1", "tag": "inversion", "type": "mcq", "prompt": "___ was the demand for tickets that the website crashed within minutes.", "options": ["Such", "So", "Such a", "Too"], "answer": 0, "explanation": "'Such + be + noun phrase + that…' is an emphatic inversion meaning 'The demand was so great that…'." }
+  ],
+
+  "vocabulary": [
+    { "id": "pv-01", "skill": "vocabulary", "level": "A2", "tag": "meaning", "type": "mcq", "prompt": "I'm really ___ — I haven't eaten anything since breakfast.", "options": ["hungry", "angry", "thirsty", "full"], "answer": 0, "explanation": "When you need food, you are hungry. 'Thirsty' is about drinks." },
+    { "id": "pv-02", "skill": "vocabulary", "level": "A2", "tag": "collocation", "type": "mcq", "prompt": "Could you ___ a photo of us, please?", "options": ["take", "make", "do", "put"], "answer": 0, "explanation": "The collocation is 'take a photo'." },
+    { "id": "pv-03", "skill": "vocabulary", "level": "A2", "tag": "antonym", "type": "mcq", "prompt": "The opposite of 'cheap' is…", "options": ["expensive", "poor", "small", "free"], "answer": 0, "explanation": "Something cheap costs little money; something expensive costs a lot." },
+    { "id": "pv-04", "skill": "vocabulary", "level": "A2", "tag": "collocation", "type": "gap", "prompt": "We ___ dinner at a nice restaurant last night.", "answers": ["had"], "options": ["had", "made", "did", "took"], "explanation": "We 'have' meals: have breakfast, have lunch, have dinner. You 'make' dinner when you cook it." },
+
+    { "id": "pv-05", "skill": "vocabulary", "level": "A2+", "tag": "phrasal_verb", "type": "mcq", "prompt": "It's warm in here. Why don't you ___ your jacket?", "options": ["take off", "put on", "turn off", "get off"], "answer": 0, "explanation": "'Take off' clothes = remove them. 'Put on' is the opposite." },
+    { "id": "pv-06", "skill": "vocabulary", "level": "A2+", "tag": "word_formation", "type": "mcq", "prompt": "The film was so ___ that I fell asleep halfway through.", "options": ["boring", "bored", "exciting", "frightening"], "answer": 0, "explanation": "-ing adjectives describe the thing (a boring film); -ed adjectives describe how people feel (I was bored)." },
+    { "id": "pv-07", "skill": "vocabulary", "level": "A2+", "tag": "confusable", "type": "gap", "prompt": "Excuse me, could you ___ me the way to the station?", "answers": ["tell"], "options": ["tell", "say", "speak", "explain"], "explanation": "'Tell' takes a person directly: tell me the way. 'Say' and 'explain' need 'to' before the person." },
+
+    { "id": "pv-08", "skill": "vocabulary", "level": "B1", "tag": "collocation", "type": "mcq", "prompt": "Your English is getting better. You're ___ really good progress.", "options": ["making", "doing", "taking", "getting"], "answer": 0, "explanation": "The collocation is 'make progress'." },
+    { "id": "pv-09", "skill": "vocabulary", "level": "B1", "tag": "meaning", "type": "mcq", "prompt": "'The flats in this new building are quite affordable.' — 'Affordable' means…", "options": ["cheap enough for most people to buy", "very expensive", "not available yet", "very modern"], "answer": 0, "explanation": "If you can afford something, you have enough money for it. Affordable = not too expensive." },
+    { "id": "pv-10", "skill": "vocabulary", "level": "B1", "tag": "phrasal_verb", "type": "mcq", "prompt": "I'm trying to ___ smoking, but it's really hard.", "options": ["give up", "give in", "give away", "take up"], "answer": 0, "explanation": "'Give up' = stop doing a habit. 'Take up' = start a new activity." },
+    { "id": "pv-11", "skill": "vocabulary", "level": "B1", "tag": "word_formation", "type": "gap", "prompt": "He was very ___ when he didn't get the job.", "answers": ["disappointed"], "options": ["disappointed", "disappointing", "disappoint", "disappointment"], "explanation": "We need an adjective describing how he felt → disappointed." },
+    { "id": "pv-12", "skill": "vocabulary", "level": "B1", "tag": "dependent_preposition", "type": "mcq", "prompt": "I'm not very ___ on horror films — I prefer comedies.", "options": ["keen", "fond", "interested", "happy"], "answer": 0, "explanation": "'Keen on' = like. The others take different prepositions: fond of, interested in, happy with." },
+
+    { "id": "pv-13", "skill": "vocabulary", "level": "B1+", "tag": "phrasal_verb", "type": "mcq", "prompt": "We had to ___ the meeting until next week because the manager was ill.", "options": ["put off", "put up", "put on", "put out"], "answer": 0, "explanation": "'Put off' = postpone, move to a later time." },
+    { "id": "pv-14", "skill": "vocabulary", "level": "B1+", "tag": "collocation", "type": "mcq", "prompt": "I'd like to ___ a complaint about the service in your restaurant.", "options": ["make", "do", "give", "say"], "answer": 0, "explanation": "The collocation is 'make a complaint'." },
+    { "id": "pv-15", "skill": "vocabulary", "level": "B1+", "tag": "confusable", "type": "mcq", "prompt": "It was very ___ of you to bring an umbrella — it's pouring with rain.", "options": ["sensible", "sensitive", "sensational", "senseless"], "answer": 0, "explanation": "'Sensible' = showing good judgement. 'Sensitive' = easily upset or aware of others' feelings." },
+    { "id": "pv-16", "skill": "vocabulary", "level": "B1+", "tag": "meaning", "type": "gap", "prompt": "Thank you so much for your help — I really ___ it.", "answers": ["appreciate"], "options": ["appreciate", "thank", "grateful", "welcome"], "explanation": "'Appreciate' = be grateful for something. We thank a person, not 'it'." },
+
+    { "id": "pv-17", "skill": "vocabulary", "level": "B2", "tag": "idiom", "type": "gap", "prompt": "I've been feeling a bit ___ the weather all week — I've got a cold and a sore throat.", "answers": ["under"], "options": ["under", "over", "on", "below"], "explanation": "'Under the weather' = slightly ill." },
+    { "id": "pv-18", "skill": "vocabulary", "level": "B2", "tag": "meaning", "type": "mcq", "prompt": "'The instructions were so vague that nobody knew exactly what to do.' — 'Vague' means…", "options": ["not clear or detailed enough", "very long", "written in a foreign language", "too strict"], "answer": 0, "explanation": "Vague = not clear, without enough detail." },
+    { "id": "pv-19", "skill": "vocabulary", "level": "B2", "tag": "phrasal_verb", "type": "mcq", "prompt": "The new law is expected to ___ major changes in the industry.", "options": ["bring about", "bring up", "bring back", "bring round"], "answer": 0, "explanation": "'Bring about' = cause something to happen." },
+    { "id": "pv-20", "skill": "vocabulary", "level": "B2", "tag": "word_formation", "type": "gap", "prompt": "The results of the survey were ___ different from what we had expected.", "answers": ["significantly"], "options": ["significantly", "significant", "significance", "signify"], "explanation": "We need an adverb to modify the adjective 'different' → significantly." },
+
+    { "id": "pv-21", "skill": "vocabulary", "level": "B2+", "tag": "phrasal_verb", "type": "mcq", "prompt": "The government has ___ a lot of criticism for its decision to close the hospital.", "options": ["come in for", "come up with", "come across", "come down with"], "answer": 0, "explanation": "'Come in for criticism' = receive criticism. 'Come up with' = think of an idea; 'come down with' = catch an illness." },
+    { "id": "pv-22", "skill": "vocabulary", "level": "B2+", "tag": "meaning", "type": "mcq", "prompt": "'The minister tried to downplay the problem.' — 'Downplay' means…", "options": ["make it seem less important than it really is", "solve it quickly", "make it seem worse than it really is", "explain it in detail"], "answer": 0, "explanation": "To downplay something = to make it seem less serious or important. The opposite is 'exaggerate'." },
+    { "id": "pv-23", "skill": "vocabulary", "level": "B2+", "tag": "word_formation", "type": "gap", "prompt": "The DNA evidence was ___: it proved beyond doubt that he had been at the scene.", "answers": ["conclusive"], "options": ["conclusive", "conclusion", "inconclusive", "concluding"], "explanation": "'Conclusive' = proving something, removing all doubt. 'Inconclusive' means the opposite." },
+
+    { "id": "pv-24", "skill": "vocabulary", "level": "C1", "tag": "idiom", "type": "mcq", "prompt": "After years of not speaking to each other, the two brothers finally decided to bury the ___.", "options": ["hatchet", "axe", "sword", "past"], "answer": 0, "explanation": "'Bury the hatchet' = end a disagreement and become friendly again." },
+    { "id": "pv-25", "skill": "vocabulary", "level": "C1", "tag": "meaning", "type": "mcq", "prompt": "'The committee's report was scathing about the way the project had been managed.' — 'Scathing' means…", "options": ["extremely critical", "mildly positive", "confused and unclear", "very detailed"], "answer": 0, "explanation": "Scathing = severely and harshly critical." },
+    { "id": "pv-26", "skill": "vocabulary", "level": "C1", "tag": "collocation", "type": "mcq", "prompt": "The company went to great ___ to keep the news secret.", "options": ["lengths", "distances", "efforts", "extents"], "answer": 0, "explanation": "'Go to great lengths' = make a very big effort to achieve something." }
+  ],
+
+  "reading": [
+    {
+      "id": "p-read-b1",
+      "level": "B1",
+      "title": "Why I Swapped My Car for a Bike",
+      "genre": "blog",
+      "text": [
+        "Last spring, I made a decision that surprised my friends: I sold my car and bought a bike. I live about six kilometres from my office, and every morning I used to sit in traffic for forty minutes. I was spending a lot of money on petrol and parking, and I often arrived at work feeling stressed.",
+        "The first two weeks were hard. My legs hurt, and one day I got completely wet in a sudden storm. Now I keep a spare shirt in my desk drawer, just in case. But after a month, I started to notice some changes. I was sleeping better, I had more energy in the afternoons, and the journey took only twenty-five minutes.",
+        "Of course, cycling isn't perfect. In winter it's too cold and icy, so from December to February I take the bus. And when I need to carry heavy shopping, I borrow my brother's car. Still, I don't miss driving at all. If you live close to work, I really recommend trying it — even just once or twice a week."
+      ],
+      "glossary": [
+        { "term": "petrol", "meaning": "the fuel that most cars use (American English: gas)", "mn": "бензин" },
+        { "term": "spare", "meaning": "extra; kept in case you need it", "mn": "нөөц, илүү" },
+        { "term": "icy", "meaning": "covered with ice", "mn": "мөстсөн, халтиргаатай" }
+      ],
+      "questions": [
+        { "type": "mcq", "tag": "main_idea", "prompt": "What is the blog post mainly about?", "options": ["The writer's experience of cycling to work instead of driving", "How to repair a bike", "Why the writer changed jobs", "The problems of public transport in winter"], "answer": 0, "explanation": "The writer explains why they started cycling to work and what changed." },
+        { "type": "tfng", "tag": "detail", "prompt": "The writer's journey to work is quicker by bike than it was by car.", "answer": "true", "explanation": "By car it took forty minutes; by bike it takes twenty-five." },
+        { "type": "tfng", "tag": "detail", "prompt": "The writer cycles to work all year round.", "answer": "false", "explanation": "From December to February the writer takes the bus." },
+        { "type": "tfng", "tag": "detail", "prompt": "The writer's brother also cycles to work.", "answer": "not_given", "explanation": "The text only says the writer borrows the brother's car." },
+        { "type": "short", "tag": "detail", "prompt": "What does the writer keep in their desk drawer?", "answers": ["shirt"], "match": "keywords", "explanation": "'I keep a spare shirt in my desk drawer, just in case.'" }
+      ]
+    },
+    {
+      "id": "p-read-b2",
+      "level": "B2",
+      "title": "Is Boredom Good for You?",
+      "genre": "article",
+      "text": [
+        "Most of us will do almost anything to avoid being bored. We check our phones while waiting for the kettle to boil, listen to podcasts on short walks and scroll through the news in queues. Thanks to smartphones, it is now possible to go an entire day without experiencing a single dull moment. But some psychologists are beginning to ask whether this constant stimulation comes at a cost.",
+        "In one study, researchers asked a group of volunteers to spend fifteen minutes copying numbers from a phone book — a deliberately tedious task. Afterwards, this group and a second group, who had not done the boring task, were asked to think of as many uses as possible for a pair of plastic cups. The volunteers who had been bored came up with noticeably more creative ideas.",
+        "The explanation, the researchers suggest, is that boredom pushes the mind to search for something more interesting. When there is nothing outside us to hold our attention, we turn inwards: we daydream, make connections between unrelated ideas and imagine new possibilities. In other words, boredom may be less a waste of time than a signal that the brain is looking for something new to do.",
+        "None of this means that we should deliberately make our lives dull. Long periods of boredom, especially at work, are linked to stress and poor performance. However, the occasional empty moment may be worth protecting. The next time you are standing in a queue, you might try leaving your phone in your pocket. You may be surprised by where your thoughts take you."
+      ],
+      "glossary": [
+        { "term": "kettle", "meaning": "an electric container for boiling water", "mn": "цайны данх" },
+        { "term": "queue", "meaning": "a line of people waiting for something", "mn": "дараалал" },
+        { "term": "stimulation", "meaning": "something that keeps your mind busy or excited", "mn": "өдөөлт" },
+        { "term": "daydream", "meaning": "to think about pleasant things instead of what you are doing", "mn": "хий мөрөөдөлд автах" }
+      ],
+      "questions": [
+        { "type": "mcq", "tag": "main_idea", "prompt": "What is the writer's main point?", "options": ["Short periods of boredom may help us to be more creative.", "Smartphones are destroying our ability to concentrate.", "People who are often bored perform badly at work.", "Psychologists cannot agree on what boredom is."], "answer": 0, "explanation": "The article presents evidence that boredom can lead to creativity and suggests protecting 'the occasional empty moment'." },
+        { "type": "mcq", "tag": "detail", "prompt": "In the study, what did the first group of volunteers do before the creativity task?", "options": ["They copied numbers from a phone book.", "They used their phones for fifteen minutes.", "They sat in silence.", "They made things out of plastic cups."], "answer": 0, "explanation": "Paragraph 2: they spent fifteen minutes copying numbers from a phone book." },
+        { "type": "mcq", "tag": "vocab_context", "prompt": "In paragraph 2, 'tedious' is closest in meaning to…", "options": ["boring and repetitive", "difficult and technical", "short and simple", "strange and unusual"], "answer": 0, "explanation": "Copying numbers from a phone book is a boring, repetitive task." },
+        { "type": "tfng", "tag": "inference", "prompt": "The writer thinks people should try to be bored as often as possible.", "answer": "false", "explanation": "'None of this means that we should deliberately make our lives dull.'" },
+        { "type": "mcq", "tag": "purpose", "prompt": "Why does the writer mention long periods of boredom at work?", "options": ["To show that boredom is not always positive", "To explain the results of the study", "To suggest that people should change jobs", "To prove that smartphones are harmful"], "answer": 0, "explanation": "The writer balances the argument: long boredom is linked to stress and poor performance." }
+      ]
+    },
+    {
+      "id": "p-read-c1",
+      "level": "C1",
+      "title": "Why More Roads Rarely Mean Less Traffic",
+      "genre": "editorial",
+      "text": [
+        "For much of the twentieth century, the solution to traffic congestion seemed self-evident: if the roads are full, build more of them. Planners widened motorways, added lanes and constructed ring roads, confident that the extra capacity would allow traffic to flow freely. Yet in city after city, the relief proved short-lived. Within a few years, the new lanes were as clogged as the old ones had been.",
+        "Transport economists have a name for this phenomenon: induced demand. The principle is deceptively simple. When a road becomes faster to use, the cost of driving — measured not only in money but in time — falls, and people respond accordingly. Some who previously took the train switch to their cars; others make journeys they would once have avoided altogether, or move further from their workplaces, assuming the commute will be manageable. The additional capacity, in effect, generates its own traffic.",
+        "The evidence for this effect is by now substantial. One widely cited study of American cities found that the distance driven increased almost exactly in proportion to the expansion of the road network. Notably, the reverse also appears to hold. When roads are closed or narrowed, whether by design or following a disaster, the chaos that officials predict frequently fails to materialise. A proportion of the traffic simply evaporates, as drivers change their routes, their timing or their mode of transport.",
+        "None of this implies that road-building is never justified; a new bypass may genuinely divert heavy lorries away from a historic town centre. It does suggest, however, that congestion cannot be engineered away through construction alone. Increasingly, cities are turning instead to measures that manage demand rather than accommodate it: congestion charging, investment in public transport and the reallocation of street space to pedestrians and cyclists. Such policies are rarely popular at first, and the politicians who introduce them tend to face fierce opposition. Yet where they have been sustained, resistance has often softened. In Stockholm, for example, support for congestion charging grew considerably once residents could see the benefits for themselves."
+      ],
+      "glossary": [
+        { "term": "congestion", "meaning": "a situation in which roads are too full of traffic", "mn": "замын түгжрэл" },
+        { "term": "capacity", "meaning": "the amount that something can hold or deal with", "mn": "багтаамж, хүчин чадал" },
+        { "term": "bypass", "meaning": "a road that goes around a town instead of through it", "mn": "тойруу зам" },
+        { "term": "materialise", "meaning": "to actually happen as expected", "mn": "бодитоор тохиох, биелэх" }
+      ],
+      "questions": [
+        { "type": "mcq", "tag": "main_idea", "prompt": "What is the main argument of the article?", "options": ["Building more roads tends to create more traffic, so managing demand is a more effective approach.", "Cities should close most of their roads to private cars.", "Road-building is always a waste of public money.", "Congestion charging is unpopular and should be avoided."], "answer": 0, "explanation": "The writer explains induced demand and argues for measures that 'manage demand rather than accommodate it'." },
+        { "type": "mcq", "tag": "vocab_context", "prompt": "The writer calls the principle 'deceptively simple' (paragraph 2). This suggests that it…", "options": ["seems simple but has wider and more complex effects than people expect", "is simple but has been deliberately hidden from the public", "is too simple to be true", "was invented to mislead drivers"], "answer": 0, "explanation": "'Deceptively simple' = it looks simple, but its consequences are more complex than they first appear." },
+        { "type": "tfng", "tag": "detail", "prompt": "According to the article, closing a road usually causes the serious traffic problems that officials expect.", "answer": "false", "explanation": "'The chaos that officials predict frequently fails to materialise.'" },
+        { "type": "mcq", "tag": "purpose", "prompt": "Why does the writer mention a bypass around a historic town centre?", "options": ["To acknowledge that some new roads can be justified", "To give an example of induced demand", "To criticise twentieth-century planners", "To show how congestion charging works"], "answer": 0, "explanation": "'None of this implies that road-building is never justified' — the bypass is an example of a justified road." },
+        { "type": "short", "tag": "detail", "prompt": "In which city did support for congestion charging grow after it was introduced?", "answers": ["Stockholm"], "match": "exact", "explanation": "'In Stockholm, for example, support for congestion charging grew considerably…'" }
+      ]
+    }
+  ],
+
+  "listening": [
+    {
+      "id": "p-listen-a2plus",
+      "level": "A2+",
+      "title": "Changing a booking",
+      "kind": "conversation",
+      "context": "David phones a restaurant about his table for this evening.",
+      "speakers": [
+        { "name": "Receptionist", "voice": "female", "accent": "en-GB" },
+        { "name": "David", "voice": "male", "accent": "en-GB" }
+      ],
+      "lines": [
+        { "speaker": "Receptionist", "text": "Good afternoon, Luigi's Restaurant. How can I help you?" },
+        { "speaker": "David", "text": "Hi. I've got a table booked for tonight at seven o'clock, for four people. The name's David Brown. Is it possible to change it to eight?" },
+        { "speaker": "Receptionist", "text": "Let me just check. I'm sorry, we're full at eight. But I can give you half past eight, if that's OK." },
+        { "speaker": "David", "text": "Half past eight is fine. Oh, and there'll be five of us now, not four. My sister's coming too." },
+        { "speaker": "Receptionist", "text": "No problem. So that's a table for five at half past eight tonight, under the name Brown." },
+        { "speaker": "David", "text": "Perfect. Thanks very much." },
+        { "speaker": "Receptionist", "text": "You're welcome. See you this evening." }
+      ],
+      "gist": [
+        { "type": "mcq", "tag": "main_idea", "prompt": "Why does David call the restaurant?", "options": ["To change his booking", "To cancel his booking", "To complain about a meal", "To ask about the menu"], "answer": 0 }
+      ],
+      "detail": [
+        { "type": "mcq", "tag": "detail", "prompt": "What time is David's new booking?", "options": ["At seven o'clock", "At eight o'clock", "At half past eight", "At half past seven"], "answer": 2, "explanation": "The restaurant is full at eight, so they offer half past eight." },
+        { "type": "gap", "tag": "detail", "prompt": "The table is now for ___ people.", "answers": ["five", "5"], "explanation": "'There'll be five of us now, not four.'" }
+      ],
+      "expressions": [
+        { "phrase": "Is it possible to …?", "meaning": "a polite way to ask for something", "mn": "…боломжтой юу?" },
+        { "phrase": "under the name …", "meaning": "the name that the booking is in", "mn": "…гэсэн нэр дээр" }
+      ]
+    },
+    {
+      "id": "p-listen-b1plus",
+      "level": "B1+",
+      "title": "A change of plan",
+      "kind": "conversation",
+      "context": "Two colleagues, Sarah and Mark, are preparing a presentation for a client.",
+      "speakers": [
+        { "name": "Sarah", "voice": "female", "accent": "en-GB" },
+        { "name": "Mark", "voice": "male", "accent": "en-US" }
+      ],
+      "lines": [
+        { "speaker": "Sarah", "text": "Mark, have you got a second? It's about the Henderson presentation on Thursday." },
+        { "speaker": "Mark", "text": "Sure. Is everything OK? I thought we were almost done." },
+        { "speaker": "Sarah", "text": "Well, we were, but the client's just emailed. They want us to include the sales figures from the last quarter as well, and those won't be ready until Wednesday afternoon." },
+        { "speaker": "Mark", "text": "Ah, that's cutting it a bit fine. Could we ask them to push the meeting back to Friday?" },
+        { "speaker": "Sarah", "text": "I've already suggested that, actually, but they're flying to Singapore on Friday morning. So Thursday it is." },
+        { "speaker": "Mark", "text": "Right. In that case, why don't I finish the slides tonight and leave a gap for the figures? Then on Wednesday we'd only need to drop them in and check everything." },
+        { "speaker": "Sarah", "text": "That would be a huge help. I'll ask Priya in finance if she can get the numbers to us any earlier." },
+        { "speaker": "Mark", "text": "Great. Let's aim to do a full run-through on Wednesday evening, then." }
+      ],
+      "gist": [
+        { "type": "mcq", "tag": "main_idea", "prompt": "What problem are Sarah and Mark discussing?", "options": ["The client wants extra information in the presentation.", "The client has cancelled the meeting.", "Mark hasn't started the slides.", "The sales figures are wrong."], "answer": 0 }
+      ],
+      "detail": [
+        { "type": "mcq", "tag": "detail", "prompt": "Why can't the meeting move to Friday?", "options": ["The client is travelling that day.", "Mark is on holiday.", "The office is closed.", "Priya is busy."], "answer": 0, "explanation": "'They're flying to Singapore on Friday morning.'" },
+        { "type": "mcq", "tag": "detail", "prompt": "What will Mark do tonight?", "options": ["Finish the slides and leave space for the figures", "Email the client", "Calculate the sales figures", "Book a flight to Singapore"], "answer": 0, "explanation": "'Why don't I finish the slides tonight and leave a gap for the figures?'" }
+      ],
+      "expressions": [
+        { "phrase": "cutting it a bit fine", "meaning": "leaving very little time to do something", "mn": "цаг арай давчуу байх" },
+        { "phrase": "push something back", "meaning": "move an event to a later time", "mn": "хойшлуулах" },
+        { "phrase": "a run-through", "meaning": "a practice of a presentation or performance from start to finish", "mn": "эхнээс нь дуустал хийх бэлтгэл давтлага" }
+      ]
+    },
+    {
+      "id": "p-listen-b2",
+      "level": "B2",
+      "title": "Sleep and memory",
+      "kind": "podcast",
+      "context": "A podcast host interviews a scientist who studies sleep and memory.",
+      "speakers": [
+        { "name": "Host", "voice": "female", "accent": "en-GB" },
+        { "name": "Dr Reid", "voice": "male", "accent": "en-GB" }
+      ],
+      "lines": [
+        { "speaker": "Host", "text": "Today I'm talking to Doctor James Reid, who studies memory and sleep. James, a lot of our listeners are learning languages. Does sleep really make a difference?" },
+        { "speaker": "Dr Reid", "text": "It makes a huge difference, and it's something people tend to overlook. When you learn new words during the day, they're only stored temporarily at first. It's largely during deep sleep that the brain replays that information and moves it into long-term memory." },
+        { "speaker": "Host", "text": "So staying up all night before an exam isn't a great idea." },
+        { "speaker": "Dr Reid", "text": "Honestly, it's one of the worst things you can do. You might cram in a lot of information, but without sleep, much of it simply won't stick. In one of our studies, people who slept after learning a list of words remembered significantly more of them a week later than people who stayed awake." },
+        { "speaker": "Host", "text": "So what would you recommend?" },
+        { "speaker": "Dr Reid", "text": "Spread your learning out. Twenty minutes of review in the evening, followed by a good night's sleep, is far more effective than three hours of panic the night before. And a short nap after studying seems to help too, although we're still working out exactly why." }
+      ],
+      "gist": [
+        { "type": "mcq", "tag": "main_idea", "prompt": "What is the main message of the interview?", "options": ["Sleep plays an important role in remembering what we learn.", "Adults find it harder to learn languages than children.", "Naps are better than a full night's sleep.", "Students should study for longer every evening."], "answer": 0 }
+      ],
+      "detail": [
+        { "type": "mcq", "tag": "detail", "prompt": "According to Dr Reid, what happens during deep sleep?", "options": ["The brain moves new information into long-term memory.", "The brain deletes information it doesn't need.", "People learn new words more quickly.", "The brain rests completely."], "answer": 0, "explanation": "'The brain replays that information and moves it into long-term memory.'" },
+        { "type": "tfng", "tag": "detail", "prompt": "Dr Reid knows exactly why short naps help memory.", "answer": "false", "explanation": "'We're still working out exactly why.'" }
+      ],
+      "expressions": [
+        { "phrase": "cram (something) in", "meaning": "try to learn a lot in a very short time, usually just before an exam", "mn": "шалгалтын өмнө яаран цээжлэх" },
+        { "phrase": "stick", "meaning": "(of information) stay in your memory", "mn": "ой санамжинд үлдэх" },
+        { "phrase": "spread something out", "meaning": "do something in small amounts over a longer period", "mn": "хугацаанд нь хувааж хийх" }
+      ]
+    },
+    {
+      "id": "p-listen-c1",
+      "level": "C1",
+      "title": "The planning fallacy",
+      "kind": "lecture",
+      "context": "An extract from a university lecture on the psychology of decision-making.",
+      "speakers": [
+        { "name": "Lecturer", "voice": "female", "accent": "en-US" }
+      ],
+      "lines": [
+        { "speaker": "Lecturer", "text": "Let's turn now to what's known as the planning fallacy. The term was coined by the psychologists Daniel Kahneman and Amos Tversky in the late nineteen-seventies, and it describes our remarkably persistent tendency to underestimate how long a task will take, even when we have plenty of experience that should tell us otherwise." },
+        { "speaker": "Lecturer", "text": "Now, what's striking here isn't simply that people are optimistic. It's that they remain optimistic about the task in front of them while readily admitting that similar tasks in the past overran. Students who'll happily tell you that every previous essay was finished at the last minute will still confidently predict that this one will be done a week early." },
+        { "speaker": "Lecturer", "text": "So why does this happen? One compelling explanation is that when we plan, we adopt what's called an inside view. We focus on the specifics of the task and picture a scenario in which everything goes more or less to plan. What we tend to neglect is the base rate: how long projects like this one actually take, on average." },
+        { "speaker": "Lecturer", "text": "And that points to the most effective remedy, which is, in a sense, rather humbling. Rather than building an estimate from the ground up, you start with the outside view. You find a set of comparable projects, look at how long they really took, and only then adjust for whatever is genuinely different about your case." },
+        { "speaker": "Lecturer", "text": "Interestingly, the effect is much weaker when we're estimating other people's tasks. We're quite capable of seeing that a colleague's plan is unrealistic; it's our own that we view through rose-tinted glasses." },
+        { "speaker": "Lecturer", "text": "Which is perhaps why one of the simplest practical tips is to ask someone who isn't involved in the project how long they think it'll take, and then to take their answer seriously." }
+      ],
+      "gist": [
+        { "type": "mcq", "tag": "main_idea", "prompt": "What is the lecture mainly about?", "options": ["Why people underestimate how long their own tasks will take, and how to correct this", "Why students always finish their essays at the last minute", "The careers of Daniel Kahneman and Amos Tversky", "How to manage large engineering projects"], "answer": 0 }
+      ],
+      "detail": [
+        { "type": "mcq", "tag": "detail", "prompt": "According to the lecturer, what is surprising about the planning fallacy?", "options": ["People stay optimistic even though they know similar tasks took longer in the past.", "Experienced people make worse estimates than beginners.", "People are more accurate when a task is familiar to them.", "It mainly affects students."], "answer": 0, "explanation": "People remain optimistic 'while readily admitting that similar tasks in the past overran'." },
+        { "type": "mcq", "tag": "detail", "prompt": "What does the lecturer describe as the most effective remedy?", "options": ["Basing the estimate on how long comparable projects actually took", "Planning each step of the task in more detail", "Adding an extra week to every estimate", "Working on several tasks at the same time"], "answer": 0, "explanation": "The 'outside view': start from comparable projects, then adjust." }
+      ],
+      "expressions": [
+        { "phrase": "coin a term", "meaning": "invent a new word or expression", "mn": "шинэ нэр томьёо гаргах" },
+        { "phrase": "overrun", "meaning": "take longer than planned", "mn": "төлөвлөсөн хугацаанаасаа хэтрэх" },
+        { "phrase": "from the ground up", "meaning": "starting from the most basic level", "mn": "эхнээс нь, суурнаас нь" },
+        { "phrase": "see something through rose-tinted glasses", "meaning": "see something as better than it really is", "mn": "бодитоос илүү өөдрөгөөр харах" }
+      ]
+    }
+  ],
+
+  "writing": {
+    "id": "p-writing",
+    "type": "paragraph",
+    "prompt": "Write a paragraph about yourself. Describe your daily life, your job or studies, and explain why you want to improve your English.",
+    "promptMn": "Өөрийнхөө тухай нэг догол мөр бичээрэй. Өдөр тутмын амьдрал, ажил эсвэл сургууль, мөн англи хэлээ яагаад сайжруулахыг хүсэж байгаагаа тайлбарлаарай.",
+    "register": "neutral",
+    "minWords": 80,
+    "maxWords": 150,
+    "points": [
+      "What a normal day looks like for you",
+      "What you do (your job or studies) and what you like about it",
+      "Why you want to improve your English and what you find most difficult"
+    ],
+    "phrases": [
+      "I work as … / I'm studying …",
+      "On a typical day, I …",
+      "What I enjoy most about my job is …",
+      "I want to improve my English for two main reasons.",
+      "I find … quite difficult.",
+      "My main goal is to …"
+    ],
+    "targetWords": [],
+    "sample": "I live in Ulaanbaatar with my family and work as an accountant at a medium-sized construction company. On weekdays I get up at around seven, and my commute usually takes about forty minutes because of the traffic. Most of my day is spent working with spreadsheets and answering emails, and I sometimes have meetings with foreign partners. In the evenings I like to cook, go for a walk or watch a series. I want to improve my English for two main reasons. First, our company is starting to work with more international clients, and I would like to take part in meetings without feeling nervous. Second, I enjoy travelling, and I want to have real conversations with people, not just order food. My grammar is quite good, but I need a wider vocabulary and more confidence when I speak."
+  },
+
+  "speaking": {
+    "id": "p-speaking",
+    "type": "describe",
+    "prompt": "Introduce yourself. Talk about who you are, your work or studies, and your goals for the future — including why you are learning English.",
+    "promptMn": "Өөрийгөө танилцуулаарай. Та хэн бэ, ажил эсвэл сургууль тань, ирээдүйн зорилго, мөн яагаад англи хэл сурч байгаагаа ярина уу.",
+    "points": [
+      "Your name, where you live and something about your background",
+      "What you do and what a normal day looks like",
+      "Your goals — at work, in your studies or in life",
+      "Why English is important for you"
+    ],
+    "phrases": [
+      "Let me introduce myself.",
+      "I'm originally from …",
+      "At the moment I'm working as … / studying …",
+      "What I enjoy most is …",
+      "One of my main goals is to …",
+      "That's why I want to …"
+    ],
+    "targetWords": [],
+    "prepSeconds": 45,
+    "speakSeconds": 75,
+    "sample": "Hi, my name's Anu, and I'm from Ulaanbaatar, where I still live with my family. At the moment I'm working as a project coordinator at an IT company. My day usually starts at around eight — I check my emails, plan tasks with my team and talk to clients. It's a busy job, but I really enjoy solving problems and working with people. In the future, I'd like to become a project manager and maybe work on international projects. That's one of the main reasons I'm learning English. I can read and write reasonably well, but I want to speak more fluently and understand people when they talk fast. My goal is to reach an advanced level in the next two or three years, so I'm trying to practise a little every day."
+  }
+}

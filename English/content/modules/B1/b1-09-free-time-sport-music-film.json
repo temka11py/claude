@@ -1,0 +1,59 @@
+{
+  "id": "b1-09",
+  "level": "B1",
+  "order": 9,
+  "title": "Free Time: Sport, Music & Film",
+  "topic": "Free Time",
+  "description": "Talk about hobbies, entertainment and feelings.",
+  "objectives": [
+    {
+      "text": "Use key vocabulary about free time",
+      "skills": [
+        "vocabulary"
+      ]
+    },
+    {
+      "text": "Understand a short text on the topic",
+      "skills": [
+        "reading"
+      ]
+    }
+  ],
+  "targets": {
+    "grammar": [],
+    "vocabulary": []
+  },
+  "status": "draft",
+  "grammar": [],
+  "pronunciation": [],
+  "lessons": [
+    {
+      "id": "b1-09-l1",
+      "title": "First lesson",
+      "focus": "vocabulary",
+      "difficulty": 3,
+      "minutes": 20,
+      "objectives": [
+        "Learn new words about the topic",
+        "Use them in sentences"
+      ],
+      "warmup": {
+        "intro": "Warm up before the lesson.",
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Replace this warm-up question.",
+            "options": [
+              "Option A",
+              "Option B"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      "vocabulary": [],
+      "phrases": [],
+      "quiz": []
+    }
+  ]
+}
